@@ -1,0 +1,2 @@
+setupRequired(obs_lsstSim)
+setupRequired(obs_cfht)
