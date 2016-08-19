@@ -12,6 +12,8 @@ twinkles1
 
 Twinkles is a synthetic survey produced for the Dark Energy Science Collaboration's first data challenge. The intent with Twinkles is to test detection and analysis of type Ia SNe and strongly lensed quasars. Stars, galaxies and solar system objects were drawn from the LSST universe model. In addition to the standard universe, higher than natural rates of both type Ia SNe and lensed quasar systems were planted in the images. This repository includes one chip for the first 10 r-band visits in a deep drilling field (all observations are on the same night). See [here](https://github.com/DarkEnergyScienceCollaboration/Twinkles/blob/master/doc/Design.md) for a more complete description of the full survey.
 
+**Note:** the calexps contained in this repository are identically zero and compressed and are only included for their metadata to build the `calexp_md`. If you want to use the twinkles images, please use the link above for details.
+
 twinkles1_and_index
 -------------------
 
