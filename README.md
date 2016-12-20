@@ -1,7 +1,7 @@
-jointcal validation data
+jointcal test data
 ========================
 
-This repository contains data to validate the performance of the [jointcal](http://github.com/lsst/jointcal) product.
+This repository contains data to test the performance of the [jointcal](http://github.com/lsst/jointcal) product.
 
 Individual sets of testing data should be placed in their own directories, as butler-accessible repositories. They can then be loaded in testing code via the butler and the catalogs fed to jointcal.
 
@@ -22,7 +22,7 @@ Astrometry index catalogs corresponding to the twinkles1 data.
 cfht
 ----
 
-Source catalogs, metadata from the validation_data_cfht repository plus a skyMap. The following directories were copied from validation_data_cfht:
+Source catalogs, metadata from the `validation_data_cfht` repository plus a skyMap. The following directories were copied from validation_data_cfht:
 
  * data/ -> cfht/
  * astrometry_net_data/ -> cfht_and_index/
