@@ -74,7 +74,7 @@ config.skyMap.pixelScale=0.263
 decam_and_index
 ---------------
 
-Astrometry index catalogs corresponding to the cfht data, copied from `validation_data_decam/astrometry_net_data/`.
+Astrometry index catalogs corresponding to the decam data, copied from `validation_data_decam/astrometry_net_data/`.
 
 
 Git LFS
