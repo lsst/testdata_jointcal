@@ -215,7 +215,7 @@ config.charImage.astrometry.wcsFitter.numIter=3
 # 	Valid Range = [0,inf)
 config.charImage.astrometry.wcsFitter.order=4
 
-# Number of iterations of detect sources, measure sources, estimate PSF. If useSimplePsf='all_iter' then 2 should be plenty; otherwise more may be wanted.
+# Number of iterations of detect sources, measure sources, estimate PSF. If useSimplePsf is True then 2 should be plenty; otherwise more may be wanted.
 # 	Valid Range = [1,inf)
 config.charImage.psfIterations=2
 
