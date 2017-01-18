@@ -76,6 +76,48 @@ decam_and_index
 
 Astrometry index catalogs corresponding to the decam data, copied from `validation_data_decam/astrometry_net_data/`.
 
+hsc
+---
+
+Source catalogs, metadata, and zeroed+compressed images derived from an earlier non-full-focalplane version of `validation_data_hsc` ([git hash: f20a3ec](https://github.com/lsst/validation_data_hsc/commit/f20a3ec9ab1e17b40f46429711ef2d185a4d6596), processed with a version of the stack that provides VisitInfo (afw post-`tickets/DM-8052` merge: git hash 22f008f). This data includes two filters (R and I) with 11 total visits, 2-4 CCDs per visit from different parts of the focal plane.
+
+The commands that were run to produce this repo, from within the `DATA` directory of a clone of the validation_data_hsc repo at the commit linked above:
+
+```bash
+setup testdata_jointcal
+setup obs_subaru
+setup pipe_drivers
+
+export OMP_NUM_THREADS=1
+
+export SETUP_ASTROMETRY_NET_DATA="astrometry_net_data sdss-dr9-fink-v5b"
+export ASTROMETRY_NET_DATA_DIR=`pwd`/sdss-dr9-fink-v5b
+
+# change this directory to where you want the processed data to live
+export OUTPUT=$TESTDATA_JOINTCAL_DIR/hsc
+echo lsst.obs.hsc.HscMapper > $OUTPUT/_mapper
+ingestImages.py $OUTPUT --mode=link 'STRIPE82L/*/*/HSC-?/*.fits'
+
+# older few-chip-per-visit data
+VISIT=903334^903336^903338^903342^903344^903346^903986^903988^903990^904010^904014
+
+singleFrameDriver.py $OUTPUT --calib CALIB --output $OUTPUT --job singleFrame --cores 4 --id visit=$VISIT --clobber-config --clobber-versions
+makeDiscreteSkyMap.py $OUTPUT --output $OUTPUT --id visit=$VISIT --clobber-versions
+```
+
+The following directories and files were deleted, and the calexps were processed via the included `compress_jointcal_hsc_test_data.py` to remove the pixel-level data and gzip compress them to make their size reasonable. The source catalogs were gzipped to reduce their size.
+
+```
+hsc/00*/HSC-?/output/ICSRC-*.fits
+hsc/00*/HSC-?/thumbs/
+hsc/00*/HSC-?/corr/BKGD-*
+hsc/00*/HSC-?/corr/ICEXP*
+```
+
+hsc_and_index
+-------------
+
+Astrometry index catalogs corresponding to the decam data, copied from `validation_data_hsc/astrometry_net_data/`.
 
 Git LFS
 -------
