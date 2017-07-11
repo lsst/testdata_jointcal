@@ -47,6 +47,15 @@ cfht_and_index
 
 Astrometry index catalogs corresponding to the cfht data.
 
+
+cfht_minimal
+------------
+
+Useful for debugging photometry code. A "minimal" catalog extracted from cfht (see above), containing 2 ccds with 2 sources each.
+Two sources in one catalog have a refcat match (using the `cfht_and_index/` reference catalog), and one source is matched between the catalogs.
+Contains `ccd=12` with (0-indexed) `rows=336,337` of `visit=850587` and `rows=139,140` for `visit=849375`.
+In jointcal, the photometry fit will contain 3 valid measuredStars, 2 fittedStars, and 2 refStars.
+
 decam
 -----
 
@@ -118,6 +127,7 @@ hsc_and_index
 -------------
 
 Astrometry index catalogs corresponding to the decam data, copied from `validation_data_hsc/astrometry_net_data/`.
+
 
 Git LFS
 -------
