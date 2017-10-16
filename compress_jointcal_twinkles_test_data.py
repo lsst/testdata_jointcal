@@ -14,7 +14,6 @@ for f in files:
         if isinstance(hdu, fits.ImageHDU):
             hdu.data[:] = 0
     data.writeto(f, clobber=True)
-    # gzip the file
-    subprocess.call(['gzip', f])
-    # move it back to the original .fits filename to keep the butler happy.
-    subprocess.call(['mv', f + '.gz', f])
+    # fpack the file, using gzip for slightly better compression of all-zeros,
+    # and '-qz 4' to force not dithering the zeros just in case.
+    subprocess.call(['fpack', '-w', '-g2', '-qz', '4', f])
