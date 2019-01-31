@@ -7,17 +7,14 @@ Individual sets of testing data should be placed in their own directories, as bu
 
 The directories contained in this repository are listed below, with a description of their contents.
 
+The `cfht`, `decam`, and `hsc` directories each contain a `ref_cats/` directory which contains the `sdss-dr9-fink-v5b` reference catalog in indexed HTM format. These directories were copied from their respective `validation_data_*/` repositories' `ref_cats/` directory.
+
 twinkles1
 ---------
 
 Twinkles is a synthetic survey produced for the Dark Energy Science Collaboration's first data challenge. The intent with Twinkles is to test detection and analysis of type Ia SNe and strongly lensed quasars. Stars, galaxies and solar system objects were drawn from the LSST universe model. In addition to the standard universe, higher than natural rates of both type Ia SNe and lensed quasar systems were planted in the images. This repository includes one chip for the first 10 r-band visits in a deep drilling field (all observations are on the same night). See [here](https://github.com/DarkEnergyScienceCollaboration/Twinkles/blob/master/doc/Design.md) for a more complete description of the full survey.
 
 The calexps contained in this repository are identically zero and compressed and are only included for their metadata to build the `calexp_md` and VisitInfo. If you want to use the twinkles images, please see the link above for details.
-
-twinkles1_and_index
--------------------
-
-Astrometry index catalogs corresponding to the twinkles1 data.
 
 cfht
 ----
@@ -42,17 +39,11 @@ config.skyMap.patchInnerDimensions=[4000, 4000]
 config.skyMap.pixelScale=0.185
 ```
 
-cfht_and_index
---------------
-
-Astrometry index catalogs corresponding to the cfht data.
-
-
 cfht_minimal
 ------------
 
 Useful for debugging photometry code. A "minimal" catalog extracted from cfht (see above), containing 2 ccds with 2 sources each.
-Two sources in one catalog have a refcat match (using the `cfht_and_index/` reference catalog), and one source is matched between the catalogs.
+Two sources in one catalog have a refcat match (using the `cfht` `sdss-dr9-fink-v5b` reference catalog), and one source is matched between the catalogs.
 Contains `ccd=12` with (0-indexed) `rows=336,337` of `visit=850587` and `rows=139,140` for `visit=849375`.
 In jointcal, the photometry fit will contain 3 valid measuredStars, 2 fittedStars, and 2 refStars.
 
@@ -79,11 +70,6 @@ config.skyMap.patchInnerDimensions=[4000, 4000]
 # nominal pixel scale (arcsec/pixel)
 config.skyMap.pixelScale=0.263
 ```
-
-decam_and_index
----------------
-
-Astrometry index catalogs corresponding to the decam data, copied from `validation_data_decam/astrometry_net_data/`.
 
 hsc
 ---
@@ -122,12 +108,6 @@ hsc/00*/HSC-?/thumbs/
 hsc/00*/HSC-?/corr/BKGD-*
 hsc/00*/HSC-?/corr/ICEXP*
 ```
-
-hsc_and_index
--------------
-
-Astrometry index catalogs corresponding to the decam data, copied from `validation_data_hsc/astrometry_net_data/`.
-
 
 Git LFS
 -------
