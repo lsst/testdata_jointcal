@@ -7,7 +7,9 @@ Individual sets of testing data should be placed in their own directories, as bu
 
 The directories contained in this repository are listed below, with a description of their contents.
 
-The `cfht`, `decam`, and `hsc` directories each contain a `ref_cats/` directory which contains the `sdss-dr9-fink-v5b` reference catalog in indexed HTM format. These directories were copied from their respective `validation_data_*/` repositories' `ref_cats/` directory.
+The `cfht`, `decam`, and `hsc` directories each contain a `ref_cats/` directory with `sdss-dr9-fink-v5b`, `gaia_dr2_20191105` and `ps1_pv3_3pi_20170110` reference catalogs in indexed HTM format.
+The sdss refcats were copied from their respective `validation_data_*/` repositories' `ref_cats/` directory.
+The Gaia and PS1 refcats were extracted from the respective refcats on lsst-dev using the `scripts/extract-refcat-shards.py` script.
 
 cfht
 ----
