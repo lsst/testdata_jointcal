@@ -13,7 +13,7 @@ import shutil
 
 from esutil import htm
 
-gaia_path = "/datasets/refcats/htm/v1/gaia_dr2_20191105"
+gaia_path = "/datasets/refcats/htm/v1/gaia_dr2_20200414"
 ps1_path = "/datasets/refcats/htm/v1/ps1_pv3_3pi_20170110"
 
 indexer = htm.HTM(depth=7)
