@@ -7,7 +7,7 @@ import lsst.meas.algorithms.indexerRegistry
 config.format_version=1
 
 # String to pass to the butler to retrieve persisted files.
-config.ref_dataset_name='gaia_dr2_20191105'
+config.ref_dataset_name='gaia_dr2_20200414'
 
 # Depth of the HTM tree to make.  Default is depth=7 which gives ~ 0.3 sq. deg. per trixel.
 config.indexer['HTM'].depth=7
