@@ -80,9 +80,6 @@ setup pipe_drivers
 
 export OMP_NUM_THREADS=1
 
-export SETUP_ASTROMETRY_NET_DATA="astrometry_net_data sdss-dr9-fink-v5b"
-export ASTROMETRY_NET_DATA_DIR=`pwd`/sdss-dr9-fink-v5b
-
 # change this directory to where you want the processed data to live
 export OUTPUT=$TESTDATA_JOINTCAL_DIR/hsc
 echo lsst.obs.hsc.HscMapper > $OUTPUT/_mapper
