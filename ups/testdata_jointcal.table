@@ -1,4 +1,3 @@
-setupRequired(obs_lsstSim)
 setupRequired(obs_cfht)
 setupRequired(obs_decam)
 setupRequired(obs_subaru)
