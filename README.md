@@ -2,6 +2,7 @@ jointcal test data
 ==================
 
 This repository contains data to test the performance of the [jointcal](http://github.com/lsst/jointcal) product. Test data for jointcal needs to have multiple visits of the same field, processed with the LSST DM stack to get VisitInfo metadata and source catalogs.
+See the note in the dependency file `ups/testdata_jointcal.table` regarding the obs package dependencies of this product: this package has no explicit dependencies, but does require the appropriate obs packages to be `setup` in order to use the contained butler repositories.
 
 Individual sets of testing data should be placed in their own directories, as butler-accessible repositories. They can then be loaded in testing code via the butler and the catalogs fed to jointcal. The image HDUs in the calexps in each repo have been set to identically zero and then compressed to save space, since the calexps are only needed for the calexp_md metadata.
 

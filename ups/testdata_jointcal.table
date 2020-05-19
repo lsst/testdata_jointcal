@@ -1,3 +1,22 @@
-setupRequired(obs_cfht)
-setupRequired(obs_decam)
-setupRequired(obs_subaru)
+# NOTE: in order to use the data in this package, you need to setup one or more
+# of the following obs packages:
+
+# setupRequired(obs_cfht)
+# setupRequired(obs_decam)
+# setupRequired(obs_subaru)
+
+# These packages are no longer specified as dependencies of testdata_jointcal
+# to prevent this package from being installed any time lower parts of the
+# DM Science Pipelines are changed.
+# If you use testdata_jointcal for your own package's tests, you will have to
+# have to add the appropriate setup requirement to that package's eups table
+# file and add a SkipTest check like the following to your test's `setUpClass`:
+#
+# try:
+#     cls.data_dir = lsst.utils.getPackageDir('testdata_jointcal')
+# except LookupError:
+#     raise unittest.SkipTest("testdata_jointcal not setup")
+# try:
+#     lsst.utils.getPackageDir('obs_subaru')
+# except LookupError:
+#     raise unittest.SkipTest("obs_subaru not setup")
