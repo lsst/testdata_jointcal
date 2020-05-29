@@ -45,13 +45,13 @@ def copy_all(instrument, center, radius):
 
 
 center = SkyCoord(214.856821, +52.662694, frame='icrs', unit='deg')
-radius = 0.3011315146269983 * u.degree
+radius = 0.5 * u.degree
 copy_all("cfht", center, radius)
 
 center = SkyCoord(150.429282, +2.724456, frame='icrs', unit='deg')
-radius = 0.6493234040345428 * u.degree
+radius = 1 * u.degree
 copy_all("decam", center, radius)
 
-center = SkyCoord(320.876455, -0.309242, frame='icrs', unit='deg')
-radius = 0.31055727581556886 * u.degree
+center = SkyCoord(337.710899, +0.807006, frame='icrs', unit='deg')
+radius = 0.5 * u.degree
 copy_all("hsc", center, radius)
