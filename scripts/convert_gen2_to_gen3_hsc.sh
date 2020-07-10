@@ -8,7 +8,30 @@
 
 # Run the gen2 to gen3 conversion code
 # This conversion is done in-place so the same path is used for the gen2 and gen3 repos.
-butler convert hsc -i lsst.obs.subaru.HyperSuprimeCam --gen2root ./hsc
+
+# Clean out old gen3 repo if it is there
+if [ -f "hsc/butler.yaml" ]; then
+    echo "Clearing out old butler.yaml"
+    rm hsc/butler.yaml
+fi
+
+if [ -f "hsc/gen3.sqlite3" ]; then
+    echo "Clearing out old gen3.sqlite3"
+    rm hsc/gen3.sqlite3
+fi
+
+if [ -d "hsc/HSC/calib" ]; then
+    echo "Clearing out old curated calibrations"
+    rm -r hsc/HSC/calib
+fi
+
+# Do the basic conversion
+butler convert hsc -i lsst.obs.subaru.HyperSuprimeCam --gen2root ./hsc -C scripts/config/convertRepoHsc.py
+# Bring in the curated calibrations
+butler write-curated-calibrations hsc -i HSC
+# Delete the bfKernel and defects which we do not need
+rm -r hsc/HSC/calib/bfKernel
+rm -r hsc/HSC/calib/defects
 
 # Delete 99% of the skymap which is unused (and takes up almost 900 Mb)
 sqlite3 hsc/gen3.sqlite3 "delete from patch_htm7_overlap where tract != 9697;" "delete from patch where tract != 9697;" "delete from tract_htm7_overlap where tract != 9697;" "vacuum;" ".exit"

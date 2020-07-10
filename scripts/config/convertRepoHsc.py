@@ -1,0 +1,5 @@
+config.runs["calexp"] = "HSC/testdata"
+config.runs["src"] = "HSC/testdata"
+config.runs["sourceTable_visit"] = "HSC/testdata"
+config.runs["src_schema"] = "HSC/testdata"
+config.runs["icSrc_schema"] = "HSC/testdata"
