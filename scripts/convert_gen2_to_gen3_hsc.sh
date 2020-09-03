@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 # This script will convert the hsc repo from gen2 to gen3.  This conversion requires the
 # raws, so compress_jointcal_hsc_raw_test_data.py must have been run prior to this script.
 # Until the gen3 repo format is fully stable, only these conversion scripts will be
@@ -26,9 +28,7 @@ if [ -d "hsc/HSC/calib" ]; then
 fi
 
 # Do the basic conversion
-butler convert hsc -i lsst.obs.subaru.HyperSuprimeCam --gen2root ./hsc -C scripts/config/convertRepoHsc.py
-# Bring in the curated calibrations
-butler write-curated-calibrations hsc -i HSC
+butler convert hsc --gen2root ./hsc -C scripts/config/convertRepoHsc.py
 # Delete the bfKernel and defects which we do not need
 rm -r hsc/HSC/calib/bfKernel
 rm -r hsc/HSC/calib/defects
