@@ -1,10 +1,15 @@
-config.runs["calexp"] = "HSC/testdata"
-config.runs["src"] = "HSC/testdata"
-config.runs["sourceTable_visit"] = "HSC/testdata"
-config.runs["src_schema"] = "HSC/testdata"
-config.runs["icSrc_schema"] = "HSC/testdata"
-config.runs["packages"] = "HSC/extra"
-config.runs["singleFrameDriver_config"] = "HSC/extra"
-config.runs["skyCorr_config"] = "HSC/extra"
-config.runs["transformSourceTable_config"] = "HSC/extra"
-config.runs["writeSourceTable_config"] = "HSC/extra"
+from lsst.obs.subaru import HyperSuprimeCam
+
+testCollection = HyperSuprimeCam.makeCollectionName('testdata')
+extraCollection = HyperSuprimeCam.makeCollectionName('extra')
+
+config.runs["calexp"] = testCollection
+config.runs["src"] = testCollection
+config.runs["sourceTable_visit"] = testCollection
+config.runs["src_schema"] = testCollection
+config.runs["icSrc_schema"] = testCollection
+config.runs["packages"] = extraCollection
+config.runs["singleFrameDriver_config"] = extraCollection
+config.runs["skyCorr_config"] = extraCollection
+config.runs["transformSourceTable_config"] = extraCollection
+config.runs["writeSourceTable_config"] = extraCollection
