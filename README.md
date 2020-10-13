@@ -69,7 +69,7 @@ Source catalogs, metadata, and zeroed+compressed images taken from the `w_2020_1
 The included `scripts/compress_jointcal_hsc_test_data.py` file copies the necessary data from the butler repo, removes pixel-level data from the calexps and compresses the source catalogs, and extracts the relevant portions of the sqlite3 registry.
 The src catalogs have been converted to sourceTable_visit parquet tables for quick ingest.  The included `scripts/make_sourcetables_jointcal_hsc_test_data.sh` file runs the appropriate transformation tasks and cleans up temporary files.
 The raw image files, which are necessary for gen3 conversion, are copied into the repo by `scripts/compress_jointcal_hsc_raw_test_data.py` which copies in the necessary data, and removes pixel-level data from the raws.
-The hsc gen2 repo can be converted to a gen3 repo with the `scripts/convert_gen2_to_gen3_hsc.sh` script, which does the conversion and slims down the associated sky map.  The output gen3 files will not be committed to the repo until the gen3 API is determined to be stable enough.
+The hsc gen2 repo can be converted to a gen3 repo with the `scripts/convert_gen2_to_gen3_hsc.sh` script, which does the conversion and slims down the associated sky map.  The gen3 repo can be exported to `hsc/exports.yaml` with `scripts/export_gen3_hsc.py`.  The output gen3 files will not be committed to the repo until the gen3 API is determined to be stable enough.
 
 Git LFS
 -------
