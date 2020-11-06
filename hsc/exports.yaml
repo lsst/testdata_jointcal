@@ -1,0 +1,3984 @@
+description: Butler Data Repository Export
+version: 1.0.0
+data:
+- type: dimension
+  element: instrument
+  records:
+  - name: HSC
+    visit_max: 21474800
+    exposure_max: 21474800
+    detector_max: 200
+    class_name: lsst.obs.subaru.HyperSuprimeCam
+- type: dimension
+  element: skymap
+  records:
+  - name: hsc_rings_v1
+    hash: !!binary |
+      4p/p8QCONZ82o2d+fWnMQ5N20eY=
+    tract_max: 18938
+    patch_nx_max: 9
+    patch_ny_max: 9
+- type: dimension
+  element: detector
+  records:
+  - instrument: HSC
+    id: 0
+    full_name: '1_53'
+    name_in_raft: '53'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 1
+    full_name: '1_54'
+    name_in_raft: '54'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 2
+    full_name: '1_55'
+    name_in_raft: '55'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 3
+    full_name: '1_56'
+    name_in_raft: '56'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 4
+    full_name: '1_42'
+    name_in_raft: '42'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 5
+    full_name: '1_43'
+    name_in_raft: '43'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 6
+    full_name: '1_44'
+    name_in_raft: '44'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 7
+    full_name: '1_45'
+    name_in_raft: '45'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 8
+    full_name: '1_46'
+    name_in_raft: '46'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 9
+    full_name: '1_47'
+    name_in_raft: '47'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 10
+    full_name: '1_36'
+    name_in_raft: '36'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 11
+    full_name: '1_37'
+    name_in_raft: '37'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 12
+    full_name: '1_38'
+    name_in_raft: '38'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 13
+    full_name: '1_39'
+    name_in_raft: '39'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 14
+    full_name: '1_40'
+    name_in_raft: '40'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 15
+    full_name: '1_41'
+    name_in_raft: '41'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 16
+    full_name: '0_30'
+    name_in_raft: '30'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 17
+    full_name: 0_29
+    name_in_raft: '29'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 18
+    full_name: 0_28
+    name_in_raft: '28'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 19
+    full_name: '1_32'
+    name_in_raft: '32'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 20
+    full_name: '1_33'
+    name_in_raft: '33'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 21
+    full_name: '1_34'
+    name_in_raft: '34'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 22
+    full_name: '0_27'
+    name_in_raft: '27'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 23
+    full_name: '0_26'
+    name_in_raft: '26'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 24
+    full_name: '0_25'
+    name_in_raft: '25'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 25
+    full_name: '0_24'
+    name_in_raft: '24'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 26
+    full_name: '1_00'
+    name_in_raft: '00'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 27
+    full_name: '1_01'
+    name_in_raft: '01'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 28
+    full_name: '1_02'
+    name_in_raft: '02'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 29
+    full_name: '1_03'
+    name_in_raft: '03'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 30
+    full_name: '0_23'
+    name_in_raft: '23'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 31
+    full_name: '0_22'
+    name_in_raft: '22'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 32
+    full_name: '0_21'
+    name_in_raft: '21'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 33
+    full_name: '0_20'
+    name_in_raft: '20'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 34
+    full_name: '1_04'
+    name_in_raft: '04'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 35
+    full_name: '1_05'
+    name_in_raft: '05'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 36
+    full_name: '1_06'
+    name_in_raft: '06'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 37
+    full_name: '1_07'
+    name_in_raft: '07'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 38
+    full_name: 0_19
+    name_in_raft: '19'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 39
+    full_name: 0_18
+    name_in_raft: '18'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 40
+    full_name: '0_17'
+    name_in_raft: '17'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 41
+    full_name: '0_16'
+    name_in_raft: '16'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 42
+    full_name: '1_08'
+    name_in_raft: 08
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 43
+    full_name: '1_09'
+    name_in_raft: 09
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 44
+    full_name: '1_10'
+    name_in_raft: '10'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 45
+    full_name: '1_11'
+    name_in_raft: '11'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 46
+    full_name: '0_15'
+    name_in_raft: '15'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 47
+    full_name: '0_14'
+    name_in_raft: '14'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 48
+    full_name: '0_13'
+    name_in_raft: '13'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 49
+    full_name: '0_12'
+    name_in_raft: '12'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 50
+    full_name: '1_12'
+    name_in_raft: '12'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 51
+    full_name: '1_13'
+    name_in_raft: '13'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 52
+    full_name: '1_14'
+    name_in_raft: '14'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 53
+    full_name: '1_15'
+    name_in_raft: '15'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 54
+    full_name: '0_11'
+    name_in_raft: '11'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 55
+    full_name: '0_10'
+    name_in_raft: '10'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 56
+    full_name: 0_09
+    name_in_raft: 09
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 57
+    full_name: 0_08
+    name_in_raft: 08
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 58
+    full_name: '1_16'
+    name_in_raft: '16'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 59
+    full_name: '1_17'
+    name_in_raft: '17'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 60
+    full_name: '1_18'
+    name_in_raft: '18'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 61
+    full_name: '1_19'
+    name_in_raft: '19'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 62
+    full_name: '0_07'
+    name_in_raft: '07'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 63
+    full_name: '0_06'
+    name_in_raft: '06'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 64
+    full_name: '0_05'
+    name_in_raft: '05'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 65
+    full_name: '0_04'
+    name_in_raft: '04'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 66
+    full_name: '1_20'
+    name_in_raft: '20'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 67
+    full_name: '1_21'
+    name_in_raft: '21'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 68
+    full_name: '1_22'
+    name_in_raft: '22'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 69
+    full_name: '1_23'
+    name_in_raft: '23'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 70
+    full_name: '0_03'
+    name_in_raft: '03'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 71
+    full_name: '0_02'
+    name_in_raft: '02'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 72
+    full_name: '0_01'
+    name_in_raft: '01'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 73
+    full_name: '0_00'
+    name_in_raft: '00'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 74
+    full_name: '1_24'
+    name_in_raft: '24'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 75
+    full_name: '1_25'
+    name_in_raft: '25'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 76
+    full_name: '1_26'
+    name_in_raft: '26'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 77
+    full_name: '1_27'
+    name_in_raft: '27'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 78
+    full_name: '0_34'
+    name_in_raft: '34'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 79
+    full_name: '0_33'
+    name_in_raft: '33'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 80
+    full_name: '0_32'
+    name_in_raft: '32'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 81
+    full_name: '1_28'
+    name_in_raft: '28'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 82
+    full_name: '1_29'
+    name_in_raft: '29'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 83
+    full_name: '1_30'
+    name_in_raft: '30'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 84
+    full_name: '0_41'
+    name_in_raft: '41'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 85
+    full_name: '0_40'
+    name_in_raft: '40'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 86
+    full_name: 0_39
+    name_in_raft: '39'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 87
+    full_name: 0_38
+    name_in_raft: '38'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 88
+    full_name: '0_37'
+    name_in_raft: '37'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 89
+    full_name: '0_36'
+    name_in_raft: '36'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 90
+    full_name: '0_47'
+    name_in_raft: '47'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 91
+    full_name: '0_46'
+    name_in_raft: '46'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 92
+    full_name: '0_45'
+    name_in_raft: '45'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 93
+    full_name: '0_44'
+    name_in_raft: '44'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 94
+    full_name: '0_43'
+    name_in_raft: '43'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 95
+    full_name: '0_42'
+    name_in_raft: '42'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 96
+    full_name: '0_56'
+    name_in_raft: '56'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 97
+    full_name: '0_55'
+    name_in_raft: '55'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 98
+    full_name: '0_54'
+    name_in_raft: '54'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 99
+    full_name: '0_53'
+    name_in_raft: '53'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 100
+    full_name: '0_31'
+    name_in_raft: '31'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 101
+    full_name: '1_35'
+    name_in_raft: '35'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 102
+    full_name: '0_35'
+    name_in_raft: '35'
+    raft: '0'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 103
+    full_name: '1_31'
+    name_in_raft: '31'
+    raft: '1'
+    purpose: SCIENCE
+  - instrument: HSC
+    id: 104
+    full_name: '1_48'
+    name_in_raft: '48'
+    raft: '1'
+    purpose: FOCUS
+  - instrument: HSC
+    id: 105
+    full_name: '1_51'
+    name_in_raft: '51'
+    raft: '1'
+    purpose: FOCUS
+  - instrument: HSC
+    id: 106
+    full_name: '1_52'
+    name_in_raft: '52'
+    raft: '1'
+    purpose: FOCUS
+  - instrument: HSC
+    id: 107
+    full_name: '1_57'
+    name_in_raft: '57'
+    raft: '1'
+    purpose: FOCUS
+  - instrument: HSC
+    id: 108
+    full_name: '0_57'
+    name_in_raft: '57'
+    raft: '0'
+    purpose: FOCUS
+  - instrument: HSC
+    id: 109
+    full_name: '0_52'
+    name_in_raft: '52'
+    raft: '0'
+    purpose: FOCUS
+  - instrument: HSC
+    id: 110
+    full_name: '0_51'
+    name_in_raft: '51'
+    raft: '0'
+    purpose: FOCUS
+  - instrument: HSC
+    id: 111
+    full_name: 0_48
+    name_in_raft: '48'
+    raft: '0'
+    purpose: FOCUS
+- type: dimension
+  element: physical_filter
+  records:
+  - instrument: HSC
+    name: HSC-G
+    band: g
+  - instrument: HSC
+    name: HSC-I
+    band: i
+  - instrument: HSC
+    name: HSC-I2
+    band: i
+  - instrument: HSC
+    name: HSC-R
+    band: r
+  - instrument: HSC
+    name: HSC-R2
+    band: r
+  - instrument: HSC
+    name: HSC-Y
+    band: y
+  - instrument: HSC
+    name: HSC-Z
+    band: z
+  - instrument: HSC
+    name: IB0945
+    band: I945
+  - instrument: HSC
+    name: NB0387
+    band: N387
+  - instrument: HSC
+    name: NB0400
+    band: N400
+  - instrument: HSC
+    name: NB0468
+    band: N468
+  - instrument: HSC
+    name: NB0515
+    band: N515
+  - instrument: HSC
+    name: NB0527
+    band: N527
+  - instrument: HSC
+    name: NB0656
+    band: N656
+  - instrument: HSC
+    name: NB0718
+    band: N718
+  - instrument: HSC
+    name: NB0816
+    band: N816
+  - instrument: HSC
+    name: NB0921
+    band: N921
+  - instrument: HSC
+    name: NB0926
+    band: N926
+  - instrument: HSC
+    name: NB0973
+    band: N973
+  - instrument: HSC
+    name: NB1010
+    band: N1010
+- type: dimension
+  element: tract
+  records:
+  - skymap: hsc_rings_v1
+    id: 9697
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 705ebb1dab4a71ed3fe21fe3381212d9bfa9d5478c457b5bbf3db49dd91dcced3ffdb3a6017255d7bf39a6c891457b5bbf1048c7063bc9ed3f83016b521653d7bf0a8a61be754c9c3f36135ad8676eed3feddc4e89b60fd9bfc3d4b6b8754c9c3f
+- type: dimension
+  element: visit_system
+  records:
+  - instrument: HSC
+    id: 0
+    name: one-to-one
+- type: dimension
+  element: exposure
+  records:
+  - instrument: HSC
+    id: 34648
+    physical_filter: HSC-R
+    obs_id: HSCA03464800
+    exposure_time: 150.0
+    dark_time: 150.0
+    observation_type: science
+    observation_reason: science
+    day_obs: 20150715
+    seq_num: 34648
+    group_name: '34648'
+    group_id: 34648
+    target_name: SSP-Wide
+    science_program: o15406
+    tracking_ra: 338.01639166666666
+    tracking_dec: 0.725
+    sky_angle: 270.0
+    zenith_angle: 45.51874635
+    datetime_begin: !butler_time/tai/iso '2015-07-15 10:34:24.272000000'
+    datetime_end: !butler_time/tai/iso '2015-07-15 10:36:56.145000000'
+  - instrument: HSC
+    id: 34670
+    physical_filter: HSC-R
+    obs_id: HSCA03467000
+    exposure_time: 150.0
+    dark_time: 150.0
+    observation_type: science
+    observation_reason: science
+    day_obs: 20150715
+    seq_num: 34670
+    group_name: '34670'
+    group_id: 34670
+    target_name: SSP-Wide
+    science_program: o15406
+    tracking_ra: 337.63939999999997
+    tracking_dec: 0.13473333333333334
+    sky_angle: 270.0
+    zenith_angle: 38.60381327
+    datetime_begin: !butler_time/tai/iso '2015-07-15 11:06:04.925000000'
+    datetime_end: !butler_time/tai/iso '2015-07-15 11:08:36.879000000'
+  - instrument: HSC
+    id: 34674
+    physical_filter: HSC-R
+    obs_id: HSCA03467400
+    exposure_time: 150.0
+    dark_time: 150.0
+    observation_type: science
+    observation_reason: science
+    day_obs: 20150715
+    seq_num: 34674
+    group_name: '34674'
+    group_id: 34674
+    target_name: SSP-Wide
+    science_program: o15406
+    tracking_ra: 338.28892083333335
+    tracking_dec: 1.2597583333333333
+    sky_angle: 270.0
+    zenith_angle: 37.25782345
+    datetime_begin: !butler_time/tai/iso '2015-07-15 11:12:11.056000000'
+    datetime_end: !butler_time/tai/iso '2015-07-15 11:14:42.932000000'
+  - instrument: HSC
+    id: 34690
+    physical_filter: HSC-R
+    obs_id: HSCA03469000
+    exposure_time: 150.0
+    dark_time: 150.0
+    observation_type: science
+    observation_reason: science
+    day_obs: 20150715
+    seq_num: 34690
+    group_name: '34690'
+    group_id: 34690
+    target_name: SSP-Wide
+    science_program: o15406
+    tracking_ra: 337.4171958333333
+    tracking_dec: 0.6936333333333333
+    sky_angle: 270.0
+    zenith_angle: 31.72852934
+    datetime_begin: !butler_time/tai/iso '2015-07-15 11:37:15.842000000'
+    datetime_end: !butler_time/tai/iso '2015-07-15 11:39:47.704000000'
+  - instrument: HSC
+    id: 34714
+    physical_filter: HSC-R
+    obs_id: HSCA03471400
+    exposure_time: 150.0
+    dark_time: 150.0
+    observation_type: science
+    observation_reason: science
+    day_obs: 20150715
+    seq_num: 34714
+    group_name: '34714'
+    group_id: 34714
+    target_name: SSP-Wide
+    science_program: o15406
+    tracking_ra: 337.69374999999997
+    tracking_dec: 1.3467
+    sky_angle: 270.0
+    zenith_angle: 24.69944452
+    datetime_begin: !butler_time/tai/iso '2015-07-15 12:14:34.847000000'
+    datetime_end: !butler_time/tai/iso '2015-07-15 12:17:06.731000000'
+  - instrument: HSC
+    id: 35892
+    physical_filter: HSC-I
+    obs_id: HSCA03589200
+    exposure_time: 200.0
+    dark_time: 200.0
+    observation_type: science
+    observation_reason: science
+    day_obs: 20150720
+    seq_num: 35892
+    group_name: '35892'
+    group_id: 35892
+    target_name: SSP-Wide
+    science_program: o15406
+    tracking_ra: 337.2521708333333
+    tracking_dec: 0.9975333333333333
+    sky_angle: 270.0
+    zenith_angle: 37.60980715
+    datetime_begin: !butler_time/tai/iso '2015-07-20 10:47:23.546000000'
+    datetime_end: !butler_time/tai/iso '2015-07-20 10:50:45.545000000'
+  - instrument: HSC
+    id: 36140
+    physical_filter: HSC-I
+    obs_id: HSCA03614000
+    exposure_time: 200.0
+    dark_time: 200.0
+    observation_type: science
+    observation_reason: science
+    day_obs: 20150721
+    seq_num: 36140
+    group_name: '36140'
+    group_id: 36140
+    target_name: SSP-Wide
+    science_program: o15406
+    tracking_ra: 338.0164208333333
+    tracking_dec: 0.7250333333333333
+    sky_angle: 270.0
+    zenith_angle: 37.12350657
+    datetime_begin: !butler_time/tai/iso '2015-07-21 10:49:30.103000000'
+    datetime_end: !butler_time/tai/iso '2015-07-21 10:52:52.027000000'
+  - instrument: HSC
+    id: 36192
+    physical_filter: HSC-I
+    obs_id: HSCA03619200
+    exposure_time: 200.0
+    dark_time: 200.0
+    observation_type: science
+    observation_reason: science
+    day_obs: 20150721
+    seq_num: 36192
+    group_name: '36192'
+    group_id: 36192
+    target_name: SSP-Wide
+    science_program: o15406
+    tracking_ra: 337.92248749999993
+    tracking_dec: 1.3175083333333333
+    sky_angle: 270.0
+    zenith_angle: 20.833029049999993
+    datetime_begin: !butler_time/tai/iso '2015-07-21 12:19:29.178000000'
+    datetime_end: !butler_time/tai/iso '2015-07-21 12:22:51.272000000'
+  - instrument: HSC
+    id: 36236
+    physical_filter: HSC-I
+    obs_id: HSCA03623600
+    exposure_time: 200.0
+    dark_time: 200.0
+    observation_type: science
+    observation_reason: science
+    day_obs: 20150721
+    seq_num: 36236
+    group_name: '36236'
+    group_id: 36236
+    target_name: SSP-Wide
+    science_program: o15406
+    tracking_ra: 337.74384999999995
+    tracking_dec: 0.19028888888888887
+    sky_angle: 270.0
+    zenith_angle: 22.723474929999995
+    datetime_begin: !butler_time/tai/iso '2015-07-21 13:45:32.443000000'
+    datetime_end: !butler_time/tai/iso '2015-07-21 13:48:54.484000000'
+  - instrument: HSC
+    id: 36260
+    physical_filter: HSC-I
+    obs_id: HSCA03626000
+    exposure_time: 200.0
+    dark_time: 200.0
+    observation_type: science
+    observation_reason: science
+    day_obs: 20150721
+    seq_num: 36260
+    group_name: '36260'
+    group_id: 36260
+    target_name: SSP-Wide
+    science_program: o15406
+    tracking_ra: 337.7912666666666
+    tracking_dec: 1.425875
+    sky_angle: 270.0
+    zenith_angle: 29.346303380000002
+    datetime_begin: !butler_time/tai/iso '2015-07-21 14:32:06.890000000'
+    datetime_end: !butler_time/tai/iso '2015-07-21 14:35:28.903000000'
+- type: dimension
+  element: patch
+  records:
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 0
+    cell_x: 0
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a5e2b65e1ac2ed3f2295c8325888d7bf5fb0dfab937b5bbf3db49dd91dcced3ffdb3a6017255d7bf39a6c891457b5bbfddca7d631ecced3f44a810916f55d7bf5f8a302349375b3ff53413cd1ac2ed3f27d192535688d7bfc03ac87d96375b3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 1
+    cell_x: 1
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7069f8d54640b8ed3ff3bb68f7f0b9d7bf208fbd86cc7b5bbf1b9662ed97c2ed3f8df5a0f3dc85d7bf8a1bbe53907b5bbf736c195d98c2ed3f65c6550ddb85d7bf97d3d92d93375b3fba5ce19940b8ed3faed2b2a5efb9d7bf092c3fcdce375b3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 2
+    cell_x: 2
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f74c5e6251aeed3f14db04e779ebd7bf2040c545f27b5bbfbcd640e0beb8ed3f94072c8076b7d7bf67242b23ca7b5bbf69b4ac34bfb8ed3f99f7642775b7d7bf4047886fcc375b3ffeeea19951aeed3f619e772279ebd7bf003aba2ff4375b3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 3
+    cell_x: 3
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70022f5ec54da4ed3fb3e3bf99f21cd8bfd7a50ae8047c5bbf730d8b05d1aeed3f790ce73c00e9d7bf80f5d0d6f07b5bbfe615353ed1aeed3f251a4d71ffe8d7bff8aa49c4f2375b3f98e263e04da4ed3fc6ad0062f21cd8bf71684fa406385b3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 4
+    cell_x: 4
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7078196684359aed3fb6e91fa85a4ed8bfa905196d047c5bbf58014971cea4ed3f1d1df0c1791ad8bf806cbd6d047c5bbfddffba8dcea4ed3fe1ce2883791ad8bf30192e2b06385b3f7160b882359aed3f0da1d0fc5a4ed8bf17418b2a06385b3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 5
+    cell_x: 5
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7084e087b40890ed3f635d12abb17fd8bf7166f3d4f07b5bbf15b00438b79aed3fa43ec8a7e24bd8bf28e075e7047c5bbfb01dc937b79aed3f0ea775f5e24bd8bfe219bca306385b3f6cf0b1950890ed3fa379d18bb27fd8bf48ac70c2f2375b3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 6
+    cell_x: 6
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 709dd5556bc785ed3fe43ef03bf7b0d8bfb8771420ca7b5bbf527bc96e8b90ed3fc39c57873a7dd8bfc257f743f27b5bbf6d846b518b90ed3f4d5f18613b7dd8bf20c1f02df4375b3f6a9de32ec785ed3f77cd58a8f8b0d8bf802a796ccc375b3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 7
+    cell_x: 7
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70fce2e1be717bed3fcd4982f42ae2d8bfb06a6e4f907b5bbf364d232b4b86ed3f7bbdf1f980aed8bff184b683cc7b5bbf5fd72ef04a86ed3f2413615f82aed8bfd0933fcace375b3fb7106064717bed3f05f32bec2ce2d8bf51aa942993375b3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 8
+    cell_x: 8
+    cell_y: 0
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 705ebb1dab4a71ed3fe21fe3381212d9bfa9d5478c457b5bbf4db41d83f67bed3fd5ac5999b5dfd8bf39a29fa7937b5bbfdf631f2af67bed3f48690f8ab7dfd8bf3096927996375b3f8966de324a71ed3f31faeab71412d9bff934bd1d49375b3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 9
+    cell_x: 0
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70862fce481bc2ed3f318e0dd15688d7bf8132b2e77a8c583fafbc09de1ecced3f66cdc3147055d7bff9aaa122358c583fa490d7ef09cced3fff0463c25c55d7bf4398f4085125743f302d2a4506c2ed3f5eaf88ee4388d7bf0d5b224c8a25743f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 10
+    cell_x: 1
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 707fcfc81641b8ed3f27551f1df0b9d7bf9815cfb1ad8c583ffc80c5d898c2ed3fd51c1e8bdb85d7bf3140e6ea778c583fbe2d2fd683c2ed3f319f25a3c885d7bfdc9470d88725743f76a6eafd2bb8ed3f23eb86a7ddb9d7bfce4668fbb325743f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 11
+    cell_x: 2
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 703d97ba1752aeed3f0559d99379ebd7bf20cbf569cf8c583f4d0485b1bfb8ed3f54e81e9f75b7d7bf8f317b8fab8c583f1b64b899aab8ed3f648e152463b7d7bf228a043bb225743f828755e93caeed3f2252f68a67ebd7bf12fa1aa8cf25743f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 12
+    cell_x: 3
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706276b25f4ea4ed3f29395bcdf21cd8bf8049530fe08c583fc55e3ebcd1aeed3ffb15fce2ffe8d7bf19532722ce8c583f37abee8ebcaeed3f53f0aad4ede8d7bf513f109bce25743f4c427a1b39a4ed3fecd7f330e11cd8bf723e8d51dd25743f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 13
+    cell_x: 4
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70608e4103369aed3fc6bb27625b4ed8bf01607fa1df8c583f28f8f90ccfa4ed3f8c6cd0ee791ad8bf8a3912a2df8c583ffbecdac9b9a4ed3fc9dffd4c681ad8bfc217e2f7dc25743fc37eeaa8209aed3fcf99ff314a4ed8bf128e69f7dc25743f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 14
+    cell_x: 5
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70655f7a170990ed3fd30729ebb27fd8bfd1b07c20ce8c583f5f7442b8b79aed3f3ea3195be34bd8bf9166ce0ee08c583f8e53085fa29aed3f0a6b8925d24bd8bf192e2051dd25743f9447b9a6f38fed3f4c190127a27fd8bf051cb299ce25743f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 15
+    cell_x: 6
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706becefb1c785ed3fb3d8b401f9b0d8bf68ddb88cab8c583fcce023d38b90ed3f3d9cbcc03b7dd8bf69295968cf8c583fa87683637690ed3f86ce2ff72a7dd8bfb651c8a6cf25743f4a2e7a2ab285ed3f9b6f4ba9e8b0d8bf6dd5c038b225743f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 16
+    cell_x: 7
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7090d6b4e8717bed3f12aa903f2de2d8bf00460ce7778c583fd2d82a734b86ed3f849809b982aed8bfa8bc1aafad8c583f0580d9ec3586ed3fe3a83e5b72aed8bf5b0b30f9b325743f8d66404a5c7bed3fde79a1521de2d8bf385d47d58725743f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 17
+    cell_x: 8
+    cell_y: 1
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7029d077b84a71ed3f4fb682051512d9bf1020b71d358c583f9ca163aef67bed3f1d64c0ddb7dfd8bf8833e6e37a8c583f2f471711e17bed3f662773eba7dfd8bffd9d04498a25743f2a1e51033571ed3fe3a419810512d9bfbaafeb045125743f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 18
+    cell_x: 0
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7043aec9c907c2ed3f10737d3d4588d7bf3cecfd12c17a733ff7439b730bcced3f0c96c6155e55d7bffaca45b5897a733f1e277bc3e0cbed3f57b2a8b93955d7bfe81ecfd977be803fd1c90b0bddc1ed3ff48db02b2188d7bf6c013272a7be803f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 19
+    cell_x: 1
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 702c3863832db8ed3ff0442af2deb9d7bf60e3de60e97a733fc0e5c35a85c2ed3fc1b351f2c985d7bf209e15b4be7a733f584dbd9c5ac2ed3f6132e5dca585d7bfe6347868a5be803f54e442b602b8ed3f2d86cb28bbb9d7bfe621ec17cabe803f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 20
+    cell_x: 2
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70c4bba96f3eaeed3f0a0e4ad168ebd7bf12ecf222047b733fb40b261facb8ed3fd422f06e64b7d7bfe08354afe77a733f5d95be5281b8ed3fc1c0f2a140b7d7bf79193ba3c8be803f9ec8079413aeed3f7712455045ebd7bfbb3b9118e1be803f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 21
+    cell_x: 3
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70d8a5aca23aa4ed3ff9dcf972e21cd8bf48859258117b733f9bd43715beaeed3f27cf351befe8d7bfba11d11e037b733f174c503a93aeed3f0d409396cbe8d7bf4713f238e0be803f5b3b6ab80fa4ed3f597a383abf1cd8bfd7529173ecbe803f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 22
+    cell_x: 4
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70fa98fd30229aed3f0aeab96f4b4ed8bf77046b01117b733f24250251bba4ed3fc6ee3a8f691ad8bff58fdf01117b733ff8ad7b6790a4ed3f1a1fdd52461ad8bfc5820929ecbe803f3d39fc37f799ed3f9730247f284ed8bffe50a528ecbe803f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 23
+    cell_x: 5
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 705e9aaf2ff58fed3fa8d17160a37fd8bf91867e1d037b733f272210e7a39aed3fdfaa7a63d34bd8bff7122958117b733fd839ccee789aed3f7ec1496fb04bd8bf22ab3673ecbe803fcf23d127ca8fed3fde0deeb7807fd8bfbd0bcf37e0be803f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 24
+    cell_x: 6
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70e13556b4b385ed3fdac774dee9b0d8bfaa0224ade77a733fda5d6eec7790ed3fd55ad7302c7dd8bf7678ab21047b733f2fde4ee54c90ed3fc2bab984097dd8bf5ebe7717e1be803f7ae57c9d8885ed3f4b84e77dc7b0d8bf5e4259a1c8be803f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 25
+    cell_x: 7
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70659904d55d7bed3f5bc485831ee2d8bf973307b1be7a733f58fca9763786ed3f19b89e9073aed8bfc87ab95ee97a733f821d91600c86ed3f5b02792c51aed8bf54d51316cabe803fdf0c13af327bed3fa3cbd16afce1d8bff79ad765a5be803f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 26
+    cell_x: 8
+    cell_y: 2
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70b407fa8e3671ed3fbe8ad6ad0612d9bfdd165fb1897a733f5fcfcf9be27bed3f810a8e1ca9dfd8bfd299fa0fc17a733f302aa076b77bed3f2620430087dfd8bf01f19a6fa7be803ffaed345a0b71ed3ff13e12dbe411d9bf4c9674d677be803f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 27
+    cell_x: 0
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70ea719798dfc1ed3fba26254c2388d7bfba00f55d4269803f77417e50e3cbed3fb161c2dc3b55d7bf26eb50b81369803fc6b313dea2cbed3fe010a5760655d7bf5bf79539496a873fbd80631e9fc1ed3fc813cc0aee87d7bf1344d6c88b6a873f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 28
+    cell_x: 1
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 707030544405b8ed3ff4a0ab46bdb9d7bf82c0f9526469803f9849422a5dc2ed3f14d27afda785d7bf251ca05e4069803f2f3d6fb01cc2ed3f2f3c56ba7285d7bf6acf3aef886a873fcddc95c2c4b7ed3f069d402988b9d7bfd93bb43cbc6a873f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 29
+    cell_x: 2
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 702a1f9f2216aeed3f60d4906b47ebd7bf94964dde7a69803f6d30c9e083b8ed3f06e1f3bf42b7d7bf9884b5e56269803fa10a6b5f43b8ed3f229dbca00db7d7bfb87f8333ba6a873f82cb6499d5aded3f7f2c227212ebd7bf547fad67dc6a873f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 30
+    cell_x: 3
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7096ff874712a4ed3fbe18f052c11cd8bfee6463ff8569803f85ece0c895aeed3f4d0500b2cde8d7bf63f222037a69803f840d064055aeed3fbf6bc4b698e8d7bf033af42edb6a873fb83be0b6d1a3ed3fa0378b7d8c1cd8bfa9b2f848ec6a873f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 31
+    cell_x: 4
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 702dcba0c7f999ed3ff7f047952a4ed8bf6581f5b58569803f34b792f692a4ed3fbfbdb56b481ad8bf35b457b68569803f85ac496652a4ed3f93448394131ad8bf9889bee0eb6a873faf549a2fb999ed3f265ff9e3f54dd8bfc06c32e0eb6a873f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 32
+    cell_x: 5
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7029e0fcb7cc8fed3fe7457ecb827fd8bf86b605027a69803f110c6a7e7b9aed3f447e8e85b24bd8bf958d0aff8569803ffd90c1e63a9aed3f54b971d27d4bd8bf5ded7948ec6a873fcba2a6188c8fed3ffea9513e4e7fd8bf903c5d2ddb6a873f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 33
+    cell_x: 6
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 709e25302e8b85ed3fb599e48ec9b0d8bfa447dde36269803f46d673754f90ed3f83ea6a980b7dd8bf9bb539dd7a69803f33d47ad60e90ed3fd58b6f09d77cd8bf3fd92366dc6a873fa33b99874a85ed3fcfb8e42595b0d8bff9abe130ba6a873f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 34
+    cell_x: 7
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bc264e40357bed3f39343c79fee1d8bf70e80c5c4069803ffd943df10e86ed3f080a973d53aed8bf1add2a516469803fe423034bce85ed3fc7e1c7d21eaed8bf4cbf1f3abc6a873f45d98592f47aed3f42f27234cae1d8bf2a368eeb886a873f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 35
+    cell_x: 8
+    cell_y: 3
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708dcbf4eb0d71ed3fcaf2fae6e611d9bf207d07b51369803f2f77d407ba7bed3fb074ce0e89dfd8bf09266b5b4269803fd1dd675a797bed3f2d7235c854dfd8bff50037c58b6a873f32083837cd70ed3f033b89c5b211d9bff859e534496a873f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 36
+    cell_x: 0
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 705d76dcb4a2c1ed3fd930c1fcf087d7bf8ae21bef2615873fcc5e5774a6cbed3ff77c75690955d7bfc46f9852e514873f170ece3f50cbed3f4d1181f9c254d7bff0d89db80e168e3f01545e7f4cc1ed3fc859038caa87d7bf1e44563e64168e3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 37
+    cell_x: 1
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70b6064159c8b7ed3f46385e1a8bb9d7bf95e445b25615873f56a4e54620c2ed3f7a1556ac7585d7bf2640e51f2415873f3afd7111cac1ed3f2ee0a03b2f85d7bf6f7ddd9460168e3fdcbb102372b7ed3f21760da944b9d7bf54540e80a2168e3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 38
+    cell_x: 2
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708f644030d9aded3f2fc4666215ebd7bfabd5ee677615873fafbc13f646b8ed3f0808e59110b7d7bf51e681b05415873fbcedeabff0b7ed3fac749a20cab6d7bf43fe60e29f168e3f5ce699f982aded3f8c14b4f0ceead7bf5acb2ad5cb168e3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 39
+    cell_x: 3
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a07dea4dd5a3ed3f484ff56c8f1cd8bf3d37500f8615873f6445dfd658aeed3f48e613a79be8d7bf410baa337515873f92433da002aeed3f30f2643555e8d7bf93455943ca168e3f20c409177fa3ed3f0bb211fb481cd8bf9deea83ce0168e3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 40
+    cell_x: 4
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700378d1c6bc99ed3fc87f87d2f84dd8bf080c08a88515873ff9a351fd55a4ed3f0c52f883161ad8bf902b92a88515873f346772c6ffa3ed3f1bfd1512d019d8bf1a0dbdb6df168e3fae7cf28f6699ed3f09f6a360b24dd8bfd60309b6df168e3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 41
+    cell_x: 5
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700bdf08b08f8fed3fdc61022c517fd8bfbed918327515873fac80f67d3e9aed3f58e20ac1804bd8bf9940d30e8615873f60021647e899ed3faf2d264f3a4bd8bf6b0b063ce0168e3f499b6779398fed3fd1ec4fba0a7fd8bf37544e41ca168e3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 42
+    cell_x: 6
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 703bc7241f4e85ed3f8e9bb61298b0d8bf0cace9ad5415873fadf3da6d1290ed3f5d5e2bf7d97cd8bf5ccb6a667615873f4d2d3537bc8fed3f2c4b7585937cd8bf1eff30d3cb168e3ff532fde8f784ed3f1c3b66a151b0d8bf8731ffde9f168e3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 43
+    cell_x: 7
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7099e9382af87aed3ffc986420cde1d8bf2e0d461c2415873f9ea98ce2d185ed3f50f1a4bf21aed8bfefd0baaf5615873f30935dac7b85ed3f967f4e4edbadd8bfadabbd7ca2168e3fbaf9c6f4a17aed3fb64aa7af86e1d8bf44ea249060168e3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 44
+    cell_x: 8
+    cell_y: 4
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70c9e50fcfd070ed3f77ec9eb0b511d9bfebecf84de514873f39ff18f27c7bed3f805732b457dfd8bf20d589eb2615873fda8d9cbc267bed3ff1846c4311dfd8bfd9d3ae3964168e3fb8c5889a7a70ed3fe02aa0406f11d9bf982d97b20e168e3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 45
+    cell_x: 0
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 705d43bf1e51c1ed3fe78a744fae87d7bf03634d5100c18d3f32f74cdf54cbed3f94c403bcc654d7bf88ef49beabc08d3f26c158e9e8caed3f5b35cb426f54d7bf9944f235dd60923f7bd3aa2ee5c0ed3fe4ebe4af5687d7bf088b9c731161923f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 46
+    cell_x: 1
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70966e50c276b7ed3fff26646d48b9d7bf233b57e23dc18d3f887bd4b0cec1ed3f908206ff3285d7bf701839b2fcc08d3f251d74c062c1ed3fc6a95361db84d7bfa134f6360f61923f871462d80ab7ed3f7ca6c0a8f0b8d7bf9e8b157b3761923f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 47
+    cell_x: 2
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70c96bb49887aded3f6f1cedb5d2ead7bf602f27c266c18d3fdc612c5ff5b7ed3f12bfe5e4cdb6d7bf1765164c3bc18d3f9bd1ec7489b7ed3fd1db1a2276b6d7bf22f103e23561923ff4ad55b51baded3f396789cc7aead7bf5a3680ba5061923f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 48
+    cell_x: 3
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706a2cfbb583a3ed3febe229c14c1cd8bff362bdef7ac18d3fcbbc593f07aeed3f45bc92fa58e8d7bfd1fec93465c18d3ff582a45b9baded3fc06f031301e8d7bf21580dc54f61923f9f6995d917a3ed3fe68c5ab3f41bd8bf17813e315d61923f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 49
+    cell_x: 4
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700dd9b62e6b99ed3f151c9827b64dd8bf64869b6a7ac18d3faff5656504a4ed3fea1823d8d319d8bf6e904d6b7ac18d3f2073a48898a3ed3f96eb23cc7b19d8bf9c5f70df5c61923f2545b359ff98ed3fe09db2f55d4dd8bf586602df5c61923f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 50
+    cell_x: 5
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7005fefa173e8fed3f04cf1c820e7fd8bfb0d9c43265c18d3f3cb7dce5ec99ed3fd7670f163e4bd8bf0d4e1cef7ac18d3f0c2278108199ed3fe7c6f5e5e54ad8bf2701db305d61923f9f9ec24ad28eed3f1283772cb67ed8bf66e8cdc34f61923f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 51
+    cell_x: 6
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708faf5b87fc84ed3f259b086a55b0d8bf6931be483bc18d3fca1acbd5c08fed3fd96a374d977cd8bf4efe32c066c18d3ffe7a2c08558fed3f78a559f93e7cd8bf823f4bb95061923fc65857c29084ed3ffebafaf0fcafd8bf7e12f3df3561923f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 52
+    cell_x: 7
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7007a5ec92a67aed3f13e51b798ae1d8bf2feb8dadfcc08d3fbaccbe4a8085ed3fc146e616dfadd8bfe4fa0fdf3dc18d3ff4f84e851485ed3f818b9b9f86add8bf95250f793761923f1cf684d63a7aed3fb186fddc31e1d8bf2ef413340f61923f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 53
+    cell_x: 8
+    cell_y: 5
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70df4673387f70ed3fb394de0a7311d9bf385e54b8abc08d3f3828c55a2b7bed3f49b0d60c15dfd8bf1228b34c00c18d3f76c2ec9dbf7aed3f170a7772bcded8bf3ec2c4701161923fbaa7d5841370ed3fcdc0e54c1a11d9bfc7ef4332dd60923f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 54
+    cell_x: 0
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 708ceee7d6eac0ed3fbca1c8445b87d7bf9566854c6036923fac190792eecaed3f43a6f6d47354d7bf69b32e882c36923f7504e4db6ccaed3fd08977530b54d7bfa1e093349fb6953f9015792d69c0ed3f97c36577f286d7bffae562ecdcb6953f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 55
+    cell_x: 1
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70d2822a8010b7ed3fdcd74640f5b8d7bfc852acfb8536923f90e4b66868c1ed3f238615f6df84d7bf810211155e36923f07b5a5bee6c0ed3feb86632c7784d7bf7cdcd947dab6953fabd9b9e38eb6ed3fa40b50298cb8d7bf089bfdd909b7953f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 56
+    cell_x: 2
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 705c53a35c21aded3fc644ad667fead7bf1e1374009f36923f803abb1c8fb7ed3ff5707fb97ab6d7bf3ec250668436923ff0aaa07f0db7ed3feaa433a611b6d7bf723eb6f607b7953f62eec7cd9faced3fe4e3980616ead7bf6cddf2ad27b7953f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 57
+    cell_x: 3
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f22c62801da3ed3fc1361750f91bd8bf5c0c405aab36923f1d71f802a1aded3f00ef05ad05e8d7bfc43e3b0d9e36923fd4996b731faded3f689896509ce7d7bf0bfff88b26b7953f66ceb2ff9ba2ed3f81665da78f1bd8bf07fa876736b7953f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 58
+    cell_x: 4
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 704510f9ff0499ed3fe8230395624dd8bfa1edc208ab36923f2ecd772f9ea3ed3ff175bf688019d8bf3de72f09ab36923fa1740fae1ca3ed3f4da3a4c31619d8bfd3b0e20636b7953f22230c8e8398ed3f87d11da4f84cd8bf37c4600636b7953f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 59
+    cell_x: 5
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70c55e7bf0d78eed3fe3e456ceba7ed8bff9b4fe0b9e36923fbfd1c4b68699ed3ff96c2585ea4ad8bf6273dd59ab36923f656717440599ed3fd4f4d897804ad8bff56c126736b7953f8ff1e68d568eed3f74c1c195507ed8bf109c7f8a26b7953f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 60
+    cell_x: 6
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 709efe7c679684ed3f75e8639501b0d8bfe6af44648436923f5b6decad5a8fed3fc367189b437cd8bf8ce941ff9e36923f7c04904ad98eed3fa4e41566d97bd8bfb6d985ac27b7953f4dbed6141584ed3f72649c1597afd8bfb46e45f407b7953f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 61
+    cell_x: 7
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 701376117b407aed3fa15feb8336e1d8bf9d7435125e36923f851e7c2a1a85ed3f8b5ae4438badd8bfafa0aaf98536923f166906d79884ed3fa926a9c720add8bfa42999d709b7953ff2a8ee38bf79ed3fb0a670bdcbe0d8bf67ae7144dab6953f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 62
+    cell_x: 8
+    cell_y: 6
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a607c7281970ed3f212943f61e11d9bf02eb88842c36923f6d0f8142c57aed3fa5c64419c1ded8bf1038b4496036923ffb5887ff437aed3f9df74f5656ded8bf0e1607e9dcb6953f60504df7976fed3ff2c955ebb310d9bf72983a309fb6953f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 63
+    cell_x: 0
+    cell_y: 7
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70ba1480de6fc0ed3fd24fadddf786d7bf8413c7ed2c8c953f3982af8d73caed3f521b3db51054d7bf9fc141afef8b953fdfab2119dcc9ed3f349adf2c9753d7bff025bb63460c993f3aa77a7dd8bfed3fa83ae1e37d86d7bf864eca948d0c993f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 64
+    cell_x: 1
+    cell_y: 7
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 709cbef89395b6ed3fa5fef69391b8d7bf8ae41683598c953fcb7db66fedc0ed3fe2ef72927c84d7bf32906f4e2a8c953f6a55b80d56c0ed3f1abb2b9e0284d7bf025c68888a0c993f0b4ec946feb5ed3fcebe182c17b8d7bfce49e067c10c993f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 65
+    cell_x: 2
+    cell_y: 7
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70c471367da6aced3fb5c798751bead7bf33026e1c778c953f90c3e92f14b7ed3f9ec6a21017b6d7bfbe4485a3578c953f53c0b7e17cb6ed3fd4d241ae9cb5d7bff8296a3abf0c993f3a9ba1440faced3f315f41a0a0e9d7bffda3f1cfe30c993f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 66
+    cell_x: 3
+    cell_y: 7
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70d0ad48aea2a2ed3fc3a9af1a951bd8bf1a2813b9858c953fbdbae42226aded3f4efe5ebfa1e7d7bf99ffadfc758c953fc67f43e98eaced3ff02a7def26e7d7bf1ef87481e20c993fd791128b0ba2ed3f2dcb7ad8191bd8bfe40427ccf40c993f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 67
+    cell_x: 4
+    cell_y: 7
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706421c13b8a98ed3fb8c7bb1bfe4cd8bf21dfaa58858c953f305bb05c23a3ed3f52bdbf361c19d8bf3acc2b59858c953f6c0f64388ca2ed3fae9af8f9a018d8bf82faab5cf40c993fdf5cad2ef397ed3ff7d0476d824cd8bf341c165cf40c993f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 68
+    cell_x: 5
+    cell_y: 7
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f9d6b23a5d8eed3f39a3a411567ed8bf798237fb758c953f21d6d7f10b99ed3fd917400f864ad8bf4d829eb8858c953f381da4e37498ed3fbfe131660a4ad8bf296d9fcbf40c993f3b7c8444c68ded3f8a9792f7d97dd8bf71a7c17fe20c993f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 69
+    cell_x: 6
+    cell_y: 7
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70fc58b1c01b84ed3fb44fbd959cafd8bfa84019a1578c953f6bc367f7df8eed3f9f4ac2e1de7bd8bfbecb031b778c953fc4b60f00498eed3face20dcd627bd8bfd1984ccee30c993fbde82ae28483ed3f43d2b01020afd8bf41719937bf0c993f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 70
+    cell_x: 7
+    cell_y: 7
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7014cdcfe3c579ed3f019fc841d1e0d8bf19140e4b2a8c953f0a46ed829f84ed3fe4ee934726add8bfca26b780598c953fd06d33a30884ed3fc0d6dcc7a9acd8bfaed51d65c10c993f8c2fb31d2f79ed3fbaec675254e0d8bf514d7a848a0c993f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 71
+    cell_x: 8
+    cell_y: 7
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70896233a19e6fed3f9102c373b910d9bf4e05f1aaef8b953fd22775aa4a7aed3ff32672da5bded8bf20dd71ea2c8c953f0b741be3b379ed3f4e7a5ef0deddd8bf6a83ea908d0c993ffa729ef3076fed3fc320591d3c10d9bfa6fab65e460c993f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 72
+    cell_x: 0
+    cell_y: 8
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7042ca3237e0bfed3fffd0781b8486d7bf3fadad17dfe1983f358af1d3e3c9ed3f749c2b5e9d53d7bf9a61db5f98e1983f1048c7063bc9ed3f83016b521653d7bf0a8a61be754c9c3f6caeae8337bfed3f54fbce7cfc85d7bff490fa2ac64c9c3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 73
+    cell_x: 1
+    cell_y: 8
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7000ee65ff05b6ed3fb28bcc691db8d7bf8a1c829212e2983f145f7ec75dc0ed3fb6e574d50884d7bfefb37c10dce1983f0332b412b5bfed3f1952f13d8183d7bfb32d64b9c24c9c3f9c2ed7655db5ed3fe63b843c95b7d7bf74529fb6004d9c3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 74
+    cell_x: 2
+    cell_y: 8
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70e44518fc16aced3f124609e4a6e9d7bfe086fbbf34e2983fd1cc629a84b6ed3fbb9aa7eba2b5d7bf2655c16810e2983fd22d82ffdbb5ed3f54817cc51ab5d7bfefaadd40fe4c9c3fdeaf6a7d6eabed3f903dd9281ee9d7bfc089f994274d9c3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 75
+    cell_x: 3
+    cell_y: 8
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70dedb584113a2ed3f86894e22201bd8bf4402449f45e2983f811cc9a096aced3fa875f7322de7d7bfa77ab87333e2983f6fe0bd20eeabed3fef6adb7ea4e6d7bf24031c1b264d9c3fa59977de6aa1ed3f1206f1d9961ad8bff8f515c53a4d9c3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 76
+    cell_x: 4
+    cell_y: 8
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 704ce2b8e3fa97ed3f20fe1ebd884cd8bfc4f1f12f45e2983fbad0b9ee93a2ed3f76277f43a718d8bf51d0863045e2983f532a6f8aeba1ed3fda3c2c021e18d8bfbfcc25473a4d9c3f18738e9d5297ed3f7db351e8fe4bd8bf867f7c463a4d9c3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 77
+    cell_x: 5
+    cell_y: 8
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bee04af8cd8ded3f5ca5644de07dd8bf3f0f087233e2983fbc9ebf987c98ed3fdd49bcb5104ad8bfff50bd9e45e2983ffb152051d497ed3f0107f0e78649d8bf43c87cc43a4d9c3ffe0fc1cf258ded3f32b6e8ec557dd8bf1d3e3019264d9c3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 78
+    cell_x: 6
+    cell_y: 8
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7025d8a1948c83ed3f230d756c26afd8bf5f68f56510e2983fcd9be6b3508eed3fd6999322697bd8bf964859be34e2983f5405dc89a88ded3f8df50ec9de7ad8bfcfe31d93274d9c3fe2b4a18ae482ed3f17040f819baed8bfd57aaf3dfe4c9c3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 79
+    cell_x: 7
+    cell_y: 8
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70135ed0ce3679ed3f157c15b45ae0d8bf7c56950cdce1983fc061bb551084ed3f312b5523b0acd8bf045cc48f12e2983f37d62e4a6883ed3fba84dc3e25acd8bfe54081b3004d9c3f7d3242e48e78ed3f1b448d3ecfdfd8bf09a6f3b4c24c9c3f
+  - skymap: hsc_rings_v1
+    tract: 9697
+    id: 80
+    cell_x: 8
+    cell_y: 8
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7021a460a30f6fed3fe687c1844210d9bf19c1df5a98e1983fae2a4a94bb79ed3f6595c051e5ddd8bf007bd413dfe1983f56fe23a81379ed3f93ac1be359ddd8bf87269a26c64c9c3f36135ad8676eed3feddc4e89b60fd9bfc3d4b6b8754c9c3f
+- type: dimension
+  element: visit
+  records:
+  - instrument: HSC
+    id: 34648
+    physical_filter: HSC-R
+    visit_system: 0
+    name: HSCA03464800
+    day_obs: 20150715
+    exposure_time: 150.0
+    target_name: SSP-Wide
+    observation_reason: science
+    science_program: o15406
+    zenith_angle: 45.51874635
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70d7d17cab2684ed3fcfa06219b6b8d8bfc4fcb987dc4661bfa5a485346d8eed3f8c3c52133787d8bf4d03172488486ebf2da91f58a9aaed3f3f78743147fdd7bf78a51ab8f80071bf9c56e05a49aded3fb428dcba46f0d7bff57dcb64ec0471bf5ce8fa4faac8ed3f1be71df3c866d7bf4cb8ea649f196fbf2ded6e3652d2ed3f953491909c35d7bf4c3870d78bd261bf39ca338eddd7ed3f3818e4d92019d7bf10520aa66bc84b3f30b11716bfdced3f028592b87cffd6bfcdc6db154381703f810e27010ddded3ffbf41a1190fdd6bfc2231b0cbde9763fffffbd4a43dded3fab27e411fffbd6bfcddbd9e141707d3ff776805960dded3f4ff785b4d1fad6bf51588baf6604823f17c199b365dded3faf1bf8a6fff9d6bfcd6fbe9c7f57853fde3d1a5258dded3f4a795266abf9d6bfc0c346aafcc9873f617d643251dded3f7a5558d894f9d6bf41a0cb2804ac883ff07bb06f36dded3f63987f256ff9d6bf13799c008b1f8b3f6d09766b2added3ff2c0027f67f9d6bfc452f74a39098c3fc34f8283fcdced3f80c29a1a90f9d6bfa2f06fef83778e3fc253f372aedced3fdd23da59fcf9d6bf5395ab0766e5903fda39dbe34bdced3fd5122a08b7fad6bfab966d5fa98b923f30d381d1d7dbed3f4c013b43b3fbd6bfa54b75ce592c943f8649d31c4bdbed3f137198d012fdd6bf9fe367dd10cc953f663d9cc0d2d5ed3f045402621916d7bf60a3f8662310993f8ee9328cd6cfed3feafa649e6f31d7bfe22ce98aff1f9c3f471bd1f3c4c5ed3f812b2122f862d7bf6d6bf8f564b99d3fd9e85ff5fba9ed3fa65dcbee02eed7bff27bd76f1e2c9e3f5b9a7e7f59a7ed3f9c905a9b0efbd7bf2ce472ce862c9e3f989b80272d8bed3fb88cd6961385d8bfbbf84e88c9ca9d3f47856a6d6081ed3f9589434b06b6d8bf0f831c769e269c3f46ea3778197ced3fe507eb3c7fd2d8bf7231b39bfc0b993f19bf004e6877ed3ffc18e677ceebd8bf6700d6ca0cca953ff0c5dcee4377ed3f7d1b0d3fd6edd8bf12f0c9cbe92c943f1343b8ac3177ed3f7fecc2fe6fefd8bfcf078c1e6e8c923fc9f40f612e77ed3f28d2a336abf0d8bf9fc1ef36dce6903f874266443977ed3fb65cf97b89f1d8bf81c30b0d297c8e3f87c83acc4977ed3faff14af6f2f1d8bf7c31dffd2d0a8c3fcd6c27fb5177ed3f73f206590bf2d8bf81b6bc3030268b3f7cf774016f77ed3f8e53474525f2d8bf9098fe118bb2883f8842569c7977ed3ff2c62b352af2d8bf039d565418d0873f0211fa4d9e77ed3f1933bd4c0af2d8bf75a3553e465f853f76c5a5eadb77ed3fc027acc68ef1d8bf8d7c137aff0e823f955fb75d2478ed3fff2e28b2c2f0d8bf6e238b40e48c7d3f8d6b45787878ed3f6069cdb8a2efd8bff912f4efc00e773f08767f1ed578ed3fb696da303eeed8bff1349f5b45a9703fa219f656327eed3f434b48ad26d5d8bfe05b7d8403e94c3f
+    datetime_begin: !butler_time/tai/iso '2015-07-15 10:34:24.272000000'
+    datetime_end: !butler_time/tai/iso '2015-07-15 10:36:56.145000000'
+  - instrument: HSC
+    id: 34670
+    physical_filter: HSC-R
+    visit_system: 0
+    name: HSCA03467000
+    day_obs: 20150715
+    exposure_time: 150.0
+    target_name: SSP-Wide
+    observation_reason: science
+    science_program: o15406
+    zenith_angle: 38.60381327
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700ca9fdb2996eed3fee4260e58a1bd9bfd3ecc0805d6a89bf857e2123ea78ed3f54bb2aa914ead8bfe1e492afe9aa8cbffd81dd339195ed3fec01112f7d60d8bf96ec4f3f7e998dbf41f0d9123c98ed3fc19eed928553d8bf87d39829789b8dbf7e5283d817b4ed3f12d666b06acad7bf3fb7b9eb31df8cbfc959547e09beed3fd8e951c07999d7bf04625b604e8d89bfc125b334e9c3ed3fbf666693427dd7bf2fcd44251a5c83bffd00cee01fc9ed3f4e95b255e363d7bf4cc919c4cfaf79bf663eccac8ec9ed3f0306536f1162d7bff100dfc5514773bfd321dd1ce6c9ed3f16ceb4599b60d7bf15958e15868169bfdeb3515624caed3f1cb5c7d8885fd7bfd4cf7f919ea058bfc4bafcd04acaed3f1a04228ed15ed7bf7f05f1b618881f3f31f4dc9655caed3fe8e0b1c5905ed7bf71218081ba8c553f4b24742757caed3f55b42f36815ed7bf9d945001179d5c3f45942a6f54caed3f53b796d66e5ed7bfbac3efd3d81c683f1322625951caed3f3e2a705b6e5ed7bf1bfe6874a6c36b3ff0e7f7063bcaed3fd2835cdfa95ed7bf7d38f6b685be723f5e03640d0dcaed3f79b266c82f5fd7bfdd7eb4924365793f5a0d7b11cac9ed3f6ea7d9a40360d7bfb664357084fe7f3fd4ee7fee74c9ed3f77a741791861d7bf01f8509abf40833ff773b8c206c9ed3ff077d43c9062d7bfa89cf9104d80863fbfec3f15b9c3ed3f6c6bbfabb87bd7bff3058df99c088d3f49c963a3e1bded3fa61b26c02b97d7bfdfbed68c4494913f1f9b0c96c5b3ed3f338e6ebeabc8d7bf8afb99eea92d933f14f6b0629097ed3f99128c5c5f53d8bfb8816fee4ba0933f3e5fd4fbe294ed3fb690051d6260d8bff428a767b4a0933fd4f92c1c3b78ed3f4f227b4b01ead8bf788bd910113f933f08dc1830256eed3f4045df5db81ad9bfd9ba506be59a913fb83e72b58968ed3f72e7968aed36d9bf60dc7b2d53008d3f467224b08363ed3fe983ea86f84fd9bfe92c7900497c863ff063911d3e63ed3f41eee4e7e551d9bf0937db53e441833f71844fc30a63ed3f251861496553d9bf61b72ae3d000803f341add4be662ed3f81f657048654d9bf4e19404b276b793f9a0e0813d062ed3fb48692c94955d9bf82b88472dbc7723f3c2b7666c862ed3f73082eda9f55d9bfe6cf452e90c76b3f2fd660d0c762ed3f33da3d32b155d9bfb2458b508537683f2e9304d5cc62ed3fa900fdd1b755d9bf09eeb0537ed15c3f085254cace62ed3f4b06e0cbb555d9bf709d3944c8bd553fa6ca91c6db62ed3f2ba3cdc78255d9bf40e8b6193cb7213fc185c376f962ed3f7da4e978ed54d9bf4c19a1d4a54b58bf4fc48f8c2263ed3fab7f94fe0754d9bf8dfa0915274869bf6ff003ed5763ed3f8e424d13cf52d9bf3ff4320a402273bfc960298b9663ed3f0fb898195251d9bf2204b0aabe8779bfca66e137c968ed3f5ec31d6e1838d9bf7b306ef8094a83bf
+    datetime_begin: !butler_time/tai/iso '2015-07-15 11:06:04.925000000'
+    datetime_end: !butler_time/tai/iso '2015-07-15 11:08:36.879000000'
+  - instrument: HSC
+    id: 34674
+    physical_filter: HSC-R
+    visit_system: 0
+    name: HSCA03467400
+    day_obs: 20150715
+    exposure_time: 150.0
+    target_name: SSP-Wide
+    observation_reason: science
+    science_program: o15406
+    zenith_angle: 37.25782345
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70b429ca6aef92ed3f656629fb9c70d8bf29fa3fd25a967d3f540525a8349ded3f4160ee101c3fd8bf0d74ba5ee815773ff85629ff24b9ed3f0cedfb66eeb4d7bf3c87d56ca839753f0fc60727bdbbed3f175e6da3e7a7d7bf24da00fcb435753f0d6460cdc3d6ed3f6bfc7663221ed7bfbcd76a9563ad763f1a50d94330e0ed3fbf495f29c7ecd6bf8a323af28d507d3f9f03a04573e5ed3f6677213f12d0d6bfcfea32ed41d9843f3c8ac1520beaed3fba42643b34b6d6bf2af9625e205d8b3f4075cf9e3beaed3f0472f22f30b4d6bf25d1694848918e3f9398f0fb53eaed3fb052dd9b87b2d6bfb259f24f39ea903f2532fe0a53eaed3fef8917a742b1d6bf4734bead4e90923f779b7f603aeaed3f72d0610b59b0d6bf010a1f23cc39943f76dc541117eaed3fde05f89df3afd6bf69e361c1fe72953f215c110d08eaed3f869044e3d6afd6bfc0d43602fee3953f5ecbe56fd7e9ed3fa41acb1ca0afd6bfec59c069b41d973f915a484cc3e9ed3f58755d1f92afd6bfcb43fd7f8692973f074e1ce87fe9ed3fa6d1c5faa9afd6bf7bc48de89dc9983f3a098a9314e9ed3f63e7ee74ffafd6bf2204fda72d739a3ff21e462c95e8ed3fc243a5bfa3b0d6bf0efa4b6e5b199c3fb7abbccc04e8ed3fa7aa6d108ab1d6bf8f2d392cf5b99d3f6c82c0185ce7ed3f109006fdd3b2d6bfc069ae4794599f3fb4f9e1feb8e1ed3f5231819fb9cbd6bfb070b1e6bf4ea13fefeac01497dbed3fb4bdcc0ef3e6d6bf3eb8080999d6a23fc35d214687d1ed3f9f94ab557d18d7bfebf089f546a3a33f75c0970d0bb6ed3f37d4d10ec5a3d7bf6ec371fcacdca33f8b48bc8370b3ed3ff6577b16d7b0d7bfa444781ee1dca33f0d1201119f97ed3fd778f0ae253bd8bf9d945ee1f7aba33fe67e99500d8eed3f8f2f6f52476cd8bffc979788e7d9a23f2e2f47d30e89ed3fd1d09aedf888d8bfd809b8b1ab4ca13f7ca5a3eda684ed3f9a4c979381a2d8bf92e703688e579f3f51ac0873a084ed3f0cf3c683a0a4d8bfdcc4dbff82ba9d3f8fc1d90dac84ed3f6a56157051a6d8bf5fdaadd01d1a9c3f40d6edbfc684ed3fbe405cf8a3a7d8bfd6e0b351a1749a3ff3e36ba1ef84ed3f767c409999a8d8bf719b8bceedcb983f56ff401f1685ed3fae12f53414a9d8bfe75acb3dfe92973f188f40452685ed3f627fb1cf32a9d8bf9b42c53d0421973f36b5e51f5985ed3fac1deeca5da9d8bf8552f0aa3ee7953f69b950986b85ed3fc51f15e268a9d8bf925ad3c50976953feec106e2a585ed3fa89f2fe259a9d8bf39c37a97ac3d943f03aef59e0086ed3f6bc53734f5a8d8bf62327f189895923fba53aebc6586ed3fa2a810a73fa8d8bf7f8644c35ef1903f4d03a0fad586ed3fca8bebd535a7d8bfc6ade885c3a38e3f9276112d4e87ed3fe812710ae7a5d8bfcf7fc7511a718b3f2c36d606d68ced3f799f86a9f08cd8bfba0cbef044eb843f
+    datetime_begin: !butler_time/tai/iso '2015-07-15 11:12:11.056000000'
+    datetime_end: !butler_time/tai/iso '2015-07-15 11:14:42.932000000'
+  - instrument: HSC
+    id: 34690
+    physical_filter: HSC-R
+    visit_system: 0
+    name: HSCA03469000
+    day_obs: 20150715
+    exposure_time: 150.0
+    target_name: SSP-Wide
+    observation_reason: science
+    science_program: o15406
+    zenith_angle: 31.72852934
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700204a1cda262ed3f13fb58d06556d9bf30260b12dac265bf1ffb4cc4296ded3f94d11d1a1d25d9bfc07a0584476271bff7318aab1d8aed3ffa2e12eec59bd8bfa1e604ae023f73bfe7f8500bcf8ced3f74cf69b3d38ed8bf5e4a855df64273bf3dd21b0be8a8ed3f4074e9c1ea05d8bf9c2e9e78d3ca71bf07718459d3b2ed3fb777ec30f4d4d7bfb4dcc28c8a4e66bfb92b8af287b8ed3fcfec813a99b8d7bf80d8443b16b1333f282b0e1b8fbded3f412dbd65129fd7bf5867299597866c3f86b10c41e1bded3f5b5687c7289dd7bf8dfbbb16c7ab743fcae4fc521bbeed3f4c653a589a9bd7bf50116d974d327b3f0a72bfa93bbeed3fe3852b066f9ad7bff3c24b8a6de5803f15807bd543beed3f6d31a8869e99d7bfd49443a38738843f4f3d3a2938beed3ffc04480d4b99d7bfeb8661a705ab863fa5b0cd9c31beed3f5d54cbba3499d7bfcee6cb840d8d873f366cc05118beed3f01df5f870f99d7bf5a5c507495008a3f573be3d00cbeed3fc30044050899d7bf5c88292d44ea8a3f312f53f5dfbded3f6d906cb63099d7bf09b5290590588d3f3d9a970d93bded3faf87b1c09c99d7bf06f621f8ec55903f7b8b1f3b31bded3f157f49c8569ad7bf40e2e94831fc913fc53e2188bdbced3f80db25f9519bd7bf1fdfd3c2e29c933fc78830ad30bced3f21a62df6af9cd7bff8edbdef9a3c953f55e950469ab6ed3f015cd0b39bb5d7bfad8df72eaf80983f040d0abb7cb0ed3f04f33b25d4d0d7bf0ee7b83c8d909b3f762185a02aa6ed3fe298986e2702d8bf2d7cedeef2299d3f53e3805da889ed3ffcb52be69b8cd8bf2e227f3dab9c9d3f67c5067bf486ed3f540205499999d8bfe8cf969d139d9d3ff14e60620f6aed3f34632c280523d9bfcb362aa7573b9d3fc4b5f192ff5fed3fe560b94ac153d9bfcdff9c432c979b3feb2f1e5d8f5aed3f6d498ce81a70d9bf7c52c17c887c983f2f5f5d03b955ed3ff9163cdb4d89d9bf8a6193f8963a953fb67a46419055ed3fa4419b74538bd9bf425689e0729d933f5b08c02b7a55ed3fc6122e66eb8cd9bf3e3c5e2bf6fc913f11d1c5857355ed3fe83dfb1c258ed9bf107b014d6357903f4ee1af877b55ed3f0339b82b028fd9bf6d0fd171355d8d3f329e143e8a55ed3fe5978def6a8fd9bf55f5382e39eb8a3f9ec63cd69155ed3f5b7c991b838fd9bffb2b53f63a078a3f851b8f74ad55ed3f3124a9949c8fd9bf31ffd1c09493873fef5f7893b755ed3fa6c1c45ba18fd9bf820be5a421b1863fa432e52bdb55ed3fd0773c2b818fd9bfe3a166994e40843fd6d7f9b51756ed3fdef98f83058fd9bf93f766ac06f0803f482922865f56ed3f17d2eb8b398ed9bf57f3c3adf04e7b3fb984d272b356ed3fd67d19f3198dd9bfd96861bdcbd0743f84df364d1057ed3f0236b5ffb58bd9bf2b2419c29dd66c3fbe4779a88b5ced3f78adbabfb872d9bf00349fba51f2353f
+    datetime_begin: !butler_time/tai/iso '2015-07-15 11:37:15.842000000'
+    datetime_end: !butler_time/tai/iso '2015-07-15 11:39:47.704000000'
+  - instrument: HSC
+    id: 34714
+    physical_filter: HSC-R
+    visit_system: 0
+    name: HSCA03471400
+    day_obs: 20150715
+    exposure_time: 150.0
+    target_name: SSP-Wide
+    observation_reason: science
+    science_program: o15406
+    zenith_angle: 24.69944452
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70801edc8df071ed3fd5f1cc8f7c0dd9bfe3450764a6e6813fe5a428257c7ced3fe61393c936dcd8bf9ae2cffded4c7d3f9fa885282599ed3ff25911b8a052d8bf9cca3d06c2707b3fc720f69bce9bed3fd18825f1a745d8bfa44646a1ce6c7b3f465dc1028bb7ed3f65e4ec7673bcd7bfbfaf97896ae47c3fdb70693234c1ed3f43afb21f478bd7bf45d332e7c0c3813f3cfe3a6694c6ed3f680e5c49a76ed7bf07e6f6eab0f4873fc28b206a45cbed3f4f1a8260da54d7bf00927f0782788e3f7b73a3c873cbed3fb3f4a895d352d7bfc03b196552d6903f41c65da989cbed3f2aa9ebaf2751d7bf5fc481bae477923f5879f8aa85cbed3f169fead6de4fd7bff40c7102f71d943fee111b7069cbed3ff00c80cff04ed7bfcf51bc2171c7953fab4dd12343cbed3fad56dac4874ed7bfb55a6127a100973fb3c0150133cbed3f79971eb0694ed7bfc5c434709f71973f2e3b7827ffcaed3fc815cb032f4ed7bf5e7eb21053ab983f48c9ddc6e9caed3ffeb6dd871f4ed7bf95fc5e152420993f52de7ec5a2caed3f6488a71e334ed7bfd7ea059338579a3f82263d3932caed3ffaffe470824ed7bf29f9551fc4009c3f0d11803badc9ed3f4390d22f204fd7bff14f2b80eda69d3fea75fafd16c9ed3f1a2fd1a6ff4fd7bfbecbdcac82479f3fa77fb8ea67c8ed3f9d382a394251d7bfd2b099818e73a03f93cd11679ac2ed3f7f92a8d4016ad7bf641405378015a23fdda0e2924bbced3ff1c97e0d1385d7bf4e318f1e559da33f1bbb8870f5b1ed3f43b6535c63b6d7bfdae576d5016aa43fc7613d1fbf95ed3f5f17bcec1541d8bff33c054069a3a43fadd4883c1393ed3f796b4dec194ed8bf38f6c65f9da3a43f39c3cd608b76ed3f1ea1cc8fd3d7d8bf112dcf83b272a43f5735e726bd6ced3f2177ea7fc508d9bf63bd5474a3a0a33f5e0aa980a167ed3f3c5948786325d9bfda1975e16b13a23ff002a8142163ed3f571b4e04dc3ed9bf1c69d46c8b72a03f71afc66b1c63ed3f9ff8ea98fe40d9bf504b2d2610489f3ff5a4fa732a63ed3fc6744093b342d9bfe256d27fafa79d3f4d2a601f4863ed3fad6621870a44d9bf918b4f5f37029c3f2e74c27e7463ed3f2a42efe70445d9bf570a140988599a3f2495c0dc9d63ed3f7104e3308345d9bf000c60669b20993f3cc48621af63ed3ff879f52da345d9bf2c36d06fa2ae983f65f36f48e563ed3f449a431bd245d9bffc4ec9a2df74973f29e954f7f863ed3f391a8e9fde45d9bf8ea806b5ab03973f373a40d63664ed3f6069beb6d345d9bfbd8aeb1c51cb953f75b10edb9664ed3f5fa42bd57445d9bf4f075fee3f23943f4150f3a00165ed3ff3eea043c544d9bf5ba632a7097f923f8d8856e97765ed3f777a429fc143d9bf984854738fdf903f25f51f70f665ed3ff2ee4a1d7942d9bf0fe30ac57a8c8e3fa10670c7a86bed3faffe4d30a829d9bf4e072bd7b206883f
+    datetime_begin: !butler_time/tai/iso '2015-07-15 12:14:34.847000000'
+    datetime_end: !butler_time/tai/iso '2015-07-15 12:17:06.731000000'
+  - instrument: HSC
+    id: 35892
+    physical_filter: HSC-I
+    visit_system: 0
+    name: HSCA03589200
+    day_obs: 20150720
+    exposure_time: 200.0
+    target_name: SSP-Wide
+    observation_reason: science
+    science_program: o15406
+    zenith_angle: 37.60980715
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a95d85874359ed3feb4eaa69b481d9bfe35bddb69eaf653f819c01f0ec63ed3fb8674fef8850d9bf711708319e5c513f8724191b1881ed3ff8c8b48360c7d8bf0037be6268d5433f537de449ce83ed3f4655784d72bad8bf9ff8b8dacbb5433fb0e0c90d16a0ed3f95afd2daaf31d8bfc0e3a4edf8744f3fd6f965c602aaed3f7a09a006ba00d8bf7d959200fa23653ff3534acea2afed3fa124b87f4de4d7bfa135669329f4763fd0b181bb92b4ed3f99af96bdb2cad7bf7074767b15fe813f11768389d5b4ed3f2978cf23bcc8d7bf730125034a32853f2b98a5d6ffb4ed3fd2f4405620c7d7bfc0d7b67c8275883f8cdef41610b5ed3fd5c20a5ae7c5d7bfeee864d1bcc18b3f3b5f9ce807b5ed3fd695fbef08c5d7bf8f0a6ad2c8148f3f02073919f0b4ed3f8267151eabc4d7bf7537c6bd9dc3903f9a15ea28e5b4ed3f9fbe960c91c4d7bf942958839f34913fd2627ea4bfb4ed3f077d286861c4d7bf71d0c02c5d6e923f3adbf793afb4ed3f0c7a95ff55c4d7bfa61f521132e3923fa531927c76b4ed3ff72dcb3874c4d7bf2d18542a511a943fe22246c518b4ed3f536afcd9d1c4d7bfabe47f0fecc3953ffc215c28a6b3ed3f9a9ef5757dc5d7bf72938196256a973f09f1c3ca21b3ed3f1fda994f6ac6d7bf822e359ecb0a993fa7c8982a84b2ed3fc92667d8b9c7d7bf2a72d4a077aa9a3f114bf3ddc3aced3f51058ae281e0d7bf34598e9c78ee9d3f08aa169f7da6ed3fab70308f97fbd7bf964c54cc207fa03fa3fbe952099ced3fa7c0bb23ce2cd8bfb2cf8da3d14ba13f4fe7eb8e4f7fed3fd2a431a714b7d8bfe69753453385a13fac2621df967ced3ffe38c8060ec4d8bf7024026e6785a13fd8b7eef7825fed3fbb0b8159524dd9bf5270e3408354a13f2778c0a47155ed3f2965f9610d7ed9bf7aace5c66f82a03f7cbcdb141650ed3ffa4b3a06799ad9bf5852fcfa50ea9d3f50220b14574bed3f0e5c4e2dc0b3d9bfcabfd3a172a89a3f073fb2bd3d4bed3feab68118d3b5d9bf5e8bc0815a0b993fe679da5d374bed3f0c25af9378b7d9bfc81af921e96a973fedfd3fc3404bed3f7089b115c0b8d9bf1a97cef660c5953fabecd912594bed3f9db05320abb9d9bff34cd15fa21c943f2fbcf6e1734bed3f9addfe3e1ebad9bf681eda16abe3923f1d8225e77f4bed3fdf26d4333abad9bffb12565eae71923f403dc0c3a74bed3f1edbd6215ebad9bf63436e8de137913fb7fd1b4fb64bed3feb4a00af66bad9bf1ea3bd25aac6903fad1cee2ce64bed3f804863f350bad9bfdee2fc8e8c1c8f3fc703587d334ced3fe4131790e3b9d9bfb525449a52cc8b3fd922c10a8c4ced3f171b1acd25b9d9bf944f6882d083883fb83907a4f04ced3f659e0f5314b8d9bf48f28097c844853fec1176065e4ded3fc682eb57beb6d9bf106321031312823f1189ab430353ed3f96c3ee9ae49dd9bf41f4970e3618773f
+    datetime_begin: !butler_time/tai/iso '2015-07-20 10:47:23.546000000'
+    datetime_end: !butler_time/tai/iso '2015-07-20 10:50:45.545000000'
+  - instrument: HSC
+    id: 36140
+    physical_filter: HSC-I
+    visit_system: 0
+    name: HSCA03614000
+    day_obs: 20150721
+    exposure_time: 200.0
+    target_name: SSP-Wide
+    observation_reason: science
+    science_program: o15406
+    zenith_angle: 37.12350657
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 702461aa152784ed3f6b01b621b4b8d8bfbc81d137a44561bff28f559e6d8eed3fc224551b3587d8bf916f9ad14f476ebfde42c4bfa9aaed3f974fb03745fdd7bf8251158d5c0071bf71b24dc249aded3f2e63ebc044f0d7bf8d63c539500471bf4b8c02b5aac8ed3f730044f7c666d7bf8fc73f1267186fbfb8682c9a52d2ed3f6458b1939a35d7bf5905368753d161bf9f7797f0ddd7ed3f7789f0db1e19d7bf309887df4ccd4b3f9cf82177bfdced3fc31f8db97affd6bfd620b63bdf81703f8f1eb5610ddded3f07b5b2118efdd6bf8616943159ea763f4540cfaa43dded3f8ae91812fdfbd6bf0a30da06de707d3f994a15b960dded3f8b6258b4cffad6bfbf9dc3c1b404823fefb6b21266dded3fa5fd68a6fdf9d6bf17e1a2aecd57853fc832d9b058dded3f52b77c65a9f9d6bfb372e6bb4aca873fe21a039151dded3f613e69d792f9d6bf60e3503a52ac883fb9b9f5cd36dded3f8aa34a246df9d6bfb5f6d311d91f8b3f741a9ac92added3fc1eab37d65f9d6bf1121105c87098c3ff80c4fe1fcdced3fbbee07198ef9d6bff36a3300d2778e3fbb7b49d0aedced3f3e52eb57faf9d6bf93b8cd0f8de5903f1510bd404cdced3ffe66e105b5fad6bf90d94a67d08b923f2f03f22dd8dbed3f35ec9a40b1fbd6bf18d608d6802c943ff2c1d3784bdbed3f70d0a2cd10fdd6bf4685ace437cc953fcd191b1cd3d5ed3fb235ab5e1716d7bfbef7c36d4a10993f18cd48e7d6cfed3f3c17c19a6d31d7bf51272d9126209c3fa1b8464fc5c5ed3f38c6cb1ef662d7bf94f227fc8bb99d3f46d20653fca9ed3fbd5e36ed00eed7bf7d215876452c9e3f891b5ddd59a7ed3f557af2990cfbd7bffb21f3d4ad2c9e3fc222c8872d8bed3f840266971185d8bf7d24748ef0ca9d3f04e9f9ce6081ed3f4a56da4c04b6d8bf70f0587cc5269c3fd5a421db197ced3ffc6e913f7dd2d8bf63b777a2230c993fb96c42b26877ed3f9d159b7bccebd8bfe72e13d233ca953f3bf99b534477ed3fa7dd2243d4edd8bf26ab54d3102d943f8318f4113277ed3f5f0239036eefd8bf3dad5f26958c923f0049c8c62e77ed3f93657a3ba9f0d8bfbda8073f03e7903f12719aaa3977ed3f0337308187f1d8bf8cb9b91d777c8e3f4140c9324a77ed3f3f2bc8fbf0f1d8bf0cbce20e7c0a8c3fcb8ad6615277ed3f6ca89d5e09f2d8bfb1e8dd417e268b3f2f477d686f77ed3f10c4234b23f2d8bfe14e6d23d9b2883f90ad7e037a77ed3f6c5d213b28f2d8bfc693df6566d0873f90507ab59e77ed3f88aef75208f2d8bf330f2350945f853f39ec9b52dc77ed3f2a6243cd8cf1d8bf97e7338c4d0f823fe8fd20c62478ed3f7d8d1ab9c0f0d8bffa6d5965808d7d3fe2c31fe17878ed3f9c0f19c0a0efd8bf9eed37155d0f773f49a5c787d578ed3f768a7d383ceed8bf56ac4081e1a9703f7e51bfc0327eed3fc14f4eb524d5d8bfc05c60bce4ed4c3f
+    datetime_begin: !butler_time/tai/iso '2015-07-21 10:49:30.103000000'
+    datetime_end: !butler_time/tai/iso '2015-07-21 10:52:52.027000000'
+  - instrument: HSC
+    id: 36192
+    physical_filter: HSC-I
+    visit_system: 0
+    name: HSCA03619200
+    day_obs: 20150721
+    exposure_time: 200.0
+    target_name: SSP-Wide
+    observation_reason: science
+    science_program: o15406
+    zenith_angle: 20.833029049999993
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 700596efe3b67eed3f796daca646d1d8bf296bcadc8fdb803f6ff3b6b52789ed3f9fc8ce25ea9fd8bf95315939ba367b3fd6026ae889a5ed3f550ed5691916d8bfa4449284875a793f53ae94b82ca8ed3f274404381b09d8bfb3f88d1b9456793fd0bdf84ea3c3ed3f2558cc9dae7fd7bf4343d85036ce7a3fb712a1f334cded3f5d1236ee6f4ed7bf87fdb80daab8803f42455b8289d2ed3fb4077197c731d7bfb40c66d89de9863f39f2017b30d7ed3f0d0d46b3f317d7bfd5efd58a736d8d3f8ae6d35c5fd7ed3f8d365acced15d7bf514f280bcc50903f121e9ef675d7ed3f850d4d024314d7bfb57b775b5ff2913fe37b4de872d7ed3f98c1317dfb12d7bf2781b5b37298933f991045cf57d7ed3fb264b3fd0e12d7bf0c70eef8ed41953f27fc367c32d7ed3feeef3437a711d7bf85b7ffe21e7b963f6e9066b722d7ed3fdc50259c8911d7bf643bff801dec963f2bdc3cefefd6ed3fe272fb4f5011d7bfbd458215d225983f0d2fb8f7dad6ed3f4116695b4111d7bf1c300078a39a983ff22c4c2d95d6ed3f329b4c775611d7bf7007acf5b8d1993f1235476526d6ed3f3d2337fda711d7bf455321f2457b9b3fc84e9f50a3d5ed3f43bcca164812d7bfd770f5d370219d3f201a68180fd5ed3ff6c22e072a13d7bff1e63e9007c29e3fa6d7333c62d4ed3f6b03b8446f14d7bf5d92cac3d130a03fbaa75889a4ceed3fe8a8593f3d2dd7bf9de992dcc4d2a13f81e40f8366c8ed3f008378b55d48d7bf302245369b5aa33fc0a0fb242bbeed3f59235d4cc479d7bf8e2b92584827a43fd39565313ca2ed3f6218e598b004d8bff5ddad4caf60a43ff35924f7969fed3f2cf1da07ba11d8bfc978336de360a43f40477a2c5583ed3f9787dd67ad9bd8bfafe4b41bf92fa43f18644f649e79ed3f1ec8d2ffb1ccd8bfa0ac209ae95da33f9a8829608e74ed3fc772f5ea57e9d8bfe917eb91b0d0a13feb0f58d41770ed3fe0e7430fd702d9bf19e767bbce2fa03f797068b31270ed3f2d6f5168f804d9bff84ae52795c29e3fbaec44082070ed3fb41f7bfeab06d9bfa40ec6f432229d3fa06252cb3c70ed3fab686c6a0108d9bf3ff9a155b97c9b3f21aeea0f6870ed3f3ca3e722fa08d9bf6198599108d4993f219dc77f9070ed3f60de97217709d9bf2a3c8bed1a9b983f2a38a966a170ed3f12b9e7a19609d9bff3a6ee9b2129983f971d0e76d670ed3f3bea512ac409d9bfbdde4cdb5def963ff586d8bde970ed3f72178f2dd009d9bff25b9598297e963f85e009692671ed3f643f4dd1c309d9bfc9d8dd1cce45953ffcb91ea38471ed3f049307df6209d9bf386d4fcabb9d933f3228c378ed71ed3fabe4fe29b108d9bfd5437b7584f9913fdbf97daa6172ed3f9a747e4eab07d9bf841f114a095a903feaf75dfddd72ed3f8f8683896006d9bf834ec0b06c818d3f1f6b0e7c8078ed3f25bbbf7581edd8bf6567b222a0fb863f
+    datetime_begin: !butler_time/tai/iso '2015-07-21 12:19:29.178000000'
+    datetime_end: !butler_time/tai/iso '2015-07-21 12:22:51.272000000'
+  - instrument: HSC
+    id: 36236
+    physical_filter: HSC-I
+    visit_system: 0
+    name: HSCA03623600
+    day_obs: 20150721
+    exposure_time: 200.0
+    target_name: SSP-Wide
+    observation_reason: science
+    science_program: o15406
+    zenith_angle: 22.723474929999995
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70668df2c28874ed3f5f5ee4ee2100d9bf55d7246a146e87bf05ad5ca4d07eed3f2e41b989a4ced8bf932af26d9eae8abff7e30972589bed3fbabcae13f344d8bf5a7034c92d9d8bbfe3ecf04b009eed3fbfa711fdf837d8bf9fea32b2279f8bbfd65d7963bbb9ed3f6c9b449bc3aed7bf8920407fe6e28abfe10dae8f9ec3ed3f264143e9c67dd7bf62bb88da049187bfc3be3dff71c9ed3f9063a19b8561d7bf09146bc7cf5f81bf83af34c29cceed3fc6ee439c1c48d7bfb53b0b953bb775bf306cb02f08cfed3f17eec0e54746d7bf76950223789d6ebf61c7dd485ccfed3f9473740acf44d7bf2823ffaa589061bfbb35633a97cfed3f63468dd4b943d7bff81110ce837c41bf8409227cbacfed3fda04e9e5ff42d7bf4e47b6bfddda513f048627f3c2cfed3fbc12393cbd42d7bf3a18b8778ab7623f4cfb64b0c3cfed3f21963f01ad42d7bf9872a43bb83f663f901a20b3becfed3fb11e30cc9842d7bf2621d4e10107703f5a4f7ac6bacfed3f00ae25a49742d7bfd26d1b4668da713f895b1146a2cfed3f2a55cd68d142d7bf0ba94f7419b7763fd52c695d71cfed3f66475efc5443d7bf9a6400fed45d7d3fe154d18a2bcfed3f6423fe9b2644d7bf9bf3d37b89fb813f014c8eaad3ceed3fedd7dd4c3945d7bf80d01626053d853fb7645fda62ceed3fb17bb005af46d7bfb07b05a0907c883fae11950b15c9ed3f1443517bd75fd7bf9dc36470de048f3f9da847613ec3ed3fff3d48654b7bd7bf5e451fc06392923ff7e28df12ab9ed3f8144f765d2acd7bf0585279cc92b943f82bd0c4c159ded3f45209d9c9f37d8bf698fa6f36d9e943f7b4bf0ed6a9aed3f742bcbdaa444d8bf23047c6ad69e943fa2b5d2e1e37ded3fc74c414c5fced8bf87f8d385303d943f78631959dc73ed3ff365463b22ffd8bf855c92710499923f2716ac284d6eed3fe31c384c611bd9bfdbd7864694fc8e3fe22baef85269ed3f70bab6dc7534d9bf2ba8012c8c78883f8977a7d01069ed3f7be3f5eb6536d9bf245d9f6d293e853f865069cde068ed3ff103c8efe737d9bf768aa8aa17fd813fe0f339a0bf68ed3f2833df460b39d9bfbd78acafb7637d3f4029d9a1ac68ed3f47a3ca9fd139d9bf38ee821d6ec0763fc37fa548a768ed3f21ad608e293ad9bf85a95c0f5cdc713f7aa62288a768ed3fd83278923b3ad9bf3a7024065714703f1f5a1fcfae68ed3fe6aca005443ad9bfd21fe8a9e959663fe6861094b168ed3f0ebd03a8423ad9bfe0d6b2180fd0623fc96498c2c068ed3f0db6cf6d113ad9bf71c14f2f3f19523f38f97a5be168ed3fd00a4f817e39d9bf049d1f9f9bd240bf16e625400d69ed3f6b30f1589b38d9bfee5f4112fc5661bf886245534569ed3f1d300dad6437d9bff389c73057536ebf1104dd888669ed3fad6fdbe0e935d9bf8c2c00d52b8f75bfdc32ec50b96eed3fed404446b01cd9bf4c464236c04d81bf
+    datetime_begin: !butler_time/tai/iso '2015-07-21 13:45:32.443000000'
+    datetime_end: !butler_time/tai/iso '2015-07-21 13:48:54.484000000'
+  - instrument: HSC
+    id: 36260
+    physical_filter: HSC-I
+    visit_system: 0
+    name: HSCA03626000
+    day_obs: 20150721
+    exposure_time: 200.0
+    target_name: SSP-Wide
+    observation_reason: science
+    science_program: o15406
+    zenith_angle: 29.346303380000002
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 706209d8a84977ed3f49a460d5bcf3d8bf541041640dbb843fac355cc5ce81ed3ff08d895d71c2d8bfb38c3460e77a813f81b99b045b9eed3ff73a285ec338d8bffcf0669cda8c803fe2fdefa601a1ed3f62a2c048c82bd8bfd47e94efe08a803f153f12319fbced3fb93c44e77aa2d7bff8354448a646813ff138765039c6ed3f3512c89c4271d7bf858f76c92898843f2bbc0b2b8bcbed3f83f1827a9754d7bf4c4dfe060ec98a3fdbfcb1062ed0ed3f89217885bf3ad7bf9183631269a6903fa9a8c2c157d0ed3f40e01b25b538d7bf41272be57740923fec8f31ff68d0ed3fe5f71caf0537d7bfae604f6e07e2933ffd714d6760d0ed3f7a28bc52b935d7bfa75288af1688953f2888d09d3fd0ed3f8fe2bed5c734d7bf66812e8d8d31973f1bdb150616d0ed3fbb1d7b4e5c34d7bf5120770cbb6a983ff085c1b404d0ed3f0d4a15563d34d7bfc4249b64b8db983fbdc67598cdcfed3f612cd5370034d7bf52fe625469159a3fb6dc6c02b7cfed3f42d79fd4ef33d7bf26329950398a9a3f51e24cd66ccfed3f73d0c20f0134d7bfdfce38fd4ac19b3fcfde6900f8ceed3f01e4a4354d34d7bf4ec3967ed26a9d3f33e900d36eceed3fd8743de1e734d7bf88cf10a7f7109f3f2e81c082d4cded3fdc85d85fc435d7bff28d243ac458a03f3cd1ee7421cded3f50ae81110437d7bf628c031e8f28a13f3cf3fec750c7ed3f262adebcc14fd7bfc2bbceeb7ccaa23f8556bbd4ffc0ed3f7991c5e5d16ad7bf0e72d5c54d52a43f18351841b0b6ed3fdd320cc6279cd7bf9919ed47f91ea53f4953e9fc969aed3ff4774ee9f126d8bf195bd3ee6158a53fb16148efed97ed3f668fb73af833d8bf7c567d0c9658a53fd04ea317857bed3f71212b7fcbbdd8bf5c1223bda927a53f74771bd5c571ed3fab0fe478c9eed8bf5a2b1ef59b55a43f3454cd8cb86ced3fda11a585720bd9bf6252d77868c8a23f377a3c364668ed3f382d35f3f524d9bfc6fabce78b27a13f7ee8943e4668ed3f30ff4bff1b27d9bf9a3da3cd0a59a03f7f5ae8e85868ed3fe7b70768d428d9bf9a5eb54cb9119f3fa477472f7b68ed3f78389cc72e2ad9bfd374145e456c9d3f9122e41dac68ed3fedcc378e2c2bd9bf516f090d9ac39b3f88ae42cbd868ed3f456e8a50ad2bd9bfa3b9753eb08a9a3f37a69c41eb68ed3f3e486232ce2bd9bf40ba9b48b8189a3fe482cca82469ed3f2214bd8fff2bd9bf40512b2bf8de983f79e702833969ed3f56b50ef50c2cd9bf7ed5862dc56d983fb508eb917a69ed3f6acc9472042cd9bfd61d82196d35973fcc461ad9de69ed3fcea19dc8a82bd9bfbc0246275f8d953fdb2eb1c54d6aed3f3ef3175dfc2ad9bf3ab675df2be9933f3e4d0d16c86aed3f24fd9dcafb29d9bfee49946eb449923f23d5ac854a6bed3f6bac3646b628d9bfe5eac3e264b0903f5721e7ffff70ed3fcdf0e95ee70fd9bfa47072f20edb8a3f
+    datetime_begin: !butler_time/tai/iso '2015-07-21 14:32:06.890000000'
+    datetime_end: !butler_time/tai/iso '2015-07-21 14:35:28.903000000'
+- type: dimension
+  element: visit_detector_region
+  records:
+  - instrument: HSC
+    detector: 2
+    visit: 36260
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 703158dc742c8aed3f5601c130ca95d8bfd133ea745e6e913f16a071e6c08bed3f7509e0916492d8bfdb6622240dbe833f2191948feaa8ed3fd68bacbb4f04d8bfb030a1456673833f8e9159e682a8ed3f090dee70fe01d8bf6d40da4f8360913f
+  - instrument: HSC
+    detector: 7
+    visit: 36260
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 704757364add89ed3f83e952e50096d8bf349101985824933f3c91dedc648bed3f0a4b93a07a93d8bf1cfb12effcb7863f7d73cbf9e4a8ed3f24bdfe64c203d8bff972e32d8779863f45ead21c55a8ed3fb41a14939201d8bf63f87fd35f18933f
+  - instrument: HSC
+    detector: 8
+    visit: 36192
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70425993805986ed3fddbd059c3fa8d8bf6ac9313fe445913f5755d1713b88ed3ff747da3e67a3d8bfff46594bcc3b833fc3da0bfe4da5ed3f6ad5b5164c16d8bf7005257e2b90823f705ce5e57aa4ed3f62b65fdd0816d8bf54dd01dc1a28913f
+  - instrument: HSC
+    detector: 13
+    visit: 34714
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 703ec433ae5d84ed3f558746411eb0d8bf4ca3eb7e8874933f6b55c0afd285ed3fb90a4e7b22aed8bf4c23a1b1c401873f0ddb395bbba3ed3f51df99af1e1dd8bf41d8be84a7d3863f80cded230ea3ed3f9a7b086e511bd8bf356cdc78716e933f
+  - instrument: HSC
+    detector: 13
+    visit: 36260
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bab540ea8689ed3fdc91d0073896d8bfe2fb94bbb3de943fdf459952108bed3f5a8f0d004c94d8bf65ef092932d6893f63d90fa0d9a8ed3fb0c948632e03d8bf90c9a06418a8893fddc2540217a8ed3f537077915001d8bf291952739ed8943f
+  - instrument: HSC
+    detector: 14
+    visit: 36192
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 705bd23b6e0786ed3fee1e336686a8d8bff20fed3b3dfc923f79474971c887ed3f33c9e515e9a4d8bf0ca0f9a6144d863f120273b129a5ed3f43d6b0ad5516d8bf6728d93312b9853ffc7185f243a4ed3f851ee885ca15d8bf969faf6bdde4923f
+  - instrument: HSC
+    detector: 15
+    visit: 34674
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a6063c00cc8fed3fc01c1919437ad8bf90b5dbf69207923f7e365223e391ed3fbcb5a6319c74d8bfd26590413bb5843f600ba0100caeed3f55b82290d7ead7bf3e961239afc1833fc53e8446e9aced3f5a775bced5ebd7bf44324910b9e1913f
+  - instrument: HSC
+    detector: 18
+    visit: 34714
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7014025960f0aded3fe6bc80fdd2e9d7bf12fbde34c6398a3ff2b8078c52aded3fa9d65b0215e7d7bf58fd58c63533953f9940775fcf8eed3fa7af4c88807cd8bfa2aed2340a2f953fc24ca1ef0690ed3f496f2bf54f7cd8bf661cac4b45188a3f
+  - instrument: HSC
+    detector: 19
+    visit: 34714
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70e7a54e1c1384ed3fb80869cd12b0d8bf6d6dc39f8a33953f5da608938085ed3fa1e256b6dcaed8bf5e645477333e8a3fa90e0dada6a3ed3f04475cf1b01cd8bf047a569581158a3fd7713d5fd4a2ed3f47387b1df41ad8bf77da96ed752e953f
+  - instrument: HSC
+    detector: 20
+    visit: 36192
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 703bfcecb8b185ed3fa11f8783bda8d8bf4a5f40d9b8b5943f4123c4675f87ed3f1b6ba9961ba6d8bf8f7d775aa279893fc67c3abc03a5ed3ffa6a2c6a4416d8bf762cf0c1c002893fa25c7d2affa3ed3f7c49f81aaa15d8bf9ad04e62b4a8943f
+  - instrument: HSC
+    detector: 21
+    visit: 34674
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 705706046e798fed3fd3b01db2827ad8bfc37849ea49ba933f3cfed9505f91ed3f4980fae86376d8bf6d901891b3d3873fe8c0fd36d0aded3fd8ce562e47ebd7bf817efacfa1ff863f9ca0eda9abaced3f1d79cc98a9ebd7bf879b622d15a0933f
+  - instrument: HSC
+    detector: 23
+    visit: 35892
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bafdd9a669abed3f41b635a052f8d7bfc10074e65c99813fee3aa4cb6cabed3f7e955bf607f4d7bfb2fca36a21bd903fa28b51ba0e8eed3fbca698d29783d8bfb49d8c07c4b5903f654d1c219f8eed3f4c07ae2c1985d8bf22f2fc93bbf9803f
+  - instrument: HSC
+    detector: 28
+    visit: 34674
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70ac18b8ce278fed3feb6c5f889e7ad8bf1c4277f3256e953f17ec8c76e690ed3f4e9d14f8d777d8bf2a7d60c562048b3f771c611b95aded3fcfe21d0490ebd7bf78d16c02ea568a3f7e10413663aced3f6daa7d778eebd7bfb82192fb1963953f
+  - instrument: HSC
+    detector: 31
+    visit: 35892
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7075417f2c92abed3f34bb2031e1f6d7bf539e6a2249e2843f41b816fa34abed3f5ca68e78d9f3d7bf8e45a903d974923f0ffe4cd6d38ded3f816c69d26f83d8bf8c618de64079923f6183f081948eed3f63ecb88ca684d8bf967159139f60843f
+  - instrument: HSC
+    detector: 39
+    visit: 35892
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70fbbc117da1abed3f55fd6ebcccf5d7bf45616f55fb36883f6228ffceebaaed3f5a752210e3f3d7bfb988b20f962a943f1844db78908ded3fa70c1b125083d8bf2850e573e43c943f499662e07b8eed3fbf406bfc5584d8bf5f7c96fb01d5873f
+  - instrument: HSC
+    detector: 48
+    visit: 34690
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a7932c0d9eaaed3f61ba36ab70fcd7bf9d5c69550d95803ff99a1513e2a9ed3fa470794dd4fbd7bf5d11cf556a80903f5f61e8e3b18bed3f9bdd5b16118fd8bfa85da55e1093903fc7b8187c718ced3fae36cec3ae8fd8bf8caf46181270803f
+  - instrument: HSC
+    detector: 51
+    visit: 34648
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70f77298eb6b8bed3f5ba294a80c90d8bf310b46125c0f913fa61adc962b8ced3f62300818c690d8bf15f318dbefb7813f012634154daaed3fd423e954d5fdd7bf23c43438ad8b813fcd359f7a8aa9ed3fd3558d3315fdd7bf945f2bb4c320913f
+  - instrument: HSC
+    detector: 51
+    visit: 36140
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70cebba84f6c8bed3f223c08ac0a90d8bf3db8331b830f913f834641fd2b8ced3fe56b4e1dc490d8bf5eb3faee3db8813ffb1a2c794daaed3fb1c23158d3fdd7bf2491274dfb8b813f8bfc36dc8aa9ed3fde7dfa3413fdd7bf8cb99cbdea20913f
+  - instrument: HSC
+    detector: 56
+    visit: 34690
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 709a6e71378faaed3f3494b41d11fcd7bf01b91c95400a843fc3be8f5b92a9ed3f6dd3fad320fcd7bfdacec5038e37923f019b4d49788bed3f7a0c9f41e88ed8bfdbc393a2af52923f5df955f3528ced3ffb1b3fb79a8fd8bfbb1d840f8cf5833f
+  - instrument: HSC
+    detector: 59
+    visit: 34648
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70cbf317cc488bed3fc3d5b851768fd8bfb6f3582d2ac5923f14415dacfd8bed3fee16555cf490d8bf89b05c18942a853fa61ccf852eaaed3f4657ba75b6fdd7bf5bcd0ca42a14853f847d7c014da9ed3fa79df323f4fcd7bf3691cd57e5e1923f
+  - instrument: HSC
+    detector: 59
+    visit: 36140
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7064e6a92f498bed3f0ecdca54748fd8bfd98efc3551c5923fac5f4612fe8bed3fe49a3961f290d8bf8daceb2be22a853ff9a346e92eaaed3fabb99d78b4fdd7bfec59acb87814853fb0ae94624da9ed3f494ffe24f2fcd7bfacd1f1600ce2923f
+  - instrument: HSC
+    detector: 64
+    visit: 34690
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7008c70ae473aaed3fecc0c208cefbd7bfcf0dea9e3d85873f42ad9cf733a9ed3f91d975ed99fcd7bf7cc910f393ea933fd94badfd388bed3f44ccac98be8ed8bf7b2a6216d30d943f15525729308ced3f8be0b6f4798fd8bf13106683aa7e873f
+  - instrument: HSC
+    detector: 67
+    visit: 34648
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7048fa59f52d8bed3f8a53fa219d8ed8bf4b66595dbe76943f581418c1d08bed3fcacdd76dfd90d8bf422a2e07eaa2883fe73d934f08aaed3f286e0fe09bfdd7bf02a426f0a49d883fe98c365a0ea9ed3fa7b3f00fbdfcd7bf94f9dcea349d943f
+  - instrument: HSC
+    detector: 67
+    visit: 36140
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 702aab6d582e8bed3f0612ab249b8ed8bff00aad65e576943fb1b88326d18bed3fade25972fb90d8bf36a65b1a38a3883f1f468ab208aaed3fd9f98de299fdd7bf16956304f39d883ff76fd0ba0ea9ed3f3c579a10bbfcd7bf91c3adf35b9d943f
+  - instrument: HSC
+    detector: 87
+    visit: 36236
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 702fb0ffe555a6ed3fa8c91e06aa11d8bf9bc41516f917803f8c0a64cd67a5ed3feec841773a12d8bf79c9ef397111903fa36247039487ed3fc17b93433fa3d8bf7f30d69e08eb8f3fae97f0a9b687ed3fea85f4db76a6d8bf2c50dbfab604803f
+  - instrument: HSC
+    detector: 92
+    visit: 34670
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70abf4a1cea6abed3f6f6d2e1a28f7d7bfaf191c24e481813f73d9807950aaed3ffa1202b6a9f9d7bfd4bf9efb748c903fd92bfeb9d38ced3f718a7d7e9189d8bf449d318ffaa4903fbeea8ef6388ded3f5f2cd80ebc8bd8bfd47923ad4093813f
+  - instrument: HSC
+    detector: 93
+    visit: 34670
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70a206eb9aa0a0ed3f95eb0fc4742dd8bfa1ca8925cc96813f22bfcc2ba09fed3fb6cc7e3b3a2ed8bfd7b2bda022a8903f8f147cbaf481ed3fa7b9bd33c2bdd8bffe3a056fd587903f3c8ef5bbf781ed3f1d770c83adc1d8bf63aa8d961f7e813f
+  - instrument: HSC
+    detector: 93
+    visit: 36236
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 7014fc779230a6ed3fdabbaeddbc11d8bf92bf206f2393833fee4971de21a5ed3f0a3fc6707712d8bf4a5c24d647a6913f2de8b0299887ed3f043a5e3b1ba2d8bf9734808ff985913f78ebae63aa87ed3f82c9043d12a6d8bf0cde5256747a833f
+  - instrument: HSC
+    detector: 97
+    visit: 34670
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70dd28dbf272abed3f4f42441579f7d7bf8ee0b818d8ee843fb898fb8aeba9ed3fcc985ebd89fad7bfeb82ce055c0a923f161bd1b3bd8ced3ffb0bbe1ee888d8bfa419bf715c29923f0fa25f7a258ded3fa1ea307f6c8bd8bfeeda7fab6d05853f
+  - instrument: HSC
+    detector: 98
+    visit: 36236
+    region: !<lsst.sphgeom.ConvexPolygon>
+      encoded: 70bd72f07705a6ed3fb6e9dde4cd11d8bf30a808602c06873ffb7077c7d4a4ed3fae03aa9eca12d8bff696232a1c2a933f02d86be59e87ed3f206a9b68dea0d8bf260fc5be8405933f37061824a187ed3ff751f49482a5d8bfddc41f5b30e5863f
+- type: collection
+  collection_type: CALIBRATION
+  name: HSC/calib
+- type: collection
+  collection_type: RUN
+  name: HSC/calib/unbounded
+  host: null
+  timespan_begin: null
+  timespan_end: null
+- type: collection
+  collection_type: RUN
+  name: HSC/raw/all
+  host: null
+  timespan_begin: null
+  timespan_end: null
+- type: collection
+  collection_type: RUN
+  name: HSC/testdata
+  host: null
+  timespan_begin: null
+  timespan_end: null
+- type: collection
+  collection_type: RUN
+  name: refcats
+  host: null
+  timespan_begin: null
+  timespan_end: null
+- type: collection
+  collection_type: RUN
+  name: skymaps
+  host: null
+  timespan_begin: null
+  timespan_end: null
+- type: dataset_type
+  name: calexp
+  dimensions:
+  - band
+  - instrument
+  - detector
+  - physical_filter
+  - visit_system
+  - visit
+  storage_class: ExposureF
+  is_calibration: false
+- type: dataset
+  dataset_type: calexp
+  run: HSC/testdata
+  records:
+  - dataset_id:
+    - 1022
+    data_id:
+    - instrument: HSC
+      detector: 51
+      visit: 34648
+    path: 01291/HSC-R/corr/CORR-0034648-051.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1031
+    data_id:
+    - instrument: HSC
+      detector: 59
+      visit: 34648
+    path: 01291/HSC-R/corr/CORR-0034648-059.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1026
+    data_id:
+    - instrument: HSC
+      detector: 67
+      visit: 34648
+    path: 01291/HSC-R/corr/CORR-0034648-067.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1028
+    data_id:
+    - instrument: HSC
+      detector: 92
+      visit: 34670
+    path: 01291/HSC-R/corr/CORR-0034670-092.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1027
+    data_id:
+    - instrument: HSC
+      detector: 93
+      visit: 34670
+    path: 01291/HSC-R/corr/CORR-0034670-093.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1030
+    data_id:
+    - instrument: HSC
+      detector: 97
+      visit: 34670
+    path: 01291/HSC-R/corr/CORR-0034670-097.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1029
+    data_id:
+    - instrument: HSC
+      detector: 15
+      visit: 34674
+    path: 01291/HSC-R/corr/CORR-0034674-015.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1024
+    data_id:
+    - instrument: HSC
+      detector: 21
+      visit: 34674
+    path: 01291/HSC-R/corr/CORR-0034674-021.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1021
+    data_id:
+    - instrument: HSC
+      detector: 28
+      visit: 34674
+    path: 01291/HSC-R/corr/CORR-0034674-028.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1025
+    data_id:
+    - instrument: HSC
+      detector: 48
+      visit: 34690
+    path: 01291/HSC-R/corr/CORR-0034690-048.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1023
+    data_id:
+    - instrument: HSC
+      detector: 56
+      visit: 34690
+    path: 01291/HSC-R/corr/CORR-0034690-056.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1018
+    data_id:
+    - instrument: HSC
+      detector: 64
+      visit: 34690
+    path: 01291/HSC-R/corr/CORR-0034690-064.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1020
+    data_id:
+    - instrument: HSC
+      detector: 13
+      visit: 34714
+    path: 01291/HSC-R/corr/CORR-0034714-013.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1019
+    data_id:
+    - instrument: HSC
+      detector: 18
+      visit: 34714
+    path: 01291/HSC-R/corr/CORR-0034714-018.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1032
+    data_id:
+    - instrument: HSC
+      detector: 19
+      visit: 34714
+    path: 01291/HSC-R/corr/CORR-0034714-019.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1033
+    data_id:
+    - instrument: HSC
+      detector: 23
+      visit: 35892
+    path: 01296/HSC-I/corr/CORR-0035892-023.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1034
+    data_id:
+    - instrument: HSC
+      detector: 31
+      visit: 35892
+    path: 01296/HSC-I/corr/CORR-0035892-031.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1035
+    data_id:
+    - instrument: HSC
+      detector: 39
+      visit: 35892
+    path: 01296/HSC-I/corr/CORR-0035892-039.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1047
+    data_id:
+    - instrument: HSC
+      detector: 51
+      visit: 36140
+    path: 01297/HSC-I/corr/CORR-0036140-051.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1042
+    data_id:
+    - instrument: HSC
+      detector: 59
+      visit: 36140
+    path: 01297/HSC-I/corr/CORR-0036140-059.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1038
+    data_id:
+    - instrument: HSC
+      detector: 67
+      visit: 36140
+    path: 01297/HSC-I/corr/CORR-0036140-067.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1039
+    data_id:
+    - instrument: HSC
+      detector: 8
+      visit: 36192
+    path: 01297/HSC-I/corr/CORR-0036192-008.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1036
+    data_id:
+    - instrument: HSC
+      detector: 14
+      visit: 36192
+    path: 01297/HSC-I/corr/CORR-0036192-014.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1040
+    data_id:
+    - instrument: HSC
+      detector: 20
+      visit: 36192
+    path: 01297/HSC-I/corr/CORR-0036192-020.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1037
+    data_id:
+    - instrument: HSC
+      detector: 87
+      visit: 36236
+    path: 01297/HSC-I/corr/CORR-0036236-087.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1041
+    data_id:
+    - instrument: HSC
+      detector: 93
+      visit: 36236
+    path: 01297/HSC-I/corr/CORR-0036236-093.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1046
+    data_id:
+    - instrument: HSC
+      detector: 98
+      visit: 36236
+    path: 01297/HSC-I/corr/CORR-0036236-098.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1044
+    data_id:
+    - instrument: HSC
+      detector: 2
+      visit: 36260
+    path: 01297/HSC-I/corr/CORR-0036260-002.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1043
+    data_id:
+    - instrument: HSC
+      detector: 7
+      visit: 36260
+    path: 01297/HSC-I/corr/CORR-0036260-007.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+  - dataset_id:
+    - 1045
+    data_id:
+    - instrument: HSC
+      detector: 13
+      visit: 36260
+    path: 01297/HSC-I/corr/CORR-0036260-013.fits
+    formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
+- type: dataset_type
+  name: camera
+  dimensions:
+  - instrument
+  storage_class: Camera
+  is_calibration: true
+- type: dataset
+  dataset_type: camera
+  run: HSC/calib/unbounded
+  records:
+  - dataset_id:
+    - 31
+    data_id:
+    - instrument: HSC
+    path: HSC/calib/unbounded/camera/camera_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+- type: dataset_type
+  name: deepCoadd_skyMap
+  dimensions:
+  - skymap
+  storage_class: SkyMap
+  is_calibration: false
+- type: dataset
+  dataset_type: deepCoadd_skyMap
+  run: skymaps
+  records:
+  - dataset_id:
+    - 1017
+    data_id:
+    - skymap: hsc_rings_v1
+    path: deepCoadd/skyMap.pickle
+    formatter: lsst.daf.butler.formatters.pickle.PickleFormatter
+- type: dataset_type
+  name: icSrc_schema
+  dimensions: []
+  storage_class: SourceCatalog
+  is_calibration: false
+- type: dataset
+  dataset_type: icSrc_schema
+  run: HSC/testdata
+  records:
+  - dataset_id:
+    - 1093
+    data_id:
+    - {}
+    path: schema/icSrc.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+- type: dataset_type
+  name: ps1_pv3_3pi_20170110
+  dimensions:
+  - htm7
+  storage_class: SimpleCatalog
+  is_calibration: false
+- type: dataset
+  dataset_type: ps1_pv3_3pi_20170110
+  run: refcats
+  records:
+  - dataset_id:
+    - 1015
+    data_id:
+    - htm7: 197120
+    path: ref_cats/ps1_pv3_3pi_20170110/197120.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1014
+    data_id:
+    - htm7: 197122
+    path: ref_cats/ps1_pv3_3pi_20170110/197122.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1013
+    data_id:
+    - htm7: 197123
+    path: ref_cats/ps1_pv3_3pi_20170110/197123.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1016
+    data_id:
+    - htm7: 198912
+    path: ref_cats/ps1_pv3_3pi_20170110/198912.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1010
+    data_id:
+    - htm7: 198913
+    path: ref_cats/ps1_pv3_3pi_20170110/198913.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1008
+    data_id:
+    - htm7: 198915
+    path: ref_cats/ps1_pv3_3pi_20170110/198915.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1007
+    data_id:
+    - htm7: 199936
+    path: ref_cats/ps1_pv3_3pi_20170110/199936.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1012
+    data_id:
+    - htm7: 199937
+    path: ref_cats/ps1_pv3_3pi_20170110/199937.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1011
+    data_id:
+    - htm7: 199938
+    path: ref_cats/ps1_pv3_3pi_20170110/199938.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1009
+    data_id:
+    - htm7: 199939
+    path: ref_cats/ps1_pv3_3pi_20170110/199939.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+- type: dataset_type
+  name: raw
+  dimensions:
+  - band
+  - instrument
+  - detector
+  - physical_filter
+  - exposure
+  storage_class: Exposure
+  is_calibration: false
+- type: dataset
+  dataset_type: raw
+  run: HSC/raw/all
+  records:
+  - dataset_id:
+    - 16
+    data_id:
+    - instrument: HSC
+      detector: 51
+      exposure: 34648
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034648-051.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 18
+    data_id:
+    - instrument: HSC
+      detector: 59
+      exposure: 34648
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034648-059.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 17
+    data_id:
+    - instrument: HSC
+      detector: 67
+      exposure: 34648
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034648-067.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 20
+    data_id:
+    - instrument: HSC
+      detector: 92
+      exposure: 34670
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034670-092.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 21
+    data_id:
+    - instrument: HSC
+      detector: 93
+      exposure: 34670
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034670-093.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 19
+    data_id:
+    - instrument: HSC
+      detector: 97
+      exposure: 34670
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034670-097.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 9
+    data_id:
+    - instrument: HSC
+      detector: 15
+      exposure: 34674
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034674-015.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 7
+    data_id:
+    - instrument: HSC
+      detector: 21
+      exposure: 34674
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034674-021.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 8
+    data_id:
+    - instrument: HSC
+      detector: 28
+      exposure: 34674
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034674-028.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 14
+    data_id:
+    - instrument: HSC
+      detector: 48
+      exposure: 34690
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034690-048.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 13
+    data_id:
+    - instrument: HSC
+      detector: 56
+      exposure: 34690
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034690-056.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 15
+    data_id:
+    - instrument: HSC
+      detector: 64
+      exposure: 34690
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034690-064.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 29
+    data_id:
+    - instrument: HSC
+      detector: 13
+      exposure: 34714
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034714-013.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 28
+    data_id:
+    - instrument: HSC
+      detector: 18
+      exposure: 34714
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034714-018.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 30
+    data_id:
+    - instrument: HSC
+      detector: 19
+      exposure: 34714
+    path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034714-019.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 12
+    data_id:
+    - instrument: HSC
+      detector: 23
+      exposure: 35892
+    path: SSP_WIDE/2015-07-20/01296/HSC-I/HSC-0035892-023.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 11
+    data_id:
+    - instrument: HSC
+      detector: 31
+      exposure: 35892
+    path: SSP_WIDE/2015-07-20/01296/HSC-I/HSC-0035892-031.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 10
+    data_id:
+    - instrument: HSC
+      detector: 39
+      exposure: 35892
+    path: SSP_WIDE/2015-07-20/01296/HSC-I/HSC-0035892-039.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 25
+    data_id:
+    - instrument: HSC
+      detector: 51
+      exposure: 36140
+    path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036140-051.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 26
+    data_id:
+    - instrument: HSC
+      detector: 59
+      exposure: 36140
+    path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036140-059.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 27
+    data_id:
+    - instrument: HSC
+      detector: 67
+      exposure: 36140
+    path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036140-067.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 1
+    data_id:
+    - instrument: HSC
+      detector: 8
+      exposure: 36192
+    path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036192-008.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 2
+    data_id:
+    - instrument: HSC
+      detector: 14
+      exposure: 36192
+    path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036192-014.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 3
+    data_id:
+    - instrument: HSC
+      detector: 20
+      exposure: 36192
+    path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036192-020.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 5
+    data_id:
+    - instrument: HSC
+      detector: 87
+      exposure: 36236
+    path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036236-087.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 6
+    data_id:
+    - instrument: HSC
+      detector: 93
+      exposure: 36236
+    path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036236-093.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 4
+    data_id:
+    - instrument: HSC
+      detector: 98
+      exposure: 36236
+    path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036236-098.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 22
+    data_id:
+    - instrument: HSC
+      detector: 2
+      exposure: 36260
+    path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036260-002.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 23
+    data_id:
+    - instrument: HSC
+      detector: 7
+      exposure: 36260
+    path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036260-007.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+  - dataset_id:
+    - 24
+    data_id:
+    - instrument: HSC
+      detector: 13
+      exposure: 36260
+    path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036260-013.fits
+    formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
+- type: dataset_type
+  name: sourceTable_visit
+  dimensions:
+  - band
+  - instrument
+  - physical_filter
+  - visit_system
+  - visit
+  storage_class: DataFrame
+  is_calibration: false
+- type: dataset
+  dataset_type: sourceTable_visit
+  run: HSC/testdata
+  records:
+  - dataset_id:
+    - 1080
+    data_id:
+    - instrument: HSC
+      visit: 34648
+    path: 01291/HSC-R/output/sourceTable-0034648.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - 1082
+    data_id:
+    - instrument: HSC
+      visit: 34670
+    path: 01291/HSC-R/output/sourceTable-0034670.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - 1081
+    data_id:
+    - instrument: HSC
+      visit: 34674
+    path: 01291/HSC-R/output/sourceTable-0034674.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - 1078
+    data_id:
+    - instrument: HSC
+      visit: 34690
+    path: 01291/HSC-R/output/sourceTable-0034690.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - 1079
+    data_id:
+    - instrument: HSC
+      visit: 34714
+    path: 01291/HSC-R/output/sourceTable-0034714.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - 1083
+    data_id:
+    - instrument: HSC
+      visit: 35892
+    path: 01296/HSC-I/output/sourceTable-0035892.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - 1084
+    data_id:
+    - instrument: HSC
+      visit: 36140
+    path: 01297/HSC-I/output/sourceTable-0036140.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - 1087
+    data_id:
+    - instrument: HSC
+      visit: 36192
+    path: 01297/HSC-I/output/sourceTable-0036192.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - 1085
+    data_id:
+    - instrument: HSC
+      visit: 36236
+    path: 01297/HSC-I/output/sourceTable-0036236.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+  - dataset_id:
+    - 1086
+    data_id:
+    - instrument: HSC
+      visit: 36260
+    path: 01297/HSC-I/output/sourceTable-0036260.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+- type: dataset_type
+  name: src
+  dimensions:
+  - band
+  - instrument
+  - detector
+  - physical_filter
+  - visit_system
+  - visit
+  storage_class: SourceCatalog
+  is_calibration: false
+- type: dataset
+  dataset_type: src
+  run: HSC/testdata
+  records:
+  - dataset_id:
+    - 1062
+    data_id:
+    - instrument: HSC
+      detector: 51
+      visit: 34648
+    path: 01291/HSC-R/output/SRC-0034648-051.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1053
+    data_id:
+    - instrument: HSC
+      detector: 59
+      visit: 34648
+    path: 01291/HSC-R/output/SRC-0034648-059.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1057
+    data_id:
+    - instrument: HSC
+      detector: 67
+      visit: 34648
+    path: 01291/HSC-R/output/SRC-0034648-067.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1058
+    data_id:
+    - instrument: HSC
+      detector: 92
+      visit: 34670
+    path: 01291/HSC-R/output/SRC-0034670-092.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1061
+    data_id:
+    - instrument: HSC
+      detector: 93
+      visit: 34670
+    path: 01291/HSC-R/output/SRC-0034670-093.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1060
+    data_id:
+    - instrument: HSC
+      detector: 97
+      visit: 34670
+    path: 01291/HSC-R/output/SRC-0034670-097.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1059
+    data_id:
+    - instrument: HSC
+      detector: 15
+      visit: 34674
+    path: 01291/HSC-R/output/SRC-0034674-015.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1055
+    data_id:
+    - instrument: HSC
+      detector: 21
+      visit: 34674
+    path: 01291/HSC-R/output/SRC-0034674-021.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1056
+    data_id:
+    - instrument: HSC
+      detector: 28
+      visit: 34674
+    path: 01291/HSC-R/output/SRC-0034674-028.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1052
+    data_id:
+    - instrument: HSC
+      detector: 48
+      visit: 34690
+    path: 01291/HSC-R/output/SRC-0034690-048.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1051
+    data_id:
+    - instrument: HSC
+      detector: 56
+      visit: 34690
+    path: 01291/HSC-R/output/SRC-0034690-056.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1049
+    data_id:
+    - instrument: HSC
+      detector: 64
+      visit: 34690
+    path: 01291/HSC-R/output/SRC-0034690-064.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1054
+    data_id:
+    - instrument: HSC
+      detector: 13
+      visit: 34714
+    path: 01291/HSC-R/output/SRC-0034714-013.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1048
+    data_id:
+    - instrument: HSC
+      detector: 18
+      visit: 34714
+    path: 01291/HSC-R/output/SRC-0034714-018.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1050
+    data_id:
+    - instrument: HSC
+      detector: 19
+      visit: 34714
+    path: 01291/HSC-R/output/SRC-0034714-019.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1065
+    data_id:
+    - instrument: HSC
+      detector: 23
+      visit: 35892
+    path: 01296/HSC-I/output/SRC-0035892-023.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1064
+    data_id:
+    - instrument: HSC
+      detector: 31
+      visit: 35892
+    path: 01296/HSC-I/output/SRC-0035892-031.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1063
+    data_id:
+    - instrument: HSC
+      detector: 39
+      visit: 35892
+    path: 01296/HSC-I/output/SRC-0035892-039.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1071
+    data_id:
+    - instrument: HSC
+      detector: 51
+      visit: 36140
+    path: 01297/HSC-I/output/SRC-0036140-051.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1067
+    data_id:
+    - instrument: HSC
+      detector: 59
+      visit: 36140
+    path: 01297/HSC-I/output/SRC-0036140-059.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1070
+    data_id:
+    - instrument: HSC
+      detector: 67
+      visit: 36140
+    path: 01297/HSC-I/output/SRC-0036140-067.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1075
+    data_id:
+    - instrument: HSC
+      detector: 8
+      visit: 36192
+    path: 01297/HSC-I/output/SRC-0036192-008.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1077
+    data_id:
+    - instrument: HSC
+      detector: 14
+      visit: 36192
+    path: 01297/HSC-I/output/SRC-0036192-014.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1073
+    data_id:
+    - instrument: HSC
+      detector: 20
+      visit: 36192
+    path: 01297/HSC-I/output/SRC-0036192-020.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1074
+    data_id:
+    - instrument: HSC
+      detector: 87
+      visit: 36236
+    path: 01297/HSC-I/output/SRC-0036236-087.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1068
+    data_id:
+    - instrument: HSC
+      detector: 93
+      visit: 36236
+    path: 01297/HSC-I/output/SRC-0036236-093.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1069
+    data_id:
+    - instrument: HSC
+      detector: 98
+      visit: 36236
+    path: 01297/HSC-I/output/SRC-0036236-098.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1076
+    data_id:
+    - instrument: HSC
+      detector: 2
+      visit: 36260
+    path: 01297/HSC-I/output/SRC-0036260-002.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1072
+    data_id:
+    - instrument: HSC
+      detector: 7
+      visit: 36260
+    path: 01297/HSC-I/output/SRC-0036260-007.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1066
+    data_id:
+    - instrument: HSC
+      detector: 13
+      visit: 36260
+    path: 01297/HSC-I/output/SRC-0036260-013.fits.gz
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+- type: dataset_type
+  name: src_schema
+  dimensions: []
+  storage_class: SourceCatalog
+  is_calibration: false
+- type: dataset
+  dataset_type: src_schema
+  run: HSC/testdata
+  records:
+  - dataset_id:
+    - 1094
+    data_id:
+    - {}
+    path: schema/src.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+- type: dataset_type
+  name: transmission_atmosphere
+  dimensions:
+  - instrument
+  storage_class: TransmissionCurve
+  is_calibration: true
+- type: dataset
+  dataset_type: transmission_atmosphere
+  run: HSC/calib/unbounded
+  records:
+  - dataset_id:
+    - 1006
+    data_id:
+    - instrument: HSC
+    path: HSC/calib/unbounded/transmission_atmosphere/transmission_atmosphere_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+- type: dataset_type
+  name: transmission_filter
+  dimensions:
+  - band
+  - instrument
+  - physical_filter
+  storage_class: TransmissionCurve
+  is_calibration: true
+- type: dataset
+  dataset_type: transmission_filter
+  run: HSC/calib/unbounded
+  records:
+  - dataset_id:
+    - 1001
+    data_id:
+    - instrument: HSC
+      physical_filter: IB0945
+    path: HSC/calib/unbounded/transmission_filter/I945/IB0945/transmission_filter_I945_IB0945_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 996
+    data_id:
+    - instrument: HSC
+      physical_filter: NB1010
+    path: HSC/calib/unbounded/transmission_filter/N1010/NB1010/transmission_filter_N1010_NB1010_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 993
+    data_id:
+    - instrument: HSC
+      physical_filter: NB0387
+    path: HSC/calib/unbounded/transmission_filter/N387/NB0387/transmission_filter_N387_NB0387_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1005
+    data_id:
+    - instrument: HSC
+      physical_filter: NB0400
+    path: HSC/calib/unbounded/transmission_filter/N400/NB0400/transmission_filter_N400_NB0400_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1004
+    data_id:
+    - instrument: HSC
+      physical_filter: NB0468
+    path: HSC/calib/unbounded/transmission_filter/N468/NB0468/transmission_filter_N468_NB0468_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 998
+    data_id:
+    - instrument: HSC
+      physical_filter: NB0515
+    path: HSC/calib/unbounded/transmission_filter/N515/NB0515/transmission_filter_N515_NB0515_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1000
+    data_id:
+    - instrument: HSC
+      physical_filter: NB0527
+    path: HSC/calib/unbounded/transmission_filter/N527/NB0527/transmission_filter_N527_NB0527_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1002
+    data_id:
+    - instrument: HSC
+      physical_filter: NB0656
+    path: HSC/calib/unbounded/transmission_filter/N656/NB0656/transmission_filter_N656_NB0656_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 997
+    data_id:
+    - instrument: HSC
+      physical_filter: NB0718
+    path: HSC/calib/unbounded/transmission_filter/N718/NB0718/transmission_filter_N718_NB0718_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 994
+    data_id:
+    - instrument: HSC
+      physical_filter: NB0816
+    path: HSC/calib/unbounded/transmission_filter/N816/NB0816/transmission_filter_N816_NB0816_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 995
+    data_id:
+    - instrument: HSC
+      physical_filter: NB0921
+    path: HSC/calib/unbounded/transmission_filter/N921/NB0921/transmission_filter_N921_NB0921_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 999
+    data_id:
+    - instrument: HSC
+      physical_filter: NB0926
+    path: HSC/calib/unbounded/transmission_filter/N926/NB0926/transmission_filter_N926_NB0926_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1003
+    data_id:
+    - instrument: HSC
+      physical_filter: NB0973
+    path: HSC/calib/unbounded/transmission_filter/N973/NB0973/transmission_filter_N973_NB0973_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 986
+    data_id:
+    - instrument: HSC
+      physical_filter: HSC-G
+    path: HSC/calib/unbounded/transmission_filter/g/HSC-G/transmission_filter_g_HSC-G_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 989
+    data_id:
+    - instrument: HSC
+      physical_filter: HSC-I
+    path: HSC/calib/unbounded/transmission_filter/i/HSC-I/transmission_filter_i_HSC-I_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 990
+    data_id:
+    - instrument: HSC
+      physical_filter: HSC-I2
+    path: HSC/calib/unbounded/transmission_filter/i/HSC-I2/transmission_filter_i_HSC-I2_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 987
+    data_id:
+    - instrument: HSC
+      physical_filter: HSC-R
+    path: HSC/calib/unbounded/transmission_filter/r/HSC-R/transmission_filter_r_HSC-R_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 988
+    data_id:
+    - instrument: HSC
+      physical_filter: HSC-R2
+    path: HSC/calib/unbounded/transmission_filter/r/HSC-R2/transmission_filter_r_HSC-R2_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 992
+    data_id:
+    - instrument: HSC
+      physical_filter: HSC-Y
+    path: HSC/calib/unbounded/transmission_filter/y/HSC-Y/transmission_filter_y_HSC-Y_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 991
+    data_id:
+    - instrument: HSC
+      physical_filter: HSC-Z
+    path: HSC/calib/unbounded/transmission_filter/z/HSC-Z/transmission_filter_z_HSC-Z_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+- type: dataset_type
+  name: transmission_optics
+  dimensions:
+  - instrument
+  storage_class: TransmissionCurve
+  is_calibration: true
+- type: dataset
+  dataset_type: transmission_optics
+  run: HSC/calib/unbounded
+  records:
+  - dataset_id:
+    - 873
+    data_id:
+    - instrument: HSC
+    path: HSC/calib/unbounded/transmission_optics/transmission_optics_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+- type: dataset_type
+  name: transmission_sensor
+  dimensions:
+  - instrument
+  - detector
+  storage_class: TransmissionCurve
+  is_calibration: true
+- type: dataset
+  dataset_type: transmission_sensor
+  run: HSC/calib/unbounded
+  records:
+  - dataset_id:
+    - 874
+    data_id:
+    - instrument: HSC
+      detector: 0
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_0_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 974
+    data_id:
+    - instrument: HSC
+      detector: 100
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_100_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 975
+    data_id:
+    - instrument: HSC
+      detector: 101
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_101_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 976
+    data_id:
+    - instrument: HSC
+      detector: 102
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_102_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 977
+    data_id:
+    - instrument: HSC
+      detector: 103
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_103_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 978
+    data_id:
+    - instrument: HSC
+      detector: 104
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_104_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 979
+    data_id:
+    - instrument: HSC
+      detector: 105
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_105_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 980
+    data_id:
+    - instrument: HSC
+      detector: 106
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_106_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 981
+    data_id:
+    - instrument: HSC
+      detector: 107
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_107_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 982
+    data_id:
+    - instrument: HSC
+      detector: 108
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_108_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 983
+    data_id:
+    - instrument: HSC
+      detector: 109
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_109_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 884
+    data_id:
+    - instrument: HSC
+      detector: 10
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_10_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 984
+    data_id:
+    - instrument: HSC
+      detector: 110
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_110_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 985
+    data_id:
+    - instrument: HSC
+      detector: 111
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_111_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 885
+    data_id:
+    - instrument: HSC
+      detector: 11
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_11_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 886
+    data_id:
+    - instrument: HSC
+      detector: 12
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_12_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 887
+    data_id:
+    - instrument: HSC
+      detector: 13
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_13_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 888
+    data_id:
+    - instrument: HSC
+      detector: 14
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_14_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 889
+    data_id:
+    - instrument: HSC
+      detector: 15
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_15_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 890
+    data_id:
+    - instrument: HSC
+      detector: 16
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_16_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 891
+    data_id:
+    - instrument: HSC
+      detector: 17
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_17_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 892
+    data_id:
+    - instrument: HSC
+      detector: 18
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_18_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 893
+    data_id:
+    - instrument: HSC
+      detector: 19
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_19_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 875
+    data_id:
+    - instrument: HSC
+      detector: 1
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_1_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 894
+    data_id:
+    - instrument: HSC
+      detector: 20
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_20_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 895
+    data_id:
+    - instrument: HSC
+      detector: 21
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_21_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 896
+    data_id:
+    - instrument: HSC
+      detector: 22
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_22_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 897
+    data_id:
+    - instrument: HSC
+      detector: 23
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_23_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 898
+    data_id:
+    - instrument: HSC
+      detector: 24
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_24_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 899
+    data_id:
+    - instrument: HSC
+      detector: 25
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_25_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 900
+    data_id:
+    - instrument: HSC
+      detector: 26
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_26_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 901
+    data_id:
+    - instrument: HSC
+      detector: 27
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_27_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 902
+    data_id:
+    - instrument: HSC
+      detector: 28
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_28_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 903
+    data_id:
+    - instrument: HSC
+      detector: 29
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_29_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 876
+    data_id:
+    - instrument: HSC
+      detector: 2
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_2_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 904
+    data_id:
+    - instrument: HSC
+      detector: 30
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_30_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 905
+    data_id:
+    - instrument: HSC
+      detector: 31
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_31_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 906
+    data_id:
+    - instrument: HSC
+      detector: 32
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_32_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 907
+    data_id:
+    - instrument: HSC
+      detector: 33
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_33_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 908
+    data_id:
+    - instrument: HSC
+      detector: 34
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_34_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 909
+    data_id:
+    - instrument: HSC
+      detector: 35
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_35_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 910
+    data_id:
+    - instrument: HSC
+      detector: 36
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_36_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 911
+    data_id:
+    - instrument: HSC
+      detector: 37
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_37_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 912
+    data_id:
+    - instrument: HSC
+      detector: 38
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_38_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 913
+    data_id:
+    - instrument: HSC
+      detector: 39
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_39_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 877
+    data_id:
+    - instrument: HSC
+      detector: 3
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_3_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 914
+    data_id:
+    - instrument: HSC
+      detector: 40
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_40_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 915
+    data_id:
+    - instrument: HSC
+      detector: 41
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_41_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 916
+    data_id:
+    - instrument: HSC
+      detector: 42
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_42_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 917
+    data_id:
+    - instrument: HSC
+      detector: 43
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_43_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 918
+    data_id:
+    - instrument: HSC
+      detector: 44
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_44_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 919
+    data_id:
+    - instrument: HSC
+      detector: 45
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_45_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 920
+    data_id:
+    - instrument: HSC
+      detector: 46
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_46_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 921
+    data_id:
+    - instrument: HSC
+      detector: 47
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_47_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 922
+    data_id:
+    - instrument: HSC
+      detector: 48
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_48_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 923
+    data_id:
+    - instrument: HSC
+      detector: 49
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_49_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 878
+    data_id:
+    - instrument: HSC
+      detector: 4
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_4_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 924
+    data_id:
+    - instrument: HSC
+      detector: 50
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_50_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 925
+    data_id:
+    - instrument: HSC
+      detector: 51
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_51_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 926
+    data_id:
+    - instrument: HSC
+      detector: 52
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_52_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 927
+    data_id:
+    - instrument: HSC
+      detector: 53
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_53_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 928
+    data_id:
+    - instrument: HSC
+      detector: 54
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_54_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 929
+    data_id:
+    - instrument: HSC
+      detector: 55
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_55_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 930
+    data_id:
+    - instrument: HSC
+      detector: 56
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_56_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 931
+    data_id:
+    - instrument: HSC
+      detector: 57
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_57_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 932
+    data_id:
+    - instrument: HSC
+      detector: 58
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_58_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 933
+    data_id:
+    - instrument: HSC
+      detector: 59
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_59_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 879
+    data_id:
+    - instrument: HSC
+      detector: 5
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_5_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 934
+    data_id:
+    - instrument: HSC
+      detector: 60
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_60_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 935
+    data_id:
+    - instrument: HSC
+      detector: 61
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_61_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 936
+    data_id:
+    - instrument: HSC
+      detector: 62
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_62_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 937
+    data_id:
+    - instrument: HSC
+      detector: 63
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_63_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 938
+    data_id:
+    - instrument: HSC
+      detector: 64
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_64_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 939
+    data_id:
+    - instrument: HSC
+      detector: 65
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_65_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 940
+    data_id:
+    - instrument: HSC
+      detector: 66
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_66_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 941
+    data_id:
+    - instrument: HSC
+      detector: 67
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_67_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 942
+    data_id:
+    - instrument: HSC
+      detector: 68
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_68_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 943
+    data_id:
+    - instrument: HSC
+      detector: 69
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_69_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 880
+    data_id:
+    - instrument: HSC
+      detector: 6
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_6_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 944
+    data_id:
+    - instrument: HSC
+      detector: 70
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_70_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 945
+    data_id:
+    - instrument: HSC
+      detector: 71
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_71_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 946
+    data_id:
+    - instrument: HSC
+      detector: 72
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_72_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 947
+    data_id:
+    - instrument: HSC
+      detector: 73
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_73_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 948
+    data_id:
+    - instrument: HSC
+      detector: 74
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_74_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 949
+    data_id:
+    - instrument: HSC
+      detector: 75
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_75_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 950
+    data_id:
+    - instrument: HSC
+      detector: 76
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_76_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 951
+    data_id:
+    - instrument: HSC
+      detector: 77
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_77_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 952
+    data_id:
+    - instrument: HSC
+      detector: 78
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_78_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 953
+    data_id:
+    - instrument: HSC
+      detector: 79
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_79_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 881
+    data_id:
+    - instrument: HSC
+      detector: 7
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_7_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 954
+    data_id:
+    - instrument: HSC
+      detector: 80
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_80_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 955
+    data_id:
+    - instrument: HSC
+      detector: 81
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_81_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 956
+    data_id:
+    - instrument: HSC
+      detector: 82
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_82_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 957
+    data_id:
+    - instrument: HSC
+      detector: 83
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_83_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 958
+    data_id:
+    - instrument: HSC
+      detector: 84
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_84_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 959
+    data_id:
+    - instrument: HSC
+      detector: 85
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_85_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 960
+    data_id:
+    - instrument: HSC
+      detector: 86
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_86_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 961
+    data_id:
+    - instrument: HSC
+      detector: 87
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_87_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 962
+    data_id:
+    - instrument: HSC
+      detector: 88
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_88_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 963
+    data_id:
+    - instrument: HSC
+      detector: 89
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_89_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 882
+    data_id:
+    - instrument: HSC
+      detector: 8
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_8_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 964
+    data_id:
+    - instrument: HSC
+      detector: 90
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_90_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 965
+    data_id:
+    - instrument: HSC
+      detector: 91
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_91_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 966
+    data_id:
+    - instrument: HSC
+      detector: 92
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_92_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 967
+    data_id:
+    - instrument: HSC
+      detector: 93
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_93_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 968
+    data_id:
+    - instrument: HSC
+      detector: 94
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_94_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 969
+    data_id:
+    - instrument: HSC
+      detector: 95
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_95_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 970
+    data_id:
+    - instrument: HSC
+      detector: 96
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_96_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 971
+    data_id:
+    - instrument: HSC
+      detector: 97
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_97_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 972
+    data_id:
+    - instrument: HSC
+      detector: 98
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_98_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 973
+    data_id:
+    - instrument: HSC
+      detector: 99
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_99_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 883
+    data_id:
+    - instrument: HSC
+      detector: 9
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_9_HSC_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+- type: associations
+  collection: HSC/calib
+  collection_type: CALIBRATION
+  validity_ranges:
+  - begin: null
+    end: null
+    dataset_ids:
+    - 31
+    - 1006
+    - 986
+    - 989
+    - 990
+    - 987
+    - 988
+    - 992
+    - 991
+    - 1001
+    - 993
+    - 1005
+    - 1004
+    - 998
+    - 1000
+    - 1002
+    - 997
+    - 994
+    - 995
+    - 999
+    - 1003
+    - 996
+    - 873
+    - 874
+    - 875
+    - 876
+    - 877
+    - 878
+    - 879
+    - 880
+    - 881
+    - 882
+    - 883
+    - 884
+    - 885
+    - 886
+    - 887
+    - 888
+    - 889
+    - 890
+    - 891
+    - 892
+    - 893
+    - 894
+    - 895
+    - 896
+    - 897
+    - 898
+    - 899
+    - 900
+    - 901
+    - 902
+    - 903
+    - 904
+    - 905
+    - 906
+    - 907
+    - 908
+    - 909
+    - 910
+    - 911
+    - 912
+    - 913
+    - 914
+    - 915
+    - 916
+    - 917
+    - 918
+    - 919
+    - 920
+    - 921
+    - 922
+    - 923
+    - 924
+    - 925
+    - 926
+    - 927
+    - 928
+    - 929
+    - 930
+    - 931
+    - 932
+    - 933
+    - 934
+    - 935
+    - 936
+    - 937
+    - 938
+    - 939
+    - 940
+    - 941
+    - 942
+    - 943
+    - 944
+    - 945
+    - 946
+    - 947
+    - 948
+    - 949
+    - 950
+    - 951
+    - 952
+    - 953
+    - 954
+    - 955
+    - 956
+    - 957
+    - 958
+    - 959
+    - 960
+    - 961
+    - 962
+    - 963
+    - 964
+    - 965
+    - 966
+    - 967
+    - 968
+    - 969
+    - 970
+    - 971
+    - 972
+    - 973
+    - 974
+    - 975
+    - 976
+    - 977
+    - 978
+    - 979
+    - 980
+    - 981
+    - 982
+    - 983
+    - 984
+    - 985
