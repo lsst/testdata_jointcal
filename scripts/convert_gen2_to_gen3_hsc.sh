@@ -33,5 +33,5 @@ butler convert hsc --gen2root ./hsc -C scripts/config/convertRepoHsc.py
 rm -r hsc/HSC/calib/unbounded/bfKernel
 rm -r hsc/HSC/calib/curated/*T*/defects
 
-# Delete 99% of the skymap which is unused (and takes up almost 900 Mb)
-sqlite3 hsc/gen3.sqlite3 "delete from patch_htm7_overlap where tract != 9697;" "delete from patch where tract != 9697;" "delete from tract_htm7_overlap where tract != 9697;" "vacuum;" ".exit"
+# Delete 99% of the skymap which is unused (and takes up almost 1 Gb)
+sqlite3 hsc/gen3.sqlite3 "delete from patch_skypix_overlap where tract != 9697;" "delete from patch where tract != 9697;" "delete from tract_skypix_overlap where tract != 9697;" "vacuum;" ".exit"
