@@ -20,7 +20,7 @@ with butler.export(filename="hsc/exports.yaml") as export:
                                                       datasetType=...))
 
     # Calibrations
-    for datasetTypeName in ('camera', 'transmission_optics',
+    for datasetTypeName in ('camera', 'transmission_optics', 'transmission_sensor',
                             'transmission_filter', 'transmission_atmosphere'):
         export.saveDatasets(butler.registry.queryDatasets(datasetTypeName, collections=...))
 
