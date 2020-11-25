@@ -1,5 +1,4 @@
-jointcal test data
-==================
+# jointcal test data
 
 This repository contains data to test the performance of the [jointcal](http://github.com/lsst/jointcal) product. Test data for jointcal needs to have multiple visits of the same field, processed with the LSST DM stack to get VisitInfo metadata and source catalogs.
 See the note in the dependency file `ups/testdata_jointcal.table` regarding the obs package dependencies of this product: this package has no explicit dependencies, but does require the appropriate obs packages to be `setup` in order to use the contained butler repositories.
@@ -12,8 +11,7 @@ The `cfht`, `decam`, and `hsc` directories each contain a `ref_cats/` directory 
 The sdss refcats were copied from their respective `validation_data_*/` repositories' `ref_cats/` directory.
 The Gaia and PS1 refcats were extracted from the respective refcats on lsst-dev using the `scripts/extract-refcat-shards.py` script.
 
-cfht
-----
+## cfht
 
 Source catalogs, metadata, and zeroed+compressed images derived from [validation_data_cfht](https://github.com/lsst/validation_data_cfht), processed with the w_2020_20 weekly.
 
@@ -35,8 +33,7 @@ config.skyMap.patchInnerDimensions=[4000, 4000]
 config.skyMap.pixelScale=0.185
 ```
 
-decam
------
+## decam
 
 Source catalogs, metadata, and zeroed+compressed images derived from [validation_data_decam](https://github.com/lsst/validation_data_decam), processed with the w_2020_20 weekly.
 
@@ -62,8 +59,7 @@ config.skyMap.patchInnerDimensions=[4000, 4000]
 config.skyMap.pixelScale=0.263
 ```
 
-hsc
----
+## hsc
 
 Source catalogs, metadata, and zeroed+compressed images taken from the `w_2020_14`processing run of the HSC RC dataset, available at `lsst-dev:/datasets/hsc/repo/rerun/RC/w_2020_14/DM-24359-sfm`.
 The included `scripts/compress_jointcal_hsc_test_data.py` file copies the necessary data from the butler repo, removes pixel-level data from the calexps and compresses the source catalogs, and extracts the relevant portions of the sqlite3 registry.
@@ -71,8 +67,7 @@ The src catalogs have been converted to sourceTable_visit parquet tables for qui
 The raw image files, which are necessary for gen3 conversion, are copied into the repo by `scripts/compress_jointcal_hsc_raw_test_data.py` which copies in the necessary data, and removes pixel-level data from the raws.
 The hsc gen2 repo can be converted to a gen3 repo with the `scripts/convert_gen2_to_gen3_hsc.sh` script, which does the conversion and slims down the associated sky map.  The gen3 repo can be exported to `hsc/exports.yaml` with `scripts/export_gen3_hsc.py`.  The output gen3 files will not be committed to the repo until the gen3 API is determined to be stable enough.
 
-Git LFS
--------
+## Git LFS
 
 To clone and use this repository, you'll need Git Large File Storage (LFS).
 
