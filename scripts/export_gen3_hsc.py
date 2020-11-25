@@ -1,9 +1,10 @@
 #!/usr/bin/env python
+# Create a gen3 exports.yaml file from an existing gen3 hsc repo.
+# Requires that `convert_gen2_to_gen3_hsc.sh` has already been run.
 
 import lsst.daf.butler as dafButler
 from lsst.daf.butler import CollectionType
 from lsst.obs.subaru import HyperSuprimeCam
-import re
 
 butler = dafButler.Butler('hsc/butler.yaml')
 
@@ -39,6 +40,6 @@ with butler.export(filename="hsc/exports.yaml") as export:
     export.saveDataIds(
         butler.registry.queryDataIds(
             ["patch"],
-            where="tract=9697"
+            where="tract=9697 AND skymap='hsc_rings_v1'"
         ).expanded()
     )
