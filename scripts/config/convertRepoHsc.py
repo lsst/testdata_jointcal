@@ -3,6 +3,9 @@ from lsst.obs.subaru import HyperSuprimeCam
 testCollection = HyperSuprimeCam.makeCollectionName('testdata')
 extraCollection = HyperSuprimeCam.makeCollectionName('extra')
 
+config.refCats.append("gaia_dr2_20200414")
+config.runs["gaia_dr2_20200414"] = "refcats"
+
 config.runs["calexp"] = testCollection
 config.runs["src"] = testCollection
 config.runs["sourceTable_visit"] = testCollection

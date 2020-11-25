@@ -30,6 +30,8 @@ with butler.export(filename="hsc/exports.yaml") as export:
     # Reference catalog
     export.saveDatasets(butler.registry.queryDatasets(collections='refcats',
                                                       datasetType='ps1_pv3_3pi_20170110'))
+    export.saveDatasets(butler.registry.queryDatasets(collections='refcats',
+                                                      datasetType='gaia_dr2_20200414'))
 
     # The skymap data
     export.saveDatasets(butler.registry.queryDatasets(collections='skymaps',
