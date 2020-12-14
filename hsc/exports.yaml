@@ -1,5 +1,5 @@
 description: Butler Data Repository Export
-version: 1.0.0
+version: 1.0.1
 data:
 - type: dimension
   element: instrument
@@ -1100,7 +1100,7 @@ data:
     cell_x: 8
     cell_y: 1
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7029d077b84a71ed3f4fb682051512d9bf1020b71d358c583f9ca163aef67bed3f1d64c0ddb7dfd8bf8833e6e37a8c583f2f471711e17bed3f662773eba7dfd8bffd9d04498a25743f2a1e51033571ed3fe3a419810512d9bfbaafeb045125743f
+      encoded: 7029d077b84a71ed3f4fb682051512d9bf1020b71d358c583f9ca163aef67bed3f1d64c0ddb7dfd8bf8833e6e37a8c583f2f471711e17bed3f662773eba7dfd8bffb9d04498a25743f2a1e51033571ed3fe3a419810512d9bfbaafeb045125743f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 18
@@ -1317,7 +1317,7 @@ data:
     cell_x: 3
     cell_y: 5
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 706a2cfbb583a3ed3febe229c14c1cd8bff362bdef7ac18d3fcbbc593f07aeed3f45bc92fa58e8d7bfd1fec93465c18d3ff582a45b9baded3fc06f031301e8d7bf21580dc54f61923f9f6995d917a3ed3fe68c5ab3f41bd8bf17813e315d61923f
+      encoded: 706b2cfbb583a3ed3febe229c14c1cd8bff362bdef7ac18d3fcbbc593f07aeed3f45bc92fa58e8d7bfd1fec93465c18d3ff582a45b9baded3fc06f031301e8d7bf21580dc54f61923f9f6995d917a3ed3fe68c5ab3f41bd8bf17813e315d61923f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 49
@@ -1492,7 +1492,7 @@ data:
     cell_x: 1
     cell_y: 8
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7000ee65ff05b6ed3fb28bcc691db8d7bf8a1c829212e2983f145f7ec75dc0ed3fb6e574d50884d7bfefb37c10dce1983f0332b412b5bfed3f1952f13d8183d7bfb32d64b9c24c9c3f9c2ed7655db5ed3fe63b843c95b7d7bf74529fb6004d9c3f
+      encoded: 7000ee65ff05b6ed3fb28bcc691db8d7bf8b1c829212e2983f145f7ec75dc0ed3fb6e574d50884d7bfefb37c10dce1983f0332b412b5bfed3f1952f13d8183d7bfb32d64b9c24c9c3f9c2ed7655db5ed3fe63b843c95b7d7bf74529fb6004d9c3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 74
@@ -1897,7 +1897,7 @@ data:
   run: HSC/testdata
   records:
   - dataset_id:
-    - 1022
+    - 1030
     data_id:
     - instrument: HSC
       detector: 51
@@ -1905,7 +1905,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034648-051.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1031
+    - 1028
     data_id:
     - instrument: HSC
       detector: 59
@@ -1913,7 +1913,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034648-059.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1026
+    - 1038
     data_id:
     - instrument: HSC
       detector: 67
@@ -1921,7 +1921,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034648-067.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1028
+    - 1040
     data_id:
     - instrument: HSC
       detector: 92
@@ -1929,7 +1929,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034670-092.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1027
+    - 1039
     data_id:
     - instrument: HSC
       detector: 93
@@ -1937,7 +1937,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034670-093.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1030
+    - 1029
     data_id:
     - instrument: HSC
       detector: 97
@@ -1945,7 +1945,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034670-097.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1029
+    - 1042
     data_id:
     - instrument: HSC
       detector: 15
@@ -1953,7 +1953,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034674-015.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1024
+    - 1032
     data_id:
     - instrument: HSC
       detector: 21
@@ -1961,7 +1961,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034674-021.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1021
+    - 1031
     data_id:
     - instrument: HSC
       detector: 28
@@ -1969,7 +1969,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034674-028.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1025
+    - 1036
     data_id:
     - instrument: HSC
       detector: 48
@@ -1977,7 +1977,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034690-048.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1023
+    - 1035
     data_id:
     - instrument: HSC
       detector: 56
@@ -1985,7 +1985,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034690-056.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1018
+    - 1033
     data_id:
     - instrument: HSC
       detector: 64
@@ -1993,7 +1993,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034690-064.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1020
+    - 1041
     data_id:
     - instrument: HSC
       detector: 13
@@ -2001,7 +2001,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034714-013.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1019
+    - 1037
     data_id:
     - instrument: HSC
       detector: 18
@@ -2009,7 +2009,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034714-018.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1032
+    - 1034
     data_id:
     - instrument: HSC
       detector: 19
@@ -2017,7 +2017,7 @@ data:
     path: 01291/HSC-R/corr/CORR-0034714-019.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1033
+    - 1056
     data_id:
     - instrument: HSC
       detector: 23
@@ -2025,7 +2025,7 @@ data:
     path: 01296/HSC-I/corr/CORR-0035892-023.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1034
+    - 1057
     data_id:
     - instrument: HSC
       detector: 31
@@ -2033,7 +2033,7 @@ data:
     path: 01296/HSC-I/corr/CORR-0035892-031.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1035
+    - 1055
     data_id:
     - instrument: HSC
       detector: 39
@@ -2041,7 +2041,7 @@ data:
     path: 01296/HSC-I/corr/CORR-0035892-039.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1047
+    - 1049
     data_id:
     - instrument: HSC
       detector: 51
@@ -2049,7 +2049,7 @@ data:
     path: 01297/HSC-I/corr/CORR-0036140-051.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1042
+    - 1051
     data_id:
     - instrument: HSC
       detector: 59
@@ -2057,7 +2057,7 @@ data:
     path: 01297/HSC-I/corr/CORR-0036140-059.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1038
+    - 1047
     data_id:
     - instrument: HSC
       detector: 67
@@ -2065,7 +2065,7 @@ data:
     path: 01297/HSC-I/corr/CORR-0036140-067.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1039
+    - 1045
     data_id:
     - instrument: HSC
       detector: 8
@@ -2073,7 +2073,7 @@ data:
     path: 01297/HSC-I/corr/CORR-0036192-008.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1036
+    - 1053
     data_id:
     - instrument: HSC
       detector: 14
@@ -2081,7 +2081,7 @@ data:
     path: 01297/HSC-I/corr/CORR-0036192-014.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1040
+    - 1044
     data_id:
     - instrument: HSC
       detector: 20
@@ -2089,7 +2089,7 @@ data:
     path: 01297/HSC-I/corr/CORR-0036192-020.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1037
+    - 1052
     data_id:
     - instrument: HSC
       detector: 87
@@ -2097,7 +2097,7 @@ data:
     path: 01297/HSC-I/corr/CORR-0036236-087.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1041
+    - 1043
     data_id:
     - instrument: HSC
       detector: 93
@@ -2105,7 +2105,7 @@ data:
     path: 01297/HSC-I/corr/CORR-0036236-093.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1046
+    - 1050
     data_id:
     - instrument: HSC
       detector: 98
@@ -2113,7 +2113,7 @@ data:
     path: 01297/HSC-I/corr/CORR-0036236-098.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1044
+    - 1054
     data_id:
     - instrument: HSC
       detector: 2
@@ -2121,7 +2121,7 @@ data:
     path: 01297/HSC-I/corr/CORR-0036260-002.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1043
+    - 1048
     data_id:
     - instrument: HSC
       detector: 7
@@ -2129,7 +2129,7 @@ data:
     path: 01297/HSC-I/corr/CORR-0036260-007.fits
     formatter: lsst.obs.base.formatters.fitsExposure.FitsExposureFormatter
   - dataset_id:
-    - 1045
+    - 1046
     data_id:
     - instrument: HSC
       detector: 13
@@ -2163,11 +2163,81 @@ data:
   run: skymaps
   records:
   - dataset_id:
-    - 1017
+    - 1027
     data_id:
     - skymap: hsc_rings_v1
     path: deepCoadd/skyMap.pickle
     formatter: lsst.daf.butler.formatters.pickle.PickleFormatter
+- type: dataset_type
+  name: gaia_dr2_20200414
+  dimensions:
+  - htm7
+  storage_class: SimpleCatalog
+  is_calibration: false
+- type: dataset
+  dataset_type: gaia_dr2_20200414
+  run: refcats
+  records:
+  - dataset_id:
+    - 1008
+    data_id:
+    - htm7: 197120
+    path: ref_cats/gaia_dr2_20200414/197120.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1015
+    data_id:
+    - htm7: 197122
+    path: ref_cats/gaia_dr2_20200414/197122.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1016
+    data_id:
+    - htm7: 197123
+    path: ref_cats/gaia_dr2_20200414/197123.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1013
+    data_id:
+    - htm7: 198912
+    path: ref_cats/gaia_dr2_20200414/198912.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1010
+    data_id:
+    - htm7: 198913
+    path: ref_cats/gaia_dr2_20200414/198913.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1009
+    data_id:
+    - htm7: 198915
+    path: ref_cats/gaia_dr2_20200414/198915.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1014
+    data_id:
+    - htm7: 199936
+    path: ref_cats/gaia_dr2_20200414/199936.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1007
+    data_id:
+    - htm7: 199937
+    path: ref_cats/gaia_dr2_20200414/199937.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1012
+    data_id:
+    - htm7: 199938
+    path: ref_cats/gaia_dr2_20200414/199938.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1011
+    data_id:
+    - htm7: 199939
+    path: ref_cats/gaia_dr2_20200414/199939.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
 - type: dataset_type
   name: icSrc_schema
   dimensions: []
@@ -2178,7 +2248,7 @@ data:
   run: HSC/testdata
   records:
   - dataset_id:
-    - 1093
+    - 1099
     data_id:
     - {}
     path: schema/icSrc.fits
@@ -2194,61 +2264,61 @@ data:
   run: refcats
   records:
   - dataset_id:
-    - 1015
+    - 1018
     data_id:
     - htm7: 197120
     path: ref_cats/ps1_pv3_3pi_20170110/197120.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1014
+    - 1025
     data_id:
     - htm7: 197122
     path: ref_cats/ps1_pv3_3pi_20170110/197122.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1013
+    - 1026
     data_id:
     - htm7: 197123
     path: ref_cats/ps1_pv3_3pi_20170110/197123.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1016
+    - 1023
     data_id:
     - htm7: 198912
     path: ref_cats/ps1_pv3_3pi_20170110/198912.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1010
+    - 1020
     data_id:
     - htm7: 198913
     path: ref_cats/ps1_pv3_3pi_20170110/198913.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1008
+    - 1019
     data_id:
     - htm7: 198915
     path: ref_cats/ps1_pv3_3pi_20170110/198915.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1007
+    - 1024
     data_id:
     - htm7: 199936
     path: ref_cats/ps1_pv3_3pi_20170110/199936.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1012
+    - 1017
     data_id:
     - htm7: 199937
     path: ref_cats/ps1_pv3_3pi_20170110/199937.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1011
+    - 1022
     data_id:
     - htm7: 199938
     path: ref_cats/ps1_pv3_3pi_20170110/199938.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1009
+    - 1021
     data_id:
     - htm7: 199939
     path: ref_cats/ps1_pv3_3pi_20170110/199939.fits
@@ -2268,7 +2338,7 @@ data:
   run: HSC/raw/all
   records:
   - dataset_id:
-    - 16
+    - 24
     data_id:
     - instrument: HSC
       detector: 51
@@ -2276,7 +2346,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034648-051.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 18
+    - 23
     data_id:
     - instrument: HSC
       detector: 59
@@ -2284,7 +2354,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034648-059.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 17
+    - 22
     data_id:
     - instrument: HSC
       detector: 67
@@ -2292,7 +2362,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034648-067.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 20
+    - 28
     data_id:
     - instrument: HSC
       detector: 92
@@ -2300,7 +2370,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034670-092.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 21
+    - 29
     data_id:
     - instrument: HSC
       detector: 93
@@ -2308,7 +2378,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034670-093.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 19
+    - 30
     data_id:
     - instrument: HSC
       detector: 97
@@ -2316,7 +2386,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034670-097.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 9
+    - 1
     data_id:
     - instrument: HSC
       detector: 15
@@ -2324,7 +2394,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034674-015.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 7
+    - 2
     data_id:
     - instrument: HSC
       detector: 21
@@ -2332,7 +2402,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034674-021.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 8
+    - 3
     data_id:
     - instrument: HSC
       detector: 28
@@ -2340,7 +2410,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034674-028.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 14
+    - 9
     data_id:
     - instrument: HSC
       detector: 48
@@ -2348,7 +2418,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034690-048.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 13
+    - 7
     data_id:
     - instrument: HSC
       detector: 56
@@ -2356,7 +2426,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034690-056.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 15
+    - 8
     data_id:
     - instrument: HSC
       detector: 64
@@ -2364,7 +2434,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034690-064.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 29
+    - 12
     data_id:
     - instrument: HSC
       detector: 13
@@ -2372,7 +2442,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034714-013.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 28
+    - 10
     data_id:
     - instrument: HSC
       detector: 18
@@ -2380,7 +2450,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034714-018.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 30
+    - 11
     data_id:
     - instrument: HSC
       detector: 19
@@ -2388,7 +2458,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034714-019.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 12
+    - 14
     data_id:
     - instrument: HSC
       detector: 23
@@ -2396,7 +2466,7 @@ data:
     path: SSP_WIDE/2015-07-20/01296/HSC-I/HSC-0035892-023.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 11
+    - 13
     data_id:
     - instrument: HSC
       detector: 31
@@ -2404,7 +2474,7 @@ data:
     path: SSP_WIDE/2015-07-20/01296/HSC-I/HSC-0035892-031.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 10
+    - 15
     data_id:
     - instrument: HSC
       detector: 39
@@ -2412,7 +2482,7 @@ data:
     path: SSP_WIDE/2015-07-20/01296/HSC-I/HSC-0035892-039.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 25
+    - 17
     data_id:
     - instrument: HSC
       detector: 51
@@ -2420,7 +2490,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036140-051.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 26
+    - 18
     data_id:
     - instrument: HSC
       detector: 59
@@ -2428,7 +2498,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036140-059.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 27
+    - 16
     data_id:
     - instrument: HSC
       detector: 67
@@ -2436,7 +2506,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036140-067.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 1
+    - 19
     data_id:
     - instrument: HSC
       detector: 8
@@ -2444,7 +2514,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036192-008.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 2
+    - 20
     data_id:
     - instrument: HSC
       detector: 14
@@ -2452,7 +2522,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036192-014.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 3
+    - 21
     data_id:
     - instrument: HSC
       detector: 20
@@ -2460,7 +2530,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036192-020.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 5
+    - 4
     data_id:
     - instrument: HSC
       detector: 87
@@ -2468,7 +2538,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036236-087.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 6
+    - 5
     data_id:
     - instrument: HSC
       detector: 93
@@ -2476,7 +2546,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036236-093.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 4
+    - 6
     data_id:
     - instrument: HSC
       detector: 98
@@ -2484,7 +2554,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036236-098.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 22
+    - 25
     data_id:
     - instrument: HSC
       detector: 2
@@ -2492,7 +2562,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036260-002.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 23
+    - 27
     data_id:
     - instrument: HSC
       detector: 7
@@ -2500,7 +2570,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036260-007.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 24
+    - 26
     data_id:
     - instrument: HSC
       detector: 13
@@ -2522,70 +2592,70 @@ data:
   run: HSC/testdata
   records:
   - dataset_id:
-    - 1080
+    - 1091
     data_id:
     - instrument: HSC
       visit: 34648
     path: 01291/HSC-R/output/sourceTable-0034648.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1082
+    - 1089
     data_id:
     - instrument: HSC
       visit: 34670
     path: 01291/HSC-R/output/sourceTable-0034670.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1081
+    - 1090
     data_id:
     - instrument: HSC
       visit: 34674
     path: 01291/HSC-R/output/sourceTable-0034674.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1078
+    - 1088
     data_id:
     - instrument: HSC
       visit: 34690
     path: 01291/HSC-R/output/sourceTable-0034690.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1079
+    - 1092
     data_id:
     - instrument: HSC
       visit: 34714
     path: 01291/HSC-R/output/sourceTable-0034714.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1083
+    - 1097
     data_id:
     - instrument: HSC
       visit: 35892
     path: 01296/HSC-I/output/sourceTable-0035892.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1084
+    - 1094
     data_id:
     - instrument: HSC
       visit: 36140
     path: 01297/HSC-I/output/sourceTable-0036140.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1087
+    - 1096
     data_id:
     - instrument: HSC
       visit: 36192
     path: 01297/HSC-I/output/sourceTable-0036192.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1085
+    - 1093
     data_id:
     - instrument: HSC
       visit: 36236
     path: 01297/HSC-I/output/sourceTable-0036236.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1086
+    - 1095
     data_id:
     - instrument: HSC
       visit: 36260
@@ -2607,7 +2677,7 @@ data:
   run: HSC/testdata
   records:
   - dataset_id:
-    - 1062
+    - 1072
     data_id:
     - instrument: HSC
       detector: 51
@@ -2615,7 +2685,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034648-051.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1053
+    - 1058
     data_id:
     - instrument: HSC
       detector: 59
@@ -2623,7 +2693,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034648-059.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1057
+    - 1068
     data_id:
     - instrument: HSC
       detector: 67
@@ -2631,7 +2701,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034648-067.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1058
+    - 1070
     data_id:
     - instrument: HSC
       detector: 92
@@ -2639,7 +2709,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034670-092.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1061
+    - 1065
     data_id:
     - instrument: HSC
       detector: 93
@@ -2647,7 +2717,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034670-093.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1060
+    - 1062
     data_id:
     - instrument: HSC
       detector: 97
@@ -2655,7 +2725,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034670-097.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1059
+    - 1061
     data_id:
     - instrument: HSC
       detector: 15
@@ -2663,7 +2733,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034674-015.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1055
+    - 1064
     data_id:
     - instrument: HSC
       detector: 21
@@ -2671,7 +2741,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034674-021.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1056
+    - 1060
     data_id:
     - instrument: HSC
       detector: 28
@@ -2679,7 +2749,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034674-028.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1052
+    - 1059
     data_id:
     - instrument: HSC
       detector: 48
@@ -2687,7 +2757,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034690-048.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1051
+    - 1066
     data_id:
     - instrument: HSC
       detector: 56
@@ -2695,7 +2765,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034690-056.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1049
+    - 1063
     data_id:
     - instrument: HSC
       detector: 64
@@ -2703,7 +2773,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034690-064.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1054
+    - 1067
     data_id:
     - instrument: HSC
       detector: 13
@@ -2711,7 +2781,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034714-013.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1048
+    - 1071
     data_id:
     - instrument: HSC
       detector: 18
@@ -2719,7 +2789,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034714-018.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1050
+    - 1069
     data_id:
     - instrument: HSC
       detector: 19
@@ -2727,7 +2797,7 @@ data:
     path: 01291/HSC-R/output/SRC-0034714-019.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1065
+    - 1087
     data_id:
     - instrument: HSC
       detector: 23
@@ -2735,7 +2805,7 @@ data:
     path: 01296/HSC-I/output/SRC-0035892-023.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1064
+    - 1086
     data_id:
     - instrument: HSC
       detector: 31
@@ -2743,7 +2813,7 @@ data:
     path: 01296/HSC-I/output/SRC-0035892-031.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1063
+    - 1085
     data_id:
     - instrument: HSC
       detector: 39
@@ -2751,7 +2821,7 @@ data:
     path: 01296/HSC-I/output/SRC-0035892-039.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1071
+    - 1074
     data_id:
     - instrument: HSC
       detector: 51
@@ -2759,7 +2829,7 @@ data:
     path: 01297/HSC-I/output/SRC-0036140-051.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1067
+    - 1077
     data_id:
     - instrument: HSC
       detector: 59
@@ -2767,7 +2837,7 @@ data:
     path: 01297/HSC-I/output/SRC-0036140-059.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1070
+    - 1076
     data_id:
     - instrument: HSC
       detector: 67
@@ -2775,7 +2845,7 @@ data:
     path: 01297/HSC-I/output/SRC-0036140-067.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1075
+    - 1083
     data_id:
     - instrument: HSC
       detector: 8
@@ -2783,7 +2853,7 @@ data:
     path: 01297/HSC-I/output/SRC-0036192-008.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1077
+    - 1073
     data_id:
     - instrument: HSC
       detector: 14
@@ -2791,7 +2861,7 @@ data:
     path: 01297/HSC-I/output/SRC-0036192-014.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1073
+    - 1080
     data_id:
     - instrument: HSC
       detector: 20
@@ -2799,7 +2869,7 @@ data:
     path: 01297/HSC-I/output/SRC-0036192-020.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1074
+    - 1078
     data_id:
     - instrument: HSC
       detector: 87
@@ -2807,7 +2877,7 @@ data:
     path: 01297/HSC-I/output/SRC-0036236-087.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1068
+    - 1082
     data_id:
     - instrument: HSC
       detector: 93
@@ -2815,7 +2885,7 @@ data:
     path: 01297/HSC-I/output/SRC-0036236-093.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1069
+    - 1081
     data_id:
     - instrument: HSC
       detector: 98
@@ -2823,7 +2893,7 @@ data:
     path: 01297/HSC-I/output/SRC-0036236-098.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1076
+    - 1075
     data_id:
     - instrument: HSC
       detector: 2
@@ -2831,7 +2901,7 @@ data:
     path: 01297/HSC-I/output/SRC-0036260-002.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1072
+    - 1079
     data_id:
     - instrument: HSC
       detector: 7
@@ -2839,7 +2909,7 @@ data:
     path: 01297/HSC-I/output/SRC-0036260-007.fits.gz
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1066
+    - 1084
     data_id:
     - instrument: HSC
       detector: 13
@@ -2856,7 +2926,7 @@ data:
   run: HSC/testdata
   records:
   - dataset_id:
-    - 1094
+    - 1098
     data_id:
     - {}
     path: schema/src.fits
@@ -2890,7 +2960,7 @@ data:
   run: HSC/calib/unbounded
   records:
   - dataset_id:
-    - 1001
+    - 1004
     data_id:
     - instrument: HSC
       physical_filter: IB0945
@@ -2911,42 +2981,42 @@ data:
     path: HSC/calib/unbounded/transmission_filter/N387/NB0387/transmission_filter_N387_NB0387_HSC_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1005
+    - 1002
     data_id:
     - instrument: HSC
       physical_filter: NB0400
     path: HSC/calib/unbounded/transmission_filter/N400/NB0400/transmission_filter_N400_NB0400_HSC_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1004
+    - 999
     data_id:
     - instrument: HSC
       physical_filter: NB0468
     path: HSC/calib/unbounded/transmission_filter/N468/NB0468/transmission_filter_N468_NB0468_HSC_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 998
+    - 1005
     data_id:
     - instrument: HSC
       physical_filter: NB0515
     path: HSC/calib/unbounded/transmission_filter/N515/NB0515/transmission_filter_N515_NB0515_HSC_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1000
+    - 1001
     data_id:
     - instrument: HSC
       physical_filter: NB0527
     path: HSC/calib/unbounded/transmission_filter/N527/NB0527/transmission_filter_N527_NB0527_HSC_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1002
+    - 997
     data_id:
     - instrument: HSC
       physical_filter: NB0656
     path: HSC/calib/unbounded/transmission_filter/N656/NB0656/transmission_filter_N656_NB0656_HSC_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 997
+    - 1003
     data_id:
     - instrument: HSC
       physical_filter: NB0718
@@ -2967,14 +3037,14 @@ data:
     path: HSC/calib/unbounded/transmission_filter/N921/NB0921/transmission_filter_N921_NB0921_HSC_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 999
+    - 1000
     data_id:
     - instrument: HSC
       physical_filter: NB0926
     path: HSC/calib/unbounded/transmission_filter/N926/NB0926/transmission_filter_N926_NB0926_HSC_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1003
+    - 998
     data_id:
     - instrument: HSC
       physical_filter: NB0973
@@ -3856,18 +3926,18 @@ data:
     - 988
     - 992
     - 991
-    - 1001
-    - 993
-    - 1005
     - 1004
-    - 998
-    - 1000
+    - 993
     - 1002
+    - 999
+    - 1005
+    - 1001
     - 997
+    - 1003
     - 994
     - 995
-    - 999
-    - 1003
+    - 1000
+    - 998
     - 996
     - 873
     - 874
