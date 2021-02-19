@@ -24,3 +24,7 @@ consolidateSourceTable.py ./hsc --output ./hsc --id visit=34648^34670^34674^3469
 # Finally, clean out SRC and sourceTable per-ccd parquet files that we do not need
 
 rm hsc/0????/HSC-?/output/*-???.parq
+
+
+# Generate consolidated visit summary tables (afw ExposureTable)
+consolidateVisitSummary.py ./hsc --output ./hsc --id visit=34648^34670^34674^34690^34714^35892^36140^36192^36236^36260 --no-versions

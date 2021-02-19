@@ -1,7 +1,5 @@
-"""
-Configuration file for TransformSourceTableTask which converts source
-tables into a DPDD-compatible format.
-"""
+# Configuration file for TransformSourceTableTask which converts source
+# tables into a DPDD-compatible format.
 funcs:
     sourceId: # the index of deepCoadd_obj IS the objectId
         functor: Index

@@ -762,7 +762,7 @@ data:
   - skymap: hsc_rings_v1
     id: 9697
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 705ebb1dab4a71ed3fe21fe3381212d9bfa9d5478c457b5bbf3db49dd91dcced3ffdb3a6017255d7bf39a6c891457b5bbf1048c7063bc9ed3f83016b521653d7bf0a8a61be754c9c3f36135ad8676eed3feddc4e89b60fd9bfc3d4b6b8754c9c3f
+      encoded: 7023bb1dab4a71ed3ffa20e3381212d9bf99d3478c457b5bbf3db49dd91dcced3ffdb3a6017255d7bf39a6c891457b5bbf0c48c7063bc9ed3f81016b521653d7bf429d61be754c9c3ff4125ad8676eed3f0fde4e89b60fd9bf31e8b6b8754c9c3f
 - type: dimension
   element: visit_system
   records:
@@ -981,567 +981,567 @@ data:
     cell_x: 0
     cell_y: 0
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70a5e2b65e1ac2ed3f2295c8325888d7bf5fb0dfab937b5bbf3db49dd91dcced3ffdb3a6017255d7bf39a6c891457b5bbfddca7d631ecced3f44a810916f55d7bf5f8a302349375b3ff53413cd1ac2ed3f27d192535688d7bfc03ac87d96375b3f
+      encoded: 709fe2b65e1ac2ed3f4095c8325888d7bf67aedfab937b5bbf3db49dd91dcced3ffdb3a6017255d7bf39a6c891457b5bbfddca7d631ecced3f44a810916f55d7bf18af302349375b3fec3413cd1ac2ed3f54d192535688d7bf5962c87d96375b3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 1
     cell_x: 1
     cell_y: 0
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7069f8d54640b8ed3ff3bb68f7f0b9d7bf208fbd86cc7b5bbf1b9662ed97c2ed3f8df5a0f3dc85d7bf8a1bbe53907b5bbf736c195d98c2ed3f65c6550ddb85d7bf97d3d92d93375b3fba5ce19940b8ed3faed2b2a5efb9d7bf092c3fcdce375b3f
+      encoded: 705af8d54640b8ed3f3dbc68f7f0b9d7bf8189bd86cc7b5bbf169662ed97c2ed3fabf5a0f3dc85d7bf391fbe53907b5bbf6d6c195d98c2ed3f83c6550ddb85d7bf88f3d92d93375b3fae5ce19940b8ed3fe9d2b2a5efb9d7bf214b3fcdce375b3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 2
     cell_x: 2
     cell_y: 0
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70f74c5e6251aeed3f14db04e779ebd7bf2040c545f27b5bbfbcd640e0beb8ed3f94072c8076b7d7bf67242b23ca7b5bbf69b4ac34bfb8ed3f99f7642775b7d7bf4047886fcc375b3ffeeea19951aeed3f619e772279ebd7bf003aba2ff4375b3f
+      encoded: 70e54c5e6251aeed3f6ddb04e779ebd7bf2148c545f27b5bbfb0d640e0beb8ed3fcf072c8076b7d7bf88252b23ca7b5bbf5db4ac34bfb8ed3fd4f7642775b7d7bf206a886fcc375b3feaeea19951aeed3fc99e772279ebd7bf3f5cba2ff4375b3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 3
     cell_x: 3
     cell_y: 0
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70022f5ec54da4ed3fb3e3bf99f21cd8bfd7a50ae8047c5bbf730d8b05d1aeed3f790ce73c00e9d7bf80f5d0d6f07b5bbfe615353ed1aeed3f251a4d71ffe8d7bff8aa49c4f2375b3f98e263e04da4ed3fc6ad0062f21cd8bf71684fa406385b3f
+      encoded: 70e72e5ec54da4ed3f39e4bf99f21cd8bf57a00ae8047c5bbf610d8b05d1aeed3fd20ce73c00e9d7bfe0fdd0d6f07b5bbfd415353ed1aeed3f7e1a4d71ffe8d7bf98d049c4f2375b3f7de263e04da4ed3f4bae0062f21cd8bff1914fa406385b3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 4
     cell_x: 4
     cell_y: 0
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7078196684359aed3fb6e91fa85a4ed8bfa905196d047c5bbf58014971cea4ed3f1d1df0c1791ad8bf806cbd6d047c5bbfddffba8dcea4ed3fe1ce2883791ad8bf30192e2b06385b3f7160b882359aed3f0da1d0fc5a4ed8bf17418b2a06385b3f
+      encoded: 7059196684359aed3f4aea1fa85a4ed8bfa101196d047c5bbf3f014971cea4ed3f941df0c1791ad8bf6868bd6d047c5bbfc5ffba8dcea4ed3f58cf2883791ad8bf293d2e2b06385b3f5060b882359aed3fafa1d0fc5a4ed8bf50678b2a06385b3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 5
     cell_x: 5
     cell_y: 0
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7084e087b40890ed3f635d12abb17fd8bf7166f3d4f07b5bbf15b00438b79aed3fa43ec8a7e24bd8bf28e075e7047c5bbfb01dc937b79aed3f0ea775f5e24bd8bfe219bca306385b3f6cf0b1950890ed3fa379d18bb27fd8bf48ac70c2f2375b3f
+      encoded: 705ce087b40890ed3f235e12abb17fd8bfd167f3d4f07b5bbff6af0438b79aed3f383fc8a7e24bd8bf30de75e7047c5bbf8f1dc937b79aed3fb0a775f5e24bd8bf7039bca306385b3f44f0b1950890ed3f637ad18bb27fd8bf50d270c2f2375b3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 6
     cell_x: 6
     cell_y: 0
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 709dd5556bc785ed3fe43ef03bf7b0d8bfb8771420ca7b5bbf527bc96e8b90ed3fc39c57873a7dd8bfc257f743f27b5bbf6d846b518b90ed3f4d5f18613b7dd8bf20c1f02df4375b3f6a9de32ec785ed3f77cd58a8f8b0d8bf802a796ccc375b3f
+      encoded: 706fd5556bc785ed3fc13ff03bf7b0d8bfc0751420ca7b5bbf2a7bc96e8b90ed3f839d57873a7dd8bf895bf743f27b5bbf45846b518b90ed3f0d6018613b7dd8bfe0dcf02df4375b3f399de32ec785ed3f63ce58a8f8b0d8bf004f796ccc375b3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 7
     cell_x: 7
     cell_y: 0
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70fce2e1be717bed3fcd4982f42ae2d8bfb06a6e4f907b5bbf364d232b4b86ed3f7bbdf1f980aed8bff184b683cc7b5bbf5fd72ef04a86ed3f2413615f82aed8bfd0933fcace375b3fb7106064717bed3f05f32bec2ce2d8bf51aa942993375b3f
+      encoded: 70c7e2e1be717bed3fc84a82f42ae2d8bfc8656e4f907b5bbf074d232b4b86ed3f58bef1f980aed8bf5185b683cc7b5bbf31d72ef04a86ed3f0114615f82aed8bf80b23fcace375b3f82106064717bed3ffff32bec2ce2d8bf00d3942993375b3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 8
     cell_x: 8
     cell_y: 0
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 705ebb1dab4a71ed3fe21fe3381212d9bfa9d5478c457b5bbf4db41d83f67bed3fd5ac5999b5dfd8bf39a29fa7937b5bbfdf631f2af67bed3f48690f8ab7dfd8bf3096927996375b3f8966de324a71ed3f31faeab71412d9bff934bd1d49375b3f
+      encoded: 7023bb1dab4a71ed3ffa20e3381212d9bf99d3478c457b5bbf18b41d83f67bed3fd0ad5999b5dfd8bf209c9fa7937b5bbfaa631f2af67bed3f436a0f8ab7dfd8bf08bd927996375b3f4d66de324a71ed3f49fbeab71412d9bfb15cbd1d49375b3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 9
     cell_x: 0
     cell_y: 1
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70862fce481bc2ed3f318e0dd15688d7bf8132b2e77a8c583fafbc09de1ecced3f66cdc3147055d7bff9aaa122358c583fa490d7ef09cced3fff0463c25c55d7bf4398f4085125743f302d2a4506c2ed3f5eaf88ee4388d7bf0d5b224c8a25743f
+      encoded: 70802fce481bc2ed3f4f8e0dd15688d7bfb150b2e77a8c583fafbc09de1ecced3f66cdc3147055d7bf90c9a122358c583fa490d7ef09cced3fff0463c25c55d7bf70aaf4085125743f2a2d2a4506c2ed3f7caf88ee4388d7bfb86b224c8a25743f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 10
     cell_x: 1
     cell_y: 1
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 707fcfc81641b8ed3f27551f1df0b9d7bf9815cfb1ad8c583ffc80c5d898c2ed3fd51c1e8bdb85d7bf3140e6ea778c583fbe2d2fd683c2ed3f319f25a3c885d7bfdc9470d88725743f76a6eafd2bb8ed3f23eb86a7ddb9d7bfce4668fbb325743f
+      encoded: 7073cfc81641b8ed3f63551f1df0b9d7bf0931cfb1ad8c583ff680c5d898c2ed3ff31c1e8bdb85d7bf495fe6ea778c583fb82d2fd683c2ed3f4e9f25a3c885d7bf34a570d88725743f6ba6eafd2bb8ed3f5eeb86a7ddb9d7bf135768fbb325743f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 11
     cell_x: 2
     cell_y: 1
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 703d97ba1752aeed3f0559d99379ebd7bf20cbf569cf8c583f4d0485b1bfb8ed3f54e81e9f75b7d7bf8f317b8fab8c583f1b64b899aab8ed3f648e152463b7d7bf228a043bb225743f828755e93caeed3f2252f68a67ebd7bf12fa1aa8cf25743f
+      encoded: 702b97ba1752aeed3f5e59d99379ebd7bfd0e9f569cf8c583f3e0485b1bfb8ed3f9fe81e9f75b7d7bf08547b8fab8c583f0c64b899aab8ed3faf8e152463b7d7bfbe9c043bb225743f6d8755e93caeed3f8a52f68a67ebd7bf1a0c1ba8cf25743f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 12
     cell_x: 3
     cell_y: 1
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 706276b25f4ea4ed3f29395bcdf21cd8bf8049530fe08c583fc55e3ebcd1aeed3ffb15fce2ffe8d7bf19532722ce8c583f37abee8ebcaeed3f53f0aad4ede8d7bf513f109bce25743f4c427a1b39a4ed3fecd7f330e11cd8bf723e8d51dd25743f
+      encoded: 704776b25f4ea4ed3fae395bcdf21cd8bf406f530fe08c583fb35e3ebcd1aeed3f5416fce2ffe8d7bfc96d2722ce8c583f22abee8ebcaeed3fbbf0aad4ede8d7bf8650109bce25743f31427a1b39a4ed3f72d8f330e11cd8bf434e8d51dd25743f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 13
     cell_x: 4
     cell_y: 1
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70608e4103369aed3fc6bb27625b4ed8bf01607fa1df8c583f28f8f90ccfa4ed3f8c6cd0ee791ad8bf8a3912a2df8c583ffbecdac9b9a4ed3fc9dffd4c681ad8bfc217e2f7dc25743fc37eeaa8209aed3fcf99ff314a4ed8bf128e69f7dc25743f
+      encoded: 703f8e4103369aed3f69bc27625b4ed8bfe17d7fa1df8c583f0df8f90ccfa4ed3f126dd0ee791ad8bfb16112a2df8c583fdfecdac9b9a4ed3f4ee0fd4c681ad8bf072ae2f7dc25743fa07eeaa8209aed3f719aff314a4ed8bf739e69f7dc25743f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 14
     cell_x: 5
     cell_y: 1
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70655f7a170990ed3fd30729ebb27fd8bfd1b07c20ce8c583f5f7442b8b79aed3f3ea3195be34bd8bf9166ce0ee08c583f8e53085fa29aed3f0a6b8925d24bd8bf192e2051dd25743f9447b9a6f38fed3f4c190127a27fd8bf051cb299ce25743f
+      encoded: 70415f7a170990ed3f850829ebb27fd8bfa1d57c20ce8c583f3d7442b8b79aed3fe1a3195be34bd8bfc981ce0ee08c583f7053085fa29aed3f9e6b8925d24bd8bf7a3f2051dd25743f6d47b9a6f38fed3f0c1a0127a27fd8bf2e2bb299ce25743f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 15
     cell_x: 6
     cell_y: 1
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 706becefb1c785ed3fb3d8b401f9b0d8bf68ddb88cab8c583fcce023d38b90ed3f3d9cbcc03b7dd8bf69295968cf8c583fa87683637690ed3f86ce2ff72a7dd8bfb651c8a6cf25743f4a2e7a2ab285ed3f9b6f4ba9e8b0d8bf6dd5c038b225743f
+      encoded: 703decefb1c785ed3f90d9b401f9b0d8bf1900b98cab8c583fa4e023d38b90ed3ffd9cbcc03b7dd8bf014f5968cf8c583f817683637690ed3f46cf2ff72a7dd8bfb661c8a6cf25743f1c2e7a2ab285ed3f78704ba9e8b0d8bfd1e6c038b225743f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 16
     cell_x: 7
     cell_y: 1
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7090d6b4e8717bed3f12aa903f2de2d8bf00460ce7778c583fd2d82a734b86ed3f849809b982aed8bfa8bc1aafad8c583f0580d9ec3586ed3fe3a83e5b72aed8bf5b0b30f9b325743f8d66404a5c7bed3fde79a1521de2d8bf385d47d58725743f
+      encoded: 705bd6b4e8717bed3f0cab903f2de2d8bf20670ce7778c583fa0d82a734b86ed3f709909b982aed8bfe8dc1aafad8c583fd77fd9ec3586ed3fc1a93e5b72aed8bf8b1d30f9b325743f5866404a5c7bed3fd97aa1521de2d8bfe46e47d58725743f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 17
     cell_x: 8
     cell_y: 1
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7029d077b84a71ed3f4fb682051512d9bf1020b71d358c583f9ca163aef67bed3f1d64c0ddb7dfd8bf8833e6e37a8c583f2f471711e17bed3f662773eba7dfd8bffb9d04498a25743f2a1e51033571ed3fe3a419810512d9bfbaafeb045125743f
+      encoded: 70eecf77b84a71ed3f67b782051512d9bf6843b71d358c583f67a163aef67bed3f1865c0ddb7dfd8bfb052e6e37a8c583ffa461711e17bed3f602873eba7dfd8bfa9ae04498a25743fed1d51033571ed3ffaa519810512d9bfcfc1eb045125743f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 18
     cell_x: 0
     cell_y: 2
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7043aec9c907c2ed3f10737d3d4588d7bf3cecfd12c17a733ff7439b730bcced3f0c96c6155e55d7bffaca45b5897a733f1e277bc3e0cbed3f57b2a8b93955d7bfe81ecfd977be803fd1c90b0bddc1ed3ff48db02b2188d7bf6c013272a7be803f
+      encoded: 703daec9c907c2ed3f2d737d3d4588d7bf26fdfd12c17a733ff7439b730bcced3f0c96c6155e55d7bfccdb45b5897a733f1d277bc3e0cbed3f57b2a8b93955d7bf952bcfd977be803fcbc90b0bddc1ed3f118eb02b2188d7bf620e3272a7be803f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 19
     cell_x: 1
     cell_y: 2
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 702c3863832db8ed3ff0442af2deb9d7bf60e3de60e97a733fc0e5c35a85c2ed3fc1b351f2c985d7bf209e15b4be7a733f584dbd9c5ac2ed3f6132e5dca585d7bfe6347868a5be803f54e442b602b8ed3f2d86cb28bbb9d7bfe621ec17cabe803f
+      encoded: 701d3863832db8ed3f3a452af2deb9d7bf8ef5de60e97a733fbae5c35a85c2ed3fdfb351f2c985d7bf47af15b4be7a733f514dbd9c5ac2ed3f7e32e5dca585d7bfc0417868a5be803f45e442b602b8ed3f7786cb28bbb9d7bf192fec17cabe803f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 20
     cell_x: 2
     cell_y: 2
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70c4bba96f3eaeed3f0a0e4ad168ebd7bf12ecf222047b733fb40b261facb8ed3fd422f06e64b7d7bfe08354afe77a733f5d95be5281b8ed3fc1c0f2a140b7d7bf79193ba3c8be803f9ec8079413aeed3f7712455045ebd7bfbb3b9118e1be803f
+      encoded: 70b2bba96f3eaeed3f630e4ad168ebd7bf82fbf222047b733fa80b261facb8ed3f1023f06e64b7d7bf8d9554afe77a733f5195be5281b8ed3ffdc0f2a140b7d7bf07263ba3c8be803f89c8079413aeed3fdf12455045ebd7bf29499118e1be803f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 21
     cell_x: 3
     cell_y: 2
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70d8a5aca23aa4ed3ff9dcf972e21cd8bf48859258117b733f9bd43715beaeed3f27cf351befe8d7bfba11d11e037b733f174c503a93aeed3f0d409396cbe8d7bf4713f238e0be803f5b3b6ab80fa4ed3f597a383abf1cd8bfd7529173ecbe803f
+      encoded: 70c0a5aca23aa4ed3f70ddf972e21cd8bf32959258117b733f86d43715beaeed3f8fcf351befe8d7bfc323d11e037b733f014c503a93aeed3f74409396cbe8d7bf7620f238e0be803f433b6ab80fa4ed3fcf7a383abf1cd8bfab5f9173ecbe803f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 22
     cell_x: 4
     cell_y: 2
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70fa98fd30229aed3f0aeab96f4b4ed8bf77046b01117b733f24250251bba4ed3fc6ee3a8f691ad8bff58fdf01117b733ff8ad7b6790a4ed3f1a1fdd52461ad8bfc5820929ecbe803f3d39fc37f799ed3f9730247f284ed8bffe50a528ecbe803f
+      encoded: 70d998fd30229aed3fadeab96f4b4ed8bfa4146b01117b733f09250251bba4ed3f4cef3a8f691ad8bf53a2df01117b733fdfad7b6790a4ed3f8f1fdd52461ad8bfca8f0929ecbe803f1b39fc37f799ed3f3a31247f284ed8bf005ea528ecbe803f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 23
     cell_x: 5
     cell_y: 2
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 705e9aaf2ff58fed3fa8d17160a37fd8bf91867e1d037b733f272210e7a39aed3fdfaa7a63d34bd8bff7122958117b733fd839ccee789aed3f7ec1496fb04bd8bf22ab3673ecbe803fcf23d127ca8fed3fde0deeb7807fd8bfbd0bcf37e0be803f
+      encoded: 70369aaf2ff58fed3f68d27160a37fd8bfc4977e1d037b733f052210e7a39aed3f82ab7a63d34bd8bf30222958117b733fba39ccee789aed3f13c2496fb04bd8bfc8b83673ecbe803fa623d127ca8fed3f9e0eeeb7807fd8bf7418cf37e0be803f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 24
     cell_x: 6
     cell_y: 2
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70e13556b4b385ed3fdac774dee9b0d8bfaa0224ade77a733fda5d6eec7790ed3fd55ad7302c7dd8bf7678ab21047b733f2fde4ee54c90ed3fc2bab984097dd8bf5ebe7717e1be803f7ae57c9d8885ed3f4b84e77dc7b0d8bf5e4259a1c8be803f
+      encoded: 70b23556b4b385ed3fb8c874dee9b0d8bf701324ade77a733fb25d6eec7790ed3f965bd7302c7dd8bf858aab21047b733f07de4ee54c90ed3f82bbb984097dd8bf01cb7717e1be803f4be57c9d8885ed3f2885e77dc7b0d8bf634f59a1c8be803f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 25
     cell_x: 7
     cell_y: 2
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70659904d55d7bed3f5bc485831ee2d8bf973307b1be7a733f58fca9763786ed3f19b89e9073aed8bfc87ab95ee97a733f821d91600c86ed3f5b02792c51aed8bf54d51316cabe803fdf0c13af327bed3fa3cbd16afce1d8bff79ad765a5be803f
+      encoded: 70309904d55d7bed3f56c585831ee2d8bfb14407b1be7a733f29fca9763786ed3ff6b89e9073aed8bfac8bb95ee97a733f531d91600c86ed3f3703792c51aed8bfa4e21316cabe803fab0c13af327bed3f9dccd16afce1d8bf17a8d765a5be803f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 26
     cell_x: 8
     cell_y: 2
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70b407fa8e3671ed3fbe8ad6ad0612d9bfdd165fb1897a733f5fcfcf9be27bed3f810a8e1ca9dfd8bfd299fa0fc17a733f302aa076b77bed3f2620430087dfd8bf01f19a6fa7be803ffaed345a0b71ed3ff13e12dbe411d9bf4c9674d677be803f
+      encoded: 707907fa8e3671ed3fd68bd6ad0612d9bfe9275fb1897a733f2acfcf9be27bed3f7b0b8e1ca9dfd8bf7faafa0fc17a733ffb29a076b77bed3f2021430087dfd8bf00fe9a6fa7be803fbeed345a0b71ed3f094012dbe411d9bf62a374d677be803f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 27
     cell_x: 0
     cell_y: 3
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70ea719798dfc1ed3fba26254c2388d7bfba00f55d4269803f77417e50e3cbed3fb161c2dc3b55d7bf26eb50b81369803fc6b313dea2cbed3fe010a5760655d7bf5bf79539496a873fbd80631e9fc1ed3fc813cc0aee87d7bf1344d6c88b6a873f
+      encoded: 70e4719798dfc1ed3fd726254c2388d7bfa70df55d4269803f7a417e50e3cbed3fa261c2dc3b55d7bf94f750b81369803fc6b313dea2cbed3fe010a5760655d7bfbe089639496a873fb380631e9fc1ed3ff413cc0aee87d7bf7e55d6c88b6a873f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 28
     cell_x: 1
     cell_y: 3
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 707030544405b8ed3ff4a0ab46bdb9d7bf82c0f9526469803f9849422a5dc2ed3f14d27afda785d7bf251ca05e4069803f2f3d6fb01cc2ed3f2f3c56ba7285d7bf6acf3aef886a873fcddc95c2c4b7ed3f069d402988b9d7bfd93bb43cbc6a873f
+      encoded: 706130544405b8ed3f3ea1ab46bdb9d7bf3ccdf9526469803f9249422a5dc2ed3f32d27afda785d7bf8e28a05e4069803f253d6fb01cc2ed3f5b3c56ba7285d7bfc9e03aef886a873fc1dc95c2c4b7ed3f419d402988b9d7bfff4cb43cbc6a873f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 29
     cell_x: 2
     cell_y: 3
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 702a1f9f2216aeed3f60d4906b47ebd7bf94964dde7a69803f6d30c9e083b8ed3f06e1f3bf42b7d7bf9884b5e56269803fa10a6b5f43b8ed3f229dbca00db7d7bfb87f8333ba6a873f82cb6499d5aded3f7f2c227212ebd7bf547fad67dc6a873f
+      encoded: 70151f9f2216aeed3fc6d4906b47ebd7bf8ea34dde7a69803f5d30c9e083b8ed3f51e1f3bf42b7d7bfb691b5e56269803f940a6b5f43b8ed3f5d9dbca00db7d7bfed908333ba6a873f6dcb6499d5aded3fe72c227212ebd7bf9490ad67dc6a873f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 30
     cell_x: 3
     cell_y: 3
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7096ff874712a4ed3fbe18f052c11cd8bfee6463ff8569803f85ece0c895aeed3f4d0500b2cde8d7bf63f222037a69803f840d064055aeed3fbf6bc4b698e8d7bf033af42edb6a873fb83be0b6d1a3ed3fa0378b7d8c1cd8bfa9b2f848ec6a873f
+      encoded: 707aff874712a4ed3f4419f052c11cd8bf577263ff8569803f73ece0c895aeed3fa60500b2cde8d7bf1dff22037a69803f720d064055aeed3f176cc4b698e8d7bf834bf42edb6a873f9f3be0b6d1a3ed3f17388b7d8c1cd8bffbc3f848ec6a873f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 31
     cell_x: 4
     cell_y: 3
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 702dcba0c7f999ed3ff7f047952a4ed8bf6581f5b58569803f34b792f692a4ed3fbfbdb56b481ad8bf35b457b68569803f85ac496652a4ed3f93448394131ad8bf9889bee0eb6a873faf549a2fb999ed3f265ff9e3f54dd8bfc06c32e0eb6a873f
+      encoded: 700acba0c7f999ed3f99f147952a4ed8bf208ef5b58569803f19b792f692a4ed3f45beb56b481ad8bf54c157b68569803f69ac496652a4ed3f18458394131ad8bf629bbee0eb6a873f8d549a2fb999ed3fc95ff9e3f54dd8bfac7d32e0eb6a873f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 32
     cell_x: 5
     cell_y: 3
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7029e0fcb7cc8fed3fe7457ecb827fd8bf86b605027a69803f110c6a7e7b9aed3f447e8e85b24bd8bf958d0aff8569803ffd90c1e63a9aed3f54b971d27d4bd8bf5ded7948ec6a873fcba2a6188c8fed3ffea9513e4e7fd8bf903c5d2ddb6a873f
+      encoded: 7001e0fcb7cc8fed3fa8467ecb827fd8bf81c305027a69803fef0b6a7e7b9aed3fe67e8e85b24bd8bf91990aff8569803fda90c1e63a9aed3ff7b971d27d4bd8bf98fe7948ec6a873fa3a2a6188c8fed3fbeaa513e4e7fd8bfbd4d5d2ddb6a873f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 33
     cell_x: 6
     cell_y: 3
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 709e25302e8b85ed3fb599e48ec9b0d8bfa447dde36269803f46d673754f90ed3f83ea6a980b7dd8bf9bb539dd7a69803f33d47ad60e90ed3fd58b6f09d77cd8bf3fd92366dc6a873fa33b99874a85ed3fcfb8e42595b0d8bff9abe130ba6a873f
+      encoded: 706f25302e8b85ed3f919ae48ec9b0d8bf4e54dde36269803f1dd673754f90ed3f42eb6a980b7dd8bfccc139dd7a69803f0dd47ad60e90ed3f868c6f09d77cd8bf9cea2366dc6a873f713b99874a85ed3fbab9e42595b0d8bf49bde130ba6a873f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 34
     cell_x: 7
     cell_y: 3
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70bc264e40357bed3f39343c79fee1d8bf70e80c5c4069803ffd943df10e86ed3f080a973d53aed8bf1add2a516469803fe423034bce85ed3fc7e1c7d21eaed8bf4cbf1f3abc6a873f45d98592f47aed3f42f27234cae1d8bf2a368eeb886a873f
+      encoded: 7087264e40357bed3f33353c79fee1d8bf43f50c5c4069803fcf943df10e86ed3fe60a973d53aed8bfcfe92a516469803fb223034bce85ed3fb2e2c7d21eaed8bf8cd01f3abc6a873f0fd98592f47aed3f3cf37234cae1d8bf63478eeb886a873f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 35
     cell_x: 8
     cell_y: 3
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 708dcbf4eb0d71ed3fcaf2fae6e611d9bf207d07b51369803f2f77d407ba7bed3fb074ce0e89dfd8bf09266b5b4269803fd1dd675a797bed3f2d7235c854dfd8bff50037c58b6a873f32083837cd70ed3f033b89c5b211d9bff859e534496a873f
+      encoded: 7051cbf4eb0d71ed3fe1f3fae6e611d9bf3e8a07b51369803ffa76d407ba7bed3faa75ce0e89dfd8bfbb326b5b4269803f9edd675a797bed3f187335c854dfd8bf581237c58b6a873ff5073837cd70ed3f1a3c89c5b211d9bf596be534496a873f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 36
     cell_x: 0
     cell_y: 4
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 705d76dcb4a2c1ed3fd930c1fcf087d7bf8ae21bef2615873fcc5e5774a6cbed3ff77c75690955d7bfc46f9852e514873f170ece3f50cbed3f4d1181f9c254d7bff0d89db80e168e3f01545e7f4cc1ed3fc859038caa87d7bf1e44563e64168e3f
+      encoded: 705676dcb4a2c1ed3ff630c1fcf087d7bfa3f31bef2615873fcc5e5774a6cbed3ff77c75690955d7bfeb809852e514873f160ece3f50cbed3f4c1181f9c254d7bf7dee9db80e168e3ffa535e7f4cc1ed3fe559038caa87d7bfab59563e64168e3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 37
     cell_x: 1
     cell_y: 4
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70b6064159c8b7ed3f46385e1a8bb9d7bf95e445b25615873f56a4e54620c2ed3f7a1556ac7585d7bf2640e51f2415873f3afd7111cac1ed3f2ee0a03b2f85d7bf6f7ddd9460168e3fdcbb102372b7ed3f21760da944b9d7bf54540e80a2168e3f
+      encoded: 70a9064159c8b7ed3f80385e1a8bb9d7bfc3f545b25615873f4fa4e54620c2ed3f971556ac7585d7bf5e51e51f2415873f32fd7111cac1ed3f4be0a03b2f85d7bf1d93dd9460168e3fcfbb102372b7ed3f5d760da944b9d7bf0a6a0e80a2168e3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 38
     cell_x: 2
     cell_y: 4
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 708f644030d9aded3f2fc4666215ebd7bfabd5ee677615873fafbc13f646b8ed3f0808e59110b7d7bf51e681b05415873fbcedeabff0b7ed3fac749a20cab6d7bf43fe60e29f168e3f5ce699f982aded3f8c14b4f0ceead7bf5acb2ad5cb168e3f
+      encoded: 7079644030d9aded3f96c4666215ebd7bfc2e6ee677615873fa0bc13f646b8ed3f5208e59110b7d7bf8df781b05415873fafedeabff0b7ed3fe6749a20cab6d7bff51361e29f168e3f49e699f982aded3fe414b4f0ceead7bff7e02ad5cb168e3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 39
     cell_x: 3
     cell_y: 4
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70a07dea4dd5a3ed3f484ff56c8f1cd8bf3d37500f8615873f6445dfd658aeed3f48e613a79be8d7bf410baa337515873f92433da002aeed3f30f2643555e8d7bf93455943ca168e3f20c409177fa3ed3f0bb211fb481cd8bf9deea83ce0168e3f
+      encoded: 70837dea4dd5a3ed3fcd4ff56c8f1cd8bfdb48500f8615873f4e45dfd658aeed3fafe613a79be8d7bf771caa337515873f7f433da002aeed3f88f2643555e8d7bf345b5943ca168e3f04c409177fa3ed3f8fb211fb481cd8bfa704a93ce0168e3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 40
     cell_x: 4
     cell_y: 4
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 700378d1c6bc99ed3fc87f87d2f84dd8bf080c08a88515873ff9a351fd55a4ed3f0c52f883161ad8bf902b92a88515873f346772c6ffa3ed3f1bfd1512d019d8bf1a0dbdb6df168e3fae7cf28f6699ed3f09f6a360b24dd8bfd60309b6df168e3f
+      encoded: 70e177d1c6bc99ed3f6a8087d2f84dd8bf441d08a88515873fdda351fd55a4ed3f9052f883161ad8bf883c92a88515873f196772c6ffa3ed3fa0fd1512d019d8bf9122bdb6df168e3f8c7cf28f6699ed3fabf6a360b24dd8bf0b1909b6df168e3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 41
     cell_x: 5
     cell_y: 4
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 700bdf08b08f8fed3fdc61022c517fd8bfbed918327515873fac80f67d3e9aed3f58e20ac1804bd8bf9940d30e8615873f60021647e899ed3faf2d264f3a4bd8bf6b0b063ce0168e3f499b6779398fed3fd1ec4fba0a7fd8bf37544e41ca168e3f
+      encoded: 70e4de08b08f8fed3f9c62022c517fd8bfcfea18327515873f8a80f67d3e9aed3ffae20ac1804bd8bfd351d30e8615873f3e021647e899ed3f512e264f3a4bd8bf1e21063ce0168e3f1f9b6779398fed3f90ed4fba0a7fd8bfd0694e41ca168e3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 42
     cell_x: 6
     cell_y: 4
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 703bc7241f4e85ed3f8e9bb61298b0d8bf0cace9ad5415873fadf3da6d1290ed3f5d5e2bf7d97cd8bf5ccb6a667615873f4d2d3537bc8fed3f2c4b7585937cd8bf1eff30d3cb168e3ff532fde8f784ed3f1c3b66a151b0d8bf8731ffde9f168e3f
+      encoded: 700dc7241f4e85ed3f6c9cb61298b0d8bf0ebde9ad5415873f85f3da6d1290ed3f1c5f2bf7d97cd8bf71dc6a667615873f272d3537bc8fed3fdd4b7585937cd8bf921431d3cb168e3fc632fde8f784ed3ff93b66a151b0d8bf2247ffde9f168e3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 43
     cell_x: 7
     cell_y: 4
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7099e9382af87aed3ffc986420cde1d8bf2e0d461c2415873f9ea98ce2d185ed3f50f1a4bf21aed8bfefd0baaf5615873f30935dac7b85ed3f967f4e4edbadd8bfadabbd7ca2168e3fbaf9c6f4a17aed3fb64aa7af86e1d8bf44ea249060168e3f
+      encoded: 7063e9382af87aed3ff7996420cde1d8bf4b1e461c2415873f6ca98ce2d185ed3f3bf2a4bf21aed8bfe1e1baaf5615873f01935dac7b85ed3f72804e4edbadd8bf52c1bd7ca2168e3f85f9c6f4a17aed3faf4ba7af86e1d8bff7ff249060168e3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 44
     cell_x: 8
     cell_y: 4
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70c9e50fcfd070ed3f77ec9eb0b511d9bfebecf84de514873f39ff18f27c7bed3f805732b457dfd8bf20d589eb2615873fda8d9cbc267bed3ff1846c4311dfd8bfd9d3ae3964168e3fb8c5889a7a70ed3fe02aa0406f11d9bf982d97b20e168e3f
+      encoded: 708ce50fcfd070ed3f8eed9eb0b511d9bf11fef84de514873f03ff18f27c7bed3f7b5832b457dfd8bf2fe689eb2615873fa48d9cbc267bed3feb856c4311dfd8bf81e9ae3964168e3f7ec5889a7a70ed3fe82ba0406f11d9bf174397b20e168e3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 45
     cell_x: 0
     cell_y: 5
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 705d43bf1e51c1ed3fe78a744fae87d7bf03634d5100c18d3f32f74cdf54cbed3f94c403bcc654d7bf88ef49beabc08d3f26c158e9e8caed3f5b35cb426f54d7bf9944f235dd60923f7bd3aa2ee5c0ed3fe4ebe4af5687d7bf088b9c731161923f
+      encoded: 705643bf1e51c1ed3f048b744fae87d7bf76784d5100c18d3f31f74cdf54cbed3f93c403bcc654d7bfe7044abeabc08d3f27c158e9e8caed3f4b35cb426f54d7bf9451f235dd60923f71d3aa2ee5c0ed3f0fece4af5687d7bfe8979c731161923f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 46
     cell_x: 1
     cell_y: 5
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70966e50c276b7ed3fff26646d48b9d7bf233b57e23dc18d3f887bd4b0cec1ed3f908206ff3285d7bf701839b2fcc08d3f251d74c062c1ed3fc6a95361db84d7bfa134f6360f61923f871462d80ab7ed3f7ca6c0a8f0b8d7bf9e8b157b3761923f
+      encoded: 70896e50c276b7ed3f3927646d48b9d7bf865057e23dc18d3f847bd4b0cec1ed3f9e8206ff3285d7bff02d39b2fcc08d3f1e1d74c062c1ed3fe2a95361db84d7bf7d41f6360f61923f7a1462d80ab7ed3fb7a6c0a8f0b8d7bfea98157b3761923f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 47
     cell_x: 2
     cell_y: 5
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70c96bb49887aded3f6f1cedb5d2ead7bf602f27c266c18d3fdc612c5ff5b7ed3f12bfe5e4cdb6d7bf1765164c3bc18d3f9bd1ec7489b7ed3fd1db1a2276b6d7bf22f103e23561923ff4ad55b51baded3f396789cc7aead7bf5a3680ba5061923f
+      encoded: 70b36bb49887aded3fd61cedb5d2ead7bf8f4427c266c18d3fcf612c5ff5b7ed3f4dbfe5e4cdb6d7bfa37a164c3bc18d3f8ad1ec7489b7ed3f1bdc1a2276b6d7bf0cfe03e23561923fddad55b51baded3fa06789cc7aead7bf754380ba5061923f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 48
     cell_x: 3
     cell_y: 5
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 706b2cfbb583a3ed3febe229c14c1cd8bff362bdef7ac18d3fcbbc593f07aeed3f45bc92fa58e8d7bfd1fec93465c18d3ff582a45b9baded3fc06f031301e8d7bf21580dc54f61923f9f6995d917a3ed3fe68c5ab3f41bd8bf17813e315d61923f
+      encoded: 70502cfbb583a3ed3f61e329c14c1cd8bf6978bdef7ac18d3fb8bc593f07aeed3f9ebc92fa58e8d7bf7414ca3465c18d3fe182a45b9baded3f1770031301e8d7bffc640dc54f61923f856995d917a3ed3f5b8d5ab3f41bd8bf3c8e3e315d61923f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 49
     cell_x: 4
     cell_y: 5
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 700dd9b62e6b99ed3f151c9827b64dd8bf64869b6a7ac18d3faff5656504a4ed3fea1823d8d319d8bf6e904d6b7ac18d3f2073a48898a3ed3f96eb23cc7b19d8bf9c5f70df5c61923f2545b359ff98ed3fe09db2f55d4dd8bf586602df5c61923f
+      encoded: 70ebd8b62e6b99ed3fb81c9827b64dd8bfdd9b9b6a7ac18d3f93f5656504a4ed3f701923d8d319d8bfb1a54d6b7ac18d3f0373a48898a3ed3f1aec23cc7b19d8bf976c70df5c61923f0245b359ff98ed3f829eb2f55d4dd8bf487302df5c61923f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 50
     cell_x: 5
     cell_y: 5
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7005fefa173e8fed3f04cf1c820e7fd8bfb0d9c43265c18d3f3cb7dce5ec99ed3fd7670f163e4bd8bf0d4e1cef7ac18d3f0c2278108199ed3fe7c6f5e5e54ad8bf2701db305d61923f9f9ec24ad28eed3f1283772cb67ed8bf66e8cdc34f61923f
+      encoded: 70dbfdfa173e8fed3fc4cf1c820e7fd8bf31efc43265c18d3f1ab7dce5ec99ed3f79680f163e4bd8bfe8621cef7ac18d3fea2178108199ed3f89c7f5e5e54ad8bf4c0edb305d61923f799ec24ad28eed3fc283772cb67ed8bf1ff5cdc34f61923f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 51
     cell_x: 6
     cell_y: 5
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 708faf5b87fc84ed3f259b086a55b0d8bf6931be483bc18d3fca1acbd5c08fed3fd96a374d977cd8bf4efe32c066c18d3ffe7a2c08558fed3f78a559f93e7cd8bf823f4bb95061923fc65857c29084ed3ffebafaf0fcafd8bf7e12f3df3561923f
+      encoded: 705daf5b87fc84ed3f109c086a55b0d8bfde46be483bc18d3fa01acbd5c08fed3f976b374d977cd8bf881333c066c18d3fd47a2c08558fed3f37a659f93e7cd8bfa44c4bb95061923f965857c29084ed3fdabbfaf0fcafd8bf811ff3df3561923f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 52
     cell_x: 7
     cell_y: 5
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7007a5ec92a67aed3f13e51b798ae1d8bf2feb8dadfcc08d3fbaccbe4a8085ed3fc146e616dfadd8bfe4fa0fdf3dc18d3ff4f84e851485ed3f818b9b9f86add8bf95250f793761923f1cf684d63a7aed3fb186fddc31e1d8bf2ef413340f61923f
+      encoded: 70d1a4ec92a67aed3f0ce61b798ae1d8bf8e008eadfcc08d3f8bccbe4a8085ed3f9e47e616dfadd8bf471010df3dc18d3fc4f84e851485ed3f5d8c9b9f86add8bfa2320f793761923fe2f584d63a7aed3fb887fddc31e1d8bf220114340f61923f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 53
     cell_x: 8
     cell_y: 5
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70df4673387f70ed3fb394de0a7311d9bf385e54b8abc08d3f3828c55a2b7bed3f49b0d60c15dfd8bf1228b34c00c18d3f76c2ec9dbf7aed3f170a7772bcded8bf3ec2c4701161923fbaa7d5841370ed3fcdc0e54c1a11d9bfc7ef4332dd60923f
+      encoded: 70a04673387f70ed3fd895de0a7311d9bf847354b8abc08d3f0328c55a2b7bed3f42b1d60c15dfd8bf663db34c00c18d3f40c2ec9dbf7aed3f100b7772bcded8bf54cfc4701161923f7da7d5841370ed3fe3c1e54c1a11d9bfbdfc4332dd60923f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 54
     cell_x: 0
     cell_y: 6
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 708ceee7d6eac0ed3fbca1c8445b87d7bf9566854c6036923fac190792eecaed3f43a6f6d47354d7bf69b32e882c36923f7504e4db6ccaed3fd08977530b54d7bfa1e093349fb6953f9015792d69c0ed3f97c36577f286d7bffae562ecdcb6953f
+      encoded: 7087eee7d6eac0ed3fc9a1c8445b87d7bf9e73854c6036923fad190792eecaed3f33a6f6d47354d7bf57c02e882c36923f7004e4db6ccaed3fdd8977530b54d7bfacef93349fb6953f8715792d69c0ed3fb2c36577f286d7bf07f562ecdcb6953f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 55
     cell_x: 1
     cell_y: 6
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70d2822a8010b7ed3fdcd74640f5b8d7bfc852acfb8536923f90e4b66868c1ed3f238615f6df84d7bf810211155e36923f07b5a5bee6c0ed3feb86632c7784d7bf7cdcd947dab6953fabd9b9e38eb6ed3fa40b50298cb8d7bf089bfdd909b7953f
+      encoded: 70c5822a8010b7ed3f15d84640f5b8d7bfd75facfb8536923f88e4b66868c1ed3f408615f6df84d7bf3e0f11155e36923ffcb4a5bee6c0ed3f1787632c7784d7bf8aebd947dab6953f9dd9b9e38eb6ed3fdf0b50298cb8d7bf24aafdd909b7953f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 56
     cell_x: 2
     cell_y: 6
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 705c53a35c21aded3fc644ad667fead7bf1e1374009f36923f803abb1c8fb7ed3ff5707fb97ab6d7bf3ec250668436923ff0aaa07f0db7ed3feaa433a611b6d7bf723eb6f607b7953f62eec7cd9faced3fe4e3980616ead7bf6cddf2ad27b7953f
+      encoded: 704653a35c21aded3f2c45ad667fead7bf272074009f36923f743abb1c8fb7ed3f2f717fb97ab6d7bfeece50668436923fe2aaa07f0db7ed3f23a533a611b6d7bf974db6f607b7953f4feec7cd9faced3f3ce4980616ead7bf84ecf2ad27b7953f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 57
     cell_x: 3
     cell_y: 6
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70f22c62801da3ed3fc1361750f91bd8bf5c0c405aab36923f1d71f802a1aded3f00ef05ad05e8d7bfc43e3b0d9e36923fd4996b731faded3f689896509ce7d7bf0bfff88b26b7953f66ceb2ff9ba2ed3f81665da78f1bd8bf07fa876736b7953f
+      encoded: 70d52c62801da3ed3f44371750f91bd8bf2119405aab36923f0971f802a1aded3f58ef05ad05e8d7bfe84b3b0d9e36923fbc996b731faded3fcd9896509ce7d7bf3f0ef98b26b7953f4cceb2ff9ba2ed3ff5665da78f1bd8bf2209886736b7953f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 58
     cell_x: 4
     cell_y: 6
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 704510f9ff0499ed3fe8230395624dd8bfa1edc208ab36923f2ecd772f9ea3ed3ff175bf688019d8bf3de72f09ab36923fa1740fae1ca3ed3f4da3a4c31619d8bfd3b0e20636b7953f22230c8e8398ed3f87d11da4f84cd8bf37c4600636b7953f
+      encoded: 702210f9ff0499ed3f89240395624dd8bf43fac208ab36923f11cd772f9ea3ed3f7576bf688019d8bf19f42f09ab36923f87740fae1ca3ed3fc2a3a4c31619d8bf20c0e20636b7953ffe220c8e8398ed3f28d21da4f84cd8bf53d3600636b7953f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 59
     cell_x: 5
     cell_y: 6
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70c55e7bf0d78eed3fe3e456ceba7ed8bff9b4fe0b9e36923fbfd1c4b68699ed3ff96c2585ea4ad8bf6273dd59ab36923f656717440599ed3fd4f4d897804ad8bff56c126736b7953f8ff1e68d568eed3f74c1c195507ed8bf109c7f8a26b7953f
+      encoded: 709b5e7bf0d78eed3fa2e556ceba7ed8bfffc1fe0b9e36923f9cd1c4b68699ed3f9a6d2585ea4ad8bffc7fdd59ab36923f406717440599ed3f74f5d897804ad8bf3d7c126736b7953f64f1e68d568eed3f32c2c195507ed8bf46ab7f8a26b7953f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 60
     cell_x: 6
     cell_y: 6
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 709efe7c679684ed3f75e8639501b0d8bfe6af44648436923f5b6decad5a8fed3fc367189b437cd8bf8ce941ff9e36923f7c04904ad98eed3fa4e41566d97bd8bfb6d985ac27b7953f4dbed6141584ed3f72649c1597afd8bfb46e45f407b7953f
+      encoded: 706ffe7c679684ed3f50e9639501b0d8bfbbbc44648436923f326decad5a8fed3f8168189b437cd8bfcef641ff9e36923f5104904ad98eed3f62e51566d97bd8bfcde885ac27b7953f1cbed6141584ed3f4e659c1597afd8bf8d7d45f407b7953f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 61
     cell_x: 7
     cell_y: 6
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 701376117b407aed3fa15feb8336e1d8bf9d7435125e36923f851e7c2a1a85ed3f8b5ae4438badd8bfafa0aaf98536923f166906d79884ed3fa926a9c720add8bfa42999d709b7953ff2a8ee38bf79ed3fb0a670bdcbe0d8bf67ae7144dab6953f
+      encoded: 70dd75117b407aed3f9b60eb8336e1d8bf828135125e36923f541e7c2a1a85ed3f675be4438badd8bf8badaaf98536923fe56806d79884ed3f8427a9c720add8bfb73899d709b7953fbba8ee38bf79ed3fa8a770bdcbe0d8bf99bd7144dab6953f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 62
     cell_x: 8
     cell_y: 6
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70a607c7281970ed3f212943f61e11d9bf02eb88842c36923f6d0f8142c57aed3fa5c64419c1ded8bf1038b4496036923ffb5887ff437aed3f9df74f5656ded8bf0e1607e9dcb6953f60504df7976fed3ff2c955ebb310d9bf72983a309fb6953f
+      encoded: 706607c7281970ed3f462a43f61e11d9bfe3f788842c36923f370f8142c57aed3f9fc74419c1ded8bffc44b4496036923fc35887ff437aed3f95f84f5656ded8bf032507e9dcb6953f22504df7976fed3f08cb55ebb310d9bf88a73a309fb6953f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 63
     cell_x: 0
     cell_y: 7
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70ba1480de6fc0ed3fd24fadddf786d7bf8413c7ed2c8c953f3982af8d73caed3f521b3db51054d7bf9fc141afef8b953fdfab2119dcc9ed3f349adf2c9753d7bff025bb63460c993f3aa77a7dd8bfed3fa83ae1e37d86d7bf864eca948d0c993f
+      encoded: 70b11480de6fc0ed3fee4fadddf786d7bfb422c7ed2c8c953f3682af8d73caed3f4f1b3db51054d7bfa1d041afef8b953fdcab2119dcc9ed3f329adf2c9753d7bff336bb63460c993f2ea77a7dd8bfed3fd23ae1e37d86d7bf6e5fca948d0c993f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 64
     cell_x: 1
     cell_y: 7
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 709cbef89395b6ed3fa5fef69391b8d7bf8ae41683598c953fcb7db66fedc0ed3fe2ef72927c84d7bf32906f4e2a8c953f6a55b80d56c0ed3f1abb2b9e0284d7bf025c68888a0c993f0b4ec946feb5ed3fcebe182c17b8d7bfce49e067c10c993f
+      encoded: 708bbef89395b6ed3fedfef69391b8d7bf59f31683598c953fc37db66fedc0ed3ffeef72927c84d7bf3e9f6f4e2a8c953f6155b80d56c0ed3f36bb2b9e0284d7bf496d68888a0c993ff94dc946feb5ed3f15bf182c17b8d7bff35ae067c10c993f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 65
     cell_x: 2
     cell_y: 7
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70c471367da6aced3fb5c798751bead7bf33026e1c778c953f90c3e92f14b7ed3f9ec6a21017b6d7bfbe4485a3578c953f53c0b7e17cb6ed3fd4d241ae9cb5d7bff8296a3abf0c993f3a9ba1440faced3f315f41a0a0e9d7bffda3f1cfe30c993f
+      encoded: 70af71367da6aced3f0bc898751bead7bfef106e1c778c953f7fc3e92f14b7ed3fe6c6a21017b6d7bfc35385a3578c953f44c0b7e17cb6ed3f0cd341ae9cb5d7bf2d3b6a3abf0c993f229ba1440faced3f975f41a0a0e9d7bf17b5f1cfe30c993f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 66
     cell_x: 3
     cell_y: 7
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70d0ad48aea2a2ed3fc3a9af1a951bd8bf1a2813b9858c953fbdbae42226aded3f4efe5ebfa1e7d7bf99ffadfc758c953fc67f43e98eaced3ff02a7def26e7d7bf1ef87481e20c993fd791128b0ba2ed3f2dcb7ad8191bd8bfe40427ccf40c993f
+      encoded: 70b5ad48aea2a2ed3f37aaaf1a951bd8bf3f3713b9858c953fa6bae42226aded3fb4fe5ebfa1e7d7bfac0eaefc758c953fb17f43e98eaced3f462b7def26e7d7bf54097581e20c993fb891128b0ba2ed3fb0cb7ad8191bd8bf731627ccf40c993f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 67
     cell_x: 4
     cell_y: 7
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 706421c13b8a98ed3fb8c7bb1bfe4cd8bf21dfaa58858c953f305bb05c23a3ed3f52bdbf361c19d8bf3acc2b59858c953f6c0f64388ca2ed3fae9af8f9a018d8bf82faab5cf40c993fdf5cad2ef397ed3ff7d0476d824cd8bf341c165cf40c993f
+      encoded: 704121c13b8a98ed3f5ac8bb1bfe4cd8bf37eeaa58858c953f125bb05c23a3ed3fd5bdbf361c19d8bf90db2b59858c953f4e0f64388ca2ed3f319bf8f9a018d8bfb30bac5cf40c993fba5cad2ef397ed3f97d1476d824cd8bfcb2d165cf40c993f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 68
     cell_x: 5
     cell_y: 7
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70f9d6b23a5d8eed3f39a3a411567ed8bf798237fb758c953f21d6d7f10b99ed3fd917400f864ad8bf4d829eb8858c953f381da4e37498ed3fbfe131660a4ad8bf296d9fcbf40c993f3b7c8444c68ded3f8a9792f7d97dd8bf71a7c17fe20c993f
+      encoded: 70cfd6b23a5d8eed3ff7a3a411567ed8bfa09137fb758c953ffdd5d7f10b99ed3f7a18400f864ad8bf4d919eb8858c953f131da4e37498ed3f60e231660a4ad8bf627e9fcbf40c993f0f7c8444c68ded3f479892f7d97dd8bfb5b8c17fe20c993f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 69
     cell_x: 6
     cell_y: 7
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70fc58b1c01b84ed3fb44fbd959cafd8bfa84019a1578c953f6bc367f7df8eed3f9f4ac2e1de7bd8bfbecb031b778c953fc4b60f00498eed3face20dcd627bd8bfd1984ccee30c993fbde82ae28483ed3f43d2b01020afd8bf41719937bf0c993f
+      encoded: 70cc58b1c01b84ed3f9050bd959cafd8bfa04f19a1578c953f42c367f7df8eed3f5e4bc2e1de7bd8bfc6da031b778c953f99b60f00498eed3f69e30dcd627bd8bf2daa4ccee30c993f89e82ae28483ed3f2cd3b01020afd8bfa5829937bf0c993f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 70
     cell_x: 7
     cell_y: 7
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7014cdcfe3c579ed3f019fc841d1e0d8bf19140e4b2a8c953f0a46ed829f84ed3fe4ee934726add8bfca26b780598c953fd06d33a30884ed3fc0d6dcc7a9acd8bfaed51d65c10c993f8c2fb31d2f79ed3fbaec675254e0d8bf514d7a848a0c993f
+      encoded: 70d9cccfe3c579ed3f08a0c841d1e0d8bf3d230e4b2a8c953fda45ed829f84ed3fbfef934726add8bfa435b780598c953f9e6d33a30884ed3f9ad7dcc7a9acd8bf25e71d65c10c993f542fb31d2f79ed3fb1ed675254e0d8bf765e7a848a0c993f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 71
     cell_x: 8
     cell_y: 7
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70896233a19e6fed3f9102c373b910d9bf4e05f1aaef8b953fd22775aa4a7aed3ff32672da5bded8bf20dd71ea2c8c953f0b741be3b379ed3f4e7a5ef0deddd8bf6a83ea908d0c993ffa729ef3076fed3fc320591d3c10d9bfa6fab65e460c993f
+      encoded: 704c6233a19e6fed3fa503c373b910d9bf3514f1aaef8b953f9b2775aa4a7aed3fec2772da5bded8bf4dec71ea2c8c953fd1731be3b379ed3f557b5ef0deddd8bf9c94ea908d0c993fba729ef3076fed3fd621591d3c10d9bff80bb75e460c993f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 72
     cell_x: 0
     cell_y: 8
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7042ca3237e0bfed3fffd0781b8486d7bf3fadad17dfe1983f358af1d3e3c9ed3f749c2b5e9d53d7bf9a61db5f98e1983f1048c7063bc9ed3f83016b521653d7bf0a8a61be754c9c3f6caeae8337bfed3f54fbce7cfc85d7bff490fa2ac64c9c3f
+      encoded: 7036ca3237e0bfed3f29d1781b8486d7bf2bbead17dfe1983f338af1d3e3c9ed3f729c2b5e9d53d7bf7572db5f98e1983f0c48c7063bc9ed3f81016b521653d7bf429d61be754c9c3f62aeae8337bfed3f6ffbce7cfc85d7bfeea3fa2ac64c9c3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 73
     cell_x: 1
     cell_y: 8
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7000ee65ff05b6ed3fb28bcc691db8d7bf8b1c829212e2983f145f7ec75dc0ed3fb6e574d50884d7bfefb37c10dce1983f0332b412b5bfed3f1952f13d8183d7bfb32d64b9c24c9c3f9c2ed7655db5ed3fe63b843c95b7d7bf74529fb6004d9c3f
+      encoded: 70f1ed65ff05b6ed3fec8bcc691db8d7bff02d829212e2983f0b5f7ec75dc0ed3fd2e574d50884d7bf38c57c10dce1983ff731b412b5bfed3f4352f13d8183d7bfe44064b9c24c9c3f892ed7655db5ed3f2d3c843c95b7d7bf7d659fb6004d9c3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 74
     cell_x: 2
     cell_y: 8
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70e44518fc16aced3f124609e4a6e9d7bfe086fbbf34e2983fd1cc629a84b6ed3fbb9aa7eba2b5d7bf2655c16810e2983fd22d82ffdbb5ed3f54817cc51ab5d7bfefaadd40fe4c9c3fdeaf6a7d6eabed3f903dd9281ee9d7bfc089f994274d9c3f
+      encoded: 70cc4518fc16aced3f784609e4a6e9d7bf0798fbbf34e2983fc1cc629a84b6ed3ff39aa7eba2b5d7bf6466c16810e2983fc32d82ffdbb5ed3f8b817cc51ab5d7bf3dbedd40fe4c9c3fc8af6a7d6eabed3fe63dd9281ee9d7bffd9cf994274d9c3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 75
     cell_x: 3
     cell_y: 8
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70dedb584113a2ed3f86894e22201bd8bf4402449f45e2983f811cc9a096aced3fa875f7322de7d7bfa77ab87333e2983f6fe0bd20eeabed3fef6adb7ea4e6d7bf24031c1b264d9c3fa59977de6aa1ed3f1206f1d9961ad8bff8f515c53a4d9c3f
+      encoded: 70c0db584113a2ed3f098a4e22201bd8bf1813449f45e2983f6b1cc9a096aced3ffe75f7322de7d7bfe68bb87333e2983f57e0bd20eeabed3f536bdb7ea4e6d7bffe151c1b264d9c3f899977de6aa1ed3f8606f1d9961ad8bffb0816c53a4d9c3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 76
     cell_x: 4
     cell_y: 8
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 704ce2b8e3fa97ed3f20fe1ebd884cd8bfc4f1f12f45e2983fbad0b9ee93a2ed3f76277f43a718d8bf51d0863045e2983f532a6f8aeba1ed3fda3c2c021e18d8bfbfcc25473a4d9c3f18738e9d5297ed3f7db351e8fe4bd8bf867f7c463a4d9c3f
+      encoded: 7027e2b8e3fa97ed3fc0fe1ebd884cd8bf1603f22f45e2983f9bd0b9ee93a2ed3ff8277f43a718d8bf89e1863045e2983f332a6f8aeba1ed3f5c3d2c021e18d8bfdddf25473a4d9c3ff2728e9d5297ed3f1db451e8fe4bd8bf66927c463a4d9c3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 77
     cell_x: 5
     cell_y: 8
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70bee04af8cd8ded3f5ca5644de07dd8bf3f0f087233e2983fbc9ebf987c98ed3fdd49bcb5104ad8bfff50bd9e45e2983ffb152051d497ed3f0107f0e78649d8bf43c87cc43a4d9c3ffe0fc1cf258ded3f32b6e8ec557dd8bf1d3e3019264d9c3f
+      encoded: 7094e04af8cd8ded3f1aa6644de07dd8bfb320087233e2983f969ebf987c98ed3f7d4abcb5104ad8bff561bd9e45e2983fd8152051d497ed3f9107f0e78649d8bf3fdb7cc43a4d9c3fd20fc1cf258ded3fefb6e8ec557dd8bf79513019264d9c3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 78
     cell_x: 6
     cell_y: 8
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7025d8a1948c83ed3f230d756c26afd8bf5f68f56510e2983fcd9be6b3508eed3fd6999322697bd8bf964859be34e2983f5405dc89a88ded3f8df50ec9de7ad8bfcfe31d93274d9c3fe2b4a18ae482ed3f17040f819baed8bfd57aaf3dfe4c9c3f
+      encoded: 70f3d7a1948c83ed3ffe0d756c26afd8bf4d79f56510e2983fa29be6b3508eed3f939a9322697bd8bfe95959be34e2983f2805dc89a88ded3f49f60ec9de7ad8bf41f71d93274d9c3fafb4a18ae482ed3ff0040f819baed8bf2b8eaf3dfe4c9c3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 79
     cell_x: 7
     cell_y: 8
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70135ed0ce3679ed3f157c15b45ae0d8bf7c56950cdce1983fc061bb551084ed3f312b5523b0acd8bf045cc48f12e2983f37d62e4a6883ed3fba84dc3e25acd8bfe54081b3004d9c3f7d3242e48e78ed3f1b448d3ecfdfd8bf09a6f3b4c24c9c3f
+      encoded: 70db5dd0ce3679ed3f0d7d15b45ae0d8bf9167950cdce1983f8c61bb551084ed3f1a2c5523b0acd8bf6b6dc48f12e2983f05d62e4a6883ed3f9585dc3e25acd8bf135481b3004d9c3f453242e48e78ed3f13458d3ecfdfd8bf7bb9f3b4c24c9c3f
   - skymap: hsc_rings_v1
     tract: 9697
     id: 80
     cell_x: 8
     cell_y: 8
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7021a460a30f6fed3fe687c1844210d9bf19c1df5a98e1983fae2a4a94bb79ed3f6595c051e5ddd8bf007bd413dfe1983f56fe23a81379ed3f93ac1be359ddd8bf87269a26c64c9c3f36135ad8676eed3feddc4e89b60fd9bfc3d4b6b8754c9c3f
+      encoded: 70e0a360a30f6fed3f0a89c1844210d9bf33d2df5a98e1983f762a4a94bb79ed3f5d96c051e5ddd8bf518cd413dfe1983f19fe23a81379ed3f99ad1be359ddd8bfd3399a26c64c9c3ff4125ad8676eed3f0fde4e89b60fd9bf31e8b6b8754c9c3f
 - type: dimension
   element: visit
   records:
@@ -1557,7 +1557,7 @@ data:
     science_program: o15406
     zenith_angle: 45.51874635
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70d7d17cab2684ed3fcfa06219b6b8d8bfc4fcb987dc4661bfa5a485346d8eed3f8c3c52133787d8bf4d03172488486ebf2da91f58a9aaed3f3f78743147fdd7bf78a51ab8f80071bf9c56e05a49aded3fb428dcba46f0d7bff57dcb64ec0471bf5ce8fa4faac8ed3f1be71df3c866d7bf4cb8ea649f196fbf2ded6e3652d2ed3f953491909c35d7bf4c3870d78bd261bf39ca338eddd7ed3f3818e4d92019d7bf10520aa66bc84b3f30b11716bfdced3f028592b87cffd6bfcdc6db154381703f810e27010ddded3ffbf41a1190fdd6bfc2231b0cbde9763fffffbd4a43dded3fab27e411fffbd6bfcddbd9e141707d3ff776805960dded3f4ff785b4d1fad6bf51588baf6604823f17c199b365dded3faf1bf8a6fff9d6bfcd6fbe9c7f57853fde3d1a5258dded3f4a795266abf9d6bfc0c346aafcc9873f617d643251dded3f7a5558d894f9d6bf41a0cb2804ac883ff07bb06f36dded3f63987f256ff9d6bf13799c008b1f8b3f6d09766b2added3ff2c0027f67f9d6bfc452f74a39098c3fc34f8283fcdced3f80c29a1a90f9d6bfa2f06fef83778e3fc253f372aedced3fdd23da59fcf9d6bf5395ab0766e5903fda39dbe34bdced3fd5122a08b7fad6bfab966d5fa98b923f30d381d1d7dbed3f4c013b43b3fbd6bfa54b75ce592c943f8649d31c4bdbed3f137198d012fdd6bf9fe367dd10cc953f663d9cc0d2d5ed3f045402621916d7bf60a3f8662310993f8ee9328cd6cfed3feafa649e6f31d7bfe22ce98aff1f9c3f471bd1f3c4c5ed3f812b2122f862d7bf6d6bf8f564b99d3fd9e85ff5fba9ed3fa65dcbee02eed7bff27bd76f1e2c9e3f5b9a7e7f59a7ed3f9c905a9b0efbd7bf2ce472ce862c9e3f989b80272d8bed3fb88cd6961385d8bfbbf84e88c9ca9d3f47856a6d6081ed3f9589434b06b6d8bf0f831c769e269c3f46ea3778197ced3fe507eb3c7fd2d8bf7231b39bfc0b993f19bf004e6877ed3ffc18e677ceebd8bf6700d6ca0cca953ff0c5dcee4377ed3f7d1b0d3fd6edd8bf12f0c9cbe92c943f1343b8ac3177ed3f7fecc2fe6fefd8bfcf078c1e6e8c923fc9f40f612e77ed3f28d2a336abf0d8bf9fc1ef36dce6903f874266443977ed3fb65cf97b89f1d8bf81c30b0d297c8e3f87c83acc4977ed3faff14af6f2f1d8bf7c31dffd2d0a8c3fcd6c27fb5177ed3f73f206590bf2d8bf81b6bc3030268b3f7cf774016f77ed3f8e53474525f2d8bf9098fe118bb2883f8842569c7977ed3ff2c62b352af2d8bf039d565418d0873f0211fa4d9e77ed3f1933bd4c0af2d8bf75a3553e465f853f76c5a5eadb77ed3fc027acc68ef1d8bf8d7c137aff0e823f955fb75d2478ed3fff2e28b2c2f0d8bf6e238b40e48c7d3f8d6b45787878ed3f6069cdb8a2efd8bff912f4efc00e773f08767f1ed578ed3fb696da303eeed8bff1349f5b45a9703fa219f656327eed3f434b48ad26d5d8bfe05b7d8403e94c3f
+      encoded: 70afa379767b96ed3f676d98497e60d8bf60008101c3eb57bf726f2ce99ea1ed3fc1038d56212ad8bf71942e80d3155abff0ca228f41b6ed3f8cf377dfeec3d7bf6753669002375abf5d3494ce1fc1ed3fdffda0924e8dd7bf28cde409d73958bf62367ff463cbed3f94112e253759d7bf405e264c9f4f2b3fa3158fd9dad0ed3fc1d4b489fd3cd7bf618ca80dbcb96b3f8d3abe1ab6d5ed3f379f3c303f23d7bfbe31f5c7b1757b3f3b317ea5c7d5ed3f017d70325622d7bf74e052011713813fe30234d6c8d5ed3f38b817342f22d7bf3bc09ee9a6c1813faadeb02bc6d5ed3f9e8740f3ad21d7bf5c04fb032176843f181893bec3d5ed3fb6e3067a9321d7bfd4d4289e9223853f8c1697dab1d5ed3f8005e7ee4521d7bf4cdc15eee9dd873fd396e220abd5ed3f0f115d013b21d7bf475950df4c8c883f519d7f3b8bd5ed3f6aead0d51b21d7bf8f364d6827478b3fa0f82d8d80d5ed3f6198eec41e21d7bfaeba03b1ecf58b3f890d286851d5ed3feeb131803521d7bf2b2c6c98bbad8e3f289860f043d5ed3f7f5fbe234021d7bf441dfc3b3c5d8f3fe1c5f21f06d5ed3ff69c9c1a8921d7bff90238a64e0a913f59e8d084f5d4ed3f05adf7ba9f21d7bf465d098d0e5f913f1fb2eba992d4ed3f828815914a22d7bf4b2f9efcbe0d933f882237f315cfed3fe47928ce7b3bd7bf24ee3d350373963f3703b30f04c9ed3fa65911f03057d7bf3441264112b3993feb1755666dbeed3f54191ee1038bd7bf7dff327f816c9b3fedaec77b84b3ed3fe323adbfb5c1d7bf37299f7c8b8d9b3f5e7ccae5df9eed3f3dab3edaf227d8bf7b5c24f9778c9b3fa9bbebadc293ed3fec3610fb545ed8bf8c42a215f46a9b3fa58650376a89ed3fe0dc28493292d8bf61bf27f5a7af993f6e81613aff83ed3ff40f63c65bafd8bf5cbf7efa3f6e963ff4bf83a8347fed3f7bbe7aa610c9d8bf4cfc7d4d7509933fe747aa3e3f7fed3f095075cd18cad8bf80f92f74125d913f9be942c3427fed3f8fedfeb143cad8bfbcb3881c1907913fb415dc15557fed3f0ad755a5d0cad8bf90622298655a8f3f8e4371a85a7fed3f366ebcbdeccad8bf6fdb6b3bbfab8e3fb6b94be0747fed3f9bbee46b3dcbd8bfbe7b23a2a8f48b3fd11098427b7fed3f77932a9f4fcbd8bfd817d18a2f468b3fd2989b9c9c7fed3fd932dc0567cbd8bf8fd95be3288d883f1ea1f8d5a57fed3f9fa83fc465cbd8bf384f72c67bde873ff36126efcc7fed3fe7e5b69c49cbd8bfde4b1fb2bb26853f1cb70d15d87fed3fd6559f0839cbd8bfde72a5f0e878843fb8ee51b30680ed3fccb19a8fe0cad8bf47cb51f405c5813f8d22ad631380ed3f1ecc1884c2cad8bf96b4fe1f6018813faf20dc1d5880ed3f2f1b467a00cad8bfc09ba69c41817b3f5165b904c685ed3f5b38c464ceb0d8bff0151ea228da6b3fb3db498fcf8bed3f0458804e1994d8bfc1fa274bfcdd2d3f
     datetime_begin: !butler_time/tai/iso '2015-07-15 10:34:24.272000000'
     datetime_end: !butler_time/tai/iso '2015-07-15 10:36:56.145000000'
   - instrument: HSC
@@ -1572,7 +1572,7 @@ data:
     science_program: o15406
     zenith_angle: 38.60381327
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 700ca9fdb2996eed3fee4260e58a1bd9bfd3ecc0805d6a89bf857e2123ea78ed3f54bb2aa914ead8bfe1e492afe9aa8cbffd81dd339195ed3fec01112f7d60d8bf96ec4f3f7e998dbf41f0d9123c98ed3fc19eed928553d8bf87d39829789b8dbf7e5283d817b4ed3f12d666b06acad7bf3fb7b9eb31df8cbfc959547e09beed3fd8e951c07999d7bf04625b604e8d89bfc125b334e9c3ed3fbf666693427dd7bf2fcd44251a5c83bffd00cee01fc9ed3f4e95b255e363d7bf4cc919c4cfaf79bf663eccac8ec9ed3f0306536f1162d7bff100dfc5514773bfd321dd1ce6c9ed3f16ceb4599b60d7bf15958e15868169bfdeb3515624caed3f1cb5c7d8885fd7bfd4cf7f919ea058bfc4bafcd04acaed3f1a04228ed15ed7bf7f05f1b618881f3f31f4dc9655caed3fe8e0b1c5905ed7bf71218081ba8c553f4b24742757caed3f55b42f36815ed7bf9d945001179d5c3f45942a6f54caed3f53b796d66e5ed7bfbac3efd3d81c683f1322625951caed3f3e2a705b6e5ed7bf1bfe6874a6c36b3ff0e7f7063bcaed3fd2835cdfa95ed7bf7d38f6b685be723f5e03640d0dcaed3f79b266c82f5fd7bfdd7eb4924365793f5a0d7b11cac9ed3f6ea7d9a40360d7bfb664357084fe7f3fd4ee7fee74c9ed3f77a741791861d7bf01f8509abf40833ff773b8c206c9ed3ff077d43c9062d7bfa89cf9104d80863fbfec3f15b9c3ed3f6c6bbfabb87bd7bff3058df99c088d3f49c963a3e1bded3fa61b26c02b97d7bfdfbed68c4494913f1f9b0c96c5b3ed3f338e6ebeabc8d7bf8afb99eea92d933f14f6b0629097ed3f99128c5c5f53d8bfb8816fee4ba0933f3e5fd4fbe294ed3fb690051d6260d8bff428a767b4a0933fd4f92c1c3b78ed3f4f227b4b01ead8bf788bd910113f933f08dc1830256eed3f4045df5db81ad9bfd9ba506be59a913fb83e72b58968ed3f72e7968aed36d9bf60dc7b2d53008d3f467224b08363ed3fe983ea86f84fd9bfe92c7900497c863ff063911d3e63ed3f41eee4e7e551d9bf0937db53e441833f71844fc30a63ed3f251861496553d9bf61b72ae3d000803f341add4be662ed3f81f657048654d9bf4e19404b276b793f9a0e0813d062ed3fb48692c94955d9bf82b88472dbc7723f3c2b7666c862ed3f73082eda9f55d9bfe6cf452e90c76b3f2fd660d0c762ed3f33da3d32b155d9bfb2458b508537683f2e9304d5cc62ed3fa900fdd1b755d9bf09eeb0537ed15c3f085254cace62ed3f4b06e0cbb555d9bf709d3944c8bd553fa6ca91c6db62ed3f2ba3cdc78255d9bf40e8b6193cb7213fc185c376f962ed3f7da4e978ed54d9bf4c19a1d4a54b58bf4fc48f8c2263ed3fab7f94fe0754d9bf8dfa0915274869bf6ff003ed5763ed3f8e424d13cf52d9bf3ff4320a402273bfc960298b9663ed3f0fb898195251d9bf2204b0aabe8779bfca66e137c968ed3f5ec31d6e1838d9bf7b306ef8094a83bf
+      encoded: 700985f0a54581ed3fdf8f8afd9bc3d8bfd9fcf27d751688bf611a8a2d948ced3f519648b1628dd8bfe8e66d82d05b88bf5abdcd9f8ca1ed3f2c70152e7627d8bf123d0676f75f88bf4192d33e9baced3feb02d6cafcf0d7bffc1d81293a2088bf1e34ebea2cb7ed3fd833dff823bdd7bf6d9b4ff2a5ab84bf1bf0d603fbbced3f02b34e2431a1d7bfeba31b3fcf547cbfa05cee402ec2ed3fbbbcf4ddb987d7bf07aaa5d480776dbf34409c3161c2ed3f8b137cf5eb86d7bfdb5029ca6e1660bfe749402a69c2ed3f3b558e74ca86d7bffccaed9d50b85abfe2d5b65081c2ed3f63a0e9e15e86d7bf50f11fa0f95034bf611f1b9685c2ed3f06f5e2d04986d7bf7f08e22464d8f53ee192e5908ec2ed3fe1a27fef1186d7bfa698c439742a563fd380d7858ec2ed3fe8e62a630c86d7bf7e13ab7ea49d5b3f22a74e5d89c2ed3fc9a613b60286d7bf41f02fcd73ba683f813cbf5585c2ed3f3cc517fc0a86d7bfc066ea1c98756b3fd5af9aa270c2ed3f0ab3bde93686d7bf21cff0fe8a2a733f61b843d269c2ed3fb535a5e04686d7bf2b53fd589589743fff9e5b4546c2ed3f1a45cdd4a486d7bfdb69a2287ef8793fb400070d3cc2ed3f0920b28dc086d7bf908c7be1874b7b3f1ae01c77f9c1ed3fb4a356188587d7bf4c196f774003813f7c48ded2a9bced3f1dfbd638daa0d7bf2983953cf0cd873f7608950ec0b6ed3f3712f4eeaebcd7bfa71e4b69424e8e3fb5b667741faced3ffe477b9979f0d7bf49ff327894e0903f489b330d0ba1ed3f7728b77b0827d8bf67da8cd39301913f7b107e64108ced3fc4133e69ff8cd8bf2ff764d38000913f2c039ee1c280ed3f8a543db239c3d8bf91dbdd1d08df903f00a295011d76ed3fef5c0510d8f6d8bf983633c170478e3f7d9c29f65970ed3ff58f84dfba13d9bf6ec617236ec4873f24f0b68b376bed3f09db53fb282dd9bf33ab4e2db2fa803f5edbf79b206bed3f1a77fc66162ed9bf81f5a218a2437b3f7e6cc36e1d6bed3fa904e0f23b2ed9bff7dca882b2eb793f7b65d9ec146bed3f8780f671b32ed9bf39404adbf283743f61c8bbbf136bed3fad7c0a23ca2ed9bfa82f17219d26733f5ed7c035136bed3fba77855d052fd9bffeacf3b09d706b3f28d76be2126bed3f5bc3b02d122fd9bfb7d41736aab6683fc527f397196bed3f318d8b29142fd9bff8f2cfb6b0a45b3fff71152a1c6bed3f0088e28c0d2fd9bf225442eb2e2f563f9656aad6286bed3f81d67018dc2ed9bf008b11739d35fc3ef37b916a2d6bed3f5652b936c62ed9bff82f5b6a4bf733bf1071bef4416bed3fdcf984a9582ed9bfd14bc0362c9d5abfbf05ea29486bed3fb258195f352ed9bf9a263d3e340160bf88a12aea6c6bed3f335eea68592dd9bfe8f8ae4f4b606dbf2115e0c3ad70ed3f8972cc410314d9bf44ea5e4c8f447cbf0d96ba119076ed3f68da99852ef7d8bfcd057d4569a184bf
     datetime_begin: !butler_time/tai/iso '2015-07-15 11:06:04.925000000'
     datetime_end: !butler_time/tai/iso '2015-07-15 11:08:36.879000000'
   - instrument: HSC
@@ -1587,7 +1587,7 @@ data:
     science_program: o15406
     zenith_angle: 37.25782345
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70b429ca6aef92ed3f656629fb9c70d8bf29fa3fd25a967d3f540525a8349ded3f4160ee101c3fd8bf0d74ba5ee815773ff85629ff24b9ed3f0cedfb66eeb4d7bf3c87d56ca839753f0fc60727bdbbed3f175e6da3e7a7d7bf24da00fcb435753f0d6460cdc3d6ed3f6bfc7663221ed7bfbcd76a9563ad763f1a50d94330e0ed3fbf495f29c7ecd6bf8a323af28d507d3f9f03a04573e5ed3f6677213f12d0d6bfcfea32ed41d9843f3c8ac1520beaed3fba42643b34b6d6bf2af9625e205d8b3f4075cf9e3beaed3f0472f22f30b4d6bf25d1694848918e3f9398f0fb53eaed3fb052dd9b87b2d6bfb259f24f39ea903f2532fe0a53eaed3fef8917a742b1d6bf4734bead4e90923f779b7f603aeaed3f72d0610b59b0d6bf010a1f23cc39943f76dc541117eaed3fde05f89df3afd6bf69e361c1fe72953f215c110d08eaed3f869044e3d6afd6bfc0d43602fee3953f5ecbe56fd7e9ed3fa41acb1ca0afd6bfec59c069b41d973f915a484cc3e9ed3f58755d1f92afd6bfcb43fd7f8692973f074e1ce87fe9ed3fa6d1c5faa9afd6bf7bc48de89dc9983f3a098a9314e9ed3f63e7ee74ffafd6bf2204fda72d739a3ff21e462c95e8ed3fc243a5bfa3b0d6bf0efa4b6e5b199c3fb7abbccc04e8ed3fa7aa6d108ab1d6bf8f2d392cf5b99d3f6c82c0185ce7ed3f109006fdd3b2d6bfc069ae4794599f3fb4f9e1feb8e1ed3f5231819fb9cbd6bfb070b1e6bf4ea13fefeac01497dbed3fb4bdcc0ef3e6d6bf3eb8080999d6a23fc35d214687d1ed3f9f94ab557d18d7bfebf089f546a3a33f75c0970d0bb6ed3f37d4d10ec5a3d7bf6ec371fcacdca33f8b48bc8370b3ed3ff6577b16d7b0d7bfa444781ee1dca33f0d1201119f97ed3fd778f0ae253bd8bf9d945ee1f7aba33fe67e99500d8eed3f8f2f6f52476cd8bffc979788e7d9a23f2e2f47d30e89ed3fd1d09aedf888d8bfd809b8b1ab4ca13f7ca5a3eda684ed3f9a4c979381a2d8bf92e703688e579f3f51ac0873a084ed3f0cf3c683a0a4d8bfdcc4dbff82ba9d3f8fc1d90dac84ed3f6a56157051a6d8bf5fdaadd01d1a9c3f40d6edbfc684ed3fbe405cf8a3a7d8bfd6e0b351a1749a3ff3e36ba1ef84ed3f767c409999a8d8bf719b8bceedcb983f56ff401f1685ed3fae12f53414a9d8bfe75acb3dfe92973f188f40452685ed3f627fb1cf32a9d8bf9b42c53d0421973f36b5e51f5985ed3fac1deeca5da9d8bf8552f0aa3ee7953f69b950986b85ed3fc51f15e268a9d8bf925ad3c50976953feec106e2a585ed3fa89f2fe259a9d8bf39c37a97ac3d943f03aef59e0086ed3f6bc53734f5a8d8bf62327f189895923fba53aebc6586ed3fa2a810a73fa8d8bf7f8644c35ef1903f4d03a0fad586ed3fca8bebd535a7d8bfc6ade885c3a38e3f9276112d4e87ed3fe812710ae7a5d8bfcf7fc7511a718b3f2c36d606d68ced3f799f86a9f08cd8bfba0cbef044eb843f
+      encoded: 70e07003a402a5ed3f1b7e63612f18d8bfc6d654c6b21f803f80e8e45b07b0ed3f33d3ce5fb9e1d7bf0ab78ee411b57f3f7bd6c7de6bc4ed3f9f01ca10557bd7bff1960142c8ac7f3fcea6509f26cfed3f731504b39844d7bf61004176f215803f3d47c5592cd9ed3f630b3cfe4f10d7bf442ed5c23e8a833fd3bda44a58deed3fe327ff2adbf3d6bfb2150db93b0b8a3fb3fa307fe7e2ed3f3fa344ffe0d9d6bf4118be01b16b903ff1aa96c9dae2ed3fe2514131e0d8d6bfd4d3d61fc317923fb77da6d4d5e2ed3f7e4fdd5db4d8d6bfd46a3841086f923f96da19d7bae2ed3fd62faf0320d8d6bfb68c637b39c9933fc3fbe855b2e2ed3f5c491ac600d8d6bfb36f122aef1f943f0e9a640a88e2ed3fad4a231da0d7d6bfb70b43a30d7d953fe81dbb3d7be2ed3fd8a3026f90d7d6bfcdacc9a93bd4953fb63c940843e2ed3f4bdf01445ed7d6bf088371759a31973fcdbb5a4c32e2ed3ffb886b795cd7d6bf209b1855f988973fa49f8213ebe1ed3f73f5c56f60d7d6bf2e12931ed1e4983ff4b9098cd7e1ed3fdf11385b66d7d6bfa31e47538d3c993f736044ca81e1ed3f6599d3b39cd7d6bfdff9b4f02c989a3fef650f5c6be1ed3f34d723ceaed7d6bf53e11390e8ec9a3ffd33bf09ebe0ed3f0a314aca42d8d6bfa5de6b5e829b9c3f56aedd6141dbed3f9fba734d51f1d6bf58e535315000a03fa11d90aa06d5ed3f40de342de70cd7bffc5e142942a0a13f85a891f770caed3fda96c95ebb40d7bf003953c8f27ca23fcd39e016a7bfed3ff79bffd28577d7bf7224e2347c8da23f62d862e240abed3fcc4abdf6f4ddd7bf4e3ce33af28ca23ff53b872247a0ed3f743088da7314d8bfee0c579d2b7ca23fda9831072d96ed3f6ae5d7b08248d8bf9f200a638c9ea13fd6d94a9e0d91ed3f880b2853e765d8bff4dfbe4adbfb9f3fea75f9f98e8ced3f9000c7c8d77fd8bf0e981c7c36979c3f2d6bbde7b78ced3f7157dc7ef780d8bf6b84531ceaea9a3f62a0147dc18ced3f1939701a2781d8bf81125019f5949a3fe9389a23ec8ced3fc87606fcc681d8bf8c994e981f3b993fc2ede9d5f78ced3fa5ef9dd9e781d8bf95735b80d0e3983f76a8375a2a8ded3f6caa417a4b82d8bfce0526d95488973fe99da8d4368ded3fc912886f6282d8bf5582900f1c31973f74f87969708ded3fbc7c3cc58c82d8bf74b0152aa7d4953f0492f1b07f8ded3f204536409082d8bf7f31eb10547d953f2a1a3ddabe8ded3fcdb1dbf08682d8bf644ad4288121943fa57a59fdcf8ded3f8e9fb00e7b82d8bfd74f4de99aca933ff4b5b964168eed3f6dff6d403582d8bf1f61a73db570923f0bd4a8ff288eed3fc770d4da1b82d8bf81d38d1f651a923f27a58ef18a8eed3f0f9bdccc7081d8bfea78e26b926e903fee8552c52594ed3f62dd4f926168d8bfb0c67c4d52138a3f5d3a267f579aed3f6a1055cccb4bd8bfa626250e7594833f
     datetime_begin: !butler_time/tai/iso '2015-07-15 11:12:11.056000000'
     datetime_end: !butler_time/tai/iso '2015-07-15 11:14:42.932000000'
   - instrument: HSC
@@ -1602,7 +1602,7 @@ data:
     science_program: o15406
     zenith_angle: 31.72852934
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 700204a1cda262ed3f13fb58d06556d9bf30260b12dac265bf1ffb4cc4296ded3f94d11d1a1d25d9bfc07a0584476271bff7318aab1d8aed3ffa2e12eec59bd8bfa1e604ae023f73bfe7f8500bcf8ced3f74cf69b3d38ed8bf5e4a855df64273bf3dd21b0be8a8ed3f4074e9c1ea05d8bf9c2e9e78d3ca71bf07718459d3b2ed3fb777ec30f4d4d7bfb4dcc28c8a4e66bfb92b8af287b8ed3fcfec813a99b8d7bf80d8443b16b1333f282b0e1b8fbded3f412dbd65129fd7bf5867299597866c3f86b10c41e1bded3f5b5687c7289dd7bf8dfbbb16c7ab743fcae4fc521bbeed3f4c653a589a9bd7bf50116d974d327b3f0a72bfa93bbeed3fe3852b066f9ad7bff3c24b8a6de5803f15807bd543beed3f6d31a8869e99d7bfd49443a38738843f4f3d3a2938beed3ffc04480d4b99d7bfeb8661a705ab863fa5b0cd9c31beed3f5d54cbba3499d7bfcee6cb840d8d873f366cc05118beed3f01df5f870f99d7bf5a5c507495008a3f573be3d00cbeed3fc30044050899d7bf5c88292d44ea8a3f312f53f5dfbded3f6d906cb63099d7bf09b5290590588d3f3d9a970d93bded3faf87b1c09c99d7bf06f621f8ec55903f7b8b1f3b31bded3f157f49c8569ad7bf40e2e94831fc913fc53e2188bdbced3f80db25f9519bd7bf1fdfd3c2e29c933fc78830ad30bced3f21a62df6af9cd7bff8edbdef9a3c953f55e950469ab6ed3f015cd0b39bb5d7bfad8df72eaf80983f040d0abb7cb0ed3f04f33b25d4d0d7bf0ee7b83c8d909b3f762185a02aa6ed3fe298986e2702d8bf2d7cedeef2299d3f53e3805da889ed3ffcb52be69b8cd8bf2e227f3dab9c9d3f67c5067bf486ed3f540205499999d8bfe8cf969d139d9d3ff14e60620f6aed3f34632c280523d9bfcb362aa7573b9d3fc4b5f192ff5fed3fe560b94ac153d9bfcdff9c432c979b3feb2f1e5d8f5aed3f6d498ce81a70d9bf7c52c17c887c983f2f5f5d03b955ed3ff9163cdb4d89d9bf8a6193f8963a953fb67a46419055ed3fa4419b74538bd9bf425689e0729d933f5b08c02b7a55ed3fc6122e66eb8cd9bf3e3c5e2bf6fc913f11d1c5857355ed3fe83dfb1c258ed9bf107b014d6357903f4ee1af877b55ed3f0339b82b028fd9bf6d0fd171355d8d3f329e143e8a55ed3fe5978def6a8fd9bf55f5382e39eb8a3f9ec63cd69155ed3f5b7c991b838fd9bffb2b53f63a078a3f851b8f74ad55ed3f3124a9949c8fd9bf31ffd1c09493873fef5f7893b755ed3fa6c1c45ba18fd9bf820be5a421b1863fa432e52bdb55ed3fd0773c2b818fd9bfe3a166994e40843fd6d7f9b51756ed3fdef98f83058fd9bf93f766ac06f0803f482922865f56ed3f17d2eb8b398ed9bf57f3c3adf04e7b3fb984d272b356ed3fd67d19f3198dd9bfd96861bdcbd0743f84df364d1057ed3f0236b5ffb58bd9bf2b2419c29dd66c3fbe4779a88b5ced3f78adbabfb872d9bf00349fba51f2353f
+      encoded: 70a10a8a1d6e75ed3f588623f691fed8bf5c67498df07160bfad259609da80ed3f3a93cc4b71c8d8bfd8e2174bfe8661bfa09250300596ed3f05086cbeae62d8bf83894110969761bf708806892ca1ed3fd470ee81492cd8bfd33f2e0efb9860bfdf04a90eb8abed3f03800d446bf8d7bfff77e0a36b3836bf36f9310658b1ed3fad1ce21c52dcd7bfab5ddc20bc3d673ffe189e3059b6ed3f89e3db0db1c2d7bf29415956b737793f906633ae6db6ed3f8eabe8e1c9c1d7bf368bb76a35e87f3f9917726d6fb6ed3f24c6a335a3c1d7bf44f480d3aaa2803fa0986bd66eb6ed3fd6a07b1223c1d7bf3e093bd62557833f8c1e8de66cb6ed3f8f8350d708c1d7bfa18554af9704843f347f15d45cb6ed3fb642281abcc0d7bff84f610ff0be863f08755d8356b6ed3fba14d853b1c0d7bf41d92d49536d873f70d2e13138b6ed3fa852d8aa92c0d7bff4cbeb082f288a3f63863fda2db6ed3fd98afaab95c0d7bf5b0dd4a3f4d68a3fa01c9dffffb5ed3f8fb71396acc0d7bfa9385be6c48e8d3fb6b09fd4f2b5ed3f83deed3cb7c0d7bfacc259e6453e8e3f915d530bb6b5ed3fdb13331300c1d7bfc4aacd3bd47a903fb76edfa9a5b5ed3f4e854da316c1d7bfe6bdda5394cf903f18008aa943b5ed3f07d797d8c0c1d7bfd954e8ca457e923feb087bd1a8afed3fe2af9046d7dad7bf0dda26a78be3953f036a454a75a9ed3f17e794516ef6d7bff2aeeba69c23993fde7ecf309b9eed3fc0cc2653092ad8bf8cdcec680cdd9a3f8fa9c4586993ed3f94a3d81f8060d8bfecec79db15fe9a3f11d989303c7eed3f842a79434dc6d8bfcb72c95e02fd9a3fd17cc131d672ed3febfa300273fcd8bfed70800d7fdb9a3fb4416ca83668ed3f2b07d8b31630d9bf17964e6e3220993fba57e756a162ed3f343676f81f4dd9bf9d623989c8de953f684cb6e9b05ded3f4ee9cbe8b766d9bf7d85933dfc79923f8606a662b85ded3f558bdfd3be67d9bfa7a6b85e98cd903ff216c754bb5ded3fba109d80e967d9bfc41b47d59e77903f2cbc5c84cb5ded3f0a583aaa7568d9bf2f0f648b6f3b8e3f44bedb96d05ded3fdc65e0949168d9bfc097e0d2c88c8d3fa8fc8ffae85ded3f992103a3e168d9bfa2c4e8deb0d58a3f058419eaee5ded3f989217adf368d9bf3a06a67537278a3f21ef88bb0e5eed3fa846ed990a69d9bfeec65a982f6e873f3f6e099c175eed3f3ea8833e0969d9bfb22d8c3282bf863f35983a723d5eed3fe08929bdec68d9bf3044210fc107843f54213254485eed3f8812271adc68d9bfe2be780eee59833ff0a71c02765eed3f0ac216728368d9bf9366bb290aa6803f5bfe2481825eed3fded59b606568d9bf19fa0240c8f27f3fad782983c65eed3fec0b0c59a367d9bfc4d2bdc14743793f1cf8f28c5264ed3f867989c38b4ed9bf4093c6c1295e673f00617c127f6aed3fbc43819bf431d9bf5fc87a7037f134bf
     datetime_begin: !butler_time/tai/iso '2015-07-15 11:37:15.842000000'
     datetime_end: !butler_time/tai/iso '2015-07-15 11:39:47.704000000'
   - instrument: HSC
@@ -1617,7 +1617,7 @@ data:
     science_program: o15406
     zenith_angle: 24.69944452
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70801edc8df071ed3fd5f1cc8f7c0dd9bfe3450764a6e6813fe5a428257c7ced3fe61393c936dcd8bf9ae2cffded4c7d3f9fa885282599ed3ff25911b8a052d8bf9cca3d06c2707b3fc720f69bce9bed3fd18825f1a745d8bfa44646a1ce6c7b3f465dc1028bb7ed3f65e4ec7673bcd7bfbfaf97896ae47c3fdb70693234c1ed3f43afb21f478bd7bf45d332e7c0c3813f3cfe3a6694c6ed3f680e5c49a76ed7bf07e6f6eab0f4873fc28b206a45cbed3f4f1a8260da54d7bf00927f0782788e3f7b73a3c873cbed3fb3f4a895d352d7bfc03b196552d6903f41c65da989cbed3f2aa9ebaf2751d7bf5fc481bae477923f5879f8aa85cbed3f169fead6de4fd7bff40c7102f71d943fee111b7069cbed3ff00c80cff04ed7bfcf51bc2171c7953fab4dd12343cbed3fad56dac4874ed7bfb55a6127a100973fb3c0150133cbed3f79971eb0694ed7bfc5c434709f71973f2e3b7827ffcaed3fc815cb032f4ed7bf5e7eb21053ab983f48c9ddc6e9caed3ffeb6dd871f4ed7bf95fc5e152420993f52de7ec5a2caed3f6488a71e334ed7bfd7ea059338579a3f82263d3932caed3ffaffe470824ed7bf29f9551fc4009c3f0d11803badc9ed3f4390d22f204fd7bff14f2b80eda69d3fea75fafd16c9ed3f1a2fd1a6ff4fd7bfbecbdcac82479f3fa77fb8ea67c8ed3f9d382a394251d7bfd2b099818e73a03f93cd11679ac2ed3f7f92a8d4016ad7bf641405378015a23fdda0e2924bbced3ff1c97e0d1385d7bf4e318f1e559da33f1bbb8870f5b1ed3f43b6535c63b6d7bfdae576d5016aa43fc7613d1fbf95ed3f5f17bcec1541d8bff33c054069a3a43fadd4883c1393ed3f796b4dec194ed8bf38f6c65f9da3a43f39c3cd608b76ed3f1ea1cc8fd3d7d8bf112dcf83b272a43f5735e726bd6ced3f2177ea7fc508d9bf63bd5474a3a0a33f5e0aa980a167ed3f3c5948786325d9bfda1975e16b13a23ff002a8142163ed3f571b4e04dc3ed9bf1c69d46c8b72a03f71afc66b1c63ed3f9ff8ea98fe40d9bf504b2d2610489f3ff5a4fa732a63ed3fc6744093b342d9bfe256d27fafa79d3f4d2a601f4863ed3fad6621870a44d9bf918b4f5f37029c3f2e74c27e7463ed3f2a42efe70445d9bf570a140988599a3f2495c0dc9d63ed3f7104e3308345d9bf000c60669b20993f3cc48621af63ed3ff879f52da345d9bf2c36d06fa2ae983f65f36f48e563ed3f449a431bd245d9bffc4ec9a2df74973f29e954f7f863ed3f391a8e9fde45d9bf8ea806b5ab03973f373a40d63664ed3f6069beb6d345d9bfbd8aeb1c51cb953f75b10edb9664ed3f5fa42bd57445d9bf4f075fee3f23943f4150f3a00165ed3ff3eea043c544d9bf5ba632a7097f923f8d8856e97765ed3f777a429fc143d9bf984854738fdf903f25f51f70f665ed3ff2ee4a1d7942d9bf0fe30ac57a8c8e3fa10670c7a86bed3faffe4d30a829d9bf4e072bd7b206883f
+      encoded: 70efea96307784ed3f89ea70be6eb5d8bf362f4984363b833f6597398ec48fed3f2efeb468347fd8bf0b872ec610f6823f89dddcf2b0a4ed3fc31163fd3d19d8bf3c9b7c23ecf1823f3a61f4f8b3afed3f305e8526bbe2d7bf2c95ac947631833f9944141dfab9ed3fc79e2265a4aed7bf6f7e48b0b9a5863f27f0157842bfed3f00e5decb4392d7bf8c0216c2aa268d3f27c70d61eac3ed3f4bfb1d375a78d7bfa1af4e3261f9913f14ff5532dac3ed3f6ff337375577d7bf755fe04e70a5933f2520d47cd4c3ed3f2972327c2877d7bfc4ada9cbb4fc933f0b4b9261b6c3ed3f2054d6639076d7bfe660e85ee356953f4a0dbd10adc3ed3f1b71e72c7076d7bf5e29005d98ad953f0cda945a7fc3ed3f5f17bf6c0b76d7bf05ca25f5b30a973f0fdb4ba871c3ed3faf2b1aadfa75d7bfcc6c393de161973f06dd28ca35c3ed3f99f6ad1fc475d7bf6bce09f23cbf983fc4f2591524c3ed3fd273002ec175d7bfd6fbb4059b16993f538926f0d8c2ed3f7e63f074c075d7bf834f84876f729a3fea2bd564c4c2ed3fd3f97729c575d7bf27d6abe12aca9a3f252e8c746ac2ed3ffa3d2e85f675d7bfe1396e03c7259c3fa5f1f7fa52c2ed3f03e50f600776d7bfb0d0fbc2817a9c3fe9bfa90fcdc1ed3f9900e7b79476d7bf86bc1efb16299e3ff61b4b68f8bbed3fabb256c27c8fd7bf2c9d047a16c7a03f5dfdcec18fb5ed3f0407c374e9aad7bf127f52100467a23fc92ed755b0aaed3f7b45959280ded7bfb45b2f15b343a33f726f9d629d9fed3fa8c742961015d8bf4b7f2a313d54a33f66710d47af8aed3fd07093d4117bd8bfd095502eb353a33f72785d996d7fed3f4c1277e755b1d8bfd4e566d7eb42a33f07efbd641375ed3f8299636132e5d8bfaa3c2f314e65a23f9c4fd054d66fed3f5756cf0a8302d9bf5459b2c8b3c4a03fbf11a4043f6bed3f52464d3e631cd9bfae6390bfca249e3fcd17af426b6bed3ff4a674bc871dd9bf653b49ee82789c3fc49ab98f756bed3fc7911e55b81dd9bf934ae5cd8e229c3f1ff45f43a36bed3f94072a475c1ed9bfef5926c3bcc89a3f2877d8c4af6bed3f443d79307e1ed9bfeb316f846e719a3f312606abe56bed3f4c6f2110e61ed9bfa3b4eb23f615993fb1618901f36bed3f5c6c3615fe1ed9bfba39d025bebe983fb8c21b47306ced3f577f98d22c1fd9bf63eff5544c62973fc93bcd84406ced3ff449c96c311fd9bf93b2d7faf90a973f1e5a9fa1836ced3f214c02a22c1fd9bf3b4708f129af953fd3a923ce956ced3f038025e8211fd9bf2054a7624458953f9578d673e06ced3f40c745c1e01ed9bff565b05d61fe933f2b6e7028f46ced3ffef2968ac81ed9bfc9e293e211a8933fd9c971ca5b6ded3f26222679231ed9bf97630c3142fc913f5b5e449e2173ed3f10ddfc673a05d9bfaa8b2694c02e8d3ff970579a8279ed3f41f0fda1cde8d8bf05ec9b72efaf863f
     datetime_begin: !butler_time/tai/iso '2015-07-15 12:14:34.847000000'
     datetime_end: !butler_time/tai/iso '2015-07-15 12:17:06.731000000'
   - instrument: HSC
@@ -1632,7 +1632,7 @@ data:
     science_program: o15406
     zenith_angle: 37.60980715
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70a95d85874359ed3feb4eaa69b481d9bfe35bddb69eaf653f819c01f0ec63ed3fb8674fef8850d9bf711708319e5c513f8724191b1881ed3ff8c8b48360c7d8bf0037be6268d5433f537de449ce83ed3f4655784d72bad8bf9ff8b8dacbb5433fb0e0c90d16a0ed3f95afd2daaf31d8bfc0e3a4edf8744f3fd6f965c602aaed3f7a09a006ba00d8bf7d959200fa23653ff3534acea2afed3fa124b87f4de4d7bfa135669329f4763fd0b181bb92b4ed3f99af96bdb2cad7bf7074767b15fe813f11768389d5b4ed3f2978cf23bcc8d7bf730125034a32853f2b98a5d6ffb4ed3fd2f4405620c7d7bfc0d7b67c8275883f8cdef41610b5ed3fd5c20a5ae7c5d7bfeee864d1bcc18b3f3b5f9ce807b5ed3fd695fbef08c5d7bf8f0a6ad2c8148f3f02073919f0b4ed3f8267151eabc4d7bf7537c6bd9dc3903f9a15ea28e5b4ed3f9fbe960c91c4d7bf942958839f34913fd2627ea4bfb4ed3f077d286861c4d7bf71d0c02c5d6e923f3adbf793afb4ed3f0c7a95ff55c4d7bfa61f521132e3923fa531927c76b4ed3ff72dcb3874c4d7bf2d18542a511a943fe22246c518b4ed3f536afcd9d1c4d7bfabe47f0fecc3953ffc215c28a6b3ed3f9a9ef5757dc5d7bf72938196256a973f09f1c3ca21b3ed3f1fda994f6ac6d7bf822e359ecb0a993fa7c8982a84b2ed3fc92667d8b9c7d7bf2a72d4a077aa9a3f114bf3ddc3aced3f51058ae281e0d7bf34598e9c78ee9d3f08aa169f7da6ed3fab70308f97fbd7bf964c54cc207fa03fa3fbe952099ced3fa7c0bb23ce2cd8bfb2cf8da3d14ba13f4fe7eb8e4f7fed3fd2a431a714b7d8bfe69753453385a13fac2621df967ced3ffe38c8060ec4d8bf7024026e6785a13fd8b7eef7825fed3fbb0b8159524dd9bf5270e3408354a13f2778c0a47155ed3f2965f9610d7ed9bf7aace5c66f82a03f7cbcdb141650ed3ffa4b3a06799ad9bf5852fcfa50ea9d3f50220b14574bed3f0e5c4e2dc0b3d9bfcabfd3a172a89a3f073fb2bd3d4bed3feab68118d3b5d9bf5e8bc0815a0b993fe679da5d374bed3f0c25af9378b7d9bfc81af921e96a973fedfd3fc3404bed3f7089b115c0b8d9bf1a97cef660c5953fabecd912594bed3f9db05320abb9d9bff34cd15fa21c943f2fbcf6e1734bed3f9addfe3e1ebad9bf681eda16abe3923f1d8225e77f4bed3fdf26d4333abad9bffb12565eae71923f403dc0c3a74bed3f1edbd6215ebad9bf63436e8de137913fb7fd1b4fb64bed3feb4a00af66bad9bf1ea3bd25aac6903fad1cee2ce64bed3f804863f350bad9bfdee2fc8e8c1c8f3fc703587d334ced3fe4131790e3b9d9bfb525449a52cc8b3fd922c10a8c4ced3f171b1acd25b9d9bf944f6882d083883fb83907a4f04ced3f659e0f5314b8d9bf48f28097c844853fec1176065e4ded3fc682eb57beb6d9bf106321031312823f1189ab430353ed3f96c3ee9ae49dd9bf41f4970e3618773f
+      encoded: 701792d98a286ced3fa16b09c9f629d9bfbd1fe2782d016b3f783b1dc3a977ed3f28391128e8f3d8bf8cacccda55ec693fa55ce37cfa8ced3ffcc442ff448ed8bff01fe172c0db693f9ff8aba13498ed3f08850339ef57d8bf65ff6bd027da6a3fd157a9f5c1a2ed3f309332131224d8bf88b48ea2dd55743f5f3100b34ba8ed3f9da5ebece507d8bfe67410b409ac803f228aa44134aded3f21fc06b82feed7bf417b3afc5578873fba83b35338aded3f3964189e3aedd7bfa8f8e74b89d08a3f3c4adcb636aded3fb1ee3c1711edd7bf2bd804d0167f8b3fb501a0c228aded3f489cc59685ecd7bf5543f6ca86338e3fa91cb17723aded3faee9448068ecd7bf6ab00fb3f5e08e3f839cb8d705aded3f06a74b3610ecd7bfba5ea4c2a0cd903f59768621fcaced3fdbb2378a02ecd7bf979be7b7d024913feb92022fd0aced3f0780333dd8ebd7bf3aa483953782923f40f2e66ac2aced3f3e790151d8ebd7bfa03b8d8c98d9923fa2f8c3ea86aced3fafa3eb8ce3ebd7bf2175a5fc7835943fbf92d24c76aced3fe971323febebd7bf57875474378d943f8619cbcd2baced3f09a0055328ecd7bf3cb56a55e0e8953f6d25121318aced3f833704033cecd7bf4c25674a9e3d963f0610b9f9a4abed3f5e40a985d7ecd7bfaa84ba6444ec973f11649edfdea5ed3f9b39ad22c905d8bf4f17cf9077519b3f7d8a229f809fed3f357681b33b21d8bfcffcbff572919e3f976a0c3c8294ed3f8d85f929b854d8bfdcde2d266e25a03f223eb7073b89ed3fba640e501d8bd8bff75f8872f535a03f02cc1868e873ed3fe95a9b26cbf0d8bf5411bd936b35a03f13afd9c56f68ed3f7ca82121e126d9bfae089a34a724a03ffbfb778ece5ded3f6ef13da6835ad9bf83943004088e9e3fc78497264f58ed3f65b21b00a077d9bfc6db995fb34c9b3f7c23504a7753ed3feca316234d91d9bfc65a8593f9e7973f54f59b258f53ed3f02f380276292d9bf245edffca03b963fb27d3c659553ed3fbdbdc1aa8f92d9bf78ade69ca9e5953f6a9224eab253ed3fbd8dc8452793d9bf584bebe6ca8b943f4e6f1c5dbb53ed3f6c6b72154693d9bf3169908f7934943f5dc0c53ce153ed3f16d1faaea193d9bf3ca05844f5d8923f1b178a8fea53ed3feb2f9e9eb693d9bf0c8cc564ba81923f08e6b3fb1754ed3f0b71032ad993d9bf86aa2e733d25913f44479a472454ed3fa17b5fb9da93d9bf892e9b69e8cd903f8b4e19c55754ed3fdabb29dac993d9bf366f7e311ce48e3f6546d3136654ed3f31b75121bc93d9bf3671af244c368e3fe63cdf6ba154ed3f31c8ce166f93d9bf8ae0b04773828b3f18aaba56b154ed3f05b9f3ec5393d9bf0aed14d2cfd58a3f066e745e0655ed3ff0ed3f54a092d9bf915d1c531b7e873f57018aa8bd5aed3f41020778ad79d9bfaa0d5a8b22b4803f721daf401561ed3fab9fd9bb3a5dd9bf6f1ad8604d6a743f
     datetime_begin: !butler_time/tai/iso '2015-07-20 10:47:23.546000000'
     datetime_end: !butler_time/tai/iso '2015-07-20 10:50:45.545000000'
   - instrument: HSC
@@ -1647,7 +1647,7 @@ data:
     science_program: o15406
     zenith_angle: 37.12350657
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 702461aa152784ed3f6b01b621b4b8d8bfbc81d137a44561bff28f559e6d8eed3fc224551b3587d8bf916f9ad14f476ebfde42c4bfa9aaed3f974fb03745fdd7bf8251158d5c0071bf71b24dc249aded3f2e63ebc044f0d7bf8d63c539500471bf4b8c02b5aac8ed3f730044f7c666d7bf8fc73f1267186fbfb8682c9a52d2ed3f6458b1939a35d7bf5905368753d161bf9f7797f0ddd7ed3f7789f0db1e19d7bf309887df4ccd4b3f9cf82177bfdced3fc31f8db97affd6bfd620b63bdf81703f8f1eb5610ddded3f07b5b2118efdd6bf8616943159ea763f4540cfaa43dded3f8ae91812fdfbd6bf0a30da06de707d3f994a15b960dded3f8b6258b4cffad6bfbf9dc3c1b404823fefb6b21266dded3fa5fd68a6fdf9d6bf17e1a2aecd57853fc832d9b058dded3f52b77c65a9f9d6bfb372e6bb4aca873fe21a039151dded3f613e69d792f9d6bf60e3503a52ac883fb9b9f5cd36dded3f8aa34a246df9d6bfb5f6d311d91f8b3f741a9ac92added3fc1eab37d65f9d6bf1121105c87098c3ff80c4fe1fcdced3fbbee07198ef9d6bff36a3300d2778e3fbb7b49d0aedced3f3e52eb57faf9d6bf93b8cd0f8de5903f1510bd404cdced3ffe66e105b5fad6bf90d94a67d08b923f2f03f22dd8dbed3f35ec9a40b1fbd6bf18d608d6802c943ff2c1d3784bdbed3f70d0a2cd10fdd6bf4685ace437cc953fcd191b1cd3d5ed3fb235ab5e1716d7bfbef7c36d4a10993f18cd48e7d6cfed3f3c17c19a6d31d7bf51272d9126209c3fa1b8464fc5c5ed3f38c6cb1ef662d7bf94f227fc8bb99d3f46d20653fca9ed3fbd5e36ed00eed7bf7d215876452c9e3f891b5ddd59a7ed3f557af2990cfbd7bffb21f3d4ad2c9e3fc222c8872d8bed3f840266971185d8bf7d24748ef0ca9d3f04e9f9ce6081ed3f4a56da4c04b6d8bf70f0587cc5269c3fd5a421db197ced3ffc6e913f7dd2d8bf63b777a2230c993fb96c42b26877ed3f9d159b7bccebd8bfe72e13d233ca953f3bf99b534477ed3fa7dd2243d4edd8bf26ab54d3102d943f8318f4113277ed3f5f0239036eefd8bf3dad5f26958c923f0049c8c62e77ed3f93657a3ba9f0d8bfbda8073f03e7903f12719aaa3977ed3f0337308187f1d8bf8cb9b91d777c8e3f4140c9324a77ed3f3f2bc8fbf0f1d8bf0cbce20e7c0a8c3fcb8ad6615277ed3f6ca89d5e09f2d8bfb1e8dd417e268b3f2f477d686f77ed3f10c4234b23f2d8bfe14e6d23d9b2883f90ad7e037a77ed3f6c5d213b28f2d8bfc693df6566d0873f90507ab59e77ed3f88aef75208f2d8bf330f2350945f853f39ec9b52dc77ed3f2a6243cd8cf1d8bf97e7338c4d0f823fe8fd20c62478ed3f7d8d1ab9c0f0d8bffa6d5965808d7d3fe2c31fe17878ed3f9c0f19c0a0efd8bf9eed37155d0f773f49a5c787d578ed3f768a7d383ceed8bf56ac4081e1a9703f7e51bfc0327eed3fc14f4eb524d5d8bfc05c60bce4ed4c3f
+      encoded: 702c5efede7b96ed3fded68b507c60d8bf4f89305852e957bf5dd0d2509fa1ed3f0614ca5c1f2ad8bf005fdfd362135abf915915f541b6ed3ffd0355e4ecc3d7bf08cff5e391345abf2f7e943320c1ed3f5626bd964c8dd7bf51475060663758bf52f9235864cbed3f1ee135283559d7bf0157d57424632b3f75d3cf3bdbd0ed3fc82ba18bfb3cd7bf584c185ef4ba6b3f95e89a7bb6d5ed3f6c490f313d23d7bf9d68a3ee4d767b3f3de5dd05c8d5ed3f5937e0325422d7bff44267146513813f9b607a36c9d5ed3fb46f73342d22d7bfe604a4fcf4c1813f4126938bc6d5ed3f585b4df3ab21d7bfb637bf166f76843f58675c1ec4d5ed3f0f13007a9121d7bf5173dbb0e023853f3058fc39b2d5ed3fb4a991ee4321d7bf8d947c0038de873f5e002f80abd5ed3fcd3ef4003921d7bff4dba2f19a8c883fb8ac689a8bd5ed3f4a6d1ad51921d7bf3d50497a75478b3f3c5dfeeb80d5ed3f06dd24c41c21d7bf4400e9c23af68b3f6a6c96c651d5ed3f41a91b7f3321d7bf2726f1a909ae8e3fa552b64e44d5ed3fda3295223e21d7bfa579674d8a5d8f3fb260e77d06d5ed3f032a28198721d7bf476bb8ae750a913f4cebade2f5d4ed3f3afb70b99d21d7bfb1267c95355f913f92bd510793d4ed3fd914338f4822d7bf5224c804e60d933fabe4125016cfed3f6b3eddcb793bd7bf8467f33c2a73963fc5bf196c04c9ed3f85c96fed2e57d7bf0284514839b3993faa461cc36dbeed3f8897ccde018bd7bf0a2e3986a86c9b3fff146fd984b3ed3f7d700ebeb3c1d7bfdd08cb83b28d9b3f47c62645e09eed3fd2d000daf027d8bff5634e009f8c9b3f63bb390ec393ed3f16db97fb525ed8bf4099a41c1b6b9b3fd661f9986a89ed3fe772c64a3092d8bfc2be4dfcceaf993fd99c729dff83ed3f8d821bc959afd8bfe1642c02676e963f3a5cf80c357fed3f3f6e4baa0ec9d8bfa4c29e559c09933f73769ca33f7fed3fa41ea7d116cad8bfd60c997c395d913f74204e28437fed3f312244b641cad8bf938dff244007913f1a7c4b7b557fed3f29d0e8a9cecad8bf69ec79a9b35a8f3fe2d4f90d5b7fed3f44f962c2eacad8bf50d6dc4c0dac8e3f49f03746757fed3f6be7d8703bcbd8bf78a3f4b3f6f48b3fab419da87b7fed3f273b32a44dcbd8bfab01b99c7d468b3f79c003039d7fed3f1c37310b65cbd8bf2beb99f5768d883f5277793ca67fed3f2901a8c963cbd8bf31adc4d8c9de873f9b240956cd7fed3f9f136ca247cbd8bf8546bdc40927853f03c8087cd87fed3f039e670e37cbd8bfdd1455033779843fa05ead1a0780ed3fc7ddae95decad8bf6a81420754c5813fa07c20cb1380ed3fe6d53f8ac0cad8bf1868fe32ae18813f5443c5855880ed3fcb44ca80fec9d8bf38cb2bc3dd817b3f91bd2c6dc685ed3fce19b26bccb0d8bf19b744f260db6b3fa8ce2df8cf8bed3f22fec4551794d8bf80deba7081f12d3f
     datetime_begin: !butler_time/tai/iso '2015-07-21 10:49:30.103000000'
     datetime_end: !butler_time/tai/iso '2015-07-21 10:52:52.027000000'
   - instrument: HSC
@@ -1662,7 +1662,7 @@ data:
     science_program: o15406
     zenith_angle: 20.833029049999993
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 700596efe3b67eed3f796daca646d1d8bf296bcadc8fdb803f6ff3b6b52789ed3f9fc8ce25ea9fd8bf95315939ba367b3fd6026ae889a5ed3f550ed5691916d8bfa4449284875a793f53ae94b82ca8ed3f274404381b09d8bfb3f88d1b9456793fd0bdf84ea3c3ed3f2558cc9dae7fd7bf4343d85036ce7a3fb712a1f334cded3f5d1236ee6f4ed7bf87fdb80daab8803f42455b8289d2ed3fb4077197c731d7bfb40c66d89de9863f39f2017b30d7ed3f0d0d46b3f317d7bfd5efd58a736d8d3f8ae6d35c5fd7ed3f8d365acced15d7bf514f280bcc50903f121e9ef675d7ed3f850d4d024314d7bfb57b775b5ff2913fe37b4de872d7ed3f98c1317dfb12d7bf2781b5b37298933f991045cf57d7ed3fb264b3fd0e12d7bf0c70eef8ed41953f27fc367c32d7ed3feeef3437a711d7bf85b7ffe21e7b963f6e9066b722d7ed3fdc50259c8911d7bf643bff801dec963f2bdc3cefefd6ed3fe272fb4f5011d7bfbd458215d225983f0d2fb8f7dad6ed3f4116695b4111d7bf1c300078a39a983ff22c4c2d95d6ed3f329b4c775611d7bf7007acf5b8d1993f1235476526d6ed3f3d2337fda711d7bf455321f2457b9b3fc84e9f50a3d5ed3f43bcca164812d7bfd770f5d370219d3f201a68180fd5ed3ff6c22e072a13d7bff1e63e9007c29e3fa6d7333c62d4ed3f6b03b8446f14d7bf5d92cac3d130a03fbaa75889a4ceed3fe8a8593f3d2dd7bf9de992dcc4d2a13f81e40f8366c8ed3f008378b55d48d7bf302245369b5aa33fc0a0fb242bbeed3f59235d4cc479d7bf8e2b92584827a43fd39565313ca2ed3f6218e598b004d8bff5ddad4caf60a43ff35924f7969fed3f2cf1da07ba11d8bfc978336de360a43f40477a2c5583ed3f9787dd67ad9bd8bfafe4b41bf92fa43f18644f649e79ed3f1ec8d2ffb1ccd8bfa0ac209ae95da33f9a8829608e74ed3fc772f5ea57e9d8bfe917eb91b0d0a13feb0f58d41770ed3fe0e7430fd702d9bf19e767bbce2fa03f797068b31270ed3f2d6f5168f804d9bff84ae52795c29e3fbaec44082070ed3fb41f7bfeab06d9bfa40ec6f432229d3fa06252cb3c70ed3fab686c6a0108d9bf3ff9a155b97c9b3f21aeea0f6870ed3f3ca3e722fa08d9bf6198599108d4993f219dc77f9070ed3f60de97217709d9bf2a3c8bed1a9b983f2a38a966a170ed3f12b9e7a19609d9bff3a6ee9b2129983f971d0e76d670ed3f3bea512ac409d9bfbdde4cdb5def963ff586d8bde970ed3f72178f2dd009d9bff25b9598297e963f85e009692671ed3f643f4dd1c309d9bfc9d8dd1cce45953ffcb91ea38471ed3f049307df6209d9bf386d4fcabb9d933f3228c378ed71ed3fabe4fe29b108d9bfd5437b7584f9913fdbf97daa6172ed3f9a747e4eab07d9bf841f114a095a903feaf75dfddd72ed3f8f8683896006d9bf834ec0b06c818d3f1f6b0e7c8078ed3f25bbbf7581edd8bf6567b222a0fb863f
+      encoded: 70c39cb2221191ed3f0cf7daaa1379d8bf710dbd651c30823faa1d15a3429ced3f340b3f3cc242d8bf7c094847f5ea813fc8475fe0fab0ed3ff3530440a1dcd7bf596ee094d0e6813f8ab37724e2bbed3fb19b6b1c08a6d7bfe8bc92555c26823fa10aa3500fc6ed3f75c2fed0dd71d7bf90581996a29a853f6c69984d4ccbed3fcf5e4a077555d7bf6dc71dc2971b8c3fded4a03feacfed3f0b633ca6843bd7bfb006d636da73913fc2df7929dbcfed3fd3f1b417813ad7bfc46dfc5cea1f933f6b3b81b1d5cfed3f2f84e5ac543ad7bfe46981122f77933fe6a15297b8cfed3f3722ece1bd39d7bff041888f5ed1943fab0fe389afcfed3f61871b029e39d7bf4e5e60ca1328953fb541e7f182cfed3f91436cb13a39d7bfe963de5f3085963f40bf618b75cfed3f492b30522a39d7bf929f5be95ddc963f55114ce33acfed3f12b24651f538d7bf03bf95adba39983f8bca7f8129cfed3fd74e53c8f238d7bfeaba36071991983f533f69acdfceed3fd64eb1b9f338d7bf3021cea8eeec993f61da5e78cbceed3f423005ddf838d7bf65f4d04daa449a3f046f9bf172ceed3fd70420012c39d7bfc93cd0a047a09b3f9bea9dd25bceed3fe14a6a4e3d39d7bf9510f1ac02f59b3f033828d0d7cded3fce997009cd39d7bfe8d0937699a39d3fd0a95b2e13c8ed3fdd63909bc352d7bfe453bd185984a03f634c2bb3bbc1ed3fc543aae53f6ed7bfcf069f2e4824a23f44a28754f8b6ed3f6e3a177ceea1d7bf22fefcc0f700a33f914fc56801aced3f6965e41f95d8d7bf55ec58a28111a33f46a20b774797ed3f85e320f0c03ed8bfb6dc75a2f710a33f6ce9ae69218ced3f67148bce1b75d8bf1cf680893000a33f1a51360ee081ed3faa68c6fa0ba9d8bf3cace1579222a23f36e344d6ae7ced3fe3fe7bbc64c6d8bfa9b0f673f681a03f821997792178ed3f8a167f9b4be0d8bf0920ea584d9f9d3f7766e3ae4c78ed3fd5f0af6e6ee1d8bf5be4c2f803f39b3f5331a1c15678ed3fe0c1c6ae9ee1d8bfa24cd58a0f9d9b3f6fba937a8378ed3f9644d13341e2d8bfaf2eb2503c439a3f73a9eeb88f78ed3f0add03bf62e2d8bf9d8e92c7edeb993f68821984c478ed3fa4d1bd1fc9e2d8bf7e379c477490983f2d478692d178ed3f395c19c5e0e2d8bf442eb7033c39983fb6bdee9e0d79ed3fb48cd5f30de3d8bfc56f3524c9dc963fff9c828a1d79ed3f834b532812e3d8bf7e8479887685963ff0fd6e545f79ed3f15f28fc30be3d8bf7ed54482a529953f47b268277179ed3f80066aa000e3d8bf1fc0f2b6bfd2943f4682365dba79ed3ff78ec9d1bde2d8bfc69249c8db78933fc3c7f1b1cd79ed3f80f22c2fa5e2d8bf9f95ff148c22933f9d25b961337aed3faee7adfafde1d8bfaec9af59bb76913ff296ad2fe97fed3f7a274c8006c9d8bf255c94d5ad238c3ff5100d7e3886ed3f0bdd2a338aacd8bf8a6d9786d8a4853f
     datetime_begin: !butler_time/tai/iso '2015-07-21 12:19:29.178000000'
     datetime_end: !butler_time/tai/iso '2015-07-21 12:22:51.272000000'
   - instrument: HSC
@@ -1677,7 +1677,7 @@ data:
     science_program: o15406
     zenith_angle: 22.723474929999995
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70668df2c28874ed3f5f5ee4ee2100d9bf55d7246a146e87bf05ad5ca4d07eed3f2e41b989a4ced8bf932af26d9eae8abff7e30972589bed3fbabcae13f344d8bf5a7034c92d9d8bbfe3ecf04b009eed3fbfa711fdf837d8bf9fea32b2279f8bbfd65d7963bbb9ed3f6c9b449bc3aed7bf8920407fe6e28abfe10dae8f9ec3ed3f264143e9c67dd7bf62bb88da049187bfc3be3dff71c9ed3f9063a19b8561d7bf09146bc7cf5f81bf83af34c29cceed3fc6ee439c1c48d7bfb53b0b953bb775bf306cb02f08cfed3f17eec0e54746d7bf76950223789d6ebf61c7dd485ccfed3f9473740acf44d7bf2823ffaa589061bfbb35633a97cfed3f63468dd4b943d7bff81110ce837c41bf8409227cbacfed3fda04e9e5ff42d7bf4e47b6bfddda513f048627f3c2cfed3fbc12393cbd42d7bf3a18b8778ab7623f4cfb64b0c3cfed3f21963f01ad42d7bf9872a43bb83f663f901a20b3becfed3fb11e30cc9842d7bf2621d4e10107703f5a4f7ac6bacfed3f00ae25a49742d7bfd26d1b4668da713f895b1146a2cfed3f2a55cd68d142d7bf0ba94f7419b7763fd52c695d71cfed3f66475efc5443d7bf9a6400fed45d7d3fe154d18a2bcfed3f6423fe9b2644d7bf9bf3d37b89fb813f014c8eaad3ceed3fedd7dd4c3945d7bf80d01626053d853fb7645fda62ceed3fb17bb005af46d7bfb07b05a0907c883fae11950b15c9ed3f1443517bd75fd7bf9dc36470de048f3f9da847613ec3ed3fff3d48654b7bd7bf5e451fc06392923ff7e28df12ab9ed3f8144f765d2acd7bf0585279cc92b943f82bd0c4c159ded3f45209d9c9f37d8bf698fa6f36d9e943f7b4bf0ed6a9aed3f742bcbdaa444d8bf23047c6ad69e943fa2b5d2e1e37ded3fc74c414c5fced8bf87f8d385303d943f78631959dc73ed3ff365463b22ffd8bf855c92710499923f2716ac284d6eed3fe31c384c611bd9bfdbd7864694fc8e3fe22baef85269ed3f70bab6dc7534d9bf2ba8012c8c78883f8977a7d01069ed3f7be3f5eb6536d9bf245d9f6d293e853f865069cde068ed3ff103c8efe737d9bf768aa8aa17fd813fe0f339a0bf68ed3f2833df460b39d9bfbd78acafb7637d3f4029d9a1ac68ed3f47a3ca9fd139d9bf38ee821d6ec0763fc37fa548a768ed3f21ad608e293ad9bf85a95c0f5cdc713f7aa62288a768ed3fd83278923b3ad9bf3a7024065714703f1f5a1fcfae68ed3fe6aca005443ad9bfd21fe8a9e959663fe6861094b168ed3f0ebd03a8423ad9bfe0d6b2180fd0623fc96498c2c068ed3f0db6cf6d113ad9bf71c14f2f3f19523f38f97a5be168ed3fd00a4f817e39d9bf049d1f9f9bd240bf16e625400d69ed3f6b30f1589b38d9bfee5f4112fc5661bf886245534569ed3f1d300dad6437d9bff389c73057536ebf1104dd888669ed3fad6fdbe0e935d9bf8c2c00d52b8f75bfdc32ec50b96eed3fed404446b01cd9bf4c464236c04d81bf
+      encoded: 70660dbaf61e87ed3f71317ea320a8d8bffdc368d8231a86bfe0f3b6156192ed3f0a5d9f03dd71d8bffb0b26987c5f86bfa1a5fec041a7ed3fdae5e0fbdc0bd8bf94f43973a36386bfb4582e6e43b2ed3f9571991c59d5d7bf1491ab52e82386bf34d822d3c5bced3fbdeb92d973a1d7bfa67a0d9c55af82bfbe3da76b87c2ed3fccc382b87685d7bfa3d500502d5c78bf8cbf8777aec7ed3f555b4f7df56bd7bf72dbee04408665bfd9c44a25dec7ed3fc6cd5de1246bd7bf9e5780d6584a50bf6b08b275e5c7ed3fa135b7d5026bd7bf48f75b1897ab45bf066eae06fbc7ed3f9db8ba23956ad7bfb19cf1d98d9c453f4bc9c3a7fec7ed3fabd4448c7f6ad7bf20188cb3e639503f4da2bf1305c8ed3f7de34195456ad7bfbdd290c47b06633f4bb8236704c8ed3fd016cd853f6ad7bf8171ec8b13c0653fa1cb1abafcc7ed3fa3a4decf336ad7bf2e23c68fd955703f98a2dc13f8c7ed3f7a3c2f963b6ad7bff20b78686bb3713f99dd85ebe0c7ed3f4817c28b656ad7bfb08654d72823773f9e119f7dd9c7ed3f04150105756ad7bfde75d5be3282783f852f9587b3c7ed3fb1b53d0fd16ad7bfdc31db8619f17d3fc441f3b9a8c7ed3fc12a2a52ec6ad7bf78a780b022447f3f04f9483a63c7ed3f40e8ef92ae6bd7bfc7540f448cff823f5624284213c2ed3fa7780a8a0385d7bfb4592a593aca893f3b5ba2032abced3fa25646ded8a0d7bfeac53cc64425903f006a1d5592b1ed3f33f474d6aad4d7bf9d91ca2bb8de913fb5c48c6d8aa6ed3f4ccf88d8430bd8bf288a2191b8ff913f6ec40b94a791ed3febbe67514e71d8bf54dc4b84a5fe913fb4d642f76686ed3fc889935393a7d8bfb08c78b72bdd913fb9b09d52d07bed3ff540d7363edbd8bf4b8ecbcddb21903fa74535011a76ed3fe6ddbd492bf8d8bf81c7d0d3b7c0893fce4942c30371ed3fea779948a311d9bff9ee067dfdf6823f6f76541ef070ed3fff4b094e9312d9bf487bd1e53b3c7f3f87c9e997ed70ed3ff9b3365eb912d9bfa09504e04ce47d3fbcb7aaade770ed3fc65b8fed3213d9bfb43f803b8f7c783fc65a5a26e770ed3fd6a118234a13d9bf89e3a4f2391f773fb8b9fc28e970ed3f5fafe3688713d9bf640efc2aedb0713f6a8bfc78e970ed3f1c8197bc9413d9bf0c432ebcf353703fac448aaff270ed3f59d977be9813d9bf36d3d49597c3653fe3e7a7e0f570ed3f0c0dcca29213d9bfc6c8bd0cd708633f583e13010571ed3f5f8ddc2d6313d9bf7c2698755753503f6e189c2f0a71ed3f0ea69fca4d13d9bf9b9236b25cc9453fe25a091c2171ed3f4bb0b232e212d9bf89999385567545bfad51a0e72771ed3f3dd45a64bf12d9bf29ca7dd9e71f50bfd70eee864f71ed3ff68c9acfe511d9bf42c9bf870c6f65bf677ed9b39076ed3fa89f54df8ff8d8bf29a72941ee4b78bf89411d3f727ced3ff484328bbadbd8bf4e47d43919a582bf
     datetime_begin: !butler_time/tai/iso '2015-07-21 13:45:32.443000000'
     datetime_end: !butler_time/tai/iso '2015-07-21 13:48:54.484000000'
   - instrument: HSC
@@ -1692,7 +1692,7 @@ data:
     science_program: o15406
     zenith_angle: 29.346303380000002
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 706209d8a84977ed3f49a460d5bcf3d8bf541041640dbb843fac355cc5ce81ed3ff08d895d71c2d8bfb38c3460e77a813f81b99b045b9eed3ff73a285ec338d8bffcf0669cda8c803fe2fdefa601a1ed3f62a2c048c82bd8bfd47e94efe08a803f153f12319fbced3fb93c44e77aa2d7bff8354448a646813ff138765039c6ed3f3512c89c4271d7bf858f76c92898843f2bbc0b2b8bcbed3f83f1827a9754d7bf4c4dfe060ec98a3fdbfcb1062ed0ed3f89217885bf3ad7bf9183631269a6903fa9a8c2c157d0ed3f40e01b25b538d7bf41272be57740923fec8f31ff68d0ed3fe5f71caf0537d7bfae604f6e07e2933ffd714d6760d0ed3f7a28bc52b935d7bfa75288af1688953f2888d09d3fd0ed3f8fe2bed5c734d7bf66812e8d8d31973f1bdb150616d0ed3fbb1d7b4e5c34d7bf5120770cbb6a983ff085c1b404d0ed3f0d4a15563d34d7bfc4249b64b8db983fbdc67598cdcfed3f612cd5370034d7bf52fe625469159a3fb6dc6c02b7cfed3f42d79fd4ef33d7bf26329950398a9a3f51e24cd66ccfed3f73d0c20f0134d7bfdfce38fd4ac19b3fcfde6900f8ceed3f01e4a4354d34d7bf4ec3967ed26a9d3f33e900d36eceed3fd8743de1e734d7bf88cf10a7f7109f3f2e81c082d4cded3fdc85d85fc435d7bff28d243ac458a03f3cd1ee7421cded3f50ae81110437d7bf628c031e8f28a13f3cf3fec750c7ed3f262adebcc14fd7bfc2bbceeb7ccaa23f8556bbd4ffc0ed3f7991c5e5d16ad7bf0e72d5c54d52a43f18351841b0b6ed3fdd320cc6279cd7bf9919ed47f91ea53f4953e9fc969aed3ff4774ee9f126d8bf195bd3ee6158a53fb16148efed97ed3f668fb73af833d8bf7c567d0c9658a53fd04ea317857bed3f71212b7fcbbdd8bf5c1223bda927a53f74771bd5c571ed3fab0fe478c9eed8bf5a2b1ef59b55a43f3454cd8cb86ced3fda11a585720bd9bf6252d77868c8a23f377a3c364668ed3f382d35f3f524d9bfc6fabce78b27a13f7ee8943e4668ed3f30ff4bff1b27d9bf9a3da3cd0a59a03f7f5ae8e85868ed3fe7b70768d428d9bf9a5eb54cb9119f3fa477472f7b68ed3f78389cc72e2ad9bfd374145e456c9d3f9122e41dac68ed3fedcc378e2c2bd9bf516f090d9ac39b3f88ae42cbd868ed3f456e8a50ad2bd9bfa3b9753eb08a9a3f37a69c41eb68ed3f3e486232ce2bd9bf40ba9b48b8189a3fe482cca82469ed3f2214bd8fff2bd9bf40512b2bf8de983f79e702833969ed3f56b50ef50c2cd9bf7ed5862dc56d983fb508eb917a69ed3f6acc9472042cd9bfd61d82196d35973fcc461ad9de69ed3fcea19dc8a82bd9bfbc0246275f8d953fdb2eb1c54d6aed3f3ef3175dfc2ad9bf3ab675df2be9933f3e4d0d16c86aed3f24fd9dcafb29d9bfee49946eb449923f23d5ac854a6bed3f6bac3646b628d9bfe5eac3e264b0903f5721e7ffff70ed3fcdf0e95ee70fd9bfa47072f20edb8a3f
+      encoded: 70c50dce5cbb89ed3ff8443d7b9d9bd8bf292abd24a70f863fba949e43fd94ed3fdee7489b5965d8bfc780392885ca853f80202d75d3a9ed3fb4626c0251ffd7bf2c377eb060c6853ff29fde46cab4ed3f45503954c4c8d7bf3366418ee705863f9f33948a00bfed3fe653f2f1a094d7bfa08200d7217a893f514a54313ac4ed3fd59cedcb3478d7bf097bc63907fb8f3f9f33208dd3c8ed3f9d159ee53f5ed7bf02688f4f8863933fdc6c02c4bec8ed3fb57f2160375dd7bfd0062677940f953f73d71c20b8c8ed3fa1c366ef095dd7bfbd409652d866953f1858b65896c8ed3fa7ffb60c6f5cd7bf113a1c4e04c1963fabc8af1d8cc8ed3f595669244e5cd7bf5e4501a0b817973f06afe9be5ac8ed3f4e713fa1e65bd7bf4f6b1e6bd174983f2e3a93244cc8ed3f5c3c0a33d55bd7bffd9250fafdcb983f18743ca70cc8ed3f732365ee9b5bd7bf15e811b156299a3f0790e20cfac7ed3ff3373c51985bd7bf49cd81ffb3809a3f80233858abc7ed3f9f7283f1945bd7bfe95ffe5685dc9b3f185912e895c7ed3f317e40fc985bd7bfbcd99ade3f349c3f88c2d07338c7ed3f4f3ca6bec75bd7bf07c6b6a6d88f9d3f2ed3eb1f20c7ed3f8e5eb6f8d75bd7bf15ea518f92e49d3fb3c14eeb95c6ed3f13fe042c625cd7bf72879d6123939f3fae757bccbdc0ed3f3da681054875d7bf899ea5ca187ca13f1e2c969c52baed3fe34c5c57b390d7bf8650f92c021ca33fb1c676ea79afed3f5c318c3950c4d7bf076c249faff8a33fb38c9a8472a4ed3f40d0b197e9fad7bf922eb4583a09a43fdcc9bba69a8fed3fd09bc70bfd60d8bf1ee6db4db008a43f51f07d246584ed3ffcbd75304b97d8bf83b85750e8f7a33f35447cc61a7aed3f673e245f34cbd8bf967b34374c1aa33f77b505a1ec74ed3f7e03f38c90e8d8bf9eee80f7b579a13f2d5636d86370ed3ffb2d78007c02d9bff58559d5d68e9f3f2ad013b89470ed3f684237eca303d9bf5d3b996293e29d3f399ce7f09f70ed3f4ecec533d503d9bf98e9de1ba08c9d3fe2a15252d170ed3fb1fec5e17b04d9bf99159d65d1329c3f8c23ecbfde70ed3f1ae7f37a9e04d9bfc52f30f883db9b3ff0401a4b1871ed3f9091f9120905d9bf3e6b10c10e809a3f83815c8b2671ed3fc0fd04c72105d9bfc9f0b487d7289a3f61020a6c6771ed3f041973385305d9bf3fb6c6b268cc983f4b6b848f7871ed3fbcfc4c7f5805d9bf3d651a121775983ff6848f3abf71ed3ff20726625605d9bfbea1a3d24919973f9cb86848d271ed3fcae15b524c05d9bf4bf4fdf064c2963f67fd216a2072ed3f628172ce0d05d9bf47e37d838468953f065697fb3472ed3f72ea403ff604d9bfb5c823a83512953fd8227edaa072ed3fe6c1d2665404d9bfb6d41dec6866933fd7eb05256a78ed3fae6219936debd8bfa49ae22c8e01903f49459071cd7eed3f1df67f3302cfd8bf96fe3c1b5784893f
     datetime_begin: !butler_time/tai/iso '2015-07-21 14:32:06.890000000'
     datetime_end: !butler_time/tai/iso '2015-07-21 14:35:28.903000000'
 - type: dimension
@@ -1702,152 +1702,152 @@ data:
     detector: 2
     visit: 36260
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 703158dc742c8aed3f5601c130ca95d8bfd133ea745e6e913f16a071e6c08bed3f7509e0916492d8bfdb6622240dbe833f2191948feaa8ed3fd68bacbb4f04d8bfb030a1456673833f8e9159e682a8ed3f090dee70fe01d8bf6d40da4f8360913f
+      encoded: 706b6fb970f993ed3f98a97d717268d8bf5fa9ce4f92d38c3ffd402e2d4694ed3ff5415a4f1168d8bf50baa40d31ed883fe77c3106bd9fed3f26df4d223830d8bff6a63978ecd9883fc6f4254f8c9fed3f8b071c041130d8bff67462385dc48c3f
   - instrument: HSC
     detector: 7
     visit: 36260
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 704757364add89ed3f83e952e50096d8bf349101985824933f3c91dedc648bed3f0a4b93a07a93d8bf1cfb12effcb7863f7d73cbf9e4a8ed3f24bdfe64c203d8bff972e32d8779863f45ead21c55a8ed3fb41a14939201d8bf63f87fd35f18933f
+      encoded: 70b6e81969b893ed3fa93660aaa268d8bf060e88342a15903f82c1c5890694ed3f63e6b9596468d8bfa7a669d8542a8c3f683a8435959fed3f7c78c19c1730d8bf483bd7d78f198c3f5ee9fc175e9fed3f2bb5e6e9e52fd8bf973949507a0e903f
   - instrument: HSC
     detector: 8
     visit: 36192
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70425993805986ed3fddbd059c3fa8d8bf6ac9313fe445913f5755d1713b88ed3ff747da3e67a3d8bfff46594bcc3b833fc3da0bfe4da5ed3f6ad5b5164c16d8bf7005257e2b90823f705ce5e57aa4ed3f62b65fdd0816d8bf54dd01dc1a28913f
+      encoded: 70cab9d6d40890ed3f7d634064a07bd8bf1f6d2944166e8c3f39226c126a90ed3f1dec6f7edc7ad8bfd2fbd0c36078883f0af191dcd49bed3f04595b647743d8bfeb4de9f8324a883f5517f72e8d9bed3fe55c08c7bf43d8bf8142d74f8c4a8c3f
   - instrument: HSC
     detector: 13
     visit: 34714
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 703ec433ae5d84ed3f558746411eb0d8bf4ca3eb7e8874933f6b55c0afd285ed3fb90a4e7b22aed8bf4c23a1b1c401873f0ddb395bbba3ed3f51df99af1e1dd8bf41d8be84a7d3863f80cded230ea3ed3f9a7b086e511bd8bf356cdc78716e933f
+      encoded: 70978754274a8eed3f24f941d2b382d8bfeb7071d1e95e903fcc3470be978eed3f1247b0798482d8bf53d34775eaa98c3f8b685425469aed3f2e097b8ae249d8bf982d7d13359e8c3fc0ad48320b9aed3f547fff7eb749d8bfa0edbc1e945a903f
   - instrument: HSC
     detector: 13
     visit: 36260
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70bab540ea8689ed3fdc91d0073896d8bfe2fb94bbb3de943fdf459952108bed3f5a8f0d004c94d8bf65ef092932d6893f63d90fa0d9a8ed3fb0c948632e03d8bf90c9a06418a8893fddc2540217a8ed3f537077915001d8bf291952739ed8943f
+      encoded: 705fb46c927193ed3f4d6f9990cb68d8bf4ea1b19c1bc9913f55b1c076c493ed3f3fea1a51a068d8bf4245e5da537e8f3f99396f95669fed3f6e72e845f42fd8bfaca89cd29f728f3f9d0c7d3d269fed3f03a2e30dc52fd8bf558baf97c6c4913f
   - instrument: HSC
     detector: 14
     visit: 36192
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 705bd23b6e0786ed3fee1e336686a8d8bff20fed3b3dfc923f79474971c887ed3f33c9e515e9a4d8bf0ca0f9a6144d863f120273b129a5ed3f43d6b0ad5516d8bf6728d93312b9853ffc7185f243a4ed3f851ee885ca15d8bf969faf6bdde4923f
+      encoded: 70c3a8326abc8fed3fc4c58add077cd8bf6f3797cabfcd8f3fc3188dc71990ed3fe814bb9c7f7bd8bf42a8eae703c38b3fb76158769a9bed3f23810443b143d8bf4055918fe49b8b3f46ea817a519bed3f19bf2c87d643d8bfd6b1763005b08f3f
   - instrument: HSC
     detector: 15
     visit: 34674
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70a6063c00cc8fed3fc01c1919437ad8bf90b5dbf69207923f7e365223e391ed3fbcb5a6319c74d8bfd26590413bb5843f600ba0100caeed3f55b82290d7ead7bf3e961239afc1833fc53e8446e9aced3f5a775bced5ebd7bf44324910b9e1913f
+      encoded: 708c29137c1099ed3f35468923624fd8bfbed6ac1867ee8d3f94bcc75e8299ed3f535386235c4ed8bf1cdd9a82e5f3893fcaf0d54f91a4ed3f5f11bdba4918d8bf6aa4fb4f20b1893f5bce60d637a4ed3fbf5c554ed818d8bf5438639b76bc8d3f
   - instrument: HSC
     detector: 18
     visit: 34714
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7014025960f0aded3fe6bc80fdd2e9d7bf12fbde34c6398a3ff2b8078c52aded3fa9d65b0215e7d7bf58fd58c63533953f9940775fcf8eed3fa7af4c88807cd8bfa2aed2340a2f953fc24ca1ef0690ed3f496f2bf54f7cd8bf661cac4b45188a3f
+      encoded: 70ee23ae84aca4ed3f51d7da18dc15d8bf05506ee77806903fe5f066eb77a4ed3fd210caba6715d8bfac1aa9175318923fe8df1b31c398ed3f690c4d2fbc4ed8bfafeb9bbd1d15923f68124c410699ed3f6d34e3e7e94ed8bf7e3aca602002903f
   - instrument: HSC
     detector: 19
     visit: 34714
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70e7a54e1c1384ed3fb80869cd12b0d8bf6d6dc39f8a33953f5da608938085ed3fa1e256b6dcaed8bf5e645477333e8a3fa90e0dada6a3ed3f04475cf1b01cd8bf047a569581158a3fd7713d5fd4a2ed3f47387b1df41ad8bf77da96ed752e953f
+      encoded: 701b7de36e088eed3f4ae35235ba82d8bf9b384715ab18923f2fa74211588eed3fd8db75c5aa82d8bff10214db0f07903f3956bb6c169aed3f8e07dde6bb49d8bf7a0fbb16cc01903fac43af63d599ed3f390052538449d8bf052e6726cb14923f
   - instrument: HSC
     detector: 20
     visit: 36192
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 703bfcecb8b185ed3fa11f8783bda8d8bf4a5f40d9b8b5943f4123c4675f87ed3f1b6ba9961ba6d8bf8f7d775aa279893fc67c3abc03a5ed3ffa6a2c6a4416d8bf762cf0c1c002893fa25c7d2affa3ed3f7c49f81aaa15d8bf9ad04e62b4a8943f
+      encoded: 7061dc488e6d8fed3f1ebd2144587cd8bf6c98cce2cb9d913f3c1a84b8ca8fed3f24abe362fa7bd8bf838ac3cba8208f3fbd5e75b35c9bed3fe6f6f9b1d743d8bf0e19ace4d3028f3fe385ed1e0f9bed3fdc74a33be943d8bf445ff6f32593913f
   - instrument: HSC
     detector: 21
     visit: 34674
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 705706046e798fed3fd3b01db2827ad8bfc37849ea49ba933f3cfed9505f91ed3f4980fae86376d8bf6d901891b3d3873fe8c0fd36d0aded3fd8ce562e47ebd7bf817efacfa1ff863f9ca0eda9abaced3f1d79cc98a9ebd7bf879b622d15a0933f
+      encoded: 7072ccebdbba98ed3fe2774dfbe94fd8bf50600c3180a7903f37c6dfd92399ed3f4c216e00384fd8bf30f046faf6428d3fa67de8e047a4ed3f948e9f42bf18d8bff0faeb1bc10b8d3f0e941697f1a3ed3f824aef971419d8bf037564a09293903f
   - instrument: HSC
     detector: 23
     visit: 35892
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70bafdd9a669abed3f41b635a052f8d7bfc10074e65c99813fee3aa4cb6cabed3f7e955bf607f4d7bfb2fca36a21bd903fa28b51ba0e8eed3fbca698d29783d8bfb49d8c07c4b5903f654d1c219f8eed3f4c07ae2c1985d8bf22f2fc93bbf9803f
+      encoded: 701e3bf36d16a3ed3f9b184d383020d8bfc80e0675da3c873f71b8f95208a3ed3fe5ddd121621fd8bf37022b42ad578b3f2bcca245bd97ed3fa6fd9bcd9e56d8bf2bf8bfd4b33f8b3f824ffcc5d897ed3fb8096e3c2c57d8bf3adc8b994a17873f
   - instrument: HSC
     detector: 28
     visit: 34674
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70ac18b8ce278fed3feb6c5f889e7ad8bf1c4277f3256e953f17ec8c76e690ed3f4e9d14f8d777d8bf2a7d60c562048b3f771c611b95aded3fcfe21d0490ebd7bf78d16c02ea568a3f7e10413663aced3f6daa7d778eebd7bfb82192fb1963953f
+      encoded: 70f16fad496698ed3f695c4fdc4a50d8bf9fa7e883cd5c923f06a64becc998ed3f65046acddb4fd8bff9baf9743950903fac2551e2fda3ed3f29e832341419d8bf2610392f4a3b903fb13c588da7a3ed3f2ec2abea3f19d8bfe68c9099f74e923f
   - instrument: HSC
     detector: 31
     visit: 35892
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7075417f2c92abed3f34bb2031e1f6d7bf539e6a2249e2843f41b816fa34abed3f5ca68e78d9f3d7bf8e45a903d974923f0ffe4cd6d38ded3f816c69d26f83d8bf8c618de64079923f6183f081948eed3f63ecb88ca684d8bf967159139f60843f
+      encoded: 70aab549fb0ca3ed3f9c846af57b1fd8bfff66e81899a98a3f8d71113ceba2ed3fc3497f3fe61ed8bfcf7d33524ccd8e3f0e2646129997ed3fe89572634456d8bff1d7ed5060be8e3fb7323ddbc397ed3febdbe6edaf56d8bf1e8559a4d58d8a3f
   - instrument: HSC
     detector: 39
     visit: 35892
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70fbbc117da1abed3f55fd6ebcccf5d7bf45616f55fb36883f6228ffceebaaed3f5a752210e3f3d7bfb988b20f962a943f1844db78908ded3fa70c1b125083d8bf2850e573e43c943f499662e07b8eed3fbf406bfc5584d8bf5f7c96fb01d5873f
+      encoded: 702156e178f1a2ed3f594ecf68ff1ed8bfba1f26da791c8e3f415a52c0bda2ed3fbca9544f9a1ed8bf4fd5dea2ab22913fd836d2ca6797ed3f106c722b0856d8bf6803bba85a20913faabd5c6ca097ed3f467945825856d8bf8067e8eb670b8e3f
   - instrument: HSC
     detector: 48
     visit: 34690
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70a7932c0d9eaaed3f61ba36ab70fcd7bf9d5c69550d95803ff99a1513e2a9ed3fa470794dd4fbd7bf5d11cf556a80903f5f61e8e3b18bed3f9bdd5b16118fd8bfa85da55e1093903fc7b8187c718ced3fae36cec3ae8fd8bf8caf46181270803f
+      encoded: 70edbcae176fa1ed3fdc8f2c507028d8bf923fed1ed9af863fb485e7ab3ea1ed3f04a35c244928d8bf3ef91dba63e68a3fd634c59d9495ed3f7ca940d93361d8bf461b6799efe98a3fabfb2f5ac595ed3fbe84a6495b61d8bf48113f7c59ac863f
   - instrument: HSC
     detector: 51
     visit: 34648
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70f77298eb6b8bed3f5ba294a80c90d8bf310b46125c0f913fa61adc962b8ced3f62300818c690d8bf15f318dbefb7813f012634154daaed3fd423e954d5fdd7bf23c43438ad8b813fcd359f7a8aa9ed3fd3558d3315fdd7bf945f2bb4c320913f
+      encoded: 700aea997ed794ed3f0d4440e97964d8bfc1f3a8d0c0048c3fae2159ab0895ed3f6e13bc99a964d8bfc1c53c0f05cf873fee1dac03afa0ed3f85c8feabda2bd8bf48a5b3e572c9873f90af7b8f7da0ed3fe4f6db5baa2bd8bfabad4c66a9068c3f
   - instrument: HSC
     detector: 51
     visit: 36140
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70cebba84f6c8bed3f223c08ac0a90d8bf3db8331b830f913f834641fd2b8ced3fe56b4e1dc490d8bf5eb3faee3db8813ffb1a2c794daaed3fb1c23158d3fdd7bf2491274dfb8b813f8bfc36dc8aa9ed3fde7dfa3413fdd7bf8cb99cbdea20913f
+      encoded: 701206cde2d794ed3f6c4ec5ec7764d8bfaa66eee30e058c3f3a7325100995ed3f45e4b89da764d8bf3e46072353cf873f19a38667afa0ed3fc23e35afd82bd8bf4e46e8f9c0c9873fc9edbbf27da0ed3fb5d0995ea82bd8bf8956fb79f7068c3f
   - instrument: HSC
     detector: 56
     visit: 34690
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 709a6e71378faaed3f3494b41d11fcd7bf01b91c95400a843fc3be8f5b92a9ed3f6dd3fad320fcd7bfdacec5038e37923f019b4d49788bed3f7a0c9f41e88ed8bfdbc393a2af52923f5df955f3528ced3ffb1b3fb79a8fd8bfbb1d840f8cf5833f
+      encoded: 7012dbb4dc46a1ed3fe1d476825228d8bf28fd3d1107328a3fd564d03a09a1ed3fe50ff77a4528d8bf88368aec00678e3ff33dcb0f6295ed3fe9d322ca1f61d8bf8d2ed97b9b708e3fd064d6879c95ed3ffb641bd53e61d8bfb7fd9e4a8e348a3f
   - instrument: HSC
     detector: 59
     visit: 34648
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70cbf317cc488bed3fc3d5b851768fd8bfb6f3582d2ac5923f14415dacfd8bed3fee16555cf490d8bf89b05c18942a853fa61ccf852eaaed3f4657ba75b6fdd7bf5bcd0ca42a14853f847d7c014da9ed3fa79df323f4fcd7bf3691cd57e5e1923f
+      encoded: 700698b7a3ab94ed3f26abaa533d64d8bf23f5b58a97848f3fdb143607de94ed3f1d1e9c588d64d8bf865b301870508b3fa45d4f5884a0ed3fdb4fdd84bc2bd8bfe1d2510c03538b3ff2d1e8db4da0ed3f9a59c0aa7d2bd8bfe7acd47cb08e8f3f
   - instrument: HSC
     detector: 59
     visit: 36140
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7064e6a92f498bed3f0ecdca54748fd8bfd98efc3551c5923fac5f4612fe8bed3fe49a3961f290d8bf8daceb2be22a853ff9a346e92eaaed3fabb99d78b4fdd7bfec59acb87814853fb0ae94624da9ed3f494ffe24f2fcd7bfacd1f1600ce2923f
+      encoded: 70bb006b07ac94ed3ff258cc563b64d8bf6c807c9de5848f3ff403836bde94ed3f864f355c8b64d8bf93778d2bbe508b3f6251a9bb84a0ed3f0739af87ba2bd8bf2621182051538b3f3d78a83e4ea0ed3f35291aad7b2bd8bf39fc0290fe8e8f3f
   - instrument: HSC
     detector: 64
     visit: 34690
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7008c70ae473aaed3fecc0c208cefbd7bfcf0dea9e3d85873f42ad9cf733a9ed3f91d975ed99fcd7bf7cc910f393ea933fd94badfd388bed3f44ccac98be8ed8bf7b2a6216d30d943f15525729308ced3f8be0b6f4798fd8bf13106683aa7e873f
+      encoded: 70551c4c5c14a1ed3f10931e604628d8bfe5a855a88cb48d3fcb4ba22bc9a0ed3fba90a56a5628d8bf3a9b078e5cf2903ffc4acee42795ed3f031e03411161d8bfb3ab74b8e4f9903fda1271676c95ed3f864f292f2561d8bf76e3c12b6bbc8d3f
   - instrument: HSC
     detector: 67
     visit: 34648
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7048fa59f52d8bed3f8a53fa219d8ed8bf4b66595dbe76943f581418c1d08bed3fcacdd76dfd90d8bf422a2e07eaa2883fe73d934f08aaed3f286e0fe09bfdd7bf02a426f0a49d883fe98c365a0ea9ed3fa7b3f00fbdfcd7bf94f9dcea349d943f
+      encoded: 70346b428a8194ed3f80c02b75d963d8bf3faf71124e80913f94176f6cb394ed3f6f7f24da5064d8bfe4df094244d18e3f466f9ca056a0ed3f2dc596e38c2bd8bf9dcb113955da8e3f1f30b6c21ca0ed3f3a340ac0382bd8bff815db3caa88913f
   - instrument: HSC
     detector: 67
     visit: 36140
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 702aab6d582e8bed3f0612ab249b8ed8bff00aad65e576943fb1b88326d18bed3fade25972fb90d8bf36a65b1a38a3883f1f468ab208aaed3fd9f98de299fdd7bf16956304f39d883ff76fd0ba0ea9ed3f3c579a10bbfcd7bf91c3adf35b9d943f
+      encoded: 70260376ed8194ed3f7b63ea77d763d8bff0848e1b7580913fe62f3cd0b394ed3ffd215add4e64d8bf34f3ea5492d18e3f1fd8750357a0ed3fe69604e68a2bd8bf00e65a4ca3da8e3f119af5241da0ed3ff8ae00c2362bd8bf0ef42a46d188913f
   - instrument: HSC
     detector: 87
     visit: 36236
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 702fb0ffe555a6ed3fa8c91e06aa11d8bf9bc41516f917803f8c0a64cd67a5ed3feec841773a12d8bf79c9ef397111903fa36247039487ed3fc17b93433fa3d8bf7f30d69e08eb8f3fae97f0a9b687ed3fea85f4db76a6d8bf2c50dbfab604803f
+      encoded: 700604119bb89ced3f2454c70d9d3fd8bf6e67b1badb3d863f5bcba5828a9ced3f7758ad0b783fd8bf3b84ea96e5548a3f301a9613e390ed3fe91747301c78d8bfdea89b2aec458a3f1ec2f633fe90ed3f8d1c85819b78d8bf9a5eea023232863f
   - instrument: HSC
     detector: 92
     visit: 34670
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70abf4a1cea6abed3f6f6d2e1a28f7d7bfaf191c24e481813f73d9807950aaed3ffa1202b6a9f9d7bfd4bf9efb748c903fd92bfeb9d38ced3f718a7d7e9189d8bf449d318ffaa4903fbeea8ef6388ded3f5f2cd80ebc8bd8bfd47923ad4093813f
+      encoded: 70cb0a0a021ea2ed3f3d4e8275dc24d8bfd90386595b9f873f3275eadbd9a1ed3f2760f1131b25d8bf0ec3ab6b4ca08b3f8a038d6c4e96ed3f8f0a8300775dd8bfa952190315ad8b3f9b8666fa7b96ed3fac448764a85dd8bf46dc647f6ba9873f
   - instrument: HSC
     detector: 93
     visit: 34670
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70a206eb9aa0a0ed3f95eb0fc4742dd8bfa1ca8925cc96813f22bfcc2ba09fed3fb6cc7e3b3a2ed8bfd7b2bda022a8903f8f147cbaf481ed3fa7b9bd33c2bdd8bffe3a056fd587903f3c8ef5bbf781ed3f1d770c83adc1d8bf63aa8d961f7e813f
+      encoded: 70d6918624fd96ed3f2841878a345bd8bf4e200325beaa873f5a83ebd7cd96ed3f1c97e8920b5bd8bfc03f78ca65ae8b3f59f9875a2d8bed3f134bd4e64493d8bf2014cb858c9c8b3fd7b0c6dd448bed3f3d34ec94de93d8bf175f1ecdb89c873f
   - instrument: HSC
     detector: 93
     visit: 36236
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 7014fc779230a6ed3fdabbaeddbc11d8bf92bf206f2393833fee4971de21a5ed3f0a3fc6707712d8bf4a5c24d647a6913f2de8b0299887ed3f043a5e3b1ba2d8bf9734808ff985913f78ebae63aa87ed3f82c9043d12a6d8bf0cde5256747a833f
+      encoded: 701f723234929ced3f88eefb0b813fd8bf0fec77e211a7893ffcbfb72d5f9ced3fb8459e3b553fd8bf3c4c8e35b6aa8d3f252c96e0cb90ed3f63e004719977d8bfd8ccf605dc988d3f05a87f34e790ed3f0127220b3678d8bfaaf7ac960b99893f
   - instrument: HSC
     detector: 97
     visit: 34670
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70dd28dbf272abed3f4f42441579f7d7bf8ee0b818d8ee843fb898fb8aeba9ed3fcc985ebd89fad7bfeb82ce055c0a923f161bd1b3bd8ced3ffb0bbe1ee888d8bfa419bf715c29923f0fa25f7a258ded3fa1ea307f6c8bd8bfeeda7fab6d05853f
+      encoded: 701ecd2bf0e5a1ed3ff9c5f0720f25d8bf081b0314a4f78a3f19f6b19498a1ed3fc38b8cde5f25d8bf0c250a7842df8e3f9923ec722496ed3f1e2b1131485dd8bf84312602d5ee8e3f96168d585696ed3f9486cefa7f5dd8bff2aeed33f2038b3f
   - instrument: HSC
     detector: 98
     visit: 36236
     region: !<lsst.sphgeom.ConvexPolygon>
-      encoded: 70bd72f07705a6ed3fb6e9dde4cd11d8bf30a808602c06873ffb7077c7d4a4ed3fae03aa9eca12d8bff696232a1c2a933f02d86be59e87ed3f206a9b68dea0d8bf260fc5be8405933f37061824a187ed3ff751f49482a5d8bfddc41f5b30e5863f
+      encoded: 70bcdcdb09689ced3f5769ec205d3fd8bf04fad7b185018d3f2430e814309ced3f2429dd4a2e3fd8bf323301bf3076903fb3b07157b590ed3f973cebcbfd76d8bf94250d6d256b903fd8ab8962d090ed3f50e37034b677d8bf17b0ddd7d0ef8c3f
 - type: collection
   collection_type: CALIBRATION
   name: HSC/calib
@@ -1871,13 +1871,7 @@ data:
   timespan_end: null
 - type: collection
   collection_type: RUN
-  name: refcats
-  host: null
-  timespan_begin: null
-  timespan_end: null
-- type: collection
-  collection_type: RUN
-  name: skymaps
+  name: refcats/gen2
   host: null
   timespan_begin: null
   timespan_end: null
@@ -2153,22 +2147,6 @@ data:
     path: HSC/calib/unbounded/camera/camera_HSC_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
 - type: dataset_type
-  name: deepCoadd_skyMap
-  dimensions:
-  - skymap
-  storage_class: SkyMap
-  is_calibration: false
-- type: dataset
-  dataset_type: deepCoadd_skyMap
-  run: skymaps
-  records:
-  - dataset_id:
-    - 1027
-    data_id:
-    - skymap: hsc_rings_v1
-    path: deepCoadd/skyMap.pickle
-    formatter: lsst.daf.butler.formatters.pickle.PickleFormatter
-- type: dataset_type
   name: gaia_dr2_20200414
   dimensions:
   - htm7
@@ -2176,64 +2154,64 @@ data:
   is_calibration: false
 - type: dataset
   dataset_type: gaia_dr2_20200414
-  run: refcats
+  run: refcats/gen2
   records:
   - dataset_id:
-    - 1008
+    - 1009
     data_id:
     - htm7: 197120
     path: ref_cats/gaia_dr2_20200414/197120.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1015
+    - 1016
     data_id:
     - htm7: 197122
     path: ref_cats/gaia_dr2_20200414/197122.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1016
+    - 1017
     data_id:
     - htm7: 197123
     path: ref_cats/gaia_dr2_20200414/197123.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1013
+    - 1014
     data_id:
     - htm7: 198912
     path: ref_cats/gaia_dr2_20200414/198912.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1010
+    - 1011
     data_id:
     - htm7: 198913
     path: ref_cats/gaia_dr2_20200414/198913.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1009
+    - 1010
     data_id:
     - htm7: 198915
     path: ref_cats/gaia_dr2_20200414/198915.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1014
+    - 1015
     data_id:
     - htm7: 199936
     path: ref_cats/gaia_dr2_20200414/199936.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1007
+    - 1008
     data_id:
     - htm7: 199937
     path: ref_cats/gaia_dr2_20200414/199937.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1012
+    - 1013
     data_id:
     - htm7: 199938
     path: ref_cats/gaia_dr2_20200414/199938.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1011
+    - 1012
     data_id:
     - htm7: 199939
     path: ref_cats/gaia_dr2_20200414/199939.fits
@@ -2248,7 +2226,7 @@ data:
   run: HSC/testdata
   records:
   - dataset_id:
-    - 1099
+    - 1109
     data_id:
     - {}
     path: schema/icSrc.fits
@@ -2261,64 +2239,64 @@ data:
   is_calibration: false
 - type: dataset
   dataset_type: ps1_pv3_3pi_20170110
-  run: refcats
+  run: refcats/gen2
   records:
   - dataset_id:
-    - 1018
+    - 1019
     data_id:
     - htm7: 197120
     path: ref_cats/ps1_pv3_3pi_20170110/197120.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1025
+    - 1026
     data_id:
     - htm7: 197122
     path: ref_cats/ps1_pv3_3pi_20170110/197122.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1026
+    - 1027
     data_id:
     - htm7: 197123
     path: ref_cats/ps1_pv3_3pi_20170110/197123.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1023
+    - 1024
     data_id:
     - htm7: 198912
     path: ref_cats/ps1_pv3_3pi_20170110/198912.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1020
+    - 1021
     data_id:
     - htm7: 198913
     path: ref_cats/ps1_pv3_3pi_20170110/198913.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1019
+    - 1020
     data_id:
     - htm7: 198915
     path: ref_cats/ps1_pv3_3pi_20170110/198915.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1024
+    - 1025
     data_id:
     - htm7: 199936
     path: ref_cats/ps1_pv3_3pi_20170110/199936.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1017
+    - 1018
     data_id:
     - htm7: 199937
     path: ref_cats/ps1_pv3_3pi_20170110/199937.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1022
+    - 1023
     data_id:
     - htm7: 199938
     path: ref_cats/ps1_pv3_3pi_20170110/199938.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 1021
+    - 1022
     data_id:
     - htm7: 199939
     path: ref_cats/ps1_pv3_3pi_20170110/199939.fits
@@ -2338,7 +2316,7 @@ data:
   run: HSC/raw/all
   records:
   - dataset_id:
-    - 24
+    - 22
     data_id:
     - instrument: HSC
       detector: 51
@@ -2346,7 +2324,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034648-051.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 23
+    - 24
     data_id:
     - instrument: HSC
       detector: 59
@@ -2354,7 +2332,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034648-059.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 22
+    - 23
     data_id:
     - instrument: HSC
       detector: 67
@@ -2362,7 +2340,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034648-067.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 28
+    - 30
     data_id:
     - instrument: HSC
       detector: 92
@@ -2370,7 +2348,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034670-092.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 29
+    - 28
     data_id:
     - instrument: HSC
       detector: 93
@@ -2378,7 +2356,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034670-093.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 30
+    - 29
     data_id:
     - instrument: HSC
       detector: 97
@@ -2386,7 +2364,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034670-097.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 1
+    - 11
     data_id:
     - instrument: HSC
       detector: 15
@@ -2394,7 +2372,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034674-015.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 2
+    - 10
     data_id:
     - instrument: HSC
       detector: 21
@@ -2402,7 +2380,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034674-021.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 3
+    - 12
     data_id:
     - instrument: HSC
       detector: 28
@@ -2410,7 +2388,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034674-028.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 9
+    - 13
     data_id:
     - instrument: HSC
       detector: 48
@@ -2418,7 +2396,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034690-048.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 7
+    - 14
     data_id:
     - instrument: HSC
       detector: 56
@@ -2426,7 +2404,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034690-056.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 8
+    - 15
     data_id:
     - instrument: HSC
       detector: 64
@@ -2434,7 +2412,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034690-064.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 12
+    - 4
     data_id:
     - instrument: HSC
       detector: 13
@@ -2442,7 +2420,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034714-013.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 10
+    - 5
     data_id:
     - instrument: HSC
       detector: 18
@@ -2450,7 +2428,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034714-018.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 11
+    - 6
     data_id:
     - instrument: HSC
       detector: 19
@@ -2458,7 +2436,7 @@ data:
     path: SSP_WIDE/2015-07-15/01291/HSC-R/HSC-0034714-019.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 14
+    - 27
     data_id:
     - instrument: HSC
       detector: 23
@@ -2466,7 +2444,7 @@ data:
     path: SSP_WIDE/2015-07-20/01296/HSC-I/HSC-0035892-023.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 13
+    - 26
     data_id:
     - instrument: HSC
       detector: 31
@@ -2474,7 +2452,7 @@ data:
     path: SSP_WIDE/2015-07-20/01296/HSC-I/HSC-0035892-031.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 15
+    - 25
     data_id:
     - instrument: HSC
       detector: 39
@@ -2482,7 +2460,7 @@ data:
     path: SSP_WIDE/2015-07-20/01296/HSC-I/HSC-0035892-039.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 17
+    - 1
     data_id:
     - instrument: HSC
       detector: 51
@@ -2490,7 +2468,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036140-051.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 18
+    - 2
     data_id:
     - instrument: HSC
       detector: 59
@@ -2498,7 +2476,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036140-059.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 16
+    - 3
     data_id:
     - instrument: HSC
       detector: 67
@@ -2530,7 +2508,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036192-020.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 4
+    - 18
     data_id:
     - instrument: HSC
       detector: 87
@@ -2538,7 +2516,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036236-087.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 5
+    - 17
     data_id:
     - instrument: HSC
       detector: 93
@@ -2546,7 +2524,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036236-093.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 6
+    - 16
     data_id:
     - instrument: HSC
       detector: 98
@@ -2554,7 +2532,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036236-098.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 25
+    - 9
     data_id:
     - instrument: HSC
       detector: 2
@@ -2562,7 +2540,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036260-002.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 27
+    - 7
     data_id:
     - instrument: HSC
       detector: 7
@@ -2570,7 +2548,7 @@ data:
     path: SSP_WIDE/2015-07-21/01297/HSC-I/HSC-0036260-007.fits
     formatter: lsst.obs.subaru.rawFormatter.HyperSuprimeCamRawFormatter
   - dataset_id:
-    - 26
+    - 8
     data_id:
     - instrument: HSC
       detector: 13
@@ -2592,70 +2570,70 @@ data:
   run: HSC/testdata
   records:
   - dataset_id:
-    - 1091
+    - 1101
     data_id:
     - instrument: HSC
       visit: 34648
     path: 01291/HSC-R/output/sourceTable-0034648.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1089
+    - 1099
     data_id:
     - instrument: HSC
       visit: 34670
     path: 01291/HSC-R/output/sourceTable-0034670.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1090
+    - 1100
     data_id:
     - instrument: HSC
       visit: 34674
     path: 01291/HSC-R/output/sourceTable-0034674.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1088
+    - 1098
     data_id:
     - instrument: HSC
       visit: 34690
     path: 01291/HSC-R/output/sourceTable-0034690.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1092
+    - 1102
     data_id:
     - instrument: HSC
       visit: 34714
     path: 01291/HSC-R/output/sourceTable-0034714.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1097
+    - 1107
     data_id:
     - instrument: HSC
       visit: 35892
     path: 01296/HSC-I/output/sourceTable-0035892.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1094
+    - 1104
     data_id:
     - instrument: HSC
       visit: 36140
     path: 01297/HSC-I/output/sourceTable-0036140.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1096
+    - 1106
     data_id:
     - instrument: HSC
       visit: 36192
     path: 01297/HSC-I/output/sourceTable-0036192.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1093
+    - 1103
     data_id:
     - instrument: HSC
       visit: 36236
     path: 01297/HSC-I/output/sourceTable-0036236.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - 1095
+    - 1105
     data_id:
     - instrument: HSC
       visit: 36260
@@ -2926,7 +2904,7 @@ data:
   run: HSC/testdata
   records:
   - dataset_id:
-    - 1098
+    - 1108
     data_id:
     - {}
     path: schema/src.fits
@@ -2964,140 +2942,140 @@ data:
     data_id:
     - instrument: HSC
       physical_filter: IB0945
-    path: HSC/calib/unbounded/transmission_filter/I945/IB0945/transmission_filter_I945_IB0945_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/I945/IB0945/transmission_filter_HSC_I945_IB0945_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 996
     data_id:
     - instrument: HSC
       physical_filter: NB1010
-    path: HSC/calib/unbounded/transmission_filter/N1010/NB1010/transmission_filter_N1010_NB1010_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/N1010/NB1010/transmission_filter_HSC_N1010_NB1010_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 993
     data_id:
     - instrument: HSC
       physical_filter: NB0387
-    path: HSC/calib/unbounded/transmission_filter/N387/NB0387/transmission_filter_N387_NB0387_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/N387/NB0387/transmission_filter_HSC_N387_NB0387_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 1002
     data_id:
     - instrument: HSC
       physical_filter: NB0400
-    path: HSC/calib/unbounded/transmission_filter/N400/NB0400/transmission_filter_N400_NB0400_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/N400/NB0400/transmission_filter_HSC_N400_NB0400_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 999
     data_id:
     - instrument: HSC
       physical_filter: NB0468
-    path: HSC/calib/unbounded/transmission_filter/N468/NB0468/transmission_filter_N468_NB0468_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/N468/NB0468/transmission_filter_HSC_N468_NB0468_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 1005
     data_id:
     - instrument: HSC
       physical_filter: NB0515
-    path: HSC/calib/unbounded/transmission_filter/N515/NB0515/transmission_filter_N515_NB0515_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/N515/NB0515/transmission_filter_HSC_N515_NB0515_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 1001
     data_id:
     - instrument: HSC
       physical_filter: NB0527
-    path: HSC/calib/unbounded/transmission_filter/N527/NB0527/transmission_filter_N527_NB0527_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/N527/NB0527/transmission_filter_HSC_N527_NB0527_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 997
     data_id:
     - instrument: HSC
       physical_filter: NB0656
-    path: HSC/calib/unbounded/transmission_filter/N656/NB0656/transmission_filter_N656_NB0656_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/N656/NB0656/transmission_filter_HSC_N656_NB0656_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 1003
     data_id:
     - instrument: HSC
       physical_filter: NB0718
-    path: HSC/calib/unbounded/transmission_filter/N718/NB0718/transmission_filter_N718_NB0718_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/N718/NB0718/transmission_filter_HSC_N718_NB0718_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 994
     data_id:
     - instrument: HSC
       physical_filter: NB0816
-    path: HSC/calib/unbounded/transmission_filter/N816/NB0816/transmission_filter_N816_NB0816_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/N816/NB0816/transmission_filter_HSC_N816_NB0816_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 995
     data_id:
     - instrument: HSC
       physical_filter: NB0921
-    path: HSC/calib/unbounded/transmission_filter/N921/NB0921/transmission_filter_N921_NB0921_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/N921/NB0921/transmission_filter_HSC_N921_NB0921_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 1000
     data_id:
     - instrument: HSC
       physical_filter: NB0926
-    path: HSC/calib/unbounded/transmission_filter/N926/NB0926/transmission_filter_N926_NB0926_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/N926/NB0926/transmission_filter_HSC_N926_NB0926_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 998
     data_id:
     - instrument: HSC
       physical_filter: NB0973
-    path: HSC/calib/unbounded/transmission_filter/N973/NB0973/transmission_filter_N973_NB0973_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/N973/NB0973/transmission_filter_HSC_N973_NB0973_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 986
     data_id:
     - instrument: HSC
       physical_filter: HSC-G
-    path: HSC/calib/unbounded/transmission_filter/g/HSC-G/transmission_filter_g_HSC-G_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/g/HSC-G/transmission_filter_HSC_g_HSC-G_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 989
     data_id:
     - instrument: HSC
       physical_filter: HSC-I
-    path: HSC/calib/unbounded/transmission_filter/i/HSC-I/transmission_filter_i_HSC-I_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/i/HSC-I/transmission_filter_HSC_i_HSC-I_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 990
     data_id:
     - instrument: HSC
       physical_filter: HSC-I2
-    path: HSC/calib/unbounded/transmission_filter/i/HSC-I2/transmission_filter_i_HSC-I2_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/i/HSC-I2/transmission_filter_HSC_i_HSC-I2_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 987
     data_id:
     - instrument: HSC
       physical_filter: HSC-R
-    path: HSC/calib/unbounded/transmission_filter/r/HSC-R/transmission_filter_r_HSC-R_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/r/HSC-R/transmission_filter_HSC_r_HSC-R_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 988
     data_id:
     - instrument: HSC
       physical_filter: HSC-R2
-    path: HSC/calib/unbounded/transmission_filter/r/HSC-R2/transmission_filter_r_HSC-R2_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/r/HSC-R2/transmission_filter_HSC_r_HSC-R2_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 992
     data_id:
     - instrument: HSC
       physical_filter: HSC-Y
-    path: HSC/calib/unbounded/transmission_filter/y/HSC-Y/transmission_filter_y_HSC-Y_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/y/HSC-Y/transmission_filter_HSC_y_HSC-Y_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 991
     data_id:
     - instrument: HSC
       physical_filter: HSC-Z
-    path: HSC/calib/unbounded/transmission_filter/z/HSC-Z/transmission_filter_z_HSC-Z_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_filter/z/HSC-Z/transmission_filter_HSC_z_HSC-Z_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
 - type: dataset_type
   name: transmission_optics
@@ -3127,788 +3105,872 @@ data:
   run: HSC/calib/unbounded
   records:
   - dataset_id:
-    - 874
+    - 947
     data_id:
     - instrument: HSC
-      detector: 0
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_0_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 974
-    data_id:
-    - instrument: HSC
-      detector: 100
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_100_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 975
-    data_id:
-    - instrument: HSC
-      detector: 101
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_101_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 976
-    data_id:
-    - instrument: HSC
-      detector: 102
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_102_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 977
-    data_id:
-    - instrument: HSC
-      detector: 103
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_103_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 978
-    data_id:
-    - instrument: HSC
-      detector: 104
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_104_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 979
-    data_id:
-    - instrument: HSC
-      detector: 105
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_105_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 980
-    data_id:
-    - instrument: HSC
-      detector: 106
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_106_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 981
-    data_id:
-    - instrument: HSC
-      detector: 107
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_107_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 982
-    data_id:
-    - instrument: HSC
-      detector: 108
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_108_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 983
-    data_id:
-    - instrument: HSC
-      detector: 109
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_109_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 884
-    data_id:
-    - instrument: HSC
-      detector: 10
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_10_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 984
-    data_id:
-    - instrument: HSC
-      detector: 110
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_110_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 985
-    data_id:
-    - instrument: HSC
-      detector: 111
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_111_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 885
-    data_id:
-    - instrument: HSC
-      detector: 11
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_11_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 886
-    data_id:
-    - instrument: HSC
-      detector: 12
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_12_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 887
-    data_id:
-    - instrument: HSC
-      detector: 13
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_13_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 888
-    data_id:
-    - instrument: HSC
-      detector: 14
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_14_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 889
-    data_id:
-    - instrument: HSC
-      detector: 15
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_15_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 890
-    data_id:
-    - instrument: HSC
-      detector: 16
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_16_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 891
-    data_id:
-    - instrument: HSC
-      detector: 17
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_17_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 892
-    data_id:
-    - instrument: HSC
-      detector: 18
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_18_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 893
-    data_id:
-    - instrument: HSC
-      detector: 19
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_19_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 875
-    data_id:
-    - instrument: HSC
-      detector: 1
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_1_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 894
-    data_id:
-    - instrument: HSC
-      detector: 20
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_20_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 895
-    data_id:
-    - instrument: HSC
-      detector: 21
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_21_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 896
-    data_id:
-    - instrument: HSC
-      detector: 22
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_22_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 897
-    data_id:
-    - instrument: HSC
-      detector: 23
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_23_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 898
-    data_id:
-    - instrument: HSC
-      detector: 24
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_24_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 899
-    data_id:
-    - instrument: HSC
-      detector: 25
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_25_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 900
-    data_id:
-    - instrument: HSC
-      detector: 26
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_26_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 901
-    data_id:
-    - instrument: HSC
-      detector: 27
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_27_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 902
-    data_id:
-    - instrument: HSC
-      detector: 28
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_28_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 903
-    data_id:
-    - instrument: HSC
-      detector: 29
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_29_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 876
-    data_id:
-    - instrument: HSC
-      detector: 2
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_2_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 904
-    data_id:
-    - instrument: HSC
-      detector: 30
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_30_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 905
-    data_id:
-    - instrument: HSC
-      detector: 31
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_31_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 906
-    data_id:
-    - instrument: HSC
-      detector: 32
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_32_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 907
-    data_id:
-    - instrument: HSC
-      detector: 33
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_33_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 908
-    data_id:
-    - instrument: HSC
-      detector: 34
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_34_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 909
-    data_id:
-    - instrument: HSC
-      detector: 35
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_35_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 910
-    data_id:
-    - instrument: HSC
-      detector: 36
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_36_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 911
-    data_id:
-    - instrument: HSC
-      detector: 37
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_37_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 912
-    data_id:
-    - instrument: HSC
-      detector: 38
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_38_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 913
-    data_id:
-    - instrument: HSC
-      detector: 39
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_39_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 877
-    data_id:
-    - instrument: HSC
-      detector: 3
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_3_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 914
-    data_id:
-    - instrument: HSC
-      detector: 40
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_40_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 915
-    data_id:
-    - instrument: HSC
-      detector: 41
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_41_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 916
-    data_id:
-    - instrument: HSC
-      detector: 42
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_42_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 917
-    data_id:
-    - instrument: HSC
-      detector: 43
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_43_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 918
-    data_id:
-    - instrument: HSC
-      detector: 44
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_44_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 919
-    data_id:
-    - instrument: HSC
-      detector: 45
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_45_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 920
-    data_id:
-    - instrument: HSC
-      detector: 46
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_46_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 921
-    data_id:
-    - instrument: HSC
-      detector: 47
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_47_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 922
-    data_id:
-    - instrument: HSC
-      detector: 48
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_48_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 923
-    data_id:
-    - instrument: HSC
-      detector: 49
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_49_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 878
-    data_id:
-    - instrument: HSC
-      detector: 4
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_4_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 924
-    data_id:
-    - instrument: HSC
-      detector: 50
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_50_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 925
-    data_id:
-    - instrument: HSC
-      detector: 51
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_51_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 926
-    data_id:
-    - instrument: HSC
-      detector: 52
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_52_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 927
-    data_id:
-    - instrument: HSC
-      detector: 53
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_53_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 928
-    data_id:
-    - instrument: HSC
-      detector: 54
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_54_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 929
-    data_id:
-    - instrument: HSC
-      detector: 55
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_55_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 930
-    data_id:
-    - instrument: HSC
-      detector: 56
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_56_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 931
-    data_id:
-    - instrument: HSC
-      detector: 57
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_57_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 932
-    data_id:
-    - instrument: HSC
-      detector: 58
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_58_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 933
-    data_id:
-    - instrument: HSC
-      detector: 59
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_59_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 879
-    data_id:
-    - instrument: HSC
-      detector: 5
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_5_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 934
-    data_id:
-    - instrument: HSC
-      detector: 60
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_60_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 935
-    data_id:
-    - instrument: HSC
-      detector: 61
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_61_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 936
-    data_id:
-    - instrument: HSC
-      detector: 62
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_62_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 937
-    data_id:
-    - instrument: HSC
-      detector: 63
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_63_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 938
-    data_id:
-    - instrument: HSC
-      detector: 64
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_64_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 939
-    data_id:
-    - instrument: HSC
-      detector: 65
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_65_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 940
-    data_id:
-    - instrument: HSC
-      detector: 66
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_66_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 941
-    data_id:
-    - instrument: HSC
-      detector: 67
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_67_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 942
-    data_id:
-    - instrument: HSC
-      detector: 68
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_68_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 943
-    data_id:
-    - instrument: HSC
-      detector: 69
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_69_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 880
-    data_id:
-    - instrument: HSC
-      detector: 6
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_6_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 944
-    data_id:
-    - instrument: HSC
-      detector: 70
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_70_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 945
-    data_id:
-    - instrument: HSC
-      detector: 71
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_71_HSC_HSC_calib_unbounded.fits
+      detector: 73
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_00_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 946
     data_id:
     - instrument: HSC
       detector: 72
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_72_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_01_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 947
+    - 945
     data_id:
     - instrument: HSC
-      detector: 73
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_73_HSC_HSC_calib_unbounded.fits
+      detector: 71
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_02_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 948
+    - 944
     data_id:
     - instrument: HSC
-      detector: 74
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_74_HSC_HSC_calib_unbounded.fits
+      detector: 70
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_03_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 949
+    - 939
     data_id:
     - instrument: HSC
-      detector: 75
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_75_HSC_HSC_calib_unbounded.fits
+      detector: 65
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_04_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 950
+    - 938
     data_id:
     - instrument: HSC
-      detector: 76
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_76_HSC_HSC_calib_unbounded.fits
+      detector: 64
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_05_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 951
+    - 937
     data_id:
     - instrument: HSC
-      detector: 77
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_77_HSC_HSC_calib_unbounded.fits
+      detector: 63
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_06_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 952
+    - 936
     data_id:
     - instrument: HSC
-      detector: 78
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_78_HSC_HSC_calib_unbounded.fits
+      detector: 62
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_07_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 953
+    - 931
     data_id:
     - instrument: HSC
-      detector: 79
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_79_HSC_HSC_calib_unbounded.fits
+      detector: 57
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_08_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 881
+    - 930
     data_id:
     - instrument: HSC
-      detector: 7
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_7_HSC_HSC_calib_unbounded.fits
+      detector: 56
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_09_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 929
+    data_id:
+    - instrument: HSC
+      detector: 55
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_10_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 928
+    data_id:
+    - instrument: HSC
+      detector: 54
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_11_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 923
+    data_id:
+    - instrument: HSC
+      detector: 49
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_12_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 922
+    data_id:
+    - instrument: HSC
+      detector: 48
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_13_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 921
+    data_id:
+    - instrument: HSC
+      detector: 47
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_14_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 920
+    data_id:
+    - instrument: HSC
+      detector: 46
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_15_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 915
+    data_id:
+    - instrument: HSC
+      detector: 41
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_16_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 914
+    data_id:
+    - instrument: HSC
+      detector: 40
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_17_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 913
+    data_id:
+    - instrument: HSC
+      detector: 39
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_18_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 912
+    data_id:
+    - instrument: HSC
+      detector: 38
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_19_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 907
+    data_id:
+    - instrument: HSC
+      detector: 33
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_20_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 906
+    data_id:
+    - instrument: HSC
+      detector: 32
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_21_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 905
+    data_id:
+    - instrument: HSC
+      detector: 31
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_22_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 904
+    data_id:
+    - instrument: HSC
+      detector: 30
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_23_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 899
+    data_id:
+    - instrument: HSC
+      detector: 25
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_24_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 898
+    data_id:
+    - instrument: HSC
+      detector: 24
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_25_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 897
+    data_id:
+    - instrument: HSC
+      detector: 23
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_26_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 896
+    data_id:
+    - instrument: HSC
+      detector: 22
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_27_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 892
+    data_id:
+    - instrument: HSC
+      detector: 18
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_28_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 891
+    data_id:
+    - instrument: HSC
+      detector: 17
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_29_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 890
+    data_id:
+    - instrument: HSC
+      detector: 16
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_30_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 974
+    data_id:
+    - instrument: HSC
+      detector: 100
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_31_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 954
     data_id:
     - instrument: HSC
       detector: 80
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_80_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_32_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 955
+    - 953
     data_id:
     - instrument: HSC
-      detector: 81
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_81_HSC_HSC_calib_unbounded.fits
+      detector: 79
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_33_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 956
+    - 952
     data_id:
     - instrument: HSC
-      detector: 82
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_82_HSC_HSC_calib_unbounded.fits
+      detector: 78
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_34_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 957
+    - 976
     data_id:
     - instrument: HSC
-      detector: 83
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_83_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 958
-    data_id:
-    - instrument: HSC
-      detector: 84
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_84_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 959
-    data_id:
-    - instrument: HSC
-      detector: 85
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_85_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 960
-    data_id:
-    - instrument: HSC
-      detector: 86
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_86_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 961
-    data_id:
-    - instrument: HSC
-      detector: 87
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_87_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 962
-    data_id:
-    - instrument: HSC
-      detector: 88
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_88_HSC_HSC_calib_unbounded.fits
+      detector: 102
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_35_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 963
     data_id:
     - instrument: HSC
       detector: 89
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_89_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_36_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 882
+    - 962
     data_id:
     - instrument: HSC
-      detector: 8
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_8_HSC_HSC_calib_unbounded.fits
+      detector: 88
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_37_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 964
+    - 961
     data_id:
     - instrument: HSC
-      detector: 90
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_90_HSC_HSC_calib_unbounded.fits
+      detector: 87
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_38_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 965
+    - 960
     data_id:
     - instrument: HSC
-      detector: 91
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_91_HSC_HSC_calib_unbounded.fits
+      detector: 86
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_39_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 966
+    - 959
     data_id:
     - instrument: HSC
-      detector: 92
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_92_HSC_HSC_calib_unbounded.fits
+      detector: 85
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_40_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 967
+    - 958
     data_id:
     - instrument: HSC
-      detector: 93
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_93_HSC_HSC_calib_unbounded.fits
-    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
-  - dataset_id:
-    - 968
-    data_id:
-    - instrument: HSC
-      detector: 94
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_94_HSC_HSC_calib_unbounded.fits
+      detector: 84
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_41_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 969
     data_id:
     - instrument: HSC
       detector: 95
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_95_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_42_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 970
+    - 968
     data_id:
     - instrument: HSC
-      detector: 96
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_96_HSC_HSC_calib_unbounded.fits
+      detector: 94
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_43_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 971
+    - 967
     data_id:
     - instrument: HSC
-      detector: 97
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_97_HSC_HSC_calib_unbounded.fits
+      detector: 93
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_44_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - 972
+    - 966
     data_id:
     - instrument: HSC
-      detector: 98
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_98_HSC_HSC_calib_unbounded.fits
+      detector: 92
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_45_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 965
+    data_id:
+    - instrument: HSC
+      detector: 91
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_46_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 964
+    data_id:
+    - instrument: HSC
+      detector: 90
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_47_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 985
+    data_id:
+    - instrument: HSC
+      detector: 111
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_48_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 984
+    data_id:
+    - instrument: HSC
+      detector: 110
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_51_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 983
+    data_id:
+    - instrument: HSC
+      detector: 109
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_52_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 973
     data_id:
     - instrument: HSC
       detector: 99
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_99_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_53_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 972
+    data_id:
+    - instrument: HSC
+      detector: 98
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_54_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 971
+    data_id:
+    - instrument: HSC
+      detector: 97
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_55_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 970
+    data_id:
+    - instrument: HSC
+      detector: 96
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_56_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 982
+    data_id:
+    - instrument: HSC
+      detector: 108
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_0_57_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 900
+    data_id:
+    - instrument: HSC
+      detector: 26
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_00_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 901
+    data_id:
+    - instrument: HSC
+      detector: 27
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_01_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 902
+    data_id:
+    - instrument: HSC
+      detector: 28
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_02_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 903
+    data_id:
+    - instrument: HSC
+      detector: 29
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_03_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 908
+    data_id:
+    - instrument: HSC
+      detector: 34
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_04_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 909
+    data_id:
+    - instrument: HSC
+      detector: 35
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_05_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 910
+    data_id:
+    - instrument: HSC
+      detector: 36
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_06_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 911
+    data_id:
+    - instrument: HSC
+      detector: 37
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_07_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 916
+    data_id:
+    - instrument: HSC
+      detector: 42
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_08_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 917
+    data_id:
+    - instrument: HSC
+      detector: 43
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_09_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 918
+    data_id:
+    - instrument: HSC
+      detector: 44
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_10_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 919
+    data_id:
+    - instrument: HSC
+      detector: 45
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_11_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 924
+    data_id:
+    - instrument: HSC
+      detector: 50
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_12_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 925
+    data_id:
+    - instrument: HSC
+      detector: 51
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_13_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 926
+    data_id:
+    - instrument: HSC
+      detector: 52
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_14_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 927
+    data_id:
+    - instrument: HSC
+      detector: 53
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_15_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 932
+    data_id:
+    - instrument: HSC
+      detector: 58
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_16_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 933
+    data_id:
+    - instrument: HSC
+      detector: 59
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_17_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 934
+    data_id:
+    - instrument: HSC
+      detector: 60
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_18_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 935
+    data_id:
+    - instrument: HSC
+      detector: 61
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_19_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 940
+    data_id:
+    - instrument: HSC
+      detector: 66
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_20_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 941
+    data_id:
+    - instrument: HSC
+      detector: 67
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_21_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 942
+    data_id:
+    - instrument: HSC
+      detector: 68
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_22_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 943
+    data_id:
+    - instrument: HSC
+      detector: 69
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_23_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 948
+    data_id:
+    - instrument: HSC
+      detector: 74
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_24_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 949
+    data_id:
+    - instrument: HSC
+      detector: 75
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_25_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 950
+    data_id:
+    - instrument: HSC
+      detector: 76
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_26_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 951
+    data_id:
+    - instrument: HSC
+      detector: 77
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_27_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 955
+    data_id:
+    - instrument: HSC
+      detector: 81
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_28_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 956
+    data_id:
+    - instrument: HSC
+      detector: 82
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_29_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 957
+    data_id:
+    - instrument: HSC
+      detector: 83
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_30_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 977
+    data_id:
+    - instrument: HSC
+      detector: 103
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_31_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 893
+    data_id:
+    - instrument: HSC
+      detector: 19
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_32_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 894
+    data_id:
+    - instrument: HSC
+      detector: 20
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_33_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 895
+    data_id:
+    - instrument: HSC
+      detector: 21
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_34_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 975
+    data_id:
+    - instrument: HSC
+      detector: 101
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_35_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 884
+    data_id:
+    - instrument: HSC
+      detector: 10
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_36_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 885
+    data_id:
+    - instrument: HSC
+      detector: 11
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_37_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 886
+    data_id:
+    - instrument: HSC
+      detector: 12
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_38_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 887
+    data_id:
+    - instrument: HSC
+      detector: 13
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_39_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 888
+    data_id:
+    - instrument: HSC
+      detector: 14
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_40_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 889
+    data_id:
+    - instrument: HSC
+      detector: 15
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_41_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 878
+    data_id:
+    - instrument: HSC
+      detector: 4
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_42_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 879
+    data_id:
+    - instrument: HSC
+      detector: 5
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_43_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 880
+    data_id:
+    - instrument: HSC
+      detector: 6
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_44_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 881
+    data_id:
+    - instrument: HSC
+      detector: 7
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_45_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 882
+    data_id:
+    - instrument: HSC
+      detector: 8
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_46_HSC_calib_unbounded.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
     - 883
     data_id:
     - instrument: HSC
       detector: 9
-    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_9_HSC_HSC_calib_unbounded.fits
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_47_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 978
+    data_id:
+    - instrument: HSC
+      detector: 104
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_48_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 979
+    data_id:
+    - instrument: HSC
+      detector: 105
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_51_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 980
+    data_id:
+    - instrument: HSC
+      detector: 106
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_52_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 874
+    data_id:
+    - instrument: HSC
+      detector: 0
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_53_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 875
+    data_id:
+    - instrument: HSC
+      detector: 1
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_54_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 876
+    data_id:
+    - instrument: HSC
+      detector: 2
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_55_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 877
+    data_id:
+    - instrument: HSC
+      detector: 3
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_56_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 981
+    data_id:
+    - instrument: HSC
+      detector: 107
+    path: HSC/calib/unbounded/transmission_sensor/transmission_sensor_HSC_1_57_HSC_calib_unbounded.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+- type: dataset_type
+  name: visitSummary
+  dimensions:
+  - band
+  - instrument
+  - physical_filter
+  - visit_system
+  - visit
+  storage_class: ExposureCatalog
+  is_calibration: false
+- type: dataset
+  dataset_type: visitSummary
+  run: HSC/testdata
+  records:
+  - dataset_id:
+    - 1091
+    data_id:
+    - instrument: HSC
+      visit: 34648
+    path: 01291/HSC-R/output/visitSummary-0034648.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1089
+    data_id:
+    - instrument: HSC
+      visit: 34670
+    path: 01291/HSC-R/output/visitSummary-0034670.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1090
+    data_id:
+    - instrument: HSC
+      visit: 34674
+    path: 01291/HSC-R/output/visitSummary-0034674.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1092
+    data_id:
+    - instrument: HSC
+      visit: 34690
+    path: 01291/HSC-R/output/visitSummary-0034690.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1088
+    data_id:
+    - instrument: HSC
+      visit: 34714
+    path: 01291/HSC-R/output/visitSummary-0034714.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1097
+    data_id:
+    - instrument: HSC
+      visit: 35892
+    path: 01296/HSC-I/output/visitSummary-0035892.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1094
+    data_id:
+    - instrument: HSC
+      visit: 36140
+    path: 01297/HSC-I/output/visitSummary-0036140.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1095
+    data_id:
+    - instrument: HSC
+      visit: 36192
+    path: 01297/HSC-I/output/visitSummary-0036192.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1093
+    data_id:
+    - instrument: HSC
+      visit: 36236
+    path: 01297/HSC-I/output/visitSummary-0036236.fits
+    formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
+  - dataset_id:
+    - 1096
+    data_id:
+    - instrument: HSC
+      visit: 36260
+    path: 01297/HSC-I/output/visitSummary-0036260.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
 - type: associations
   collection: HSC/calib
