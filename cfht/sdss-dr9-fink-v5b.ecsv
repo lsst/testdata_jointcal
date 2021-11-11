@@ -1,0 +1,14 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: filename, datatype: string}
+# - {name: htm7, datatype: int64}
+# schema: astropy-2.0
+filename htm7
+ref_cats/sdss-dr9-fink-v5b/225820.fits 225820
+ref_cats/sdss-dr9-fink-v5b/225809.fits 225809
+ref_cats/sdss-dr9-fink-v5b/225822.fits 225822
+ref_cats/sdss-dr9-fink-v5b/225813.fits 225813
+ref_cats/sdss-dr9-fink-v5b/225815.fits 225815
+ref_cats/sdss-dr9-fink-v5b/225814.fits 225814
+ref_cats/sdss-dr9-fink-v5b/225823.fits 225823
