@@ -1,6 +1,9 @@
 #!/usr/bin/env python
-"""Copy the relevant directories from validation_data_cfht, zero out the
-imageHDUs in the calexps, and then gzip the files.
+"""Copy the relevant directories from validation_data_cfht, select only the
+necessary detectors, zero out the imageHDUs in the calexps, and create any
+necessary sylinks. Deletes `cfht/repo` before running: that path should only
+contain the files that are handled by this script; refcats, export files, etc.
+should live elsewhere.
 
 No need to re-compress with fpack, as they are all already CompImageHDUs.
 Requires that validation_data_cfht be setup, that this be run from
@@ -8,34 +11,65 @@ Requires that validation_data_cfht be setup, that this be run from
 """
 from astropy.io import fits
 import os
-import shutil
 import glob
-import subprocess
+import shutil
+import sys
+
+import pyarrow.parquet
 
 import lsst.utils
 
-inpath = lsst.utils.getPackageDir("validation_data_cfht")
+# We only use these detectors for the jointcal tests.
+detectors = (12, 13, 14, 21, 22, 23)
+
+inpath = os.path.join(lsst.utils.getPackageDir("validation_data_cfht"), "repo")
 
 # cleanup directories before copying new data
-shutil.rmtree('cfht/calexp', ignore_errors=True)
-shutil.rmtree('cfht/config', ignore_errors=True)
-shutil.rmtree('cfht/src', ignore_errors=True)
-shutil.rmtree('cfht/metadata', ignore_errors=True)
-shutil.rmtree('cfht/schema', ignore_errors=True)
+shutil.rmtree('cfht/repo', ignore_errors=True)
 
 # copy new data
-shutil.copytree(f"{inpath}/data/output/calexp/", "cfht/calexp/")
-shutil.copytree(f"{inpath}/data/output/config/", "cfht/config/")
-shutil.copytree(f"{inpath}/data/output/src/", "cfht/src/")
-shutil.copytree(f"{inpath}/data/output/schema/", "cfht/schema/")
+paths = glob.glob(f"{inpath}/singleFrame/*")
+if len(paths) > 1:
+    print(f"ERROR: Found {len(paths)} singleFrame output paths.")
+    print("ERROR: Only run this script on a single-pipeline-run validation_data_cfht output repo.")
+    sys.exit(-1)
+run = paths[0].split('/')[-1]
+shutil.copytree(f"{inpath}/singleFrame/{run}/calexp/",
+                f"cfht/repo/singleFrame/{run}/calexp")
+# TODO: do we need the config files?
+# shutil.copytree(f"{inpath}/data/output/config/", "cfht/repo/config/")
+shutil.copytree(f"{inpath}/singleFrame/{run}/sourceTable_visit/",
+                f"cfht/repo/singleFrame/{run}/sourceTable_visit/")
+shutil.copytree(f"{inpath}/singleFrame/{run}/visitSummary/",
+                f"cfht/repo/singleFrame/{run}/visitSummary/")
+shutil.copytree(f"{inpath}/skymaps", "cfht/repo/skymaps")
+shutil.copytree(f"{inpath}/MegaPrime/calib", "cfht/repo/MegaPrime/calib")
 
-# Cleanup unneeded files
-os.remove(f"cfht/schema/icSrc.fits")
-for file in glob.glob("cfht/calexp/06AL01/D3/2006-0*/r/bkgd*.fits"):
-    os.remove(file)
+
+def remove_detector_files(path):
+    """Remove output files for detectors we don't need."""
+    for file in glob.glob(path):
+        ccd = int(file.split('ccd')[-1].split('_')[0])
+        if ccd not in detectors:
+            os.remove(file)
+
+
+remove_detector_files(f"cfht/repo/singleFrame/{run}/calexp/*/r/r.MP9601/*/calexp*.fits")
+
+
+def remove_detector_parquet(path):
+    """Remove rows from parquet files for detectors we don't need."""
+    for filename in glob.glob(path):
+        data = pyarrow.parquet.ParquetFile(filename).read(use_pandas_metadata=True).to_pandas()
+        match = data['detector'].isin(detectors)
+        data[match].to_parquet(filename)
+
+
+remove_detector_parquet(f"cfht/repo/singleFrame/{run}/sourceTable_visit/*/r/r.MP9601/*/*.parq")
+
 
 # compress the calexps
-files = glob.glob('cfht/calexp/06AL01/D3/2006-0*/r/calexp*.fits')
+files = glob.glob(f"cfht/repo/singleFrame/{run}/calexp/*/r/r.MP9601/*/calexp*.fits")
 for f in files:
     data = fits.open(f)
     print('processing:', f)
@@ -44,8 +78,5 @@ for f in files:
             hdu.data[:] = 0
     data.writeto(f, overwrite=True)
 
-# compress the source catalogs
-files = glob.glob('cfht/src/06AL01/D3/2006-0*/r/SRC*.fits')
-for file in files:
-    subprocess.call(['gzip', file])
-    print('gzipped catalog:', file)
+# link in the refcats
+os.symlink("../ref_cats", "cfht/repo/refcats")
