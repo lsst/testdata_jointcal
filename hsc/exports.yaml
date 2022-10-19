@@ -4114,3 +4114,25 @@ data:
     - 983
     - 984
     - 985
+- type: collection
+  collection_type: RUN
+  name: skymaps
+  host: null
+  timespan_begin: null
+  timespan_end: null
+- type: dataset_type
+  name: skyMap
+  dimensions:
+  - skymap
+  storage_class: SkyMap
+  is_calibration: false
+- type: dataset
+  dataset_type: skyMap
+  run: skymaps
+  records:
+  - dataset_id:
+    - 10000
+    data_id:
+    - skymap: hsc_rings_v1
+    path: deepCoadd/skyMap.pickle
+    formatter: lsst.daf.butler.formatters.pickle.PickleFormatter
