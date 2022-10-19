@@ -51,6 +51,8 @@ To create a gen3 repo from the existing gen2 repo and make the exports file that
 We only commit `hsc/exports.yaml` and the "unbounded" `camera` and `transmission_*` calibrations to git, because those (and the in-place files in the gen2 repo) are all that is necessary to reconstruct a gen3 repo for testing.
 Each test has to start with a fresh repo anyway, and creating one from an exports file is fast.
 
+The parquet file columns were renamed according to the new schema (replacing leading capitals with leading lower case) in DM-31889, running `python scripts/rename_sourcetable_columns.py`.
+
 ## Git LFS
 
 To clone and use this repository, you'll need Git Large File Storage (LFS).
