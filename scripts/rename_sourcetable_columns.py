@@ -31,6 +31,9 @@ for directory in directories:
             if column == "ccd":
                 new_column = "detector"
                 mapper[column] = new_column
+            elif column == "filter":
+                new_column = "physical_filter"
+                mapper[column] = new_column
             elif column[0].isupper():
                 new_column = column[0].lower() + column[1:]
                 mapper[column] = new_column
