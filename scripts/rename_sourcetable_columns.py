@@ -14,6 +14,8 @@ directories = [
     'hsc/repo/01291/HSC-R/output',
     'hsc/repo/01296/HSC-I/output',
     'hsc/repo/01297/HSC-I/output',
+    'cfht/repo/singleFrame/20211113T012828Z/sourceTable_visit/20060520/r/r.MP9601/849375',
+    'cfht/repo/singleFrame/20211113T012828Z/sourceTable_visit/20060602/r/r.MP9601/850587',
 ]
 
 for directory in directories:
