@@ -26,7 +26,10 @@ for directory in directories:
 
         mapper = {}
         for column in columns:
-            if column[0].isupper():
+            if column == "ccd":
+                new_column = "detector"
+                mapper[column] = new_column
+            elif column[0].isupper():
                 new_column = column[0].lower() + column[1:]
                 mapper[column] = new_column
 
