@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+"""
+Script to rename source table parquet columns as part of DM-31889.
+This script renames gen2 ``ccd`` to modern ``detector``; renames old ``filter``
+to modern ``physical_filter``; and changes columns with leading capitals (used
+in gen2) to leading lower-case.
+"""
+
 import os
 import glob
 import pandas as pd
