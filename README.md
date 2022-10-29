@@ -19,6 +19,8 @@ These data contain two visits `(849375, 850587)`, centered at `(214.884832, 52.6
 The script `scripts/compress_jointcal_cfht_test_data.py` extracts the relevant files from the `validation_data_cfht` repository, removes the pixel-level data, and removes detectors that are not needed from the output and sourceTable_visit files.
 `scripts/export_gen3_cfht.py` will produce the necessary gen3 `exports.yaml` file, to allow trivial importing of these output files into a butler repo for testing.
 
+The parquet file columns were renamed according to the new schema (replacing leading capitals with leading lower case; replacing ``ccd`` with ``detector``; replacing ``filter`` with ``physical_filter`` and ``band``) in DM-31889, by running python scripts/rename_sourcetable_columns.py.
+
 ## hsc
 
 Source catalogs, metadata, and zeroed+compressed images taken from the `w_2020_14`processing run of the HSC RC dataset, available at `lsst-dev:/datasets/hsc/repo/rerun/RC/w_2020_14/DM-24359-sfm`.
@@ -50,6 +52,8 @@ To create a gen3 repo from the existing gen2 repo and make the exports file that
 
 We only commit `hsc/exports.yaml` and the "unbounded" `camera` and `transmission_*` calibrations to git, because those (and the in-place files in the gen2 repo) are all that is necessary to reconstruct a gen3 repo for testing.
 Each test has to start with a fresh repo anyway, and creating one from an exports file is fast.
+
+The parquet file columns were renamed according to the new schema (replacing leading capitals with leading lower case; replacing ``ccd`` with ``detector``; replacing ``filter`` with ``physical_filter`` and ``band``) in DM-31889, by running python scripts/rename_sourcetable_columns.py.
 
 ## Git LFS
 
