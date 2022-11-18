@@ -58,6 +58,7 @@ The parquet file columns were renamed according to the new schema (replacing lea
 The skyMap was added to the export file (accidentally left behind) with DM-36726.
 
 And the isolated star catalogs were added on DM-36726 by first rerunning `python scripts/rename_sourcetable_columns.py` and followed with `python scripts/make_hsc_star_associations.py` with some additional by-hand modification of the exports.yaml described in that script.
+At the same time, the visitSummary tables were updated to include (blank) skyBg sky background values which are optionally used by fgcmcal, by running `python scripts/update_hsc_visit_summaries.py`.
 
 ## Git LFS
 
