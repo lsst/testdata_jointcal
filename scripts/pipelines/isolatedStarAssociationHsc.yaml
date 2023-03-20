@@ -1,0 +1,7 @@
+description: Associate isolated stars.
+instrument: lsst.obs.subaru.HyperSuprimeCam
+tasks:
+  isolatedStarAssociation:
+    class: lsst.pipe.tasks.isolatedStarAssociation.IsolatedStarAssociationTask
+    config:
+      connections.source_table_visit: "sourceTable_visit"

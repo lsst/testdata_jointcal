@@ -47,6 +47,9 @@ for directory in directories:
 
         df = df.rename(columns=mapper)
 
+        # Use the new column names.
+        columns = list(df.columns)
+
         # Add band if physical_filter is in the columns.
         if "physical_filter" in columns and "band" not in columns:
             if df["physical_filter"].values[0] == "HSC-R":

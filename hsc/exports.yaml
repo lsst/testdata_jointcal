@@ -4114,3 +4114,65 @@ data:
     - 983
     - 984
     - 985
+- type: collection
+  collection_type: RUN
+  name: skymaps
+  host: null
+  timespan_begin: null
+  timespan_end: null
+- type: dataset_type
+  name: skyMap
+  dimensions:
+  - skymap
+  storage_class: SkyMap
+  is_calibration: false
+- type: dataset
+  dataset_type: skyMap
+  run: skymaps
+  records:
+  - dataset_id:
+    - 10000
+    data_id:
+    - skymap: hsc_rings_v1
+    path: deepCoadd/skyMap.pickle
+    formatter: lsst.daf.butler.formatters.pickle.PickleFormatter
+- type: dataset_type
+  name: isolated_star_cat
+  dimensions:
+  - instrument
+  - skymap
+  - tract
+  storage_class: DataFrame
+  is_calibration: false
+- type: dataset
+  dataset_type: isolated_star_cat
+  run: HSC/testdata
+  records:
+  - dataset_id:
+    - 100000
+    data_id:
+    - instrument: HSC
+      skymap: hsc_rings_v1
+      tract: 9697
+    path: isolated_stars/isolated_star_cat_HSC_9697_hsc_rings_v1_HSC_testdata_assoc_20221103T202540Z.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
+- type: dataset_type
+  name: isolated_star_sources
+  dimensions:
+  - instrument
+  - skymap
+  - tract
+  storage_class: DataFrame
+  is_calibration: False
+- type: dataset
+  dataset_type: isolated_star_sources
+  run: HSC/testdata
+  records:
+  - dataset_id:
+    - 100001
+    data_id:
+    - instrument: HSC
+      skymap: hsc_rings_v1
+      tract: 9697
+    path: isolated_stars/isolated_star_sources_HSC_9697_hsc_rings_v1_HSC_testdata_assoc_20221103T202540Z.parq
+    formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
