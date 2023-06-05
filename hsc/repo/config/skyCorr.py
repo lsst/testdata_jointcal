@@ -11,9 +11,6 @@ import lsst.meas.algorithms.subtractBackground
 import lsst.pipe.base.config
 import lsst.pipe.tasks.background
 
-# Flag to enable/disable metadata saving for a task, enabled by default.
-config.saveMetadata = True
-
 # Bin size in x
 config.bgModel1.xSize = 122.88
 
