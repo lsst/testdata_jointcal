@@ -131,9 +131,6 @@ import lsst.meas.algorithms.matcherSourceSelector
 import lsst.shapelet.shapeletFunction.shapeletFunctionContinued
 import lsst.meas.base.psfFlux
 import lsst.meas.extensions.convolved.version
-# Flag to enable/disable metadata saving for a task, enabled by default.
-config.processCcd.isr.saveMetadata=True
-
 # Dataset type for input data; users will typically leave this alone, but camera-specific ISR tasks will override it
 config.processCcd.isr.datasetType='raw'
 
@@ -358,7 +355,7 @@ config.processCcd.isr.doStrayLight=True
 
 config.processCcd.isr.strayLight.retarget(target=lsst.obs.subaru.strayLight.yStrayLight.SubaruStrayLightTask, ConfigClass=lsst.ip.isr.straylight.StrayLightConfig)
 
-# 
+#
 config.processCcd.isr.strayLight.doRotatorAngleCorrection=True
 
 # Filters that need straylight correction.
@@ -433,7 +430,7 @@ config.processCcd.isr.doMeasureBackground=True
 # Mask camera-specific bad regions?
 config.processCcd.isr.doCameraSpecificMasking=False
 
-# 
+#
 config.processCcd.isr.masking.doSpecificMasking=False
 
 # Interpolate masked pixels?
@@ -564,9 +561,6 @@ config.processCcd.isr.connections.outputOssThumbnail='OssThumb'
 
 # name for connection outputFlattenedThumbnail
 config.processCcd.isr.connections.outputFlattenedThumbnail='FlattenedThumb'
-
-# Flag to enable/disable metadata saving for a task, enabled by default.
-config.processCcd.charImage.saveMetadata=True
 
 # Measure PSF? If False then for all subsequent operations use either existing PSF model when present, or install simple PSF model when not (see installSimplePsf config options)
 config.processCcd.charImage.doMeasurePsf=True
@@ -4362,9 +4356,6 @@ config.processCcd.charImage.connections.outputSchema='icSrc_schema'
 
 # Perform calibration?
 config.processCcd.doCalibrate=True
-
-# Flag to enable/disable metadata saving for a task, enabled by default.
-config.processCcd.calibrate.saveMetadata=True
 
 # Save calibration results?
 config.processCcd.calibrate.doWrite=True
