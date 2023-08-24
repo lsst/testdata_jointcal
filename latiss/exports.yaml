@@ -794,20 +794,20 @@ data:
   run: LATISS/testdata
   records:
   - dataset_id:
-    - !uuid 'd41bfb91-be63-4cd6-a8ea-a8546859dc3e'
+    - !uuid 'ef36e1d7-7095-4aed-8097-8047837f6af9'
     data_id:
     - instrument: LATISS
       skymap: latiss_v1
       tract: 5614
-    path: u/erykoff/LATISS/fgcm_testdata/20230608T172233Z/isolated_star_cat/5614/isolated_star_cat_LATISS_5614_latiss_v1_u_erykoff_LATISS_fgcm_testdata_20230608T172233Z.parq
+    path: u/erykoff/LATISS/2023-08A-07AB-05AB/testdata_subset/20230824T164324Z/isolated_star_cat/5614/isolated_star_cat_LATISS_5614_latiss_v1_u_erykoff_LATISS_2023-08A-07AB-05AB_testdata_subset_20230824T164324Z.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '5933fb4e-eeb1-4640-82bd-561b3af446dd'
+    - !uuid '6d37b70a-9da5-4b7f-b4b1-667742f1a0aa'
     data_id:
     - instrument: LATISS
       skymap: latiss_v1
       tract: 5615
-    path: u/erykoff/LATISS/fgcm_testdata/20230608T172233Z/isolated_star_cat/5615/isolated_star_cat_LATISS_5615_latiss_v1_u_erykoff_LATISS_fgcm_testdata_20230608T172233Z.parq
+    path: u/erykoff/LATISS/2023-08A-07AB-05AB/testdata_subset/20230824T164324Z/isolated_star_cat/5615/isolated_star_cat_LATISS_5615_latiss_v1_u_erykoff_LATISS_2023-08A-07AB-05AB_testdata_subset_20230824T164324Z.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
 - type: dataset_type
   name: isolated_star_sources
@@ -822,20 +822,20 @@ data:
   run: LATISS/testdata
   records:
   - dataset_id:
-    - !uuid 'c7a978e8-2311-4d7e-8c73-78c8e6e6e572'
+    - !uuid '925f3a05-6856-4419-9041-bee0d59c718c'
     data_id:
     - instrument: LATISS
       skymap: latiss_v1
       tract: 5614
-    path: u/erykoff/LATISS/fgcm_testdata/20230608T172233Z/isolated_star_sources/5614/isolated_star_sources_LATISS_5614_latiss_v1_u_erykoff_LATISS_fgcm_testdata_20230608T172233Z.parq
+    path: u/erykoff/LATISS/2023-08A-07AB-05AB/testdata_subset/20230824T164324Z/isolated_star_sources/5614/isolated_star_sources_LATISS_5614_latiss_v1_u_erykoff_LATISS_2023-08A-07AB-05AB_testdata_subset_20230824T164324Z.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
   - dataset_id:
-    - !uuid '592c084b-ee51-4559-9735-3bf98caa0d27'
+    - !uuid 'c9c2d2d0-1284-47a8-9e6b-bcdc092978fd'
     data_id:
     - instrument: LATISS
       skymap: latiss_v1
       tract: 5615
-    path: u/erykoff/LATISS/fgcm_testdata/20230608T172233Z/isolated_star_sources/5615/isolated_star_sources_LATISS_5615_latiss_v1_u_erykoff_LATISS_fgcm_testdata_20230608T172233Z.parq
+    path: u/erykoff/LATISS/2023-08A-07AB-05AB/testdata_subset/20230824T164324Z/isolated_star_sources/5615/isolated_star_sources_LATISS_5615_latiss_v1_u_erykoff_LATISS_2023-08A-07AB-05AB_testdata_subset_20230824T164324Z.parq
     formatter: lsst.daf.butler.formatters.parquet.ParquetFormatter
 - type: dataset_type
   name: skyMap
@@ -955,144 +955,144 @@ data:
   run: LATISS/testdata
   records:
   - dataset_id:
-    - !uuid 'aa434e0e-25f5-4cd6-a296-0c964a9f2c2e'
+    - !uuid '185bf01c-e758-47d9-9f03-8b0854010368'
     data_id:
     - instrument: LATISS
       visit: 2023051100263
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100263/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100263_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100263/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100263_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '48ef26a2-afa1-4f7c-b3f8-e0ea98a0d1ee'
+    - !uuid '1ae387cf-ecfa-4935-9d38-2eecb258caba'
     data_id:
     - instrument: LATISS
       visit: 2023051100278
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100278/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100278_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100278/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100278_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '0e460f56-57b3-4b1f-a78f-b0091fae8cb4'
+    - !uuid '2b2e973f-134e-4b03-a3d7-ed47da8e52cd'
     data_id:
     - instrument: LATISS
       visit: 2023051100320
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100320/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100320_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100320/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100320_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '067216bb-c816-4e13-b796-1add33f576d4'
+    - !uuid 'b4bd2d38-ee30-4a38-85f2-95d0566d193d'
     data_id:
     - instrument: LATISS
       visit: 2023051100357
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100357/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100357_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100357/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100357_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'bb07916c-7117-405e-8219-46b81b6dddcd'
+    - !uuid '6936b051-4cb9-48ad-b498-c56f709f3d9a'
     data_id:
     - instrument: LATISS
       visit: 2023051100390
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100390/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100390_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100390/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100390_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '9ff62f02-dc1e-4574-8747-ac0ccf45109c'
+    - !uuid 'eea461bc-69e0-4773-98ed-d82bf5016ce5'
     data_id:
     - instrument: LATISS
       visit: 2023051100406
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100406/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100406_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100406/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100406_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '5c9549b1-7903-4976-b171-3b61599a04df'
+    - !uuid '04c1b7f6-b96a-48f8-bfa0-0c05bd6f1ea3'
     data_id:
     - instrument: LATISS
       visit: 2023051100448
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100448/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100448_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100448/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100448_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '2f05a7e5-4a9b-42be-8105-b3e71caa56fb'
+    - !uuid 'b653bb2c-ccef-4c4f-bb76-f5ea1a78f81d'
     data_id:
     - instrument: LATISS
       visit: 2023051100454
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100454/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100454_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100454/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100454_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3a9120cc-0028-4ab1-ad35-cbb22755f316'
+    - !uuid '7e3d92db-d1d9-497d-a4c4-f14d5d73494b'
     data_id:
     - instrument: LATISS
       visit: 2023051100473
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100473/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100473_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100473/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100473_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '3b6d522a-f2ef-4a82-9860-b8cc065ceaf8'
+    - !uuid 'f9de1168-cc08-49a6-a878-07b2a34932ab'
     data_id:
     - instrument: LATISS
       visit: 2023051100509
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100509/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100509_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/g/SDSSg_65mm~empty/2023051100509/visitSummary_LATISS_g_SDSSg_65mm~empty_2023051100509_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '29f10e47-e85c-4f0c-91d8-da08c53942bb'
+    - !uuid '801e6b81-1dc7-44a7-bb01-fc4da5beb1c5'
     data_id:
     - instrument: LATISS
       visit: 2023051100280
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100280/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100280_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100280/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100280_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'a3eb4eb2-f485-40e3-834d-4d032a54a03e'
+    - !uuid '779b4fc5-d6cd-4fd8-a91c-7d538165b613'
     data_id:
     - instrument: LATISS
       visit: 2023051100303
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100303/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100303_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100303/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100303_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e2f94679-ab8a-4cc1-a210-eb61c557f846'
+    - !uuid '699774ff-c377-4c3d-b50d-099a3745bdf0'
     data_id:
     - instrument: LATISS
       visit: 2023051100304
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100304/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100304_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100304/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100304_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '4c6addb3-6f3f-4dd1-b38a-28bdb6bedbcf'
+    - !uuid 'dba7536a-1717-45db-9169-d07b13ac6b9d'
     data_id:
     - instrument: LATISS
       visit: 2023051100379
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100379/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100379_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100379/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100379_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '039c8c9e-705e-487e-8c5d-1a2ecce75347'
+    - !uuid '5762883b-1f7a-4f2b-89c3-186081c317bd'
     data_id:
     - instrument: LATISS
       visit: 2023051100401
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100401/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100401_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100401/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100401_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '6fab8038-9e95-484f-871e-82625329c997'
+    - !uuid '4934d33c-42a7-43b5-b4bc-0296f1db624a'
     data_id:
     - instrument: LATISS
       visit: 2023051100431
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100431/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100431_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100431/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100431_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '1c4cb45a-4064-44a3-ba36-c1abfb3fa890'
+    - !uuid '35fd9914-17e4-45f5-a4fa-344d186d92c6'
     data_id:
     - instrument: LATISS
       visit: 2023051100489
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100489/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100489_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100489/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100489_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid '4cb2c32e-9233-4557-9d83-d86144a7e09f'
+    - !uuid '463739b2-0dbd-4108-a2c7-fe21dbb7b99e'
     data_id:
     - instrument: LATISS
       visit: 2023051100495
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100495/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100495_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100495/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100495_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'e649e625-1af1-44ad-86cb-a962758da71d'
+    - !uuid 'ab345973-03f3-4b7f-94df-8ecae1be397c'
     data_id:
     - instrument: LATISS
       visit: 2023051100508
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100508/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100508_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100508/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100508_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
   - dataset_id:
-    - !uuid 'c301c1fe-7c62-4333-b442-f7cea08f44d0'
+    - !uuid 'eb0faebb-ae8e-4d33-bc41-8140b205c565'
     data_id:
     - instrument: LATISS
       visit: 2023051100547
-    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100547/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100547_LATISS_runs_AUXTEL_DRP_IMAGING_2023-05B_w_2023_19_PREOPS-3463_20230526T211650Z.fits
+    path: LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z/visitSummary/20230511/r/SDSSr_65mm~empty/2023051100547/visitSummary_LATISS_r_SDSSr_65mm~empty_2023051100547_LATISS_runs_AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB_w_2023_33_PREOPS-3613_20230822T175428Z.fits
     formatter: lsst.obs.base.formatters.fitsGeneric.FitsGenericFormatter
 - type: associations
   collection: LATISS/calib/DM-40082

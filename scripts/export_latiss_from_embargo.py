@@ -5,7 +5,7 @@ from lsst.obs.lsst import Latiss
 
 butler = Butler("/repo/embargo")
 
-collection = "u/erykoff/LATISS/fgcm_testdata"
+collection = "u/erykoff/LATISS/2023-08A-07AB-05AB/testdata_subset"
 instrument = "LATISS"
 skymap = "latiss_v1"
 
@@ -129,20 +129,22 @@ with butler.export(
     for collection in collections:
         export.saveCollection(collection)
 
-# Now modify the runs.
+# Now modify the runs; we need the full runs with timestamps here to make sure
+# the testdata is labeled correctly.
 
-preopsRun = "LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463/20230526T211650Z"
-userRun = "u/erykoff/LATISS/fgcm_testdata/20230608T172233Z"
+preopsRuns = [
+    "u/erykoff/LATISS/2023-08A-07AB-05AB/testdata_subset/20230824T164324Z",
+    "LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230822T175428Z",
+    "LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613/20230821T153036Z"
+]
 
 testdataRun = "LATISS/testdata"
 
 with open("latiss/testdata/latiss_export_from_embargo_premod.yaml", "r") as infile:
     with open("latiss/exports.yaml", "w") as outfile:
         for line in infile:
-            if f"run: {preopsRun}" in line or f"name: {preopsRun}" in line:
-                line = line.replace(preopsRun, testdataRun)
-            elif f"run: {userRun}" in line or f"name: {userRun}" in line:
-                line = line.replace(userRun, testdataRun)
+            for preopsRun in preopsRuns:
+                if f"run: {preopsRun}" in line or f"name: {preopsRun}" in line:
+                    line = line.replace(preopsRun, testdataRun)
 
             outfile.write(line)
-                

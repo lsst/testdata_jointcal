@@ -62,16 +62,15 @@ At the same time, the visitSummary tables were updated to include (blank) skyBg 
 
 ## LATISS
 
-On July 20, 2023, a subset of the dithered LATISS photometric survey data was extracted from the `LATISS/runs/AUXTEL_DRP_IMAGING_2023-05B/w_2023_19/PREOPS-3463` collection on `/repo/embargo`.
-This was done by running the following commands in the `testdata_jointcal` root directory:
+On August 24, 2023, a subset of the dithered LATISS photometric survey data was extracted from the `LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613` collection on `/repo/embargo`.
+First, a new isolated star catalog needed to be created with only a subset of data, using `w_2023_33`:
+
+* `pipetask run -j 1 -b /repo/embargo -i LATISS/runs/AUXTEL_DRP_IMAGING_2023-08A-07AB-05AB/w_2023_33/PREOPS-3613 -o u/erykoff/LATISS/2023-08A-07AB-05AB/testdata_subset -p $DRP_PIPE_DIR/pipelines/LATISS/DRP.yaml#isolatedStarAssociation -d "visit in (2023051100320, 2023051100357, 2023051100390, 2023051100406, 2023051100448, 2023051100454, 2023051100278, 2023051100473, 2023051100263, 2023051100509, 2023051100304, 2023051100431, 2023051100547, 2023051100379, 2023051100495, 2023051100489, 2023051100401, 2023051100280, 2023051100303, 2023051100508)"`
+
+Then we run the following commands in the `testdata_jointcal` root directory:
 
 * `mkdir -p latiss/testdata`
 * `python scripts/export_latiss_from_embargo.py`
-
-The processing was done prior to the merge of DM-37196 (from RFC-924) so the `decl` columns need to be renamed to `dec` in the Parquet tables.
-
-* `python scripts/rename_sourcetable_columns-latiss-RFC-906.py`
-
 
 ## Git LFS
 
